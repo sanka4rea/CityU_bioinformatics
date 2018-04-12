@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Academic</title>
+    <title>Tags on CityU-Bioinformatics</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Academic</description>
+    <description>Recent content in Tags on CityU-Bioinformatics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -40,6 +40,33 @@
     </item>
     
     <item>
+      <title>Genome</title>
+      <link>/tags/genome/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/genome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nucleic</title>
+      <link>/tags/nucleic/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nucleic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other</title>
+      <link>/tags/other/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/other/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Plot</title>
       <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -49,9 +76,27 @@
     </item>
     
     <item>
+      <title>Proseq</title>
+      <link>/tags/proseq/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/proseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prostr</title>
+      <link>/tags/prostr/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/prostr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/r-markdown/</guid>
       <description></description>

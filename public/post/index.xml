@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Academic</title>
+    <title>Posts on CityU-Bioinformatics</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Academic</description>
+    <description>Recent content in Posts on CityU-Bioinformatics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -11,6 +11,24 @@
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>213123</title>
+      <link>/post/213123/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/213123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sanka</title>
+      <link>/post/sanka/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sanka/</guid>
+      <description>sankarea 散华</description>
+    </item>
     
     <item>
       <title>Academic: the website designer for Hugo</title>

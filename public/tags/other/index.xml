@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other on CityU-Bioinformatics</title>
+    <link>/tags/other/</link>
+    <description>Recent content in Other on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CMVD</title>
+      <link>/database/other/cmvd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/other/cmvd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBD</title>
+      <link>/database/other/dbd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/other/dbd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPCRdb</title>
+      <link>/database/other/gpcrdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/other/gpcrdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMIM</title>
+      <link>/database/other/omim---%E5%89%AF%E6%9C%AC-2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/other/omim---%E5%89%AF%E6%9C%AC-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMIM</title>
+      <link>/database/other/omim/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/other/omim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-2DPAGE</title>
+      <link>/database/other/swiss-2dpage/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/other/swiss-2dpage/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

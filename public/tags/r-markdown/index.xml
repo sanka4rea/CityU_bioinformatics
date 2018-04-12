@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R Markdown on Academic</title>
+    <title>R Markdown on CityU-Bioinformatics</title>
     <link>/tags/r-markdown/</link>
-    <description>Recent content in R Markdown on Academic</description>
+    <description>Recent content in R Markdown on CityU-Bioinformatics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial1</title>
+      <link>/tutorial/tutorial1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/tutorial1/</guid>
+      <description>#rara rqw qe q</description>
+    </item>
+    
+    <item>
+      <title>sanka</title>
+      <link>/post/sanka/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sanka/</guid>
+      <description>sankarea 散华</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>

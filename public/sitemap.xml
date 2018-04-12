@@ -5,6 +5,339 @@
     
     <url>
     
+      <loc>/database/genome/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/nucleic/genbank/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/other/omim---%E5%89%AF%E6%9C%AC-2/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/other/omim/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/prostr/pdb/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/genome/sgd/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/proseq/uniport/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/nucleic/ena/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/genome/ecogene/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/other/gpcrdb/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/proseq/pir/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/prostr/scop2/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/prostr/cath/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/nucleic/ddbj/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/genome/flybase/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/proseq/kabat/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/other/swiss-2dpage/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/other/dbd/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/nucleic/hiv/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/genome/maizedb/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/prostr/prosite/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/nucleic/5srrna/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/other/cmvd/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/proseq/enzyme/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/prostr/swiss-model/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/nucleic/epd/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/proseq/interpro/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/prostr/pmp/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/213123/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/tutorial1/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/sanka/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/lab/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/packages/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/server/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -124,8 +457,7 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -134,8 +466,17 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/test/</loc>
     </url>
     
   
@@ -155,6 +496,36 @@
     
       <loc>/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/nucleic/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/other/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -183,6 +554,26 @@
     
     <url>
     
+      <loc>/tags/proseq/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/prostr/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -194,7 +585,7 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -204,7 +595,7 @@
     <url>
     
       <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
