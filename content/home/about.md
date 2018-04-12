@@ -1,40 +1,38 @@
 +++
-# About/Biography widget.
+# About/Abstract widget.
 widget = "about"
 active = true
-date = "2016-04-20T00:00:00"
+date = "2018-04-11"
 
 # Order that this section will appear in.
 weight = 5
 
 # List your academic interests.
-[interests]
-  interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
-  ]
+#[interests]
+  #interests = [
+    #"Molecularly distinct cancer subtypes",
+    #"prognostic and predictive cancer biomarkers",
+    #"potential therapeutic targets using network-based approaches",
+    #"R packages and web tools for analyzing next-generation sequencing data"
+ # ]
 
 # List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+#[[education.courses]]
+  #course = "PhD in Artificial Intelligence"
+  #institution = "Stanford University"
+  #year = 2012
 
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
 +++
 
-# Biography
+# Research Interest
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Our major research interest is to better understand the biology underlying cancer using quantitative approaches. Especially, we have more passion in projects that bridge basic biological studies and clinical research. We have rich experience in integrative analysis of multilevel (epi)genomic data and clinical outcomes for dissecting cancer heterogeneity.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+# Current Research
+1.Molecularly distinct cancer subtypes
+
+2.Prognostic and predictive cancer biomarkers
+
+3.Potential therapeutic targets using network-based approaches
+
+4.R packages and web tools for analyzing next-generation sequencing data

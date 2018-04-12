@@ -5,8 +5,8 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "/"
 
-# Title of your site
-title = "Academic"
+# Title of your site ; lefttop of home page
+title = "CityU-Bioinformatics"  
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -43,27 +43,27 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "classic"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Computational Biology Lab"
+  #role = "Department of Biomedical Sciences"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Department of Biomedical Sciences City University HK", url = "http://www.cityu.edu.hk/bms/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  avatar = "avatar1.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  #email =  "bms.go@cityu.edu.hk"
+  address = "Room 315, Block 2, To Yuen Building, City University of Hong Kong, Hong Kong"
+  office_hours = "10:00 to 17:00 on workdays"
+  phone = "Lab: +852 3442-6967"
+  #skype = "echo123"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -92,10 +92,10 @@ defaultContentLanguageInSubdir = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
-  map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  map = 1
+  map_api_key = "AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"
+  latitude = "22.334923"
+  longitude = "114.173542"
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
@@ -214,25 +214,25 @@ defaultContentLanguageInSubdir = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:test@example.org"
+  #[[params.social]]
+    #icon = "envelope"
+    #icon_pack = "fa"
+    #link = "mailto:test@example.org"
+
+ # [[params.social]]
+   # icon = "twitter"
+   # icon_pack = "fa"
+    #link = "//twitter.com/GeorgeCushen"
+
+ # [[params.social]]
+   # icon = "google-scholar"
+   # icon_pack = "ai"
+   # link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
-    icon = "twitter"
+    icon = "home"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
-
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
-
-  [[params.social]]
-    icon = "github"
-    icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//cityuhk-compbio.github.io"
 
 
 # Navigation Links
@@ -249,29 +249,41 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Tutorial"
+  url = "/tutorial/"
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Database"
+  url = "/database/"
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Tools"
+  url = "tools/"
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Packages"
+  url = "/packages/"
   weight = 5
 
 [[menu.main]]
+  name = "Server"
+  url = "/server/"
+  weight = 6
+  
+[[menu.main]]
+  name = "Lab"
+  url = "/lab/"
+  weight = 7
+  
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 8
+  
+[params.test]
 
 # Taxonomies.
 [taxonomies]
