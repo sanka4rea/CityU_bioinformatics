@@ -111,5 +111,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>T1</title>
+      <link>/tags/t1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/t1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T2</title>
+      <link>/tags/t2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/t2/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

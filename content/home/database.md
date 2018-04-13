@@ -34,7 +34,7 @@ filter_default = 0
 
 
 [[filter]]
-  name = "Nucleic acid seq"
+  name = "Nucleic Acid Seq"
   tag = ".nucleic"
 
 [[filter]]

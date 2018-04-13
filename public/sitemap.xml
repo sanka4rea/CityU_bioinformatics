@@ -23,15 +23,6 @@
     
     <url>
     
-      <loc>/database/other/omim---%E5%89%AF%E6%9C%AC-2/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/database/other/omim/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -51,6 +42,24 @@
     <url>
     
       <loc>/database/genome/sgd/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/type1/tutorial1/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/type2/tutorial3/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -105,6 +114,15 @@
     <url>
     
       <loc>/database/prostr/scop2/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/type1/tutorial2/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -266,15 +284,6 @@
     
     <url>
     
-      <loc>/tutorial/tutorial1/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/sanka/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -293,6 +302,24 @@
     
     <url>
     
+      <loc>/database/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/journal/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/lab/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -302,7 +329,34 @@
     
     <url>
     
-      <loc>/packages/</loc>
+      <loc>/database/nucleic/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/other/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/proseq/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/prostr/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -330,6 +384,24 @@
     <url>
     
       <loc>/tutorial/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/type1/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/type2/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -476,14 +548,6 @@
     
     <url>
     
-      <loc>/test/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -606,6 +670,26 @@
     
       <loc>/tags/regression/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/t1/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/t2/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

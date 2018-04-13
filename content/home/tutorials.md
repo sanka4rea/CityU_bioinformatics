@@ -7,8 +7,8 @@ active = true
 date = "2018-04-11"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Tutorial"
-subtitle = ""
+title = "Tutorials"
+subtitle = "Bioinformatics is a computional biology, here we provide some tutorials for the common tools of bioinformatics"
 
 # Order that this section will appear in.
 weight = 10
@@ -31,17 +31,19 @@ filter_default = 0
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
+
 [[filter]]
   name = "All"
   tag = "*"
+  
+[[filter]]
+  name = "Type_1"
+  tag = ".t1"
 
 [[filter]]
-  name = "one"
-  tag = ".one"
+  name = "Type_2"
+  tag = ".t2"
+  
 
-[[filter]]
-  name = "Other"
-  tag = ".demo"
 +++
-
 

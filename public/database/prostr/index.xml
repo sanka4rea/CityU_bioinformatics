@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Protein structure on CityU-Bioinformatics</title>
+    <link>/database/prostr/</link>
+    <description>Recent content in Protein structure on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/database/prostr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RCSB PDB</title>
+      <link>/database/prostr/pdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/prostr/pdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCOP2</title>
+      <link>/database/prostr/scop2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/prostr/scop2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CATH/Gene3D</title>
+      <link>/database/prostr/cath/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/prostr/cath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PROSITE</title>
+      <link>/database/prostr/prosite/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/prostr/prosite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-model</title>
+      <link>/database/prostr/swiss-model/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/prostr/swiss-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PMP</title>
+      <link>/database/prostr/pmp/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/prostr/pmp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
