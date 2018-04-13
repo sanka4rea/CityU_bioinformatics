@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genome Database on CityU-Bioinformatics</title>
+    <link>/database/genome/</link>
+    <description>Recent content in Genome Database on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/database/genome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Genome (NCBI)</title>
+      <link>/database/genome/genome/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/genome/genome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SGD</title>
+      <link>/database/genome/sgd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/genome/sgd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EcoGene</title>
+      <link>/database/genome/ecogene/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/genome/ecogene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLYBASE</title>
+      <link>/database/genome/flybase/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/genome/flybase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAIZEDB</title>
+      <link>/database/genome/maizedb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/genome/maizedb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

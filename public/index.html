@@ -130,38 +130,88 @@
         
 
         
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/tutorial/" data-target="/tutorial/">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Tutorial</span>
             
+            <span class="caret"></span>
           </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/type1" data-target="/tutorial/type1">
+                
+                <span>type1</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/type2" data-target="/tutorial/type2">
+                
+                <span>type2</span>
+                
+              </a>
+            </li>
+            
+          </ul>
         </li>
 
         
         
 
         
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/database/" data-target="/database/">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Database</span>
             
+            <span class="caret"></span>
           </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/database/nucleic" data-target="/database/nucleic">
+                
+                <span>Nucleic Acid Seq</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/proseq" data-target="/database/proseq">
+                
+                <span>Protein Sequence</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/prostr" data-target="/database/prostr">
+                
+                <span>Protein structure</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/genome" data-target="/database/genome">
+                
+                <span>Genome Database</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/other" data-target="/database/other">
+                
+                <span>Other Database</span>
+                
+              </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -197,7 +247,7 @@
         <li class="nav-item">
           <a href="/packages/" data-target="/packages/">
             
-            <span>Packages</span>
+            <span>Journals</span>
             
           </a>
         </li>
@@ -294,7 +344,7 @@ background-color: #666;
 
 
 background-image:
-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
 url('/img/headers/biology1.jpg');
 
 ;">
@@ -320,7 +370,7 @@ url('/img/headers/biology1.jpg');
     
 
     
-    <p><a href="http://www.cityu.edu.hk/bms/" class="btn btn-light btn-outline btn-large"><i class="fa fa-binoculars"></i> -Find BMS</a></p>
+    <p><a href="https://blog.f1000.com/2017/02/01/f1000prime-f1000prime-faculty-launch-bioinformatics-biomedical-informatics-computational-biology/" class="btn btn-light btn-outline btn-large"><i class="fa fa-link"></i> -Image Citation</a></p>
     
 
   </div>
@@ -414,7 +464,7 @@ url('/img/headers/biology1.jpg');
   
   
   
-  <section id="tutorial" class="home-section">
+  <section id="tutorials" class="home-section">
     <div class="container">
       
 
@@ -422,8 +472,8 @@ url('/img/headers/biology1.jpg');
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Tutorial</h1>
-    
+    <h1>Tutorials</h1>
+    <p>Bioinformatics is a computional biology, here we provide some tutorials for the common tools of bioinformatics</p>
   </div>
   <div class="col-xs-12 col-md-8">
     
@@ -442,9 +492,9 @@ url('/img/headers/biology1.jpg');
             
               <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
             
-              <a href="#" data-filter=".one" class="btn btn-primary btn-large">one</a>
+              <a href="#" data-filter=".t1" class="btn btn-primary btn-large">Type_1</a>
             
-              <a href="#" data-filter=".demo" class="btn btn-primary btn-large">Other</a>
+              <a href="#" data-filter=".t2" class="btn btn-primary btn-large">Type_2</a>
             
           </div>
         </div>
@@ -461,13 +511,58 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item R Markdown">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item t1">
         <div class="card">
           
+          <a href="/tutorial/type1/tutorial1/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/tutorial/tutorial1.jpg" alt="" class="img-responsive">
+          </a>
+          
           <div class="card-text">
-            <h4><a href="/tutorial/tutorial1/" >Tutorial1</a></h4>
+            <h4><a href="/tutorial/type1/tutorial1/" >Tutorials_1</a></h4>
             <div class="card-desription">
-              
+              <p><strong>Tutorials_1</strong> is about how to use a computer to find what is known about a gene of interest and also how to get new insights about it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item t2">
+        <div class="card">
+          
+          <a href="/tutorial/type2/tutorial3/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/tutorial/tutorial2.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/type2/tutorial3/" >Tutorials_3</a></h4>
+            <div class="card-desription">
+              <p><strong>Tutorials_3</strong> is about how to use a computer to find what is known about a gene of interest and also how to get new insights about it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item t1">
+        <div class="card">
+          
+          <a href="/tutorial/type1/tutorial2/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/tutorial/tutorial3.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/type1/tutorial2/" >Tutorials_2</a></h4>
+            <div class="card-desription">
+              <p><strong>Tutorials_2</strong> is about how to use a computer to find what is known about a gene of interest and also how to get new insights about it.</p>
             </div>
           </div>
         </div>
@@ -514,7 +609,7 @@ url('/img/headers/biology1.jpg');
         <div class="btn-toolbar">
           <div class="btn-group">
             
-              <a href="#" data-filter=".nucleic" class="btn btn-primary btn-large active">Nucleic acid seq</a>
+              <a href="#" data-filter=".nucleic" class="btn btn-primary btn-large active">Nucleic Acid Seq</a>
             
               <a href="#" data-filter=".proseq" class="btn btn-primary btn-large">Protein Seq</a>
             
@@ -559,19 +654,6 @@ url('/img/headers/biology1.jpg');
           </a>
           </span>
           <p class="project-summary"><strong>GenBank</strong> is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences.</p>
-        </div>
-        
-        <div class="col-md-12 project-item isotope-item other" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-          
-            <a href="https://www.ncbi.nlm.nih.gov/omim" target="_blank" rel="noopener">
-          
-          OMIM
-          </a>
-          </span>
-          <p class="project-summary">OMIM is <strong>Online Mendelian Inheritance in Manauthored</strong> and edited at the McKusick-Nathans Institute of Genetic Medicine.</p>
         </div>
         
         <div class="col-md-12 project-item isotope-item other" itemscope itemtype="http://schema.org/CreativeWork">

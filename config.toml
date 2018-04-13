@@ -43,7 +43,7 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "ocean"
+  color_theme = "custom"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -247,16 +247,63 @@ defaultContentLanguageInSubdir = false
   name = "Home"
   url = "#about"
   weight = 1
-
+#submenu
 [[menu.main]]
   name = "Tutorial"
   url = "/tutorial/"
   weight = 2
+  identifier = "Tutorial"
+  
+[[menu.main]]
+  weight = 1
+  name   = "type1"
+  url    = "/tutorial/type1"
+  parent = "Tutorial"
 
+[[menu.main]]
+  weight = 2
+  name   = "type2"
+  url    = "/tutorial/type2"
+  parent = "Tutorial"
+  
+  
+#submenu
 [[menu.main]]
   name = "Database"
   url = "/database/"
   weight = 3
+  identifier = "Database"
+  
+[[menu.main]]
+  weight = 1
+  name   = "Nucleic Acid Seq"
+  url    = "/database/nucleic"
+  parent = "Database"
+
+[[menu.main]]
+  weight = 2
+  name   = "Protein Sequence"
+  url    = "/database/proseq"
+  parent = "Database"
+  
+ [[menu.main]]
+  weight = 3
+  name   = "Protein structure"
+  url    = "/database/prostr"
+  parent = "Database"
+
+[[menu.main]]
+  weight = 4
+  name   = "Genome Database"
+  url    = "/database/genome"
+  parent = "Database" 
+  
+  [[menu.main]]
+  weight = 5
+  name   = "Other Database"
+  url    = "/database/other"
+  parent = "Database" 
+#
 
 [[menu.main]]
   name = "Tools"
@@ -264,7 +311,7 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Packages"
+  name = "Journals"
   url = "/packages/"
   weight = 5
 

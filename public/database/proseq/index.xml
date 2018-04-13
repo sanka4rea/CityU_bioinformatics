@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Protein Sequence on CityU-Bioinformatics</title>
+    <link>/database/proseq/</link>
+    <description>Recent content in Protein Sequence on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/database/proseq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uniport (SWISS-PROT/TrEMBL)</title>
+      <link>/database/proseq/uniport/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/proseq/uniport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PIR</title>
+      <link>/database/proseq/pir/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/proseq/pir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KABAT</title>
+      <link>/database/proseq/kabat/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/proseq/kabat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ENZYME</title>
+      <link>/database/proseq/enzyme/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/proseq/enzyme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpro</title>
+      <link>/database/proseq/interpro/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/proseq/interpro/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
