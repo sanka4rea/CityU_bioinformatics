@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioinformatics Specific on CityU-Bioinformatics</title>
+    <link>/tags/bioinformatics-specific/</link>
+    <description>Recent content in Bioinformatics Specific on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bioinformatics-specific/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Journal of Computational Biology</title>
+      <link>/journal/specific/journal-of-computational-biology/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/specific/journal-of-computational-biology/</guid>
+      <description>Official Website
+Journal of Computational Biology is the leading journal covering the analysis, management, and visualization of cellular information at the molecular level. The Journal publishes peer-reviewed papers focusing on novel, cutting-edge methods in computational biology and bioinformatics.
+Topics include: • Genomics • Mathematical modeling and simulation • Distributed and parallel biological computing • Designing biological databases • Pattern matching and pattern detection • Linking disparate databases and data • New tools for computational biology • Relational and object-oriented database technology for bioinformatics</description>
+    </item>
+    
+  </channel>
+</rss>

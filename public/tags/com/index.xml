@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Com on CityU-Bioinformatics</title>
+    <link>/tags/com/</link>
+    <description>Recent content in Com on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aerican Journal of Human Genetics (AJHG)</title>
+      <link>/journal/comprehensive/american-journal-of-human-genetics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/comprehensive/american-journal-of-human-genetics/</guid>
+      <description>Official Website
+AJHG provides a record of research and review relating to heredity in humans and to the application of genetic principles in medicine and public policy, as well as in related areas of molecular and cell biology. Topics explored by AJHG include behavioral genetics, biochemical genetics, clinical genetics, cytogenetics, dysmorphology, gene therapy, genetic counseling, genetic epidemiology, genomics, immunogenetics, molecular genetics, neurogenetics, and population genetics. AJHG welcomes submissions of articles and reports on timely subjects concerning all aspects of human genetics, including studies of model organisms that are of direct relevance to human genetics.</description>
+    </item>
+    
+  </channel>
+</rss>

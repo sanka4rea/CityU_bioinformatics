@@ -312,8 +312,28 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Journals"
-  url = "/packages/"
+  url = "/Journal/"
   weight = 5
+  identifier = "Journals"
+#submenu
+[[menu.main]]
+  weight = 1
+  name   = "Comprehensive"
+  url    = "/journal/comprehensive"
+  parent = "Journals"
+
+[[menu.main]]
+  weight = 2
+  name   = "Bioinformatics Specific"
+  url    = "/journal/specific"
+  parent = "Journals"
+  
+ [[menu.main]]
+  weight = 3
+  name   = "Conferences"
+  url    = "/journal/conferences"
+  parent = "Journals"
+#
 
 [[menu.main]]
   name = "Server"

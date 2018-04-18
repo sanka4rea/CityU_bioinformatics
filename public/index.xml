@@ -11,12 +11,96 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Aerican Journal of Human Genetics (AJHG)</title>
+      <link>/journal/comprehensive/american-journal-of-human-genetics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/comprehensive/american-journal-of-human-genetics/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cell.com/ajhg/home&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;AJHG provides a record of research and review relating to heredity in humans and to the application of genetic principles in medicine and public policy, as well as in related areas of molecular and cell biology. Topics explored by AJHG include behavioral genetics, biochemical genetics, clinical genetics, cytogenetics, dysmorphology, gene therapy, genetic counseling, genetic epidemiology, genomics, immunogenetics, molecular genetics, neurogenetics, and population genetics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/journal/com/ajhg3.jpg&#34; width = &#34;440&#34; height = &#34;576&#34; alt=&#34;ajhg&#34; align=center /&gt;&lt;/p&gt;
+
+&lt;p&gt;AJHG welcomes submissions of articles and reports on timely subjects concerning all aspects of human genetics, including studies of model organisms that are of direct relevance to human genetics. Manuscripts should be written in a manner accessible to investigators representing diverse backgrounds in human genetics. Descriptions of new statistical methods of general interest to the genetics community are welcome. New methods should be compared to existing methods with the use of real data and/or simulations with parameters (e.g., haplotype frequencies, effect sizes) that are based on a real data example (e.g., marker or haplotype data from the HapMap project). All novel computer programs must be made publicly available by the time that the manuscript is published, and a URL for the website must be included in the Web Resources section of the manuscript. Letters commenting on material previously published in AJHG are also welcome.&lt;/p&gt;
+
+&lt;p&gt;AJHG does not publish reports of either single mutations or mutational surveys of previously identified loci unless they have unusual significance and substantial insight. Descriptions of new linkage assignments will be considered only if they are of special interest. Reports of negative data will not normally be considered.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithms for Molecular Biology</title>
+      <link>/journal/specific/algorithms-for-molecular-biology/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/specific/algorithms-for-molecular-biology/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://almob.biomedcentral.com/&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Algorithms for Molecular Biology publishes articles on novel algorithms for biological sequence and structure analysis, phylogeny reconstruction, and combinatorial algorithms and machine learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/journal/spec/Algorithm for MB.png&#34; alt=&#34;sb&#34; align=center /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Areas of interest include but are not limited to: algorithms for RNA and protein structure analysis, gene prediction and genome analysis, comparative sequence analysis and alignment, phylogeny, gene expression, machine learning, and combinatorial algorithms.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Where appropriate, manuscripts should describe applications to real-world data. However, pure algorithm papers are also welcome if future applications to biological data are to be expected, or if they address complexity or approximation issues of novel computational problems in molecular biology. Articles about novel software tools will be considered for publication if they contain some algorithmically interesting aspects.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Genome (NCBI)</title>
       <link>/database/genome/genome/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/database/genome/genome/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics</title>
+      <link>/journal/specific/bioinformatics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/specific/bioinformatics/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://academic.oup.com/bioinformatics&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Bioinformatics is the leading journal in its field, Bioinformatics publishes the highest quality scientific papers and review articles of interest to academic and industrial researchers. It is a biweekly peer-reviewed scientific journal covering research and software in computational biology. It is the official journal of the International Society for Computational Biology (ISCB), together with PLOS Computational Biology.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/journal/spec/bioinformatics.jpg&#34; width = &#34;440&#34; height = &#34;576&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Its main focus is on new developments in genome bioinformatics and computational biology. Two distinct sections within the journal - Discovery Notes and Application Notes - focus on shorter papers; the former reporting biologically interesting discoveries using computational methods, the latter exploring the applications used for experiments.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cancer Cell</title>
+      <link>/journal/comprehensive/cancer-cell/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/comprehensive/cancer-cell/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cell.com/cancer-cell/home&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Cancer Cell provides a high-profile forum to promote major advances in cancer research and oncology. The primary criterion for considering manuscripts is whether the studies provide major advances into answering important questions relevant to naturally occurring cancers. Cancer Cell particularly welcomes translational research.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/journal/com/cancer_cell.jpg&#34; width = &#34;440&#34; height = &#34;576&#34; alt=&#34;cc&#34; align=center /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cancer Cell is also interested in publishing clinical investigations, in particular those that lead to establishing new paradigms in the treatment, diagnosis, or prevention of cancers; those that provide important insights into cancer biology beyond what has been revealed by preclinical studies; and those that are mechanism-based proof-of-principle clinical studies.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
     </item>
     
     <item>
@@ -44,6 +128,47 @@
       
       <guid>/database/prostr/pdb/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Research in Computational Molecular Biology (RECOMB)</title>
+      <link>/journal/conferences/acm-recomb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/conferences/acm-recomb/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.recomb.org/home&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The RECOMB conference series was founded in 1997 to provide a scientific forum for theoretical advances in computational biology and their applications in molecular biology and medicine. The conference solicits research contributions from all areas of computational molecular biology.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/journal/conf/RECOMB 2018.png&#34; width = &#34;600&#34; height = &#34;300&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Typical but not exclusive topics of interest include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Molecular sequence analysis&lt;/li&gt;
+&lt;li&gt;Recognition of genes and regulatory elements&lt;/li&gt;
+&lt;li&gt;Molecular evolution&lt;/li&gt;
+&lt;li&gt;Gene expression&lt;/li&gt;
+&lt;li&gt;Biological networks&lt;/li&gt;
+&lt;li&gt;Sequencing and genotyping techniques&lt;/li&gt;
+&lt;li&gt;Genomics&lt;/li&gt;
+&lt;li&gt;Population genetics&lt;/li&gt;
+&lt;li&gt;Systems biology&lt;/li&gt;
+&lt;li&gt;Imaging&lt;/li&gt;
+&lt;li&gt;Computational proteomics&lt;/li&gt;
+&lt;li&gt;Molecular structural biology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The origins of the conference came from the mathematical and computational side of the field, and there remains a focus on computational advances. In addition, the effective use of computational techniques in biological discovery is also an important aspect of the conference.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;As of RECOMB 2010, the conference has included a highlights track, modelled on the success of a similar track at the ISMB conference. The highlights track contains presentations for computational biology papers published in the previous 18 months.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;In 2014 RECOMB and PLOS Computational Biology coordinated to let authors submit papers in parallel to both conference and journal. Papers not selected for publication in PLOS Computational Biology were published in edited form in the Journal of Computational Biology as usual.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
     </item>
     
     <item>
@@ -104,76 +229,41 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
     </item>
     
     <item>
-      <title>ENA (EMBL)</title>
-      <link>/database/nucleic/ena/</link>
+      <title>Asia Pacific Bioinformatics Conference (APBC)</title>
+      <link>/journal/conferences/apbc/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/nucleic/ena/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EcoGene</title>
-      <link>/database/genome/ecogene/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/genome/ecogene/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GPCRdb</title>
-      <link>/database/other/gpcrdb/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/other/gpcrdb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PIR</title>
-      <link>/database/proseq/pir/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/proseq/pir/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SCOP2</title>
-      <link>/database/prostr/scop2/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/prostr/scop2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorials_2</title>
-      <link>/tutorial/type1/tutorial2/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tutorial/type1/tutorial2/</guid>
+      <guid>/journal/conferences/apbc/</guid>
       <description>&lt;hr /&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://apbc2018.bio.keio.ac.jp/&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/bioinformatics.png&#34; alt=&#34;t2&#34; /&gt;
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The Asia Pacific Bioinformatics Conference (APBC) series is an annual international forum for exploring research, development and novel applications in the field of Bioinformatics. The aim of APBC is to bring together academia and industry to share knowledge and experiences, and to showcase innovations and achievements. It has been held since 2003 around Asia Pacific Regions&lt;/p&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/journal/conf/apbc2018.png&#34; width = &#34;600&#34; height = &#34;300&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Accepted papers will be invited to be published in IEEE/ACM TCBB, BMC Bioinformatics, BMC Genomics, BMC Systems Biology, and Computational Biology and Chemistry following each journal’s publication policy.&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
     </item>
     
     <item>
-      <title>CATH/Gene3D</title>
-      <link>/database/prostr/cath/</link>
+      <title>BMC Bioinformatics</title>
+      <link>/journal/specific/bmc-bioinformatics/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/prostr/cath/</guid>
-      <description></description>
+      <guid>/journal/specific/bmc-bioinformatics/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bmcbioinformatics.biomedcentral.com/&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;BMC Bioinformatics is an open access, peer-reviewed journal  that considers articles on all aspects of the development, testing and novel application of computational and statistical methods for the modeling and analysis of all kinds of biological data, as well as other areas of computational biology.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/journal/spec/bmcbioinf.png&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
     </item>
     
   </channel>

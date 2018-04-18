@@ -64,13 +64,12 @@ I am a teaching instructor for the following courses at University X: 11111</des
     </item>
     
     <item>
-      <title>Packages</title>
-      <link>/home/packages/</link>
+      <title>Journals</title>
+      <link>/home/journals/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/home/packages/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a teaching instructor for the following courses at University X: 11111</description>
+      <guid>/home/journals/</guid>
+      <description></description>
     </item>
     
     <item>
