@@ -68,6 +68,15 @@
     
     <url>
     
+      <loc>/journal/menu-folding/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/database/prostr/pdb/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -635,7 +644,7 @@
     
     <url>
     
-      <loc>/journal/comprehensive/-plos-biology/</loc>
+      <loc>/journal/comprehensive/plos-biology/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -645,24 +654,6 @@
     <url>
     
       <loc>/journal/comprehensive/systematic-biology/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/213123/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/sanka/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -815,6 +806,15 @@
     
     <url>
     
+      <loc>/r_rstudio/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
@@ -824,7 +824,7 @@
     
     <url>
     
-      <loc>/post/getting-started/</loc>
+      <loc>/r_rstudio/rstudio/</loc>
       <lastmod>2018-01-13T00:00:00+08:00</lastmod>
     </url>
     
@@ -833,8 +833,26 @@
     
     <url>
     
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/r_rstudio/r/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/r/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/rstudio/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -901,6 +919,16 @@
     
     <url>
     
+      <loc>/tags/fold/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/genome/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -923,16 +951,6 @@
     
       <loc>/tags/other/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -970,28 +988,8 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/r/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

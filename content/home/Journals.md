@@ -33,7 +33,7 @@ filter_default = 0
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
   name = "Menu Folding"
-  tag = ".11"
+  tag = ".fold"
 
 [[filter]]
   name = "Comprehensive"

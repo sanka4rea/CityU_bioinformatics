@@ -122,6 +122,15 @@
     </item>
     
     <item>
+      <title>Please Click other labels on the bar to see details.</title>
+      <link>/journal/menu-folding/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/menu-folding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RCSB PDB</title>
       <link>/database/prostr/pdb/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -243,24 +252,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
 &lt;p&gt;&lt;img src=&#34;/img/journal/conf/apbc2018.png&#34; width = &#34;600&#34; height = &#34;300&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Accepted papers will be invited to be published in IEEE/ACM TCBB, BMC Bioinformatics, BMC Genomics, BMC Systems Biology, and Computational Biology and Chemistry following each journal’s publication policy.&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BMC Bioinformatics</title>
-      <link>/journal/specific/bmc-bioinformatics/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/journal/specific/bmc-bioinformatics/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://bmcbioinformatics.biomedcentral.com/&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;BMC Bioinformatics is an open access, peer-reviewed journal  that considers articles on all aspects of the development, testing and novel application of computational and statistical methods for the modeling and analysis of all kinds of biological data, as well as other areas of computational biology.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/journal/spec/bmcbioinf.png&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>

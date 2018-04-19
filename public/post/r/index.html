@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="What is R ? R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&amp;T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/r/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/r/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/post/r/">
+  <meta property="og:title" content="R: Programming Language | CityU-Bioinformatics">
+  <meta property="og:description" content="What is R ? R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&amp;T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R."><meta property="og:image" content="/img/headers/R5r.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-04-20T00:00:00&#43;08:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;08:00">
+  
+
+  
+
+  <title>R: Programming Language | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#R_language">
+            
+            <span>R language</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorial</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/type1">
+                
+                <span>type1</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/type2">
+                
+                <span>type2</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/database/nucleic">
+                
+                <span>Nucleic Acid Seq</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/proseq">
+                
+                <span>Protein Sequence</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/prostr">
+                
+                <span>Protein structure</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/genome">
+                
+                <span>Genome Database</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/other">
+                
+                <span>Other Database</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/tools/">
+            
+            <span>Tools</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Comprehensive</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Server</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/headers/R5r.png" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption">Image credit: <a href="https://www.r-project.org/" target="_blank"><strong>R</strong></a></span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">R: Programming Language</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <time datetime="2016-04-20 00:00:00 &#43;0800 CST" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=R%3a%20Programming%20Language&amp;url=%2fpost%2fr%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fr%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fr%2f&amp;title=R%3a%20Programming%20Language"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fr%2f&amp;title=R%3a%20Programming%20Language"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=R%3a%20Programming%20Language&amp;body=%2fpost%2fr%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<h3 id="what-is-r">What is R ?</h3>
+
+<p><p align="justify"><strong>R</strong> is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&amp;T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.</p>
+
+<p><p align="justify">R provides <strong>a wide variety of</strong> statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, …) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity.</p>
+
+<p><p align="justify">One of R’s strengths is the ease with which well-designed publication-quality plots can be produced, including mathematical symbols and formulae where needed. Great care has been taken over the defaults for the minor design choices in graphics, but the user retains full control.</p>
+
+<p><p align="justify">R is available as <strong>Free Software</strong> under the terms of the Free Software Foundation’s GNU General Public License in source code form. It compiles and runs on a wide variety of UNIX platforms and similar systems (including FreeBSD and Linux), Windows and MacOS.</p>
+
+<h3 id="the-r-environment">The R environment</h3>
+
+<p><p align="justify">R is an integrated suite of software facilities for data manipulation, calculation and graphical display. It includes</p>
+
+<ul>
+<li>an effective data handling and storage facility,</li>
+<li>a suite of operators for calculations on arrays, in particular matrices,</li>
+<li>a large, coherent, integrated collection of intermediate tools for data analysis,</li>
+<li>graphical facilities for data analysis and display either on-screen or on hardcopy, and</li>
+<li><p align="justify">a well-developed, simple and effective programming language which includes conditionals, loops, user-defined recursive functions and input and output facilities.</li>
+</ul>
+
+<p><p align="justify">The term “environment” is intended to characterize it as a fully planned and coherent system, rather than an incremental accretion of very specific and inflexible tools, as is frequently the case with other data analysis software.</p>
+
+<p><p align="justify">R, like S, is designed around a true computer language, and it allows users to add additional functionality by defining new functions. Much of the system is itself written in the R dialect of S, which makes it easy for users to follow the algorithmic choices made. For computationally-intensive tasks, C, C++ and Fortran code can be linked and called at run time. Advanced users can write C code to manipulate R objects directly.</p>
+
+<p><p align="justify">Many users think of R as a statistics system. We prefer to think of it of an environment within which statistical techniques are implemented. R can be extended (easily) via packages. There are about eight packages supplied with the R distribution and many more are available through the CRAN family of Internet sites covering a very wide range of modern statistics.</p>
+
+<p><p align="justify">R has its own LaTeX-like documentation format, which is used to supply comprehensive documentation, both on-line in a number of formats and in hardcopy.</p>
+
+<p><strong>Citation</strong>： <a href="https://www.r-project.org/" target="_blank">Official Website</a></p>
+
+<h3 id="design-of-the-r-system">Design of the R System</h3>
+
+<p><p align="justify">The primary R system is available from the <a href="https://cran.r-project.org/" target="_blank">Comprehensive R Archive Network</a>, also known as CRAN. CRAN also hosts many add-on packages that can be used to extend the functionality of R.</p>
+
+<p>The R system is divided into 2 conceptual parts:</p>
+
+<ol>
+<li><p>The “base” R system that you download from CRAN: <a href="http://cran.r-project.org/bin/linux/" target="_blank">Linux</a> <a href="https://cran.r-project.org/bin/windows/" target="_blank">Windows</a> <a href="https://cran.r-project.org/bin/macosx/" target="_blank">Mac</a> <a href="http://cran.r-project.org/src/base/R-3/R-3.1.3.tar.gz" target="_blank">Source Code</a></p></li>
+
+<li><p>Everything else.</p></li>
+</ol>
+
+<p>R functionality is divided into a number of packages.</p>
+
+<ul>
+<li><p>The “base” R system contains, among other things, the <code>base</code> package which is required to run R and contains the most fundamental functions.</p></li>
+
+<li><p>The other packages contained in the “base” system include <code>utils</code>, <code>stats</code>, <code>datasets</code>, <code>graphics</code>, <code>grDevices</code>, <code>grid</code>, <code>methods</code>, <code>tools</code>, <code>parallel</code>, <code>compiler</code>, <code>splines</code>, <code>tcltk</code>, <code>stats4</code>.</p></li>
+
+<li><p>There are also “Recommended” packages: <code>boot</code>, <code>class</code>, <code>cluster</code>, <code>codetools</code>, <code>foreign</code>, <code>KernSmooth</code>, <code>lattice</code>, <code>mgcv</code>, <code>nlme</code>, <code>rpart</code>, <code>survival</code>, <code>MASS</code>, <code>spatial</code>, <code>nnet</code>, <code>Matrix</code>.</p></li>
+</ul>
+
+<p>When you download a fresh installation of R from CRAN, you get all of the above, which represents a substantial amount of functionality. However, there are many other packages available:</p>
+
+<ul>
+<li><p>There are over 4000 packages on CRAN that have been developed by users and programmers around the world.</p></li>
+
+<li><p>There are also many packages associated with the <a href="http://bioconductor.org/" target="_blank">Bioconductor project</a>.</p></li>
+
+<li><p>People often make packages available on their personal websites; there is no reliable way to keep track of how many packages are available in this fashion.</p></li>
+
+<li><p>There are a number of packages being developed on repositories like GitHub and BitBucket but there is no reliable listing of all these packages.</p></li>
+</ul>
+
+<h3 id="limittations-of-r">Limittations of R</h3>
+
+<p><p align="justify">No programming language or statistical analysis system is perfect. R certainly has a number of drawbacks. For starters, R is essentially based on almost 50 year old technology, going back to the original S system developed at Bell Labs. There was originally little built in support for dynamic or 3-D graphics (but things have improved greatly since the “old days”).</p>
+
+<p><p align="justify">Another commonly cited limitation of R is that objects must generally be stored in physical memory. This is in part due to the scoping rules of the language, but R generally is more of a memory hog than other statistical packages. However, there have been a number of advancements to deal with this, both in the R core and also in a number of packages developed by contributors. Also, computing power and capacity has continued to grow over time and amount of physical memory that can be installed on even a consumer-level laptop is substantial. While we will likely never have enough physical memory on a computer to handle the increasingly large datasets that are being generated, the situation has gotten quite a bit easier over time.</p>
+
+<p><p align="justify">At a higher level one “limitation” of R is that its functionality is based on consumer demand and (voluntary) user contributions. If no one feels like implementing your favorite method, then it’s your job to implement it (or you need to pay someone to do it). The capabilities of the R system generally reflect the interests of the R user community. As the community has ballooned in size over the past 10 years, the capabilities have similarly increased. When I first started using R, there was very little in the way of functionality for the physical sciences (physics, astronomy, etc.). However, now some of those communities have adopted R and we are seeing more code being written for those kinds of applications.</p>
+
+<h3 id="r-resources">R Resources</h3>
+
+<h2 id="official-manuals">Official Manuals</h2>
+
+<p>As far as getting started with R by reading stuff, there is of course this book. Also, available from <a href="https://cran.r-project.org/" target="_blank">CRAN</a> are</p>
+
+<ul>
+<li><p><a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.html" target="_blank">An Introduction to R</a></p></li>
+
+<li><p><a href="https://cran.r-project.org/doc/manuals/r-release/R-data.html" target="_blank">R Data Import/Export</a></p></li>
+
+<li><p><a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html" target="_blank">Writing R Extensions</a>: Discusses how to write and organize R packages</p></li>
+
+<li><p><a href="https://cran.r-project.org/doc/manuals/r-release/R-admin.html" target="_blank">R Installation and Administration</a>: This is mostly for building R from the source code)</p></li>
+
+<li><p><a href="https://cran.r-project.org/doc/manuals/r-release/R-ints.html" target="_blank">R Internals</a>: This manual describes the low level structure of R and is primarily for developers and R core members</p></li>
+
+<li><p><a href="https://cran.r-project.org/doc/manuals/r-release/R-lang.html" target="_blank">R Language Definition</a>: This documents the R language and, again, is primarily for developers</p></li>
+</ul>
+
+<h2 id="other-resources">Other Resources</h2>
+
+<ul>
+<li>Major technical publishers like Springer, Chapman &amp; Hall/CRC have entire series of books dedicated to using R in various applications. For example, Springer has a series of books called Use R!.</li>
+<li>A longer list of books can be found on the <a href="https://www.r-project.org/doc/bib/R-books.html" target="_blank">CRAN web site</a>.</li>
+</ul>
+
+<p><strong>Citation</strong>： <a href="https://bookdown.org/rdpeng/rprogdatascience/" target="_blank">R Programming for Data Science</a> Author: Roger D. Peng</p>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/r">R</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/post/rstudio/">Rstudio: an IDE for R</a></li>
+        
+        <li><a href="/r_rstudio/r/">R: Programming Language</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

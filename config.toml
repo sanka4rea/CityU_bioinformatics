@@ -247,6 +247,12 @@ defaultContentLanguageInSubdir = false
   name = "Home"
   url = "#about"
   weight = 1
+
+[[menu.main]]
+  name = "R language"
+  url = "#R_language"
+  weight = 1.5
+  
 #submenu
 [[menu.main]]
   name = "Tutorial"
@@ -340,16 +346,18 @@ defaultContentLanguageInSubdir = false
   url = "/server/"
   weight = 6
   
-[[menu.main]]
-  name = "Lab"
-  url = "/lab/"
-  weight = 7
+#[[menu.main]]
+ # name = "Lab"
+  #url = "/lab/"
+  #weight = 7
   
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 8
   
+
+
 [params.test]
 
 # Taxonomies.
