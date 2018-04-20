@@ -12,5 +12,248 @@
 	<atom:link href="/database/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Genome (NCBI)</title>
+      <link>/database/geno_new/genome/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/geno_new/genome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenBank</title>
+      <link>/database/nucl_new/genbank/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/nucl_new/genbank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMIM</title>
+      <link>/database/oth_new/omim/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/oth_new/omim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RCSB PDB</title>
+      <link>/database/pro_str_new/pdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_str_new/pdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SGD</title>
+      <link>/database/geno_new/sgd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/geno_new/sgd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniport (SWISS-PROT/TrEMBL)</title>
+      <link>/database/pro_seq_new/uniport/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_seq_new/uniport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ENA (EMBL)</title>
+      <link>/database/nucl_new/ena/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/nucl_new/ena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EcoGene</title>
+      <link>/database/geno_new/ecogene/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/geno_new/ecogene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPCRdb</title>
+      <link>/database/oth_new/gpcrdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/oth_new/gpcrdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PIR</title>
+      <link>/database/pro_seq_new/pir/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_seq_new/pir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCOP2</title>
+      <link>/database/pro_str_new/scop2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_str_new/scop2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CATH/Gene3D</title>
+      <link>/database/pro_str_new/cath/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_str_new/cath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDBJ</title>
+      <link>/database/nucl_new/ddbj/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/nucl_new/ddbj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLYBASE</title>
+      <link>/database/geno_new/flybase/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/geno_new/flybase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KABAT</title>
+      <link>/database/pro_seq_new/kabat/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_seq_new/kabat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-2DPAGE</title>
+      <link>/database/oth_new/swiss-2dpage/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/oth_new/swiss-2dpage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBD</title>
+      <link>/database/oth_new/dbd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/oth_new/dbd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HIV</title>
+      <link>/database/nucl_new/hiv/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/nucl_new/hiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAIZEDB</title>
+      <link>/database/geno_new/maizedb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/geno_new/maizedb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PROSITE</title>
+      <link>/database/pro_str_new/prosite/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_str_new/prosite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5S rRNA</title>
+      <link>/database/nucl_new/5srrna/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/nucl_new/5srrna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CMVD</title>
+      <link>/database/oth_new/cmvd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/oth_new/cmvd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ENZYME</title>
+      <link>/database/pro_seq_new/enzyme/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_seq_new/enzyme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-model</title>
+      <link>/database/pro_str_new/swiss-model/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_str_new/swiss-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EPD</title>
+      <link>/database/nucl_new/epd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/nucl_new/epd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpro</title>
+      <link>/database/pro_seq_new/interpro/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_seq_new/interpro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PMP</title>
+      <link>/database/pro_str_new/pmp/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database/pro_str_new/pmp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

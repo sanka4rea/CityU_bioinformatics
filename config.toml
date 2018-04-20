@@ -296,11 +296,37 @@ defaultContentLanguageInSubdir = false
   url    = "/database/other"
   parent = "Database" 
 #
-
+##submenu
 [[menu.main]]
   name = "Tools"
   url = "tools/"
   weight = 4
+  identifier="Tools"
+  
+[[menu.main]]
+  weight = 1
+  name   = "Sequence-related"
+  url    = "/tools/sequence"
+  parent = "Tools"
+  
+[[menu.main]]
+  weight = 2
+  name   = "Gene-related"
+  url    = "/tools/genepart"
+  parent = "Tools"
+
+[[menu.main]]
+  weight = 3
+  name   = "Protein-related"
+  url    = "/tools/protein"
+  parent = "Tools"
+  
+[[menu.main]]
+  weight = 4
+  name   = "Molecular Evolution"
+  url    = "/tools/molecular"
+  parent = "Tools"
+###
 
 [[menu.main]]
   name = "Journals"

@@ -17,7 +17,7 @@ image_preview = "tutorial/sources.jpg"
 tags = ["online"]
 
 # Optional external URL for project (replaces project detail page).
-#external_link = "https://www.ncbi.nlm.nih.gov/genbank/"
+external_link = "https://cityu-bioinformatics.netlify.com/tutorial/sources/"
 
 # Does the project detail page use math formatting?
 math = false

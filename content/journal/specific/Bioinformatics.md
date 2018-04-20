@@ -30,6 +30,7 @@ math = false
 
 +++
 ---
+
 [Official Website](https://academic.oup.com/bioinformatics)
 
 <p align="justify">Bioinformatics is the leading journal in its field, Bioinformatics publishes the highest quality scientific papers and review articles of interest to academic and industrial researchers. It is a biweekly peer-reviewed scientific journal covering research and software in computational biology. It is the official journal of the International Society for Computational Biology (ISCB), together with PLOS Computational Biology. 

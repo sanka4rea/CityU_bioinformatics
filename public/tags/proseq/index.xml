@@ -14,46 +14,46 @@
     
     <item>
       <title>ENZYME</title>
-      <link>/database/proseq/enzyme/</link>
+      <link>/database/pro_seq_new/enzyme/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/proseq/enzyme/</guid>
+      <guid>/database/pro_seq_new/enzyme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interpro</title>
-      <link>/database/proseq/interpro/</link>
+      <link>/database/pro_seq_new/interpro/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/proseq/interpro/</guid>
+      <guid>/database/pro_seq_new/interpro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>KABAT</title>
-      <link>/database/proseq/kabat/</link>
+      <link>/database/pro_seq_new/kabat/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/proseq/kabat/</guid>
+      <guid>/database/pro_seq_new/kabat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PIR</title>
-      <link>/database/proseq/pir/</link>
+      <link>/database/pro_seq_new/pir/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/proseq/pir/</guid>
+      <guid>/database/pro_seq_new/pir/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uniport (SWISS-PROT/TrEMBL)</title>
-      <link>/database/proseq/uniport/</link>
+      <link>/database/pro_seq_new/uniport/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/proseq/uniport/</guid>
+      <guid>/database/pro_seq_new/uniport/</guid>
       <description></description>
     </item>
     

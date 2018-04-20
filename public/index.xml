@@ -103,11 +103,144 @@
     
     <item>
       <title>Genome (NCBI)</title>
-      <link>/database/genome/genome/</link>
+      <link>/database/geno_new/genome/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/genome/genome/</guid>
+      <guid>/database/geno_new/genome/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC-2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC-2/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC-3/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC-3/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tools/mole_new/tutorial1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/mole_new/tutorial1/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tools/pro_new/tutorial1---%E5%89%AF%E6%9C%AC/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/pro_new/tutorial1---%E5%89%AF%E6%9C%AC/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tools/pro_new/tutorial1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/pro_new/tutorial1/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tools/seq_new/tutorial1---%E5%89%AF%E6%9C%AC/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/seq_new/tutorial1---%E5%89%AF%E6%9C%AC/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
     </item>
     
     <item>
@@ -183,165 +316,6 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 &lt;p&gt;&lt;img src=&#34;/img/journal/com/cancer_cell.jpg&#34; width = &#34;440&#34; height = &#34;576&#34; alt=&#34;cc&#34; align=center /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cancer Cell is also interested in publishing clinical investigations, in particular those that lead to establishing new paradigms in the treatment, diagnosis, or prevention of cancers; those that provide important insights into cancer biology beyond what has been revealed by preclinical studies; and those that are mechanism-based proof-of-principle clinical studies.&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GenBank</title>
-      <link>/database/nucleic/genbank/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/nucleic/genbank/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OMIM</title>
-      <link>/database/other/omim/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/other/omim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Please Click other labels on the bar to see details.</title>
-      <link>/journal/menu-folding/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/journal/menu-folding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RCSB PDB</title>
-      <link>/database/prostr/pdb/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/prostr/pdb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research in Computational Molecular Biology (RECOMB)</title>
-      <link>/journal/conferences/acm-recomb/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/journal/conferences/acm-recomb/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.recomb.org/home&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The RECOMB conference series was founded in 1997 to provide a scientific forum for theoretical advances in computational biology and their applications in molecular biology and medicine. The conference solicits research contributions from all areas of computational molecular biology.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/journal/conf/RECOMB 2018.png&#34; width = &#34;600&#34; height = &#34;300&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Typical but not exclusive topics of interest include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Molecular sequence analysis&lt;/li&gt;
-&lt;li&gt;Recognition of genes and regulatory elements&lt;/li&gt;
-&lt;li&gt;Molecular evolution&lt;/li&gt;
-&lt;li&gt;Gene expression&lt;/li&gt;
-&lt;li&gt;Biological networks&lt;/li&gt;
-&lt;li&gt;Sequencing and genotyping techniques&lt;/li&gt;
-&lt;li&gt;Genomics&lt;/li&gt;
-&lt;li&gt;Population genetics&lt;/li&gt;
-&lt;li&gt;Systems biology&lt;/li&gt;
-&lt;li&gt;Imaging&lt;/li&gt;
-&lt;li&gt;Computational proteomics&lt;/li&gt;
-&lt;li&gt;Molecular structural biology&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The origins of the conference came from the mathematical and computational side of the field, and there remains a focus on computational advances. In addition, the effective use of computational techniques in biological discovery is also an important aspect of the conference.&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;As of RECOMB 2010, the conference has included a highlights track, modelled on the success of a similar track at the ISMB conference. The highlights track contains presentations for computational biology papers published in the previous 18 months.&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;In 2014 RECOMB and PLOS Computational Biology coordinated to let authors submit papers in parallel to both conference and journal. Papers not selected for publication in PLOS Computational Biology were published in edited form in the Journal of Computational Biology as usual.&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SGD</title>
-      <link>/database/genome/sgd/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/genome/sgd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sources</title>
-      <link>/tutorial/sources/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tutorial/sources/</guid>
-      <description>
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/tutorial/sources.jpg&#34; width=&#34;600&#34; height=&#34;300&#34; alt=&#34;edx&#34; align= center/&gt;
-&lt;a href=&#34;http://www.gettingsmart.com/2012/09/50-top-sources-of-free-elearning-courses/&#34; target=&#34;_blank&#34;&gt;Preview Image Citation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;online-sources&#34;&gt;Online Sources&lt;/h3&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;There are many great &lt;strong&gt;open sources website&lt;/strong&gt; which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.&lt;/p&gt;
-
-&lt;h2 id=&#34;bioconductor&#34;&gt;Bioconductor&lt;/h2&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;a href=&#34;http://www.bioconductor.org/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Bioconductor&lt;/strong&gt;&lt;/a&gt; Bioconductor is an open source, open development software project to provide tools for the analysis and comprehension of high-throughput genomic data. It is based primarily on the R programming language.
-&lt;img src=&#34;/img/tutorial/bioconductor.png&#34; width=&#34;800&#34; height=&#34;600&#34; alt=&#34;edx&#34; align= center/&gt;
-&lt;p align=&#34;justify&#34;&gt;The Bioconductor &lt;a href=&#34;http://www.bioconductor.org/packages/release/bioc/&#34; target=&#34;_blank&#34;&gt;release version&lt;/a&gt; is updated twice each year, and is appropriate for most users. There is also a &lt;a href=&#34;http://bioconductor.org/packages/devel/bioc/&#34; target=&#34;_blank&#34;&gt;development version&lt;/a&gt;, to which new features and packages are added prior to incorporation in the release. A large number of &lt;a href=&#34;http://bioconductor.org/packages/release/data/annotation/&#34; target=&#34;_blank&#34;&gt;meta-data packages&lt;/a&gt; provide pathway, organism, microarray and other annotations.&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The Bioconductor project started in 2001 and is overseen by a &lt;a href=&#34;http://www.bioconductor.org/about/core-team/&#34; target=&#34;_blank&#34;&gt;core team&lt;/a&gt;, based primarily at &lt;a href=&#34;https://www.roswellpark.org/&#34; target=&#34;_blank&#34;&gt;Roswell Park Cancer Institute&lt;/a&gt;, and by other members coming from US and international institutions.&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;There are various kinds of &lt;strong&gt;R-based&lt;/strong&gt; packages:
-&lt;img src=&#34;/img/tutorial/bioconductor2.png&#34; width=&#34;800&#34; height=&#34;600&#34; alt=&#34;edx&#34; align= center/&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;recommended-books&#34;&gt;Recommended books&lt;/h2&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;It&amp;rsquo;s notoriously difficult to find any books on bioinformatics itself that cater well for all of those coming from computing, from mathematics and from biology backgrounds. The few textbooks available in the field tend to be eyewateringly expensive as well. Suggested reading has been divided into books of general interest, those best suited to people coming from a computational/mathematical background and books for biologists interested in bioinformatics.&lt;/p&gt;
-
-&lt;p&gt;The Details is on &lt;a href=&#34;https://www.bioinformatics.org/wiki/Recommended_books&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Recommended books&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;blogs-website&#34;&gt;Blogs/website&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.sthda.com/english/&#34; target=&#34;_blank&#34;&gt;STHDA&lt;/a&gt;: Statistical tools for high-throughput data analysis.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bioinformatics.org/&#34; target=&#34;_blank&#34;&gt;bioinformatics.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cellbiol.com/&#34; target=&#34;_blank&#34;&gt;The BIO-WEB&lt;/a&gt;: Resources for molecular and cell biologists.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://easybioinfo.free.fr/&#34; target=&#34;_blank&#34;&gt;Easybioinfo&lt;/a&gt;: may use google translate.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.colorbasepair.com/&#34; target=&#34;_blank&#34;&gt;ColorBasePair&lt;/a&gt;: online bioinformatics resources.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;society&#34;&gt;Society&lt;/h2&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The International Society for Computational Biology has links to programs of study and online courses in computational biology and to job postings.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.iscb.org/&#34; target=&#34;_blank&#34;&gt;International Society for Computational Biology&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;careers-how-can-i-become-a-bioinformatics-practitioner&#34;&gt;Careers: How can I become a bioinformatics practitioner?&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Starting from scratch&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;If you are a high school student / sixth former, think about taking an interdisciplinary computational biology or bioinformatics bachelor&amp;rsquo;s degree of the sort offered at, for example, Manchester University in the UK or UPenn in the States. Don&amp;rsquo;t worry if you can&amp;rsquo;t find a place on such a course or there isn&amp;rsquo;t one nearby; perhaps the best way to approach this subject is from two sides. Do a bachelor&amp;rsquo;s degree in one area while taking a healthy interest in the other &amp;ndash; or (if you can afford to) complement a first degree in one part of the discipline with a second degree in the second.
-If you already have a degree in a biological discipline there are similar Master&amp;rsquo;s courses &amp;ndash; both interdisciplinary (e.g. Birkbeck&amp;rsquo;s in London) and conversion type courses &amp;ndash; for biologists or others to learn computer science, for example.
-If you are currently doing a computer science or biology PhD, try to take advantage of the opportunity to take courses in the &amp;ldquo;other&amp;rdquo; discipline.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;From a background in biology&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Biologists should take as many real computing courses as you can. It&amp;rsquo;s important not just to learn a programming language, but also to learn the discipline of computing; to structure and document your work in a rigorous way. What courses you take might be directed by the kind of work you are interested in doing when you graduate &amp;ndash; whether you see yourself supporting bioinformatics applications or building them. For the former you need all-round familiarity with the programs themselves and the hardware and software needed to run them &amp;ndash; plus your existing understanding of biology. For the latter you need to learn a structured programming language and the principles of good program design &amp;ndash; plus the ability to talk to and understand biologists.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;From a background in computational/quantitative science&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;There is the simple value of doing some &amp;ldquo;proper&amp;rdquo; biological laboratory science. There have been many talks during which a bioinformatics &amp;ldquo;scientist&amp;rdquo; describes in great detail how his &amp;ndash; it&amp;rsquo;s usually &amp;ldquo;his&amp;rdquo; &amp;ndash; application of a trendy mathematical tool offers a supposed insight into a (sometimes supposed) biological problem. But, nine times out of ten this method will never be so much as sneezed on by a practising biologist.
-Quantitative scientists sometimes talk about their interest in studying some aspect of &amp;ldquo;God&amp;rsquo;s mind&amp;rdquo;. Biologists, in contrast, are interested in &amp;ldquo;Mother Nature&amp;rdquo;. You might meditate on God in the hope of some revelation, but to understand Nature you have to meet her in the flesh. You are as likely to be useful to biologists working in isolation at the keyboard as you are to conceive with your clothes on. Desk-bound bioinformaticians have written code that has turned out to be popular with biologists, but almost always because they have collaborated with biologists.&lt;/p&gt;
-
-&lt;p&gt;The Details is on &lt;a href=&#34;https://www.bioinformatics.org/wiki/Getting_involved&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Getting involved&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>

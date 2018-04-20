@@ -7,7 +7,7 @@ title = "KABAT"
 
 weight = 30
 # Project summary to display on homepage.
-summary = "The **Kabat** database includes nucleotide sequences, sequences of T cell receptors for antigens (TCR), major histocompatibility complex (MHC) class I and II molecules, and other proteins of immunological interest"
+summary = "The **Kabat** database includes nucleotide sequences, sequences of T cell receptors for antigens (TCR), major histocompatibility complex (MHC) class I and II molecules, and other proteins of immunological interest."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 #image_preview = "bubbles.jpg"

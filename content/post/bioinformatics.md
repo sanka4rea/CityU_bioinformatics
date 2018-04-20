@@ -12,6 +12,7 @@ summary = "**Bioinformatics is an interdisciplinary field that develops methods 
 [header]
 image = "headers/faqs1.png"
 caption = "Image credit: [**FAQs**](http://animallawsource.org/faq/)"
+
 +++
 ---
 ### What is bioinformatics?

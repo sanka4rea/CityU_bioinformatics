@@ -22,10 +22,32 @@ caption = ""
 
 ---
 {{% alert note %}}
-**Database:**
+**Database:**  *(only listed in alphabetical order)*
 {{% /alert %}}
 
+### [5SrRNA](http://combio.pl/rrna/)
 
+**5S ribosomal RNA** is an integral component of the large subunit of all cytoplasmic and most organellar ribosomes.
+
+### [DDBJ](https://www.ddbj.nig.ac.jp/index-e.html)
+
+**DNA database of Japan** (DDBJ) Center provides sharing and analysis services for data from life science researches and advances science.
+
+### [ENA](https://www.ebi.ac.uk/ena)
+
+**The European Nucleotide Archive** (ENA) provides a comprehensive record of the world's nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation.
+
+### [EPD](https://epd.vital-it.ch/index.php)
+
+**Eukaryotic Promoter database** (EPD) is a collection of eukaryotic promoters derived from published articles.
+
+### [GenBank](https://www.ncbi.nlm.nih.gov/genbank/)
+
+**GenBank** is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences.
+
+### [HIV](https://www.hiv.lanl.gov/content/index)
+
+The **HIV** databases contain comprehensive data on HIV genetic sequences and immunological epitopes.
 
 
              

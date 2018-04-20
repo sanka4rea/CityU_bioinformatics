@@ -14,46 +14,46 @@
     
     <item>
       <title>EcoGene</title>
-      <link>/database/genome/ecogene/</link>
+      <link>/database/geno_new/ecogene/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/genome/ecogene/</guid>
+      <guid>/database/geno_new/ecogene/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FLYBASE</title>
-      <link>/database/genome/flybase/</link>
+      <link>/database/geno_new/flybase/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/genome/flybase/</guid>
+      <guid>/database/geno_new/flybase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genome (NCBI)</title>
-      <link>/database/genome/genome/</link>
+      <link>/database/geno_new/genome/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/genome/genome/</guid>
+      <guid>/database/geno_new/genome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MAIZEDB</title>
-      <link>/database/genome/maizedb/</link>
+      <link>/database/geno_new/maizedb/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/genome/maizedb/</guid>
+      <guid>/database/geno_new/maizedb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SGD</title>
-      <link>/database/genome/sgd/</link>
+      <link>/database/geno_new/sgd/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/genome/sgd/</guid>
+      <guid>/database/geno_new/sgd/</guid>
       <description></description>
     </item>
     

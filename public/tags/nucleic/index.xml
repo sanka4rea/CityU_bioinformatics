@@ -14,55 +14,55 @@
     
     <item>
       <title>5S rRNA</title>
-      <link>/database/nucleic/5srrna/</link>
+      <link>/database/nucl_new/5srrna/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/nucleic/5srrna/</guid>
+      <guid>/database/nucl_new/5srrna/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DDBJ</title>
-      <link>/database/nucleic/ddbj/</link>
+      <link>/database/nucl_new/ddbj/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/nucleic/ddbj/</guid>
+      <guid>/database/nucl_new/ddbj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ENA (EMBL)</title>
-      <link>/database/nucleic/ena/</link>
+      <link>/database/nucl_new/ena/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/nucleic/ena/</guid>
+      <guid>/database/nucl_new/ena/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EPD</title>
-      <link>/database/nucleic/epd/</link>
+      <link>/database/nucl_new/epd/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/nucleic/epd/</guid>
+      <guid>/database/nucl_new/epd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GenBank</title>
-      <link>/database/nucleic/genbank/</link>
+      <link>/database/nucl_new/genbank/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/nucleic/genbank/</guid>
+      <guid>/database/nucl_new/genbank/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HIV</title>
-      <link>/database/nucleic/hiv/</link>
+      <link>/database/nucl_new/hiv/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/nucleic/hiv/</guid>
+      <guid>/database/nucl_new/hiv/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gene_related on CityU-Bioinformatics</title>
+    <link>/tags/gene_related/</link>
+    <description>Recent content in Gene_related on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gene_related/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gene Prediction</title>
+      <link>/tools/gene_new/gene-prediction/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/gene-prediction/</guid>
+      <description>citation: In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.
+Determining that a sequence is functional should be distinguished from determining the function of the gene or its product.</description>
+    </item>
+    
+  </channel>
+</rss>

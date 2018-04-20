@@ -32,7 +32,70 @@
     
     <url>
     
-      <loc>/database/genome/genome/</loc>
+      <loc>/database/geno_new/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC-2/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC-3/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/gene_new/tutorial1---%E5%89%AF%E6%9C%AC/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/mole_new/tutorial1/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/pro_new/tutorial1---%E5%89%AF%E6%9C%AC/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/pro_new/tutorial1/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/seq_new/tutorial1---%E5%89%AF%E6%9C%AC/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +140,7 @@
     
     <url>
     
-      <loc>/database/nucleic/genbank/</loc>
+      <loc>/database/nucl_new/genbank/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +149,16 @@
     
     <url>
     
-      <loc>/database/other/omim/</loc>
+      <loc>/tools/gene_new/gene-prediction/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/database/oth_new/omim/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +176,7 @@
     
     <url>
     
-      <loc>/database/prostr/pdb/</loc>
+      <loc>/database/pro_str_new/pdb/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +194,16 @@
     
     <url>
     
-      <loc>/database/genome/sgd/</loc>
+      <loc>/database/geno_new/sgd/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/seq_new/sequence-alignment/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,7 +221,7 @@
     
     <url>
     
-      <loc>/database/proseq/uniport/</loc>
+      <loc>/database/pro_seq_new/uniport/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -230,7 +311,7 @@
     
     <url>
     
-      <loc>/database/nucleic/ena/</loc>
+      <loc>/database/nucl_new/ena/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -239,7 +320,7 @@
     
     <url>
     
-      <loc>/database/genome/ecogene/</loc>
+      <loc>/database/geno_new/ecogene/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -248,7 +329,7 @@
     
     <url>
     
-      <loc>/database/other/gpcrdb/</loc>
+      <loc>/database/oth_new/gpcrdb/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -257,7 +338,7 @@
     
     <url>
     
-      <loc>/database/proseq/pir/</loc>
+      <loc>/database/pro_seq_new/pir/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -266,7 +347,7 @@
     
     <url>
     
-      <loc>/database/prostr/scop2/</loc>
+      <loc>/database/pro_str_new/scop2/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -311,7 +392,7 @@
     
     <url>
     
-      <loc>/database/prostr/cath/</loc>
+      <loc>/database/pro_str_new/cath/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -320,7 +401,7 @@
     
     <url>
     
-      <loc>/database/nucleic/ddbj/</loc>
+      <loc>/database/nucl_new/ddbj/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -329,7 +410,7 @@
     
     <url>
     
-      <loc>/database/genome/flybase/</loc>
+      <loc>/database/geno_new/flybase/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -347,7 +428,7 @@
     
     <url>
     
-      <loc>/database/proseq/kabat/</loc>
+      <loc>/database/pro_seq_new/kabat/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -356,7 +437,7 @@
     
     <url>
     
-      <loc>/database/other/swiss-2dpage/</loc>
+      <loc>/database/oth_new/swiss-2dpage/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -392,7 +473,7 @@
     
     <url>
     
-      <loc>/database/other/dbd/</loc>
+      <loc>/database/oth_new/dbd/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -401,7 +482,7 @@
     
     <url>
     
-      <loc>/database/nucleic/hiv/</loc>
+      <loc>/database/nucl_new/hiv/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -419,7 +500,7 @@
     
     <url>
     
-      <loc>/database/genome/maizedb/</loc>
+      <loc>/database/geno_new/maizedb/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -437,7 +518,7 @@
     
     <url>
     
-      <loc>/database/prostr/prosite/</loc>
+      <loc>/database/pro_str_new/prosite/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -491,7 +572,7 @@
     
     <url>
     
-      <loc>/database/nucleic/5srrna/</loc>
+      <loc>/database/nucl_new/5srrna/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -500,7 +581,7 @@
     
     <url>
     
-      <loc>/database/other/cmvd/</loc>
+      <loc>/database/oth_new/cmvd/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -509,7 +590,7 @@
     
     <url>
     
-      <loc>/database/proseq/enzyme/</loc>
+      <loc>/database/pro_seq_new/enzyme/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -545,7 +626,7 @@
     
     <url>
     
-      <loc>/database/prostr/swiss-model/</loc>
+      <loc>/database/pro_str_new/swiss-model/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -572,7 +653,7 @@
     
     <url>
     
-      <loc>/database/nucleic/epd/</loc>
+      <loc>/database/nucl_new/epd/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -581,7 +662,7 @@
     
     <url>
     
-      <loc>/database/proseq/interpro/</loc>
+      <loc>/database/pro_seq_new/interpro/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -599,7 +680,7 @@
     
     <url>
     
-      <loc>/database/prostr/pmp/</loc>
+      <loc>/database/pro_str_new/pmp/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -716,6 +797,15 @@
     
     <url>
     
+      <loc>/tools/genepart/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/database/genome/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -735,6 +825,15 @@
     <url>
     
       <loc>/lab/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/molecular/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -779,6 +878,24 @@
     
     <url>
     
+      <loc>/tools/protein/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools/sequence/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/server/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -789,15 +906,6 @@
     <url>
     
       <loc>/tools/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tutorial/type1/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -911,6 +1019,16 @@
     
     <url>
     
+      <loc>/tags/gene_related/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/genome/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -982,6 +1100,16 @@
     
       <loc>/tags/r/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/sequence_related/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

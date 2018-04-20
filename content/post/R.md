@@ -14,7 +14,9 @@ image = "headers/R5r.png"
 caption = "Image credit: [**R**](https://www.r-project.org/)"
 +++
 ---
+<span id="jump"></span>
 ### What is R ?
+
 <p align="justify">**R** is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.
 
 <p align="justify">R provides **a wide variety of** statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, …) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity.
@@ -98,6 +100,8 @@ As far as getting started with R by reading stuff, there is of course this book.
 * A longer list of books can be found on the [CRAN web site](https://www.r-project.org/doc/bib/R-books.html).
 
 **Citation**： [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) Author: Roger D. Peng
+
+[<div><i class="fa fa-hand-o-up fa-2x "></i>***Return top***</div>](#jump)
 
 
 ---

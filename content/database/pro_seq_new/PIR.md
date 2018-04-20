@@ -7,7 +7,7 @@ title = "PIR"
 
 weight = 20
 # Project summary to display on homepage.
-summary = "**Protein Information Resource**, part of UniProt"
+summary = "**Protein Information Resource**, part of UniProt."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 #image_preview = "bubbles.jpg"

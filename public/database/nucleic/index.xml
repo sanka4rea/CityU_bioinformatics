@@ -12,59 +12,5 @@
 	<atom:link href="/database/nucleic/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>GenBank</title>
-      <link>/database/nucleic/genbank/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/nucleic/genbank/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ENA (EMBL)</title>
-      <link>/database/nucleic/ena/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/nucleic/ena/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DDBJ</title>
-      <link>/database/nucleic/ddbj/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/nucleic/ddbj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HIV</title>
-      <link>/database/nucleic/hiv/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/nucleic/hiv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>5S rRNA</title>
-      <link>/database/nucleic/5srrna/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/nucleic/5srrna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EPD</title>
-      <link>/database/nucleic/epd/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/nucleic/epd/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
