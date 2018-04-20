@@ -7,8 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting started with R</title>
+      <link>/tutorial/getstart/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/getstart/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorial/start.jpg&#34; alt=&#34;start&#34; /&gt;
+&lt;a href=&#34;http://www.tekmoz.com/laptop-repair-course-lets-get-started/&#34; target=&#34;_blank&#34;&gt;Preview Image Citation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The first thing you need to do to get started with R is to install it on your computer. R works on pretty much every platform available, including the widely available Windows, Mac OS X, and Linux systems. If you want to watch a step-by-step tutorial on how to install R for Mac or Windows, you can watch these videos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Ohnk9hcxf9M&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34;&gt;Installing R on Windows&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uxuuWXU-7UQ&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34;&gt;Installing R on the Mac&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;There is also an integrated development environment available for R that is built by RStudio. I really like this IDE—it has a nice editor with syntax highlighting, there is an R object viewer, and there are a number of other nice features that are integrated. You can see how to install RStudio here&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bM7Sfz-LADM&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34;&gt;Installing RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The RStudio IDE is available from &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio’s web site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;getting-started-with-the-r-interface&#34;&gt;Getting started with the R interface&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;After you install R you will need to launch it and start writing R code. Before we get to exactly how to write R code, it’s useful to get a sense of how the system is organized. In these two videos I talk about where to write code and how set your working directory, which let’s R know where to find all of your files.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8xT3hmJQskU&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34;&gt;Writing code and setting your working directory on the Mac&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XBcvH1BpIBo&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34;&gt;Writing code and setting your working directory on Windows&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;a href=&#34;https://bookdown.org/rdpeng/rprogdatascience/&#34; target=&#34;_blank&#34;&gt;R programming for data science&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
     
     <item>
       <title>Aerican Journal of Human Genetics (AJHG)</title>
@@ -61,6 +108,44 @@
       
       <guid>/database/genome/genome/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials_1</title>
+      <link>/tutorial/type1/tutorial1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/type1/tutorial1/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials_2</title>
+      <link>/tutorial/type1/tutorial2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/type1/tutorial2/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/bioinformatics.png&#34; alt=&#34;t2&#34; /&gt;
+Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
     </item>
     
     <item>
@@ -190,68 +275,73 @@
     </item>
     
     <item>
-      <title>Tutorials_1</title>
-      <link>/tutorial/type1/tutorial1/</link>
+      <title>Sources</title>
+      <link>/tutorial/sources/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/type1/tutorial1/</guid>
-      <description>&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/avatar.jpg&#34; alt=&#34;t1&#34; /&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+      <guid>/tutorial/sources/</guid>
+      <description>
 
 &lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tutorials_3</title>
-      <link>/tutorial/type2/tutorial3/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tutorial/type2/tutorial3/</guid>
-      <description>&lt;hr /&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tutorial/sources.jpg&#34; width=&#34;600&#34; height=&#34;300&#34; alt=&#34;edx&#34; align= center/&gt;
+&lt;a href=&#34;http://www.gettingsmart.com/2012/09/50-top-sources-of-free-elearning-courses/&#34; target=&#34;_blank&#34;&gt;Preview Image Citation&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;h3 id=&#34;online-sources&#34;&gt;Online Sources&lt;/h3&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;There are many great &lt;strong&gt;open sources website&lt;/strong&gt; which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/Cityubms.png&#34; alt=&#34;t3&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bioconductor&#34;&gt;Bioconductor&lt;/h2&gt;
 
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uniport (SWISS-PROT/TrEMBL)</title>
-      <link>/database/proseq/uniport/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/proseq/uniport/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Asia Pacific Bioinformatics Conference (APBC)</title>
-      <link>/journal/conferences/apbc/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/journal/conferences/apbc/</guid>
-      <description>&lt;hr /&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;a href=&#34;http://www.bioconductor.org/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Bioconductor&lt;/strong&gt;&lt;/a&gt; Bioconductor is an open source, open development software project to provide tools for the analysis and comprehension of high-throughput genomic data. It is based primarily on the R programming language.
+&lt;img src=&#34;/img/tutorial/bioconductor.png&#34; width=&#34;800&#34; height=&#34;600&#34; alt=&#34;edx&#34; align= center/&gt;
+&lt;p align=&#34;justify&#34;&gt;The Bioconductor &lt;a href=&#34;http://www.bioconductor.org/packages/release/bioc/&#34; target=&#34;_blank&#34;&gt;release version&lt;/a&gt; is updated twice each year, and is appropriate for most users. There is also a &lt;a href=&#34;http://bioconductor.org/packages/devel/bioc/&#34; target=&#34;_blank&#34;&gt;development version&lt;/a&gt;, to which new features and packages are added prior to incorporation in the release. A large number of &lt;a href=&#34;http://bioconductor.org/packages/release/data/annotation/&#34; target=&#34;_blank&#34;&gt;meta-data packages&lt;/a&gt; provide pathway, organism, microarray and other annotations.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://apbc2018.bio.keio.ac.jp/&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The Bioconductor project started in 2001 and is overseen by a &lt;a href=&#34;http://www.bioconductor.org/about/core-team/&#34; target=&#34;_blank&#34;&gt;core team&lt;/a&gt;, based primarily at &lt;a href=&#34;https://www.roswellpark.org/&#34; target=&#34;_blank&#34;&gt;Roswell Park Cancer Institute&lt;/a&gt;, and by other members coming from US and international institutions.&lt;/p&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The Asia Pacific Bioinformatics Conference (APBC) series is an annual international forum for exploring research, development and novel applications in the field of Bioinformatics. The aim of APBC is to bring together academia and industry to share knowledge and experiences, and to showcase innovations and achievements. It has been held since 2003 around Asia Pacific Regions&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;There are various kinds of &lt;strong&gt;R-based&lt;/strong&gt; packages:
+&lt;img src=&#34;/img/tutorial/bioconductor2.png&#34; width=&#34;800&#34; height=&#34;600&#34; alt=&#34;edx&#34; align= center/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/journal/conf/apbc2018.png&#34; width = &#34;600&#34; height = &#34;300&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;recommended-books&#34;&gt;Recommended books&lt;/h2&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Accepted papers will be invited to be published in IEEE/ACM TCBB, BMC Bioinformatics, BMC Genomics, BMC Systems Biology, and Computational Biology and Chemistry following each journal’s publication policy.&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;It&amp;rsquo;s notoriously difficult to find any books on bioinformatics itself that cater well for all of those coming from computing, from mathematics and from biology backgrounds. The few textbooks available in the field tend to be eyewateringly expensive as well. Suggested reading has been divided into books of general interest, those best suited to people coming from a computational/mathematical background and books for biologists interested in bioinformatics.&lt;/p&gt;
+
+&lt;p&gt;The Details is on &lt;a href=&#34;https://www.bioinformatics.org/wiki/Recommended_books&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Recommended books&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;blogs-website&#34;&gt;Blogs/website&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sthda.com/english/&#34; target=&#34;_blank&#34;&gt;STHDA&lt;/a&gt;: Statistical tools for high-throughput data analysis.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bioinformatics.org/&#34; target=&#34;_blank&#34;&gt;bioinformatics.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cellbiol.com/&#34; target=&#34;_blank&#34;&gt;The BIO-WEB&lt;/a&gt;: Resources for molecular and cell biologists.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://easybioinfo.free.fr/&#34; target=&#34;_blank&#34;&gt;Easybioinfo&lt;/a&gt;: may use google translate.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.colorbasepair.com/&#34; target=&#34;_blank&#34;&gt;ColorBasePair&lt;/a&gt;: online bioinformatics resources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;society&#34;&gt;Society&lt;/h2&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The International Society for Computational Biology has links to programs of study and online courses in computational biology and to job postings.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.iscb.org/&#34; target=&#34;_blank&#34;&gt;International Society for Computational Biology&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;careers-how-can-i-become-a-bioinformatics-practitioner&#34;&gt;Careers: How can I become a bioinformatics practitioner?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Starting from scratch&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;If you are a high school student / sixth former, think about taking an interdisciplinary computational biology or bioinformatics bachelor&amp;rsquo;s degree of the sort offered at, for example, Manchester University in the UK or UPenn in the States. Don&amp;rsquo;t worry if you can&amp;rsquo;t find a place on such a course or there isn&amp;rsquo;t one nearby; perhaps the best way to approach this subject is from two sides. Do a bachelor&amp;rsquo;s degree in one area while taking a healthy interest in the other &amp;ndash; or (if you can afford to) complement a first degree in one part of the discipline with a second degree in the second.
+If you already have a degree in a biological discipline there are similar Master&amp;rsquo;s courses &amp;ndash; both interdisciplinary (e.g. Birkbeck&amp;rsquo;s in London) and conversion type courses &amp;ndash; for biologists or others to learn computer science, for example.
+If you are currently doing a computer science or biology PhD, try to take advantage of the opportunity to take courses in the &amp;ldquo;other&amp;rdquo; discipline.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;From a background in biology&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Biologists should take as many real computing courses as you can. It&amp;rsquo;s important not just to learn a programming language, but also to learn the discipline of computing; to structure and document your work in a rigorous way. What courses you take might be directed by the kind of work you are interested in doing when you graduate &amp;ndash; whether you see yourself supporting bioinformatics applications or building them. For the former you need all-round familiarity with the programs themselves and the hardware and software needed to run them &amp;ndash; plus your existing understanding of biology. For the latter you need to learn a structured programming language and the principles of good program design &amp;ndash; plus the ability to talk to and understand biologists.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;From a background in computational/quantitative science&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;There is the simple value of doing some &amp;ldquo;proper&amp;rdquo; biological laboratory science. There have been many talks during which a bioinformatics &amp;ldquo;scientist&amp;rdquo; describes in great detail how his &amp;ndash; it&amp;rsquo;s usually &amp;ldquo;his&amp;rdquo; &amp;ndash; application of a trendy mathematical tool offers a supposed insight into a (sometimes supposed) biological problem. But, nine times out of ten this method will never be so much as sneezed on by a practising biologist.
+Quantitative scientists sometimes talk about their interest in studying some aspect of &amp;ldquo;God&amp;rsquo;s mind&amp;rdquo;. Biologists, in contrast, are interested in &amp;ldquo;Mother Nature&amp;rdquo;. You might meditate on God in the hope of some revelation, but to understand Nature you have to meet her in the flesh. You are as likely to be useful to biologists working in isolation at the keyboard as you are to conceive with your clothes on. Desk-bound bioinformaticians have written code that has turned out to be popular with biologists, but almost always because they have collaborated with biologists.&lt;/p&gt;
+
+&lt;p&gt;The Details is on &lt;a href=&#34;https://www.bioinformatics.org/wiki/Getting_involved&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Getting involved&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>

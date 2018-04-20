@@ -23,16 +23,12 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/home/about/</link>
+      <title>Bioinformatics</title>
+      <link>/home/bioinformatics/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
-      <description>Research Interest Our major research interest is to better understand the biology underlying cancer using quantitative approaches. Especially, we have more passion in projects that bridge basic biological studies and clinical research. We have rich experience in integrative analysis of multilevel (epi)genomic data and clinical outcomes for dissecting cancer heterogeneity.
-Current Research 1.Molecularly distinct cancer subtypes
-2.Prognostic and predictive cancer biomarkers
-3.Potential therapeutic targets using network-based approaches
-4.R packages and web tools for analyzing next-generation sequencing data</description>
+      <guid>/home/bioinformatics/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -87,16 +83,6 @@ I am a teaching instructor for the following courses at University X: 11111</des
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/home/server/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a teaching instructor for the following courses at University X: 11111</description>
-    </item>
-    
-    <item>
-      <title>Lab</title>
-      <link>/home/lab/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/home/lab/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 I am a teaching instructor for the following courses at University X: 11111</description>
     </item>

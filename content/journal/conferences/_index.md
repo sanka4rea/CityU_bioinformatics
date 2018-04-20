@@ -14,7 +14,7 @@ caption = ""
 ---
 This is a list of articles about conferences that focus on bioinformatics and computational biology.
 
-The conferences are only listed in alphabetical order.
+**The conferences are only listed in alphabetical order.**
 
 ---
 {{% alert note %}}

@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/tutorial/getstart/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/journal/comprehensive/american-journal-of-human-genetics/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -24,6 +33,24 @@
     <url>
     
       <loc>/database/genome/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/type1/tutorial1/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/type1/tutorial2/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,16 +131,7 @@
     
     <url>
     
-      <loc>/tutorial/type1/tutorial1/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tutorial/type2/tutorial3/</loc>
+      <loc>/tutorial/sources/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -150,6 +168,15 @@
     <url>
     
       <loc>/journal/comprehensive/cell-research/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/online-courses/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -240,15 +267,6 @@
     <url>
     
       <loc>/database/prostr/scop2/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tutorial/type1/tutorial2/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -779,25 +797,7 @@
     
     <url>
     
-      <loc>/tutorial/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tutorial/type1/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tutorial/type2/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -808,6 +808,15 @@
     
       <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/bioinformatics/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -826,6 +835,16 @@
     
       <loc>/post/rstudio/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/bio/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -853,7 +872,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -912,6 +931,16 @@
     
     <url>
     
+      <loc>/tags/online/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/other/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -961,6 +990,16 @@
     
     <url>
     
+      <loc>/tags/start/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/t1/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -971,8 +1010,8 @@
     
     <url>
     
-      <loc>/tags/t2/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <loc>/tags/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -981,7 +1020,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>/tutorial/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

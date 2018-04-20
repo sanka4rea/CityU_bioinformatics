@@ -31,18 +31,21 @@ filter_default = 0
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-
 [[filter]]
   name = "All"
   tag = "*"
+
+[[filter]]
+  name = "Getting started with R"
+  tag = ".start"
   
 [[filter]]
-  name = "Type_1"
+  name = "R For Data Science"
   tag = ".t1"
 
 [[filter]]
-  name = "Type_2"
-  tag = ".t2"
+  name = "Find More"
+  tag = ".online"
   
 
 +++

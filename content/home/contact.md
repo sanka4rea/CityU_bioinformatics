@@ -5,7 +5,7 @@ active = true
 date = "2018-04-11T00:00:00"
 
 title = "Contact"
-subtitle = ""
+subtitle = "Please contact to Correcting error and/or Giving advices. Thanks!"
 
 # Order that this section will appear in.
 weight = 70

@@ -14,7 +14,7 @@ caption = ""
 ---
 Here we listed some comprehensive and authoritative journals that may contain bioinformatics and computational biology topics. 
 
-The journals are only listed in alphabetical order.
+**The journals are only listed in alphabetical order.**
 
 ---
 {{% alert note %}}

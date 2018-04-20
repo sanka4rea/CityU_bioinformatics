@@ -7,7 +7,7 @@ draft = false
 
 tags = ["R"]
 
-summary = "We **mainly** use R for statistics and data analysis, so we briefly introduce R and related sources here. <br/>R is a programming language and **free** software environment for statistical computing and graphics that is supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing **statistical software** and **data analysis**. <br/>R is a GNU package. The source code for the R software environment is written primarily in **C**, **Fortran**, and **R**.  R is freely available under the GNU General Public License, and pre-compiled binary versions are provided for various operating systems."
+summary = "**We mainly use R for statistics and data analysis, so we briefly introduce R and related sources here.** <br/>R is a programming language and **free** software environment for statistical computing and graphics that is supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing **statistical software** and **data analysis**. <br/>R is a GNU package. The source code for the R software environment is written primarily in **C**, **Fortran**, and **R**.  R is freely available under the GNU General Public License, and pre-compiled binary versions are provided for various operating systems."
 
 [header]
 image = "headers/R5r.png"

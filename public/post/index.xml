@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Bioinformatics FAQ</title>
+      <link>/post/bioinformatics/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/post/bioinformatics/</guid>
+      <description>What is bioinformatics? Bioinformatics has been defined many different ways, since practitioners do not always agree upon the scope of its use within the biological and computer sciences, but it is always considered a combination of both sciences, along with other contributing disciplines.
+As an interdisciplinary field of science, bioinformatics combines Computer Science, Biology, Mathematics, Statistics and Engineering to analyze and interpret biological data. Bioinformatics has been used for in silico analyses of biological queries using mathematical and statistical techniques.</description>
+    </item>
+    
+    <item>
       <title>R: Programming Language</title>
       <link>/post/r/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>

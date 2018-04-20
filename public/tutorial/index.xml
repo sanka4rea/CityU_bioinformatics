@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on CityU-Bioinformatics</title>
+    <title>Tutorials on CityU-Bioinformatics</title>
     <link>/tutorial/</link>
-    <description>Recent content in Tutorial on CityU-Bioinformatics</description>
+    <description>Recent content in Tutorials on CityU-Bioinformatics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting started with R</title>
+      <link>/tutorial/getstart/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/getstart/</guid>
+      <description>Preview Image Citation
+Installation The first thing you need to do to get started with R is to install it on your computer. R works on pretty much every platform available, including the widely available Windows, Mac OS X, and Linux systems. If you want to watch a step-by-step tutorial on how to install R for Mac or Windows, you can watch these videos:
+ Installing R on Windows</description>
+    </item>
+    
+    <item>
+      <title>Sources</title>
+      <link>/tutorial/sources/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/sources/</guid>
+      <description>Preview Image Citation
+Online Sources There are many great open sources website which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.
+Bioconductor Bioconductor Bioconductor is an open source, open development software project to provide tools for the analysis and comprehension of high-throughput genomic data. It is based primarily on the R programming language. The Bioconductor release version is updated twice each year, and is appropriate for most users.</description>
+    </item>
+    
+    <item>
+      <title>Online Courses</title>
+      <link>/tutorial/online-courses/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/online-courses/</guid>
+      <description>Preview Image Citation
+Online Courses There are many great online learning platforms that provide various elementary and advanced courses of R/Data science/R-packages. Most of those courses is free, but you can also choose some charged courses for specific needs or pay for a verified certificate of the courses.
+edx online courses edX is a free online course project jointly created by Harvard University and MIT. The purpose is to establish a joint education platform for the world&amp;rsquo;s top universities, improve the quality of teaching, and promote online education online.</description>
+    </item>
     
   </channel>
 </rss>

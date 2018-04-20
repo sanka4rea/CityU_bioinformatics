@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bio</title>
+      <link>/tags/bio/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/bio/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bioinformatics_Specific</title>
@@ -67,6 +76,15 @@
     </item>
     
     <item>
+      <title>Online</title>
+      <link>/tags/online/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Other</title>
       <link>/tags/other/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -103,20 +121,20 @@
     </item>
     
     <item>
+      <title>Start</title>
+      <link>/tags/start/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>T1</title>
       <link>/tags/t1/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/t1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>T2</title>
-      <link>/tags/t2/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/t2/</guid>
       <description></description>
     </item>
     

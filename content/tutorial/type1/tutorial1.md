@@ -5,7 +5,7 @@ date = "2018-04-11"
 # Project title.
 title = "Tutorials_1"
 
-weight = 10
+weight = 5
 # Project summary to display on homepage.
 summary = "**Tutorials_1** is about how to use a computer to find what is known about a gene of interest and also how to get new insights about it."
 
