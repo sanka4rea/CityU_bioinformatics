@@ -26,7 +26,7 @@
           {{ $fontSize := add $fontSmall (mul (sub $fontBig $fontSmall) $weight) }}
           {{ $urlPart1 := relLangURL "/tags/" }}
           {{ $urlPart2 := urlize $name  }}
-          <a href="{{ delimit (slice $urlPart1 $urlPart2) "" }}" style="font-size:{{ $fontSize }}rem">{{ $name }}</a>
+          <a href="{{ delimit (slice $urlPart1 $urlPart2) "" }}" style="font-size:{{ $fontSize }}rem" target="_blank">{{ $name }}</a>
         {{ end }}
       </div>
     {{ end }}

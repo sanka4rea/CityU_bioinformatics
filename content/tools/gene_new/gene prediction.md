@@ -17,7 +17,7 @@ image_preview = "tools/prediction.jpg"
 tags = ["gene_related"]
 
 # Optional external URL for project (replaces project detail page).
-#external_link = "https://cityu-bioinformatics.netlify.com/tools/seq_new/sequence alignment/"
+#external_link = ""
 
 
 # Does the project detail page use math formatting?
@@ -32,7 +32,7 @@ math = false
 +++
 ---
 <img src="/img/tools/prediction.jpg" width="700" height="300" alt="blast" align="center">
-*[citation:](https://www.youtube.com/watch?v=x9S7uIQjs8g)*
+*[citation](https://www.youtube.com/watch?v=x9S7uIQjs8g)*
 <p align="justify">In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.
 
 <p align="justify">Determining that a sequence is functional should be distinguished from determining the function of the gene or its product. Predicting the function of a gene and confirming that the gene prediction is accurate still demands in vivo experimentation[1] through gene knockout and other assays, although frontiers of bioinformatics research[citation needed] are making it increasingly possible to predict the function of a gene based on its sequence alone.

@@ -290,10 +290,16 @@ defaultContentLanguageInSubdir = false
   url    = "/database/genome"
   parent = "Database" 
   
-  [[menu.main]]
+[[menu.main]]
   weight = 5
   name   = "Other Database"
   url    = "/database/other"
+  parent = "Database" 
+  
+[[menu.main]]
+  weight = 6
+  name   = "Cancer specific"
+  url    = "/database/cancer"
   parent = "Database" 
 #
 ##submenu
@@ -336,7 +342,7 @@ defaultContentLanguageInSubdir = false
 #submenu
 [[menu.main]]
   weight = 1
-  name   = "Comprehensive"
+  name   = "Omnibus"
   url    = "/journal/comprehensive"
   parent = "Journals"
 

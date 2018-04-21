@@ -15,7 +15,4 @@ weight = 50
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
-
-I am a teaching instructor for the following courses at University X:
-11111
+Need to confirm. May have account part and galaxy tutorials.

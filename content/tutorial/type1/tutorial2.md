@@ -7,7 +7,7 @@ title = "Tutorials_2"
 
 weight = 6
 # Project summary to display on homepage.
-summary = "**Tutorials_2** is about how to use a computer to find what is known about a gene of interest and also how to get new insights about it."
+summary = "Need to dicuss about the tutorials displayed here.."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tutorial/tutorial3.png"
@@ -30,6 +30,9 @@ math = false
 
 +++
 ---
+
+### Need to dicuss about the tutorials displayed here.
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 ![t2](/img/bioinformatics.png) 

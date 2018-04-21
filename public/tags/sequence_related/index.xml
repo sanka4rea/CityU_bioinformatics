@@ -13,6 +13,17 @@
     
     
     <item>
+      <title> Analysis of High-throughput Sequencing Data</title>
+      <link>/tools/seq_new/htsdata/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/seq_new/htsdata/</guid>
+      <description> citation
+This part may contains the following tools: (Will be filled in the future)
+Fastqc Bowtie Cufflinks Tophat IGV </description>
+    </item>
+    
+    <item>
       <title>Sequence Alignment</title>
       <link>/tools/seq_new/sequence-alignment/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>

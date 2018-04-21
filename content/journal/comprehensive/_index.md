@@ -1,5 +1,5 @@
 +++
-title = "Comprehensive"
+title = "Omnibus"
 date = 2018-04-11
 math = false
 highlight = false
@@ -12,7 +12,7 @@ caption = ""
 
 +++
 ---
-Here we listed some comprehensive and authoritative journals that may contain bioinformatics and computational biology topics. 
+Here we listed some **comprehensive and authoritative** journals that may contain bioinformatics and computational biology topics. 
 
 **The journals are only listed in alphabetical order.**
 

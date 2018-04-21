@@ -18,8 +18,41 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/gene_new/gene-prediction/</guid>
-      <description>citation: In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.
+      <description>citation In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.
 Determining that a sequence is functional should be distinguished from determining the function of the gene or its product.</description>
+    </item>
+    
+    <item>
+      <title>Genome Network Analysis</title>
+      <link>/tools/gene_new/network/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/network/</guid>
+      <description> citation
+This part may contains the following tool: (Will be filled in the future)
+Cytoscape </description>
+    </item>
+    
+    <item>
+      <title>Genome annotation</title>
+      <link>/tools/gene_new/genome-annotation/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/genome-annotation/</guid>
+      <description> citation
+This part may contains the following tools: (Will be filled in the future)
+Gene Ontology KEGG pathways </description>
+    </item>
+    
+    <item>
+      <title>Microarray</title>
+      <link>/tools/gene_new/microarray/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/microarray/</guid>
+      <description> citation: An overview of DNA microarray technology. RNA is isolated from the control and the target samples and labelled cDNA is then hybridized.
+This part may contains the following tools: (Will be filled in the future)
+Express Coverter MIDAS MeV Cluster GenMAPP </description>
     </item>
     
   </channel>

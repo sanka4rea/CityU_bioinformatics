@@ -52,5 +52,9 @@ filter_default = 0
 [[filter]]
   name = "Other"
   tag = ".other"
+  
+[[filter]]
+  name = "Cancer"
+  tag = ".cancer"
 +++
 

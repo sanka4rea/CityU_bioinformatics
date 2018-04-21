@@ -36,11 +36,15 @@ filter_default = 0
   tag = ".fold"
 
 [[filter]]
-  name = "Comprehensive"
+  name = "Omnibus_P1"
+  tag = ".Comprehensive1"
+  
+[[filter]]
+  name = "Omnibus_P2"
   tag = ".Comprehensive"
 
 [[filter]]
-  name = "Bioinformatics Specific"
+  name = "Bioinformatics"
   tag = ".Bioinformatics_Specific"
   
   [[filter]]

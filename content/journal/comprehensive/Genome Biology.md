@@ -14,7 +14,7 @@ summary = "**Genome Biology** publishes outstanding research in all areas of bio
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Comprehensive"]
+tags = ["Comprehensive1"]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "https://www.ncbi.nlm.nih.gov/genbank/"

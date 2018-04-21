@@ -18,7 +18,7 @@ Here we listed some comprehensive and authoritative journals that may contain bi
 
 ---
 {{% alert note %}}
-**Journals:**
+[**Gene Prediction:**]()
 {{% /alert %}}
 
 
