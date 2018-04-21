@@ -217,7 +217,27 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 
 &lt;p&gt;&lt;img src=&#34;/img/tools/prediction.jpg&#34; width=&#34;700&#34; height=&#34;300&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;
 &lt;em&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=x9S7uIQjs8g&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;
-&lt;p align=&#34;justify&#34;&gt;In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.&lt;/p&gt;
+&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#genemark&#34;&gt;GeneMark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#genscan&#34;&gt;GenScan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#fgenesh&#34;&gt;FGENESH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#emboss-cpgplot&#34;&gt;EMBOSS Cpgplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#splign&#34;&gt;Splign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Determining that a sequence is functional should be distinguished from determining the function of the gene or its product. Predicting the function of a gene and confirming that the gene prediction is accurate still demands in vivo experimentation[1] through gene knockout and other assays, although frontiers of bioinformatics research[citation needed] are making it increasingly possible to predict the function of a gene based on its sequence alone.&lt;/p&gt;
 
@@ -242,6 +262,8 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 
 &lt;p&gt;All the software programs are available for &lt;a href=&#34;http://opal.biology.gatech.edu/GeneMark/&#34; target=&#34;_blank&#34;&gt;download and local installation&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;genscan&#34;&gt;GenScan&lt;/h3&gt;
 
 &lt;p&gt;Identifies complete exon/intron structures of genes in genomic DNA. GENSCAN uses a homogeneous fifth order Markov model of noncoding regions and a three periodic (inhomogeneous) fifth order Markov model of coding regions. Features of the program include the capacity to predict multiple genes in a sequence, to deal with partial as well as complete genes, and to predict consistent sets of genes occurring on either or both DNA strands.&lt;/p&gt;
@@ -260,6 +282,8 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 &lt;p&gt;&lt;a href=&#34;http://www.softberry.com/berry.phtml?topic=fgenesh&amp;amp;group=programs&amp;amp;subgroup=gfind&#34; target=&#34;_blank&#34;&gt;Online services&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Reference&lt;/em&gt;&lt;/strong&gt;: Solovyev V, Kosarev P, Seledsov I, Vorobyev D. Automatic annotation of eukaryotic genes, pseudogenes and promoters. Genome Biol. 2006,7, Suppl 1: P. 10.1-10.12.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;emboss-cpgplot&#34;&gt;EMBOSS Cpgplot&lt;/h3&gt;
 
@@ -289,6 +313,8 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 &lt;p&gt;&lt;img src=&#34;/img/tools/splign1.gif&#34;  alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;The online and algorithm could be found at &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=overview&amp;amp;level=form&#34; target=&#34;_blank&#34;&gt;Splign&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
@@ -354,21 +380,27 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 
 &lt;h3 id=&#34;primary-structure&#34;&gt;Primary structure&lt;/h3&gt;
 
-&lt;h2 id=&#34;protparam&#34;&gt;ProtParam&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ProtParam&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;coils&#34;&gt;COILS&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;COILS&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;secondary-structure&#34;&gt;Secondary structure&lt;/h3&gt;
 
-&lt;h2 id=&#34;predictprotein&#34;&gt;PredictProtein&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PredictProtein&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;psipred&#34;&gt;PSIPRED&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PSIPRED&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;tertiary-structure&#34;&gt;tertiary structure&lt;/h3&gt;
 
-&lt;h2 id=&#34;phyre&#34;&gt;Phyre&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Phyre&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;swiss-pdbviewer&#34;&gt;Swiss-PdbViewer&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Swiss-PdbViewer&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 </description>

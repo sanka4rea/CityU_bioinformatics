@@ -7,7 +7,7 @@ title = "Gene Prediction"
 
 weight = 10
 # Project summary to display on homepage.
-summary = "gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. "
+summary = "Gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. "
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/prediction.jpg"
@@ -33,6 +33,10 @@ math = false
 ---
 <img src="/img/tools/prediction.jpg" width="700" height="300" alt="blast" align="center">
 *[citation](https://www.youtube.com/watch?v=x9S7uIQjs8g)*
+<span id="top"></span>
+
+{{% toc %}}
+
 <p align="justify">In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.
 
 <p align="justify">Determining that a sequence is functional should be distinguished from determining the function of the gene or its product. Predicting the function of a gene and confirming that the gene prediction is accurate still demands in vivo experimentation[1] through gene knockout and other assays, although frontiers of bioinformatics research[citation needed] are making it increasingly possible to predict the function of a gene based on its sequence alone.
@@ -56,6 +60,8 @@ The GeneMark series could be used to:
 
 All the software programs are available for [download and local installation](http://opal.biology.gatech.edu/GeneMark/). 
 
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
 ### GenScan
 
 Identifies complete exon/intron structures of genes in genomic DNA. GENSCAN uses a homogeneous fifth order Markov model of noncoding regions and a three periodic (inhomogeneous) fifth order Markov model of coding regions. Features of the program include the capacity to predict multiple genes in a sequence, to deal with partial as well as complete genes, and to predict consistent sets of genes occurring on either or both DNA strands.
@@ -74,6 +80,8 @@ Web version of FGENESH can be used with parameters for the following genomes: hu
 [Online services](http://www.softberry.com/berry.phtml?topic=fgenesh&group=programs&subgroup=gfind)
 
 ***Reference***: Solovyev V, Kosarev P, Seledsov I, Vorobyev D. Automatic annotation of eukaryotic genes, pseudogenes and promoters. Genome Biol. 2006,7, Suppl 1: P. 10.1-10.12.
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ### EMBOSS Cpgplot
 
@@ -101,5 +109,7 @@ Splign comes in several flavors. If you are new to Splign, you can give it a try
 <img src="/img/tools/splign1.gif"  alt="blast" align="center">
 
 The online and algorithm could be found at [Splign](https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=overview&level=form)
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ---

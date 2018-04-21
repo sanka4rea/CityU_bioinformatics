@@ -38,9 +38,9 @@ math = false
 
 ### X!Tandem
 
-## Mascot
+### Mascot
 
-## Sequest
+### Sequest
 
 ### TPP
 

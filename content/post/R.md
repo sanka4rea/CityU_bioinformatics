@@ -14,8 +14,11 @@ image = "headers/R5r.png"
 caption = "Image credit: [**R**](https://www.r-project.org/)"
 +++
 ---
-<span id="jump"></span>
-### What is R ?
+<span id="top"></span>
+
+{{% toc %}}
+
+## What is R ?
 
 <p align="justify">**R** is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.
 
@@ -26,7 +29,7 @@ caption = "Image credit: [**R**](https://www.r-project.org/)"
 <p align="justify">R is available as **Free Software** under the terms of the Free Software Foundation’s GNU General Public License in source code form. It compiles and runs on a wide variety of UNIX platforms and similar systems (including FreeBSD and Linux), Windows and MacOS.
 
 
-### The R environment
+## The R environment
 <p align="justify">R is an integrated suite of software facilities for data manipulation, calculation and graphical display. It includes
 
 * an effective data handling and storage facility,
@@ -45,7 +48,9 @@ caption = "Image credit: [**R**](https://www.r-project.org/)"
 
 **Citation**： [Official Website](https://www.r-project.org/)
 
-### Design of the R System
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+## Design of the R System
 <p align="justify">The primary R system is available from the [Comprehensive R Archive Network](https://cran.r-project.org/), also known as CRAN. CRAN also hosts many add-on packages that can be used to extend the functionality of R.
 
 The R system is divided into 2 conceptual parts:
@@ -72,15 +77,19 @@ When you download a fresh installation of R from CRAN, you get all of the above,
 
 * There are a number of packages being developed on repositories like GitHub and BitBucket but there is no reliable listing of all these packages.
 
-### Limittations of R
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+## Limittations of R
 <p align="justify">No programming language or statistical analysis system is perfect. R certainly has a number of drawbacks. For starters, R is essentially based on almost 50 year old technology, going back to the original S system developed at Bell Labs. There was originally little built in support for dynamic or 3-D graphics (but things have improved greatly since the “old days”).
 
 <p align="justify">Another commonly cited limitation of R is that objects must generally be stored in physical memory. This is in part due to the scoping rules of the language, but R generally is more of a memory hog than other statistical packages. However, there have been a number of advancements to deal with this, both in the R core and also in a number of packages developed by contributors. Also, computing power and capacity has continued to grow over time and amount of physical memory that can be installed on even a consumer-level laptop is substantial. While we will likely never have enough physical memory on a computer to handle the increasingly large datasets that are being generated, the situation has gotten quite a bit easier over time.
 
 <p align="justify">At a higher level one “limitation” of R is that its functionality is based on consumer demand and (voluntary) user contributions. If no one feels like implementing your favorite method, then it’s your job to implement it (or you need to pay someone to do it). The capabilities of the R system generally reflect the interests of the R user community. As the community has ballooned in size over the past 10 years, the capabilities have similarly increased. When I first started using R, there was very little in the way of functionality for the physical sciences (physics, astronomy, etc.). However, now some of those communities have adopted R and we are seeing more code being written for those kinds of applications.
 
-### R Resources
-## Official Manuals
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+## R Resources
+### Official Manuals
 As far as getting started with R by reading stuff, there is of course this book. Also, available from [CRAN](https://cran.r-project.org/) are
 
 * [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
@@ -95,13 +104,12 @@ As far as getting started with R by reading stuff, there is of course this book.
 
 * [R Language Definition](https://cran.r-project.org/doc/manuals/r-release/R-lang.html): This documents the R language and, again, is primarily for developers
 
-## Other Resources
+### Other Resources
 * Major technical publishers like Springer, Chapman & Hall/CRC have entire series of books dedicated to using R in various applications. For example, Springer has a series of books called Use R!.
 * A longer list of books can be found on the [CRAN web site](https://www.r-project.org/doc/bib/R-books.html).
 
 **Citation**： [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) Author: Roger D. Peng
 
-[<div><i class="fa fa-hand-o-up fa-2x "></i>***Return top***</div>](#jump)
-
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ---

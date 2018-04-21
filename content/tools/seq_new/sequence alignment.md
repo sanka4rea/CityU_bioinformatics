@@ -33,8 +33,13 @@ math = false
 ---
 <img src="/img/tools/sequence-alignment.jpg" alt="blast" align="center">
 *[citation:](http://www.sequence-alignment.com/)*
+<span id="top"></span>
+
+{{% toc %}}
+
 <p align="justify">In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix. Gaps are inserted between the residues so that identical or similar characters are aligned in successive columns.
 
+## Sequence Alignment
 ### Blast
 
 <p align="justify">[**The Basic Local Alignment Search Tool** (BLAST)](https://blast.ncbi.nlm.nih.gov/Blast.cgi) finds regions of	local similarity between sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches. BLAST can be used to infer functional and evolutionary relationships between sequences as well as help identify members of gene families.A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold.
@@ -62,7 +67,8 @@ This tool can be used in the following contexts:Protein, Nucleotide, Vectors.
 
 *citation:* [Sequence Similarity Searching](https://www.ebi.ac.uk/Tools/sss/)
 
-<br>
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
 ### FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH
 
 <p align="justify">**FASTA (pronounced FAST-AYE)** is a suite of programs for searching nucleotide or protein databases with a query sequence. FASTA itself performs a local heuristic search of a protein or nucleotide database for a query of the same type. FASTX and FASTY translate a nucleotide query for searching a protein database. TFASTX and TFASTY translate a nucleotide database to be searched with a protein query. Optimal searches are available with the programs SSEARCH (local), GGSEARCH (global) and GLSEARCH (global query against local database).
@@ -80,10 +86,11 @@ This tools can be used in the following contexts:
 * [Proteomes Databases](https://www.ebi.ac.uk/Tools/sss/fasta/proteomes.html)
 * [Whole Genome Shotgun Databases](https://www.ebi.ac.uk/Tools/sss/fasta/wgs.html)
 
-<br>
-### Multiple Sequence Alignment
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-## Clustal Omega
+## Multiple Sequence Alignment
+
+### Clustal Omega
 
 <p align="justify">**Clustal Omega** is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours. It will also make use of multiple processors, where present. In addition, the quality of alignments is superior to previous versions, as measured by a range of popular benchmarks.
 
@@ -96,12 +103,14 @@ Clustal Omega can be run local or online at the following websites:
 * [EBI web server](https://www.ebi.ac.uk/Tools/msa/clustalo/)
 * [Mobyle@Pasteur](https://galaxy.pasteur.fr/forms::clustalO-multialign)
 
-## Clustal W / Clustal X
+### Clustal W / Clustal X
 
 <p align="justify">Clustal 2 comes in two flavors: the command-line version Clustal W and the graphical version Clustal X. Precompiled executables for Linux, Mac OS X and Windows (incl. XP and Vista) of the most recent version (currently 2.1) along with the source code are [available for download](http://www.clustal.org/download/current/) here. You can also browse for [older versions](http://www.clustal.org/download/) (Clustal W 1.81, Clustal V etc). 
 
 <img src="/img/tools/clustal.png" width= 800 height= 500 alt="blast" align="center">
 
 [More detials and official website](http://www.clustal.org/)
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ---

@@ -17,7 +17,7 @@ image_preview = "tutorial/tutorial3.png"
 tags = ["t1"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://cityu-bioinformatics.netlify.com/tutorial/type1/tutorial2/"
+#external_link = "https://cityu-bioinformatics.netlify.com/tutorial/type1/tutorial2/"
 
 # Does the project detail page use math formatting?
 math = false

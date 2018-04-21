@@ -12,14 +12,13 @@ caption = ""
 
 +++
 ---
-Here we listed some comprehensive and authoritative journals that may contain bioinformatics and computational biology topics. 
-
-**The journals are only listed in alphabetical order.**
+{{% alert note %}}
+[**Molecular Evolution:**]({{< ref "tools/mole_new/evolution.md" >}})
+{{% /alert %}}
+<img src="/img/tools/evolution.gif" alt="blast" align="center">
+<p align="justify">Molecular evolution is the process of change in the sequence composition of cellular molecules such as DNA, RNA, and proteins across generations. 
 
 ---
-{{% alert note %}}
-**Journals:**
-{{% /alert %}}
 
 
 

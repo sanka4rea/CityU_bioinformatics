@@ -7,7 +7,7 @@ title = "Genome annotation"
 
 weight = 30
 # Project summary to display on homepage.
-summary = "the process of identifying the locations of genes and all of the coding regions in a genome and determining what those genes do."
+summary = "The process of identifying the locations of genes and all of the coding regions in a genome and determining what those genes do."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/annotation.jpg"

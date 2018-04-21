@@ -38,21 +38,21 @@ math = false
 
 ### Primary structure
 
-## ProtParam
+* **ProtParam**
 
-## COILS
+* **COILS**
 
 ### Secondary structure
 
-## PredictProtein
+* **PredictProtein**
 
-## PSIPRED
+* **PSIPRED**
 
 ### tertiary structure
 
-## Phyre
+* **Phyre**
 
-## Swiss-PdbViewer
+* **Swiss-PdbViewer**
 
 
 ---

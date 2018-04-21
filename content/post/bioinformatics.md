@@ -15,6 +15,10 @@ caption = "Image credit: [**FAQs**](http://animallawsource.org/faq/)"
 
 +++
 ---
+<span id="top"></span>
+
+{{% toc %}}
+
 ### What is bioinformatics?
 
 <p align="justify">**Bioinformatics** has been defined many different ways, since practitioners do not always agree upon the scope of its use within the biological and computer sciences, but it is always considered a combination of both sciences, along with other contributing disciplines.
@@ -37,6 +41,8 @@ caption = "Image credit: [**FAQs**](http://animallawsource.org/faq/)"
 
 <p align="justify">Historically, the term bioinformatics did not mean what it means today. Paulien Hogeweg and Ben Hesper coined it in 1970 to refer to the study of information processes in biotic systems. This definition placed bioinformatics as a field parallel to biophysics (the study of physical processes in biological systems) or biochemistry (the study of chemical processes in biological systems).
 
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
 ### The goals of bioinformatics
 
 <p align="justify">The primary goal of bioinformatics is to increase the understanding of biological processes. What sets it apart from other approaches, however, is its focus on developing and applying computationally intensive techniques to achieve this goal. Examples include: **pattern recognition, data mining, machine learning algorithms, and visualization**. Major research efforts in the field include sequence alignment, gene finding, genome assembly, drug design, drug discovery, protein structure alignment, protein structure prediction, prediction of gene expression and protein–protein interactions, genome-wide association studies, the modeling of evolution and cell division/mitosis.
@@ -46,6 +52,8 @@ caption = "Image credit: [**FAQs**](http://animallawsource.org/faq/)"
 <p align="justify">Over the past few decades, rapid developments in genomic and other molecular research technologies and developments in information technologies have combined to produce a tremendous amount of information related to molecular biology. Bioinformatics is the name given to these mathematical and computing approaches used to glean understanding of biological processes.
 
 <p align="justify">Common activities in bioinformatics include mapping and analyzing DNA and protein sequences, aligning DNA and protein sequences to compare them, and creating and viewing 3-D models of protein structures.
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ### What are the most common bioinformatics programs?
 
@@ -61,6 +69,8 @@ More:
 * [AutoDock](http://autodock.scripps.edu/) - Suite of Automated Docking Tools
 * [Gromacs](http://www.gromacs.org/) - A molecular dynamics package primarily designed for biomolecular systems such as proteins and lipids
 * [OrfPredictor](http://proteomics.ysu.edu/tools/OrfPredictor.html) - The OrfPredictor (ORF-Predictor) server is designed for ORF prediction and translation of a batch of EST or cDNA sequences
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ### What are the most common bioinformatics technologies?
 
@@ -84,6 +94,8 @@ More:
 
 <p align="justify">[Molecular modelling](https://www.bioinformatics.org/wiki/Molecular_modelling) / [structural biology](https://www.bioinformatics.org/wiki/Structural_biology) is a growing field which can be considered part of bioinformatics. There are, for example, tools which allow you (often via the Net) to make pretty good predictions of the secondary structure of proteins arising from a given `amino acid sequence`, often based on known "solved" structures and other sequenced molecules acquired by structural biologists.
 
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
 ### Fields related to bioinformatics
 
 * [Biophysics](https://www.bioinformatics.org/wiki/Biophysics)
@@ -100,5 +112,6 @@ More:
 
 [More details](https://www.bioinformatics.org/wiki/Bioinformatics_FAQ) could be found.
 
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ---

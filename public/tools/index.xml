@@ -18,8 +18,8 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/gene_new/gene-prediction/</guid>
-      <description>citation In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.
-Determining that a sequence is functional should be distinguished from determining the function of the gene or its product.</description>
+      <description>citation 
+Table of Contents      GeneMark GenScan FGENESH EMBOSS Cpgplot Splign     In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.</description>
     </item>
     
     <item>
@@ -41,7 +41,13 @@ Mega OrthMCL Phylip </description>
       <guid>/tools/pro_new/structure/</guid>
       <description> citation
 This part may contains the following tools: (Will be filled in the future)
-Primary structure ProtParam COILS Secondary structure PredictProtein PSIPRED tertiary structure Phyre Swiss-PdbViewer </description>
+Primary structure  ProtParam
+ COILS
+  Secondary structure  PredictProtein
+ PSIPRED
+  tertiary structure  Phyre
+ Swiss-PdbViewer
+  </description>
     </item>
     
     <item>
@@ -50,7 +56,8 @@ Primary structure ProtParam COILS Secondary structure PredictProtein PSIPRED ter
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/seq_new/sequence-alignment/</guid>
-      <description>citation: In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix. Gaps are inserted between the residues so that identical or similar characters are aligned in successive columns.</description>
+      <description>citation: 
+Table of Contents    Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH  Multiple Sequence Alignment  Clustal Omega Clustal W / Clustal X     In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix.</description>
     </item>
     
     <item>

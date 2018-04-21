@@ -17,7 +17,7 @@ image_preview = "tutorial/sources.jpg"
 tags = ["online"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://cityu-bioinformatics.netlify.com/tutorial/sources/"
+#external_link = "https://cityu-bioinformatics.netlify.com/tutorial/sources/"
 
 # Does the project detail page use math formatting?
 math = false
@@ -30,10 +30,14 @@ math = false
 
 +++
 ---
+<span id="top"></span>
+
+{{% toc %}}
+
 <img src="/img/tutorial/sources.jpg" width="600" height="300" alt="edx" align= center/>
 [Preview Image Citation](http://www.gettingsmart.com/2012/09/50-top-sources-of-free-elearning-courses/)
 
-### Online Sources
+## Online Sources
 <p align="justify">There are many great **open sources website** which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.
 
 ## Bioconductor
@@ -45,6 +49,8 @@ math = false
 
 <p align="justify">There are various kinds of **R-based** packages:
 <img src="/img/tutorial/bioconductor2.png" width="800" height="600" alt="edx" align= center/>
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ## Recommended books
 <p align="justify">It's notoriously difficult to find any books on bioinformatics itself that cater well for all of those coming from computing, from mathematics and from biology backgrounds. The few textbooks available in the field tend to be eyewateringly expensive as well. Suggested reading has been divided into books of general interest, those best suited to people coming from a computational/mathematical background and books for biologists interested in bioinformatics.
@@ -64,6 +70,8 @@ The Details is on [**Recommended books**](https://www.bioinformatics.org/wiki/Re
 
 [International Society for Computational Biology](https://www.iscb.org/)
 
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
 ## Careers: How can I become a bioinformatics practitioner?
 **Starting from scratch**:
 
@@ -81,5 +89,7 @@ If you are currently doing a computer science or biology PhD, try to take advant
 Quantitative scientists sometimes talk about their interest in studying some aspect of "God's mind". Biologists, in contrast, are interested in "Mother Nature". You might meditate on God in the hope of some revelation, but to understand Nature you have to meet her in the flesh. You are as likely to be useful to biologists working in isolation at the keyboard as you are to conceive with your clothes on. Desk-bound bioinformaticians have written code that has turned out to be popular with biologists, but almost always because they have collaborated with biologists.
 
 The Details is on [**Getting involved**](https://www.bioinformatics.org/wiki/Getting_involved)
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ---

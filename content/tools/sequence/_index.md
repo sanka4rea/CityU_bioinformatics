@@ -12,14 +12,20 @@ caption = ""
 
 +++
 ---
-Here we listed some comprehensive and authoritative journals that may contain bioinformatics and computational biology topics. 
-
-**The journals are only listed in alphabetical order.**
+{{% alert note %}}
+[**Sequence Alignment:**]({{< ref "tools/seq_new/sequence alignment.md" >}})
+{{% /alert %}}
+<img src="/img/tools/sequence-alignment.jpg" alt="blast" align="center">
+<p align="justify">Amino acid **sequence alignment and analysis** is central to most biochemical and molecular biology applications.  
 
 ---
 {{% alert note %}}
-**Journals:**
+[**Analysis of High-throughput Sequencing Data:**]({{< ref "tools/seq_new/htsdata.md">}})
 {{% /alert %}}
+<img src="/img/tools/hts.jpg" alt="blast" align="center">
+<p align="justify">HTS data with shorter reads has opened up new applications such as whole genome resequencing, indel and SNP detection, transcriptome sequencing, etc.
+
+---
 
 
 
