@@ -67,15 +67,6 @@
     </item>
     
     <item>
-      <title>Galaxy</title>
-      <link>/tags/galaxy/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/galaxy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gene_related</title>
       <link>/tags/gene_related/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -171,15 +162,6 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/sequence_related/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Server</title>
-      <link>/tags/server/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/server/</guid>
       <description></description>
     </item>
     
