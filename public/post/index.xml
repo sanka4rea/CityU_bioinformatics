@@ -22,12 +22,30 @@
     </item>
     
     <item>
+      <title>Galaxy</title>
+      <link>/post/galaxy/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/post/galaxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R: Programming Language</title>
       <link>/post/r/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/post/r/</guid>
       <description>Table of Contents    What is R ? The R environment Design of the R System Limittations of R R Resources  Official Manuals Other Resources     What is R ? R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&amp;amp;T, now Lucent Technologies) by John Chambers and colleagues.</description>
+    </item>
+    
+    <item>
+      <title>Rstudio Server</title>
+      <link>/post/rstudioserver/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/post/rstudioserver/</guid>
+      <description></description>
     </item>
     
     <item>

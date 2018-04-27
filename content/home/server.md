@@ -1,18 +1,25 @@
 +++
-# Custom widget.
-# An example of using the custom widget to create your own homepage section.
-# To create more sections, duplicate this file and edit the values below as desired.
-widget = "custom"
+# Recent Posts widget.
+# This widget displays recent posts from `content/post/`.
+widget = "posts"
 active = true
 date = "2018-04-11"
 
-# Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "Server"
-subtitle = ""
+subtitle = "Galaxy guide and Rstudio server provided by us!"
+
 
 # Order that this section will appear in.
 weight = 50
 
+# Filter posts by tag.
+#  By default, show all recent posts.
+#  Filtering example: `tags_include = ["hugo", "academic"]`
+tags_include = ["server"]
+tags_exclude = []
+
+# Number of posts to list.
+count = 5
+
 +++
 
-Need to confirm. May have account part and galaxy tutorials.

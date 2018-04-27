@@ -941,7 +941,25 @@
     
     <url>
     
+      <loc>/post/galaxy/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/r/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/rstudioserver/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1149,6 +1167,16 @@
     
       <loc>/tags/sequence_related/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/server/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
