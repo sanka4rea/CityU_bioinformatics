@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bms4001_p1 on CityU-Bioinformatics</title>
+    <link>/tags/bms4001_p1/</link>
+    <description>Recent content in Bms4001_p1 on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bms4001_p1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ClinVar Database</title>
+      <link>/tutorial/bms4001/clinvar-database/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/clinvar-database/</guid>
+      <description>ClinVar is a freely accessible, public archive of reports of the relationships among human variations and phenotypes, with supporting evidence.
+ Provides reports of the relationship among human variations and phenotypes, with supporting evidence Submission driven Submission of data can be from: 1. Clinical and research laboratories. 2. Locus specific databases. 3. Authors of publications  Official Website
+Functionalities of ClinVar Facilitates access to and communication about the relationships asserted between human variation + observed health status.</description>
+    </item>
+    
+    <item>
+      <title>Gene Expression Omnibus</title>
+      <link>/tutorial/bms4001/geo/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/geo/</guid>
+      <description>Gene Expression Omnibus (GEO) is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles.
+The three main goals of GEO are to:
+ Provide a robust, versatile database in which to efficiently store high-throughput functional genomic data (see Data organization) Offer simple submission procedures and formats that support complete and well-annotated data deposits from the research community (see Submission guide) Provide user-friendly mechanisms that allow users to query, locate, review and download studies and gene expression profiles of interest (see Query and analysis)  Please see the GEO Documentation listings to find more information about various aspects of GEO.</description>
+    </item>
+    
+    <item>
+      <title>History of Computer</title>
+      <link>/tutorial/bms4001/computer/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/computer/</guid>
+      <description>The history of Computer. This part will briefly introduce the history of computer.
+What is computer?  The word ‘Computer‘ is come from the word ‘compute’ which means to calculate. In the the early 17th century, computer is a job position that a person performing mathematical calculation for the company. This position is lately replaced by electronic computer. when the electronic computer are commerically available.  The usage of computer A computer is a electronic machine that help you:</description>
+    </item>
+    
+    <item>
+      <title>History of Internet</title>
+      <link>/tutorial/bms4001/internet/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/internet/</guid>
+      <description>The Internet is a worldwide system of interconnected computer networks that use the TCP/IP set of network protocols to reach billions of users. The Internet began as a U.S Department of Defense network to link scientists and university professors around the world..
+A network of networks, today, the Internet serves as a global data communications system that links millions of private, public, academic and business networks via an international telecommunications backbone that consists of various electronic and optical networking technologies.</description>
+    </item>
+    
+    <item>
+      <title>NIH Disaster Research Response (DR2)</title>
+      <link>/tutorial/bms4001/nih/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/nih/</guid>
+      <description>NIH Disaster Research Response (DR2) is the national framework for research on the medical and public health aspects of disasters and public health emergencies.
+ Public health informatics database created by the National Institute of Environmental Health Sciences and the National Library of Medicine. Framework for researching medical and public health aspects of disasters and public health emergencies. Offers tools, research protocols, disaster research, disaster news, and events.  Official Website</description>
+    </item>
+    
+    <item>
+      <title>UCSC Genome Browser</title>
+      <link>/tutorial/bms4001/ucsc_gb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/ucsc_gb/</guid>
+      <description>UCSC Genome Browser  is a web-based tool that provides a fast, easy way to display a specific region of a genome assembly, along with dozens of aligned annotation tracks.
+The browser features data from a large collection of vertebrates, model organisms, and selected invertebrate genomes.
+ Rapid and reliable display of any requested portion of genomes. Dozens of aligned annotation tracks show together. Tracks can be hidden, collapsed into a condensed or full display according to the user&amp;rsquo;s criteria.</description>
+    </item>
+    
+  </channel>
+</rss>

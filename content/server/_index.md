@@ -16,7 +16,7 @@ caption = ""
 {{% /alert %}}
 <img src="/img/server/rstudioserver.png" alt="server" align="center">
 <p align="justify">Here is a [**Rstudio server**](http://144.214.26.67:8787/auth-sign-in) for students of City University Hong Kong.    
-***Account is needed!***
+***Account is needed!*** Please check your e-mail for the account.
 
 ---
 {{% alert note %}}

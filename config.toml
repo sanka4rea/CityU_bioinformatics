@@ -255,9 +255,28 @@ defaultContentLanguageInSubdir = false
   
 #submenu
 [[menu.main]]
-  name = "Tutorial"
-  url = "#tutorials"
+  name = "Tutorials"
+  url = "/tutorial/"
   weight = 2
+  identifier = "Tutorials"
+
+[[menu.main]]
+  weight = 1
+  name   = "Getting start"
+  url    = "/tutorial/getstart"
+  parent = "Tutorials"  
+  
+[[menu.main]]
+  weight = 2
+  name   = "BMS4001 tutorials"
+  url    = "/tutorial/bms4001"
+  parent = "Tutorials"  
+  
+[[menu.main]]
+  weight = 3
+  name   = "Find more"
+  url    = "/tutorial/more"
+  parent = "Tutorials"  
 
 #submenu
 [[menu.main]]

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="State Tobacco Activities Tracking and Evaluation (STATE) System is an electronic data warehouse/interactive application.
+ Contains up-tp-date and historical state-level data Tobacco use prevention &#43; control Integrates data Provide 3 types of comprehensive summary data Facilitate research &#43; consistent data interpretation  Purpose of STATE System  To reduce the incidence of tobacco related disease and preventable death To suport the tracking &#43; monitoring of key data measures Disseminate information via the Internet on an annual basis Maintain key data measures collected from various data sources in one information warehouse Support production of dynamic reports by topic  Target Users of STATE System These materials provide public health officials and researchers with knowledge of a comprehensive tool for tobacco research, and public health professionals can use these systems&rsquo; broad range of data and advanced reporting features to disseminate data related to tobacco control.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/tutorial/4001_new/state/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/tutorial/4001_new/state/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/tutorial/4001_new/state/">
+  <meta property="og:title" content="State Tobacco Activities Tracking and Evaluation (STATE) System | CityU-Bioinformatics">
+  <meta property="og:description" content="State Tobacco Activities Tracking and Evaluation (STATE) System is an electronic data warehouse/interactive application.
+ Contains up-tp-date and historical state-level data Tobacco use prevention &#43; control Integrates data Provide 3 types of comprehensive summary data Facilitate research &#43; consistent data interpretation  Purpose of STATE System  To reduce the incidence of tobacco related disease and preventable death To suport the tracking &#43; monitoring of key data measures Disseminate information via the Internet on an annual basis Maintain key data measures collected from various data sources in one information warehouse Support production of dynamic reports by topic  Target Users of STATE System These materials provide public health officials and researchers with knowledge of a comprehensive tool for tobacco research, and public health professionals can use these systems&rsquo; broad range of data and advanced reporting features to disseminate data related to tobacco control.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>State Tobacco Activities Tracking and Evaluation (STATE) System | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#bioinformatics">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#R_language">
+            
+            <span>R language</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorials</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart">
+                
+                <span>Getting start</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/more">
+                
+                <span>Find more</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/database/nucleic">
+                
+                <span>Nucleic Acid Seq</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/proseq">
+                
+                <span>Protein Sequence</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/prostr">
+                
+                <span>Protein structure</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/genome">
+                
+                <span>Genome Database</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/other">
+                
+                <span>Other Database</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/cancer">
+                
+                <span>Cancer specific</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tools</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tools/sequence">
+                
+                <span>Sequence-related</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tools/genepart">
+                
+                <span>Gene-related</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tools/protein">
+                
+                <span>Protein-related</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tools/molecular">
+                
+                <span>Molecular Evolution</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Omnibus</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Server</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">State Tobacco Activities Tracking and Evaluation (STATE) System</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=State%20Tobacco%20Activities%20Tracking%20and%20Evaluation%20%28STATE%29%20System&amp;url=%2ftutorial%2f4001_new%2fstate%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftutorial%2f4001_new%2fstate%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftutorial%2f4001_new%2fstate%2f&amp;title=State%20Tobacco%20Activities%20Tracking%20and%20Evaluation%20%28STATE%29%20System"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftutorial%2f4001_new%2fstate%2f&amp;title=State%20Tobacco%20Activities%20Tracking%20and%20Evaluation%20%28STATE%29%20System"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=State%20Tobacco%20Activities%20Tracking%20and%20Evaluation%20%28STATE%29%20System&amp;body=%2ftutorial%2f4001_new%2fstate%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<p><img src="/img/tutorial/4001/state.jpg" alt="clinvar" align="center"></p>
+
+<p><span id="top"></span></p>
+
+<p><p align="justify"><a href="https://www.cdc.gov/statesystem/index.html" target="_blank"><strong>State Tobacco Activities Tracking and Evaluation (STATE) System</strong></a> is an electronic data warehouse/interactive application.</p>
+
+<ul>
+<li>Contains up-tp-date and historical state-level data</li>
+<li>Tobacco use prevention + control</li>
+<li>Integrates data</li>
+<li>Provide 3 types of comprehensive summary data</li>
+<li>Facilitate research + consistent data interpretation</li>
+</ul>
+
+<h3 id="purpose-of-state-system">Purpose of STATE System</h3>
+
+<ul>
+<li>To reduce the incidence of tobacco related disease and preventable death</li>
+<li>To suport the tracking + monitoring of key data measures</li>
+<li>Disseminate information via the Internet on an annual basis</li>
+<li>Maintain key data measures collected from various data sources in one information warehouse</li>
+<li>Support production of dynamic reports by topic</li>
+</ul>
+
+<h3 id="target-users-of-state-system">Target Users of STATE System</h3>
+
+<p><p align="justify">These materials provide public health officials and researchers with knowledge of a comprehensive tool for tobacco research, and public health professionals can use these systems&rsquo; broad range of data and advanced reporting features to disseminate data related to tobacco control.</p>
+
+<ul>
+<li>Public health professionals + researchers</li>
+<li>Tobacco research</li>
+<li>Disseminate data related to tobacco control</li>
+</ul>
+
+<p><img src="/img/tutorial/4001/state2.png" alt="clinvar" align="center">
+<a href="https://www.cdc.gov/statesystem/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<h3 id="functionalities">Functionalities</h3>
+
+<p><strong>Presents data</strong> related to:</p>
+
+<ul>
+<li>Current and former tobacco use</li>
+<li>Smoking cessation</li>
+<li>Funding</li>
+<li>Tobacco-related health costs</li>
+<li>Tobacco control policies</li>
+</ul>
+
+<p><strong>Custom Reports:</strong></p>
+
+<ul>
+<li>Build your own report by selecting the topics, states and years</li>
+<li>View data in the System/Export to Excel</li>
+</ul>
+
+<p><strong>State Highlights:</strong></p>
+
+<ul>
+<li>See various data from across the system for a single selected state</li>
+<li>View highlights in the System/Export to PDF</li>
+</ul>
+
+<p><strong>Interactive Maps:</strong></p>
+
+<ul>
+<li>Access key data from across the System in a US map + data table</li>
+<li>View map + table in the System/Export the table to Excel</li>
+</ul>
+
+<p><br>
+<strong>How to use</strong> and <strong>Case Study</strong> could be found in <strong>the student work</strong> below.</p>
+
+<h3 id="bms4001-2018-semester-b-student-work">BMS4001 2018 Semester B Student Work</h3>
+
+<ul>
+<li>Au Yeung Hoi Ying, Cody</li>
+<li>Hau Sarah S R</li>
+<li>Hui Wing Yan, Renee</li>
+<li>Tsang Wui Kan, Ken</li>
+</ul>
+
+<p><a href="https://doc-08-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/5sghifk72v250g146m2f3sf4rpmrcc65/1524924000000/07193667370322989573/07193667370322989573/1x-eEcWzN1avwYyMz8c4dhDwkhQ4Hcb81?e=download" target="_blank"><strong>Download</strong></a></p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/bms4001_p2" target="_blank">bms4001_p2</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/tutorial/4001_new/pico/">PICO (Patient, Intervention, Comparison, Outcome)</a></li>
+        
+        <li><a href="/tutorial/4001_new/colorectal/">Colorectal Cancer Risk Assessment Tool</a></li>
+        
+        <li><a href="/tutorial/4001_new/ridem/">Repository for Informed Decision Making (RIDeM)</a></li>
+        
+        <li><a href="/tutorial/4001_new/breast/">Breast Cancer Risk Assessment Tool</a></li>
+        
+        <li><a href="/tutorial/4001_new/us_cdc/">US CDC FluView Interactive</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Copyright© 2018 Lin QI. All rights reserved. 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

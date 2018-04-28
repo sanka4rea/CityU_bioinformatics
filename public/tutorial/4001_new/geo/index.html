@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Gene Expression Omnibus (GEO) is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles.
+The three main goals of GEO are to:
+ Provide a robust, versatile database in which to efficiently store high-throughput functional genomic data (see Data organization) Offer simple submission procedures and formats that support complete and well-annotated data deposits from the research community (see Submission guide) Provide user-friendly mechanisms that allow users to query, locate, review and download studies and gene expression profiles of interest (see Query and analysis)  Please see the GEO Documentation listings to find more information about various aspects of GEO.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/tutorial/4001_new/geo/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/tutorial/4001_new/geo/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/tutorial/4001_new/geo/">
+  <meta property="og:title" content="Gene Expression Omnibus | CityU-Bioinformatics">
+  <meta property="og:description" content="Gene Expression Omnibus (GEO) is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles.
+The three main goals of GEO are to:
+ Provide a robust, versatile database in which to efficiently store high-throughput functional genomic data (see Data organization) Offer simple submission procedures and formats that support complete and well-annotated data deposits from the research community (see Submission guide) Provide user-friendly mechanisms that allow users to query, locate, review and download studies and gene expression profiles of interest (see Query and analysis)  Please see the GEO Documentation listings to find more information about various aspects of GEO.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Gene Expression Omnibus | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#bioinformatics">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#R_language">
+            
+            <span>R language</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorials</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart">
+                
+                <span>Getting start</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/more">
+                
+                <span>Find more</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/database/nucleic">
+                
+                <span>Nucleic Acid Seq</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/proseq">
+                
+                <span>Protein Sequence</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/prostr">
+                
+                <span>Protein structure</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/genome">
+                
+                <span>Genome Database</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/other">
+                
+                <span>Other Database</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/database/cancer">
+                
+                <span>Cancer specific</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tools</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tools/sequence">
+                
+                <span>Sequence-related</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tools/genepart">
+                
+                <span>Gene-related</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tools/protein">
+                
+                <span>Protein-related</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tools/molecular">
+                
+                <span>Molecular Evolution</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Omnibus</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Server</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Gene Expression Omnibus</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Gene%20Expression%20Omnibus&amp;url=%2ftutorial%2f4001_new%2fgeo%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftutorial%2f4001_new%2fgeo%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftutorial%2f4001_new%2fgeo%2f&amp;title=Gene%20Expression%20Omnibus"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftutorial%2f4001_new%2fgeo%2f&amp;title=Gene%20Expression%20Omnibus"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Gene%20Expression%20Omnibus&amp;body=%2ftutorial%2f4001_new%2fgeo%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<p><img src="/img/tutorial/4001/geo.png" alt="clinvar" align="center"></p>
+
+<p><span id="top"></span></p>
+
+<p><p align="justify"><a href="https://www.ncbi.nlm.nih.gov/clinvar/" target="_blank"><strong>Gene Expression Omnibus</strong></a> (GEO) is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles.</p>
+
+<p>The three main goals of GEO are to:</p>
+
+<ul>
+<li>Provide a robust, versatile database in which to efficiently store high-throughput functional genomic data (<a href="https://www.ncbi.nlm.nih.gov/geo/info/overview.html#org" target="_blank">see Data organization</a>)</li>
+<li>Offer simple submission procedures and formats that support complete and well-annotated data deposits from the research community (<a href="https://www.ncbi.nlm.nih.gov/geo/info/submission.html" target="_blank">see Submission guide</a>)</li>
+<li>Provide user-friendly mechanisms that allow users to query, locate, review and download studies and gene expression profiles of interest (<a href="https://www.ncbi.nlm.nih.gov/geo/info/overview.html#query" target="_blank">see Query and analysis</a>)</li>
+</ul>
+
+<p>Please see the <a href="https://www.ncbi.nlm.nih.gov/geo/info/" target="_blank"><strong>GEO Documentation</strong></a> listings to find more information about various aspects of GEO.</p>
+
+<p><img src="/img/tutorial/4001/geo2.png" alt="clinvar" align="center">
+<a href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank"><strong>Official Website</strong></a></p>
+
+<h3 id="query-and-analysis">Query and Analysis</h3>
+
+<p>GEO data can be retrieved and analyzed in several ways:</p>
+
+<ul>
+<li><p align="justify">To look at a particular GEO record for which you have the accession number, use the GEO accession box located on the GEO homepage or at the top of each GEO record.</li>
+<li><p align="justify">To download data, see the various options described on the <a href="https://www.ncbi.nlm.nih.gov/geo/info/download.html" target="_blank">Download GEO data</a> page.</li>
+<li><p align="justify">To quickly locate data relevant to your interests, search GEO DataSets and GEO Profiles:<br><a href="https://www.ncbi.nlm.nih.gov/gds/" target="_blank">GEO DataSets</a> is a study-level database which users can search for studies relevant to their interests. The database stores descriptions of all original submitter-supplied records, as well as curated DataSets. More information about GEO DataSets and how to interpret GEO DataSets results pages can be found on the About GEO DataSets page. <br><a href="https://www.ncbi.nlm.nih.gov/geoprofiles/" target="_blank">GEO</a> Profiles is a gene-level database which users can search for gene expression profiles relevant to their interests. More information about GEO Profiles and how to interpret GEO Profiles results pages can be found on the About GEO Profiles page.</li>
+</ul>
+
+<p><p align="justify">GEO DataSet and GEO Profiles searches may be effectively performed by simply entering appropriate keywords and phrases into the search box. However, given the large volumes of data stored in these databases, it is often useful to perform more refined queries in order to filter down to the most relevant data. Examples and full details about how to perform sophisticated queries are provided in the Querying GEO DataSets and GEO Profiles page. Additionally, the Limits and Advanced Search tools, linked at the head of the GEO DataSets and GEO Profiles pages, assist greatly in the construction of complex queries:</p>
+
+<ol>
+<li><p align="justify"><a href="https://www.ncbi.nlm.nih.gov/gds/limits" target="_blank"><strong>GEO DataSets Limits Query Builder</strong></a></li>
+<li><p align="justify"><a href="https://www.ncbi.nlm.nih.gov/gds/advanced" target="_blank"><strong>GEO DataSets Advanced Search</strong></a></li>
+<li><p align="justify"><a href="https://www.ncbi.nlm.nih.gov/geoprofiles/limits" target="_blank"><strong>GEO Profiles Limits Query Builder</strong></a></li>
+<li><p align="justify"><a href="https://www.ncbi.nlm.nih.gov/geoprofiles/advanced" target="_blank"><strong>GEO Profiles Advanced Search</strong></a></li>
+</ol>
+
+<p><p align="justify">Once you have identified a DataSet of interest there are several features on the DataSet record that help identify interesting gene expression profiles within that study, including a t-test tool and clusters. Full information about these features is provided on the About GEO DataSets page.</p>
+
+<p><p align="justify">Once you have identified gene expression profiles of interest there are several links on the Profile records that help identify additional genes of interest, including similarly expressed genes or genes within close proximity on the chromosome. Full information about these links is provided on the <a href="https://www.ncbi.nlm.nih.gov/geo/info/profiles.html" target="_blank">About GEO Profiles</a> page.</p>
+
+<h3 id="geo-architecture-four-kinds-of-data-records">GEO Architecture - Four Kinds of Data Records</h3>
+
+<ol>
+<li><p><p align="justify"><strong>Platform (GPL)</strong> = the technology used and the features detected</p></li>
+
+<li><p><p align="justify"><strong>Sample (GSM)</strong>preparation and description of sample.</p></li>
+
+<li><p><p align="justify"><strong>Series (GSE)</strong><br>a set of sample and how they are related.</p></li>
+
+<li><p><p align="justify"><strong>Data (GDS)</strong><br>sample data collection assembled by GEO staff.</p></li>
+</ol>
+
+<p><br>
+<strong>case study</strong>  could be found in <strong>the student work</strong> below.</p>
+
+<h3 id="bms4001-2018-semester-b-student-work">BMS4001 2018 Semester B Student Work</h3>
+
+<ul>
+<li>Cheung Lung Chun, Joe</li>
+<li>Tsoi Ka Wai, Raymond</li>
+<li>Hu Yashi, Karen</li>
+<li>Kwok Kam Chak, George</li>
+</ul>
+
+<p><a href="https://doc-0k-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/bthtcn3pd8ku6h33kuh9fjta06ae99lr/1524916800000/07193667370322989573/07193667370322989573/1YtkDn75SwnFex1Qq48qNN60oGTnZahTj?e=download" target="_blank"><strong>Download</strong></a></p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/bms4001_p1" target="_blank">bms4001_p1</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/tutorial/4001_new/ucsc_gb/">UCSC Genome Browser</a></li>
+        
+        <li><a href="/tutorial/4001_new/nih/">NIH Disaster Research Response (DR2)</a></li>
+        
+        <li><a href="/tutorial/4001_new/history/">History of Computer</a></li>
+        
+        <li><a href="/tutorial/4001_new/clinvar-database/">ClinVar Database</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Copyright© 2018 Lin QI. All rights reserved. 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

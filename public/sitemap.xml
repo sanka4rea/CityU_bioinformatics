@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/tutorial/getstart/</loc>
+      <loc>/tutorial/getstart/getstart/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,6 +95,15 @@
     
     <url>
     
+      <loc>/tutorial/bms4001/computer/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tools/mole_new/evolution/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -167,7 +176,7 @@
     
     <url>
     
-      <loc>/tutorial/sources/</loc>
+      <loc>/tutorial/mo_new/sources/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -212,7 +221,7 @@
     
     <url>
     
-      <loc>/tutorial/online-courses/</loc>
+      <loc>/tutorial/mo_new/online-courses/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -302,6 +311,15 @@
     
     <url>
     
+      <loc>/tutorial/bms4001/internet/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tools/gene_new/microarray/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -375,6 +393,15 @@
     <url>
     
       <loc>/database/pro_str_new/cath/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/bms4001/clinvar-database/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -518,6 +545,15 @@
     
     <url>
     
+      <loc>/tutorial/bms4001/nih/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/database/pro_str_new/prosite/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -635,6 +671,15 @@
     
     <url>
     
+      <loc>/tutorial/bms4001/ucsc_gb/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/journal/comprehensive/nature-cell-biology/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -654,6 +699,15 @@
     <url>
     
       <loc>/database/nucl_new/epd/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/bms4001/geo/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -707,6 +761,15 @@
     
     <url>
     
+      <loc>/tutorial/bms4001/colorectal/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/journal/comprehensive/nature-medicine/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -717,6 +780,15 @@
     <url>
     
       <loc>/journal/comprehensive/nature-methods/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/bms4001/breast/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -743,6 +815,15 @@
     
     <url>
     
+      <loc>/tutorial/bms4001/pico/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/journal/comprehensive/plos-biology/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -754,6 +835,42 @@
     
       <loc>/journal/comprehensive/systematic-biology/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/bms4001/ridem/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/bms4001/state/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/bms4001/us_cdc/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/bms4001/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -789,6 +906,15 @@
     <url>
     
       <loc>/database/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/more/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -970,6 +1096,26 @@
     <url>
     
       <loc>/tags/bioinformatics_specific/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/bms4001_p1/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/bms4001_p2/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

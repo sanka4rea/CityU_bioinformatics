@@ -12,10 +12,10 @@
     
     <item>
       <title>Getting started with R</title>
-      <link>/tutorial/getstart/</link>
+      <link>/tutorial/getstart/getstart/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/getstart/</guid>
+      <guid>/tutorial/getstart/getstart/</guid>
       <description>
 
 &lt;hr /&gt;
@@ -321,6 +321,113 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
     </item>
     
     <item>
+      <title>History of Computer</title>
+      <link>/tutorial/bms4001/computer/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/computer/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorial/4001/computer.jpg&#34; alt=&#34;clinvar&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The history of &lt;a href=&#34;http://www.computerhistory.org/timeline/computers/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Computer&lt;/strong&gt;&lt;/a&gt;. This part will briefly introduce the history of computer.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-computer&#34;&gt;What is computer?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The word ‘Computer‘ is come from the word ‘compute’ which means to calculate.&lt;/li&gt;
+&lt;li&gt;In the the early 17th century, computer is a job position that a person performing mathematical calculation for the company.&lt;/li&gt;
+&lt;li&gt;This position is lately replaced by electronic computer.&lt;/li&gt;
+&lt;li&gt;when the electronic computer are commerically available.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;the-usage-of-computer&#34;&gt;The usage of computer&lt;/h3&gt;
+
+&lt;p&gt;A computer is a electronic machine that help you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Accepts data&lt;/li&gt;
+&lt;li&gt;Processes data&lt;/li&gt;
+&lt;li&gt;Produce output&lt;/li&gt;
+&lt;li&gt;Store the results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The computer was born not for entertainment or email but out of a need to solve a serious number-crunching crisis. By 1880, the U.S. population had grown so large that it took more than seven years to tabulate the U.S. Census results. The government sought a faster way to get the job done, giving rise to punch-card based computers that took up entire rooms.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Today, we carry more computing power on our smartphones than was available in these early models. The following brief history of computing is a timeline of how computers evolved from their humble beginnings to the machines of today that surf the Internet, play games and stream multimedia in addition to crunching numbers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorial/4001/computer2.png&#34; alt=&#34;clinvar&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;http://www.computerhistory.org/timeline/computers/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1st generation (1946～1958)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;invention stage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2nd generation  (1959～1963))&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;improvement and rapid development of computer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3rd generation  (1964～1970)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PC industry began&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;4th generation (1970~present)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;support research, medical uses and entertainment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;5th generation (future)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;artificial intelligence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;
+The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found in &lt;strong&gt;references&lt;/strong&gt; and/or &lt;strong&gt;the student work&lt;/strong&gt; below.&lt;/p&gt;
+
+&lt;h3 id=&#34;reference-website&#34;&gt;Reference Website&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.computerhistory.org/timeline/computers/&#34; target=&#34;_blank&#34;&gt;Computers | Timeline of Computer History. (n.d.). Retrieved January 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.engineeringprayog.com/what-is-very-large-scale-integration-vlsi-technology/&#34; target=&#34;_blank&#34;&gt;Enamul. (2017, November 21). What is VLSI Technology? VLSI Design, Evolutions, Features and Applications. Retrieved January 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://jabroo.blogspot.hk/2013/06/computer-logical-structure-and-block-diagram.html&#34; target=&#34;_blank&#34;&gt;Shastri , A. (2013, June 19). Logical Structure and Block Diagram of a Computer. Retrieved January 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.livescience.com/20718-computer-history.html&#34; target=&#34;_blank&#34;&gt;Zimmermann, K. A. (2017, September 06). History of Computers: A Brief Timeline. Retrieved January 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bms4001-2018-semester-b-student-work&#34;&gt;BMS4001 2018 Semester B Student Work&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tang Hoi Man,Simon&lt;/li&gt;
+&lt;li&gt;Cheung Tsz Chung,Derek&lt;/li&gt;
+&lt;li&gt;Yau Ka Kit,Danny&lt;/li&gt;
+&lt;li&gt;Chan Ching Yuen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://doc-04-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/v86d3jmaoglhqttms6130hffkjthbufh/1524924000000/07193667370322989573/07193667370322989573/17n-eEDP8ASEjFuWzplS2RHBlCP9c2LPZ?e=download&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Molecular Evolution</title>
       <link>/tools/mole_new/evolution/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -404,15 +511,6 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 
 &lt;hr /&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>RCSB PDB</title>
-      <link>/database/pro_str_new/pdb/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/pro_str_new/pdb/</guid>
-      <description></description>
     </item>
     
   </channel>

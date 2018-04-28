@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Comprehensive on CityU-Bioinformatics</title>
+    <title>Find More on CityU-Bioinformatics</title>
     <link>/tutorial/more/</link>
-    <description>Recent content in Comprehensive on CityU-Bioinformatics</description>
+    <description>Recent content in Find More on CityU-Bioinformatics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -11,17 +11,6 @@
     
 	<atom:link href="/tutorial/more/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Cancer Cell</title>
-      <link>/tutorial/more/cancer-cell/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tutorial/more/cancer-cell/</guid>
-      <description>Official Website
-Cancer Cell provides a high-profile forum to promote major advances in cancer research and oncology. The primary criterion for considering manuscripts is whether the studies provide major advances into answering important questions relevant to naturally occurring cancers. Cancer Cell particularly welcomes translational research.
-Cancer Cell is also interested in publishing clinical investigations, in particular those that lead to establishing new paradigms in the treatment, diagnosis, or prevention of cancers; those that provide important insights into cancer biology beyond what has been revealed by preclinical studies; and those that are mechanism-based proof-of-principle clinical studies.</description>
-    </item>
     
   </channel>
 </rss>

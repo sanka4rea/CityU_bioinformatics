@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bms4001_p2 on CityU-Bioinformatics</title>
+    <link>/tags/bms4001_p2/</link>
+    <description>Recent content in Bms4001_p2 on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bms4001_p2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Breast Cancer Risk Assessment Tool</title>
+      <link>/tutorial/bms4001/breast/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/breast/</guid>
+      <description>The Breast Cancer Risk Assessment Tool is an interactive tool designed by scientists at the National Cancer Institute (NCI) and the National Surgical Adjuvant Breast and Bowel Project (NSABP) to estimate a woman&amp;rsquo;s risk of developing invasive breast cancer.
+Breast cancer: malignant tumor cells originates from the breast that attacks the nearby healthy tissue, and it can spread outside to the other tissue.
+Breast cancer is fatal, it can spread to the lymph nodes,lungs and brain by metastasis, harm the functions of the organ and progressively loses its function.</description>
+    </item>
+    
+    <item>
+      <title>Colorectal Cancer Risk Assessment Tool</title>
+      <link>/tutorial/bms4001/colorectal/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/colorectal/</guid>
+      <description>The Colorectal Cancer Risk Assessment Tool was designed for use by doctors and other health providers with their patients. If you are not a health provider, take these results to your doctor or other health provider to discuss your personal risk of colorectal cancer. (Colorectal cancer is another way to say colon and rectal cancer).
+This tool can estimate the risk of colorectal cancer for men and women who are:</description>
+    </item>
+    
+    <item>
+      <title>PICO (Patient, Intervention, Comparison, Outcome)</title>
+      <link>/tutorial/bms4001/pico/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/pico/</guid>
+      <description>The PICO is a technique used in evidence based practice to frame and answer a clinical or health care related question. The PICO framework is also used to develop literature search strategies. The PICO acronym stands for
+ P – patient, problem or population I – intervention C – comparison, control or comparator[5] O – outcome  Official Website
+evidence-based medicine (EBM) The paradigm of evidence-based medicine (EBM) recommends that physicians formulate clinical questions in terms of the problem/population, intervention, comparison, and outcome.</description>
+    </item>
+    
+    <item>
+      <title>Repository for Informed Decision Making (RIDeM)</title>
+      <link>/tutorial/bms4001/ridem/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/ridem/</guid>
+      <description>RIDeM is one of the LHNCBC Clinical Decision Support projects. The long-term goal of the Repository for Informed Decision Making is to provide access to key facts needed to support clinical decision making. The facts are extracted from biomedical literature and clinical text sources. The development of the Repository is guided by the Evidence Based Medicine (EBM) principles for finding and appraising information.
+ One of the LHNCBC Clinical Decision Support projects Provide access to key factors to support clinical decision making.</description>
+    </item>
+    
+    <item>
+      <title>State Tobacco Activities Tracking and Evaluation (STATE) System</title>
+      <link>/tutorial/bms4001/state/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/state/</guid>
+      <description>State Tobacco Activities Tracking and Evaluation (STATE) System is an electronic data warehouse/interactive application.
+ Contains up-tp-date and historical state-level data Tobacco use prevention + control Integrates data Provide 3 types of comprehensive summary data Facilitate research + consistent data interpretation  Purpose of STATE System  To reduce the incidence of tobacco related disease and preventable death To suport the tracking + monitoring of key data measures Disseminate information via the Internet on an annual basis Maintain key data measures collected from various data sources in one information warehouse Support production of dynamic reports by topic  Target Users of STATE System These materials provide public health officials and researchers with knowledge of a comprehensive tool for tobacco research, and public health professionals can use these systems&amp;rsquo; broad range of data and advanced reporting features to disseminate data related to tobacco control.</description>
+    </item>
+    
+    <item>
+      <title>US CDC FluView Interactive</title>
+      <link>/tutorial/bms4001/us_cdc/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms4001/us_cdc/</guid>
+      <description>US CDC FluView Interactive. The CDC FluView report provides weekly influenza surveillance information in the United States. These applications were developed to enhance the weekly FluView report by better facilitating communication about influenza with the public health community, clinicians, scientists, and the general public. This series of dynamic visualizations allow any Internet user to access influenza information collected by CDC’s monitoring systems.
+Background  HK is now in the winter surge of influenza.</description>
+    </item>
+    
+  </channel>
+</rss>

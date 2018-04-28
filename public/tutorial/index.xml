@@ -14,10 +14,10 @@
     
     <item>
       <title>Getting started with R</title>
-      <link>/tutorial/getstart/</link>
+      <link>/tutorial/getstart/getstart/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/getstart/</guid>
+      <guid>/tutorial/getstart/getstart/</guid>
       <description>Preview Image Citation
 Installation The first thing you need to do to get started with R is to install it on your computer. R works on pretty much every platform available, including the widely available Windows, Mac OS X, and Linux systems. If you want to watch a step-by-step tutorial on how to install R for Mac or Windows, you can watch these videos:
  Installing R on Windows</description>
@@ -43,10 +43,10 @@ Installation The first thing you need to do to get started with R is to install 
     
     <item>
       <title>Sources</title>
-      <link>/tutorial/sources/</link>
+      <link>/tutorial/mo_new/sources/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/sources/</guid>
+      <guid>/tutorial/mo_new/sources/</guid>
       <description>Table of Contents    Online Sources Bioconductor Recommended books Blogs/website Society Careers: How can I become a bioinformatics practitioner?    Preview Image Citation
 Online Sources There are many great open sources website which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.
 Bioconductor Bioconductor Bioconductor is an open source, open development software project to provide tools for the analysis and comprehension of high-throughput genomic data.</description>
@@ -54,10 +54,10 @@ Bioconductor Bioconductor Bioconductor is an open source, open development softw
     
     <item>
       <title>Online Courses</title>
-      <link>/tutorial/online-courses/</link>
+      <link>/tutorial/mo_new/online-courses/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/online-courses/</guid>
+      <guid>/tutorial/mo_new/online-courses/</guid>
       <description>Table of Contents    Online Courses edx online courses  R Programming courses: Data Science related courses: Mechine Learning courses:  Coursera online courses  R Programming courses: Data Science related courses: Mechine Learning courses:     Preview Image Citation
 Online Courses There are many great online learning platforms that provide various elementary and advanced courses of R/Data science/R-packages. Most of those courses is free, but you can also choose some charged courses for specific needs or pay for a verified certificate of the courses.</description>
     </item>

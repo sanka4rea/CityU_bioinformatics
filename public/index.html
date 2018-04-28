@@ -149,19 +149,40 @@
         
 
         
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#tutorials" data-target="#tutorials">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
-            <span>Tutorial</span>
+            <span>Tutorials</span>
             
+            <span class="caret"></span>
           </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart" data-target="/tutorial/getstart">
+                
+                <span>Getting start</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001" data-target="/tutorial/bms4001">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/more" data-target="/tutorial/more">
+                
+                <span>Find more</span>
+                
+              </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -705,7 +726,7 @@ url('/img/headers/biology1.jpg');
   </h3>
   <div class="article-style" itemprop="articleBody">
     
-    <p>RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.</p>
+    <p><strong>RStudio</strong> is an <strong>integrated development environment (IDE)</strong> for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.</p>
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">
@@ -746,7 +767,7 @@ url('/img/headers/biology1.jpg');
 
     
     
-    <span class="hidden default-project-filter">*</span>
+    <span class="hidden default-project-filter">.start</span>
     
 
     
@@ -756,11 +777,11 @@ url('/img/headers/biology1.jpg');
         <div class="btn-toolbar">
           <div class="btn-group">
             
-              <a href="#" data-filter="*" class="btn btn-primary btn-large active" target="_blank">All</a>
+              <a href="#" data-filter=".start" class="btn btn-primary btn-large active" target="_blank">Getting started with R</a>
             
-              <a href="#" data-filter=".start" class="btn btn-primary btn-large" target="_blank">Getting started with R</a>
+              <a href="#" data-filter=".bms4001_p1" class="btn btn-primary btn-large" target="_blank">BMS4001_part1</a>
             
-              <a href="#" data-filter=".t1" class="btn btn-primary btn-large" target="_blank">R For Data Science</a>
+              <a href="#" data-filter=".bms4001_p2" class="btn btn-primary btn-large" target="_blank">BMS4001_part2</a>
             
               <a href="#" data-filter=".online" class="btn btn-primary btn-large" target="_blank">Find More</a>
             
@@ -782,13 +803,13 @@ url('/img/headers/biology1.jpg');
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item start">
         <div class="card">
           
-          <a href="/tutorial/getstart/" title="" class="card-image hover-overlay"
+          <a href="/tutorial/getstart/getstart/" title="" class="card-image hover-overlay"
               target="_blank">
             <img src="/img/tutorial/start.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tutorial/getstart/"  target="_blank">Getting started with R</a></h4>
+            <h4><a href="/tutorial/getstart/getstart/"  target="_blank">Getting started with R</a></h4>
             <div class="card-desription">
               <p>Installation and Getting started with the R interface</p>
             </div>
@@ -839,16 +860,36 @@ url('/img/headers/biology1.jpg');
       
       
       
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p1">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/computer/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/computer.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/computer/"  target="_blank">History of Computer</a></h4>
+            <div class="card-desription">
+              <p>This part will briefly introduce the history of <strong>computer</strong>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item online">
         <div class="card">
           
-          <a href="/tutorial/sources/" title="" class="card-image hover-overlay"
+          <a href="/tutorial/mo_new/sources/" title="" class="card-image hover-overlay"
               target="_blank">
             <img src="/img/tutorial/sources.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tutorial/sources/"  target="_blank">Sources</a></h4>
+            <h4><a href="/tutorial/mo_new/sources/"  target="_blank">Sources</a></h4>
             <div class="card-desription">
               <p>This part will introduce some open sources website which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.</p>
             </div>
@@ -862,15 +903,235 @@ url('/img/headers/biology1.jpg');
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item online">
         <div class="card">
           
-          <a href="/tutorial/online-courses/" title="" class="card-image hover-overlay"
+          <a href="/tutorial/mo_new/online-courses/" title="" class="card-image hover-overlay"
               target="_blank">
             <img src="/img/tutorial/online.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tutorial/online-courses/"  target="_blank">Online Courses</a></h4>
+            <h4><a href="/tutorial/mo_new/online-courses/"  target="_blank">Online Courses</a></h4>
             <div class="card-desription">
               <p>This part will introduce two main online learning platforms which contains courses of R to help you go further on R programming/data science/machine learning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p1">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/internet/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/internet.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/internet/"  target="_blank">History of Internet</a></h4>
+            <div class="card-desription">
+              <p>The <strong>Internet</strong> is a worldwide system of interconnected computer networks that use the TCP/IP set of network protocols to reach billions of users.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p1">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/clinvar-database/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/clinvar.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/clinvar-database/"  target="_blank">ClinVar Database</a></h4>
+            <div class="card-desription">
+              <p><strong>ClinVar</strong> aggregates information about genomic variation and its relationship to human health.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p1">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/nih/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/dr21.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/nih/"  target="_blank">NIH Disaster Research Response (DR2)</a></h4>
+            <div class="card-desription">
+              <p><strong>The NIH Disaster Research Response Program</strong> (DR2) is the national framework for research on the medical and public health aspects of disasters and public health emergencies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p1">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/ucsc_gb/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/ucsc_gb.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/ucsc_gb/"  target="_blank">UCSC Genome Browser</a></h4>
+            <div class="card-desription">
+              <p><strong>UCSC Genome Browser</strong> is a web-based tool that provides a fast, easy way to display a specific region of a genome assembly, along with dozens of aligned annotation tracks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p1">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/geo/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/geo.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/geo/"  target="_blank">Gene Expression Omnibus</a></h4>
+            <div class="card-desription">
+              <p><strong>GEO</strong> is a public functional genomics data repository supporting MIAME-compliant data submissions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p2">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/colorectal/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/ccrat.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/colorectal/"  target="_blank">Colorectal Cancer Risk Assessment Tool</a></h4>
+            <div class="card-desription">
+              <p>The <strong>Colorectal Cancer Risk Assessment Tool</strong> was designed for use by doctors and other health providers with their patients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p2">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/breast/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/brca.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/breast/"  target="_blank">Breast Cancer Risk Assessment Tool</a></h4>
+            <div class="card-desription">
+              <p>The <strong>Breast Cancer Risk Assessment Tool</strong> is an interactive tool to estimate a woman&rsquo;s risk of developing invasive breast cancer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p2">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/pico/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/pico.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/pico/"  target="_blank">PICO (Patient, Intervention, Comparison, Outcome)</a></h4>
+            <div class="card-desription">
+              <p><strong>The PICO process</strong> is a technique used in evidence based practice to frame and answer a clinical or health care related question.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p2">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/ridem/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/ridem3.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/ridem/"  target="_blank">Repository for Informed Decision Making (RIDeM)</a></h4>
+            <div class="card-desription">
+              <p><strong>Repository for Informed Decision Making</strong> (RIDeM). The long-term goal of the Repository for Informed Decision Making is to provide access to key facts needed to support clinical decision making.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p2">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/state/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/state.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/state/"  target="_blank">State Tobacco Activities Tracking and Evaluation (STATE) System</a></h4>
+            <div class="card-desription">
+              <p><strong>State Tobacco Activities Tracking and Evaluation (STATE) System</strong> is an electronic data warehouse/interactive application.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item bms4001_p2">
+        <div class="card">
+          
+          <a href="/tutorial/bms4001/us_cdc/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tutorial/4001/influ.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/tutorial/bms4001/us_cdc/"  target="_blank">US CDC FluView Interactive</a></h4>
+            <div class="card-desription">
+              <p><strong>US CDC FluView Interactive</strong>. The CDC FluView report provides weekly influenza surveillance information in the United States.</p>
             </div>
           </div>
         </div>
