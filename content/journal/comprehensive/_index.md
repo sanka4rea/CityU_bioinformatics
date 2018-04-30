@@ -1,5 +1,5 @@
 +++
-title = "Omnibus"
+title = "Comprehensive"
 date = 2018-04-11
 math = false
 highlight = false

@@ -60,9 +60,9 @@ math = false
 2. <p align="justify">**Review evidence about a variation:**<br>Look for evidence for/against a phenotype that associate with an allele → Allow determination/recalculation of variant’s pathogenicity.
 3. <p align="justify">**Integration into testers’ workflow:**<br>Clinical laboratories integrate information from ClinVar into their workflow → Use the information to identify clinical significance of already documented variants.
 
+<br>
 **How to use** could be found [here](https://www.ncbi.nlm.nih.gov/clinvar/docs/help/) or **the student work** below.
 
-<br>
 ### BMS4001 2018 Semester B Student Work
 
 * Hau Sarah S R
