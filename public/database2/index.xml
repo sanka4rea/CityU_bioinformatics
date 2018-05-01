@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on CityU-Bioinformatics</title>
+    <link>/database2/</link>
+    <description>Recent content in Database on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/database2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-3/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-4/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-5/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-6/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-7/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-8/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/harvester---%E5%89%AF%E6%9C%AC-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/harvester/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/harvester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/database2/gen2/snp/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/snp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA Data Bank of Japan (DDBJ)</title>
+      <link>/database2/dn2/ddbj/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/dn2/ddbj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>European Bioinformatics Institute (EMBL)</title>
+      <link>/database2/dn2/embl/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/dn2/embl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gene Disease Database</title>
+      <link>/database2/gen2/genedisease/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/genedisease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLYBASE</title>
+      <link>/database2/gen2/flybase/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/gen2/flybase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenBank</title>
+      <link>/database2/dn2/genbank/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/dn2/genbank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reference Sequence (RefSeq) database</title>
+      <link>/database2/dn2/refseq/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/dn2/refseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMIM</title>
+      <link>/database2/dn2/omim/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/dn2/omim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haplotype Map (HapMap)</title>
+      <link>/database2/dn2/hapmap/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/dn2/hapmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>23andMe</title>
+      <link>/database2/dn2/23andme/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/database2/dn2/23andme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

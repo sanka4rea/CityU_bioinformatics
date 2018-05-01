@@ -86,25 +86,7 @@
     
     <url>
     
-      <loc>/tools/gene_new/gene-prediction/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tutorial/bms4001/computer/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools/mole_new/evolution/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -123,15 +105,6 @@
     <url>
     
       <loc>/journal/menu-folding/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools/pro_new/structure/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -159,15 +132,6 @@
     <url>
     
       <loc>/database/geno_new/sgd/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools/seq_new/sequence-alignment/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -239,15 +203,6 @@
     
     <url>
     
-      <loc>/tools/seq_new/htsdata/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/journal/conferences/cocoon/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -311,25 +266,7 @@
     
     <url>
     
-      <loc>/tools/gene_new/microarray/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/database/pro_seq_new/pir/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools/pro_new/mass/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -437,15 +374,6 @@
     
     <url>
     
-      <loc>/tools/gene_new/genome-annotation/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/database/pro_seq_new/kabat/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -492,15 +420,6 @@
     <url>
     
       <loc>/database/oth_new/dbd/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools/gene_new/network/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -914,15 +833,6 @@
     
     <url>
     
-      <loc>/tools/genepart/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/database/genome/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -951,15 +861,6 @@
     <url>
     
       <loc>/lab/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools/molecular/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1031,16 +932,7 @@
     
     <url>
     
-      <loc>/tools/protein/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools2/proteomics/</loc>
+      <loc>/tools/proteomics/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1058,7 +950,7 @@
     
     <url>
     
-      <loc>/tools2/epigenomics/</loc>
+      <loc>/tools/genomics/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1067,7 +959,7 @@
     
     <url>
     
-      <loc>/tools2/genomics/</loc>
+      <loc>/tools/metabolomics/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1076,7 +968,7 @@
     
     <url>
     
-      <loc>/tools2/metabolomics/</loc>
+      <loc>/tools/phenomics/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1085,7 +977,7 @@
     
     <url>
     
-      <loc>/tools2/phenomics/</loc>
+      <loc>/tools/transcriptomics/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1094,16 +986,7 @@
     
     <url>
     
-      <loc>/tools2/transcriptomics/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools/sequence/</loc>
+      <loc>/tools/epigenomics/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1275,27 +1158,7 @@
     
     <url>
     
-      <loc>/tags/gene_related/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/genome/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/molecular_evolution/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1354,16 +1217,6 @@
     
     <url>
     
-      <loc>/tags/protein_related/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -1384,16 +1237,6 @@
     <url>
     
       <loc>/tags/resources/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/sequence_related/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1425,15 +1268,6 @@
     
       <loc>/tags/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tools2/</loc>
       <priority>0</priority>
     </url>
     

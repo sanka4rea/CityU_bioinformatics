@@ -347,37 +347,37 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   weight = 1
   name   = "Genomics"
-  url    = "/tools2/genomics"
+  url    = "/tools/genomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 2
   name   = "Epigenomics"
-  url    = "/tools2/epigenomics"
+  url    = "/tools/epigenomics"
   parent = "Tools"
 
 [[menu.main]]
   weight = 3
   name   = "Transcriptomics"
-  url    = "/tools2/transcriptomics"
+  url    = "/tools/transcriptomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 4
   name   = "Proteomics"
-  url    = "/tools2/proteomics"
+  url    = "/tools/proteomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 5
   name   = "Metabolomics"
-  url    = "/tools2/metabolomics"
+  url    = "/tools/metabolomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 6
   name   = "Phenomics"
-  url    = "/tools2/phenomics"
+  url    = "/tools/phenomics"
   parent = "Tools"
 ###
 
