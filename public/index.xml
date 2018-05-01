@@ -207,6 +207,121 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
     </item>
     
     <item>
+      <title>Gene Prediction</title>
+      <link>/tools/gene_new/gene-prediction/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/gene_new/gene-prediction/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tools/prediction.jpg&#34; width=&#34;700&#34; height=&#34;300&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;
+&lt;em&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=x9S7uIQjs8g&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;
+&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#genemark&#34;&gt;GeneMark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#genscan&#34;&gt;GenScan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#fgenesh&#34;&gt;FGENESH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#emboss-cpgplot&#34;&gt;EMBOSS Cpgplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#splign&#34;&gt;Splign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Determining that a sequence is functional should be distinguished from determining the function of the gene or its product. Predicting the function of a gene and confirming that the gene prediction is accurate still demands in vivo experimentation[1] through gene knockout and other assays, although frontiers of bioinformatics research[citation needed] are making it increasingly possible to predict the function of a gene based on its sequence alone.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Gene prediction is one of the key steps in genome annotation, following sequence assembly, the filtering of non-coding regions and repeat masking.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Gene_prediction&#34; target=&#34;_blank&#34;&gt;details&lt;/a&gt; about Empirical methods and Ab initio methods.&lt;/p&gt;
+
+&lt;h3 id=&#34;genemark&#34;&gt;GeneMark&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://opal.biology.gatech.edu/GeneMark/&#34; target=&#34;_blank&#34;&gt;GeneMark&lt;/a&gt;&lt;/strong&gt; developed in 1993 was the first gene finding method recognized as an efficient and accurate tool for genome projects. GeneMark was used for annotation of the first completely sequenced bacteria, Haemophilus influenzae, and the first completely sequenced archaea, Methanococcus jannaschii. The GeneMark algorithm uses species specific inhomogeneous Markov chain models of protein-coding DNA sequence as well as homogeneous Markov chain models of non- coding DNA. Parameters of the models are estimated from training sets of sequences of known type. The major step of the algorithm computes a posteriory probability of a sequence fragment to carry on a genetic code in one of six possible frames (including three frames in complementary DNA strand) or to be &amp;ldquo;non-coding&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;The GeneMark series could be used to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gene Prediction in Bacteria, Archaea, Metagenomes and Metatranscriptomes&lt;/li&gt;
+&lt;li&gt;Gene Prediction in Eukaryotes&lt;/li&gt;
+&lt;li&gt;Gene Prediction in Transcripts&lt;/li&gt;
+&lt;li&gt;Gene Prediction in Viruses, Phages and Plasmids&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tools/genemark.png&#34; width=&#34;700&#34; height=&#34;300&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;All the software programs are available for &lt;a href=&#34;http://opal.biology.gatech.edu/GeneMark/&#34; target=&#34;_blank&#34;&gt;download and local installation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;genscan&#34;&gt;GenScan&lt;/h3&gt;
+
+&lt;p&gt;Identifies complete exon/intron structures of genes in genomic DNA. GENSCAN uses a homogeneous fifth order Markov model of noncoding regions and a three periodic (inhomogeneous) fifth order Markov model of coding regions. Features of the program include the capacity to predict multiple genes in a sequence, to deal with partial as well as complete genes, and to predict consistent sets of genes occurring on either or both DNA strands.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://genes.mit.edu/GENSCAN.html&#34; target=&#34;_blank&#34;&gt;Official website&lt;/a&gt;: This server provides access to the program Genscan for predicting the locations and exon-intron structures of genes in genomic sequences from a variety of organisms.
+This server can accept sequences up to 1 million base pairs (1 Mbp) in length. If you have trouble with the web server or if you have a large number of sequences to process, request a local copy of the program (see instructions at the bottom of this page).&lt;/p&gt;
+
+&lt;h3 id=&#34;fgenesh&#34;&gt;FGENESH&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.softberry.com/berry.phtml?topic=fgenesh&amp;amp;group=help&amp;amp;subgroup=gfind&#34; target=&#34;_blank&#34;&gt;FGENESH&lt;/a&gt; - Program for predicting multiple genes in genomic DNA sequences.&lt;/p&gt;
+
+&lt;p&gt;FGENESH is the fastest (50-100 times faster than GenScan) and most accurate gene finder available.HMM-based gene structure prediction (multiple genes, both chains). Plant Molecular Biology (2005), 57, 3, 445-460: &amp;ldquo;Five ab initio programs (FGENESH, GeneMark.hmm, GENSCAN, GlimmerR and Grail) were evaluated for their accuracy in predicting maize genes. FGENESH yielded the most accurate and GeneMark.hmm the second most accurate predictions&amp;rdquo; (FGENESH identified 11% more correct gene models than GeneMark on a set of 1353 test genes).&lt;/p&gt;
+
+&lt;p&gt;Web version of FGENESH can be used with parameters for the following genomes: human, mouse, Drosophila, nematode, dicot plants, monocot plants, yeast (S.pombe) and Neurospora.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.softberry.com/berry.phtml?topic=fgenesh&amp;amp;group=programs&amp;amp;subgroup=gfind&#34; target=&#34;_blank&#34;&gt;Online services&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Reference&lt;/em&gt;&lt;/strong&gt;: Solovyev V, Kosarev P, Seledsov I, Vorobyev D. Automatic annotation of eukaryotic genes, pseudogenes and promoters. Genome Biol. 2006,7, Suppl 1: P. 10.1-10.12.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;emboss-cpgplot&#34;&gt;EMBOSS Cpgplot&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://emboss.sourceforge.net/apps/release/6.3/emboss/apps/cpgplot.html&#34; target=&#34;_blank&#34;&gt;EMBOSS Cpgplot &lt;/a&gt;identifies CpG islands in one or more nucleotide sequences. The ratio of observered to expected number of GC dinucleotides patterns is calculated over a window (sequence region) which is moved along the sequence. The calculated ratios are plotted graphically, together with the regions which match this program&amp;rsquo;s definition of a &amp;ldquo;CpG island&amp;rdquo; (a CG dinucleotide rich area). A report file is written giving the input sequence name, CpG island parameters and data on any CpG islands that are found.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.ebi.ac.uk/seqdb/confluence/display/THD/EMBOSS+Cpgplot&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;How to use&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54647597&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Related programs&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54651534&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Help&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;splign&#34;&gt;Splign&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=documentation&#34; target=&#34;_blank&#34;&gt;Splign&lt;/a&gt; was developed with the following goals in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Accuracy in determining splice signals&lt;/li&gt;
+&lt;li&gt;Recognition of short exons and non-consensus splices where feasible&lt;/li&gt;
+&lt;li&gt;Ability to identify and separate multiple compartments typically representing gene copying events&lt;/li&gt;
+&lt;li&gt;Production-grade performance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Internally at NCBI Splign is used to compute transcript alignments as a part of NCBI Genome Annotation Pipeline.&lt;/p&gt;
+
+&lt;p&gt;Splign comes in several flavors. If you are new to Splign, you can give it a try by navigating to Online page, typing in your accessions or GIs and submitting the job. For a more routine use, download and install the console version which is available for major platforms (and may also be available for a few platforms not listed - please request). You can also link to Splign from your own applications in a portable way since Splign is a part of the NCBI C++ Toolkit. And finally, Splign is available as a plugin for the NCBI Genome Workbench.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tools/splign1.gif&#34;  alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The online and algorithm could be found at &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=overview&amp;amp;level=form&#34; target=&#34;_blank&#34;&gt;Splign&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
       <title>History of Computer</title>
       <link>/tutorial/bms4001/computer/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -314,6 +429,31 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
     </item>
     
     <item>
+      <title>Molecular Evolution</title>
+      <link>/tools/mole_new/evolution/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/mole_new/evolution/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tools/evolution.gif&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;
+&lt;em&gt;&lt;a href=&#34;http://biology.kenyon.edu/courses/biol114/Chap09/Chap09.html&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This part may contains the following tools:&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;(Will be filled in the future)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;mega&#34;&gt;Mega&lt;/h3&gt;
+
+&lt;h2 id=&#34;orthmcl&#34;&gt;OrthMCL&lt;/h2&gt;
+
+&lt;h2 id=&#34;phylip&#34;&gt;Phylip&lt;/h2&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
       <title>OMIM</title>
       <link>/database/oth_new/omim/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -332,62 +472,47 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
     </item>
     
     <item>
-      <title>RCSB PDB</title>
-      <link>/database/pro_str_new/pdb/</link>
+      <title>Prediction of Protein Structure</title>
+      <link>/tools/pro_new/structure/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/pro_str_new/pdb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research in Computational Molecular Biology (RECOMB)</title>
-      <link>/journal/conferences/acm-recomb/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/journal/conferences/acm-recomb/</guid>
-      <description>&lt;hr /&gt;
+      <guid>/tools/pro_new/structure/</guid>
+      <description>
 
-&lt;p&gt;&lt;a href=&#34;http://www.recomb.org/home&#34; target=&#34;_blank&#34;&gt;Official Website&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The RECOMB conference series was founded in 1997 to provide a scientific forum for theoretical advances in computational biology and their applications in molecular biology and medicine. The conference solicits research contributions from all areas of computational molecular biology.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tools/structure.jpg&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/journal/conf/RECOMB 2018.png&#34; width = &#34;600&#34; height = &#34;300&#34; alt=&#34;bioinf&#34; align=center /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This part may contains the following tools:&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;(Will be filled in the future)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Typical but not exclusive topics of interest include:&lt;/p&gt;
+&lt;h3 id=&#34;primary-structure&#34;&gt;Primary structure&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Molecular sequence analysis&lt;/li&gt;
-&lt;li&gt;Recognition of genes and regulatory elements&lt;/li&gt;
-&lt;li&gt;Molecular evolution&lt;/li&gt;
-&lt;li&gt;Gene expression&lt;/li&gt;
-&lt;li&gt;Biological networks&lt;/li&gt;
-&lt;li&gt;Sequencing and genotyping techniques&lt;/li&gt;
-&lt;li&gt;Genomics&lt;/li&gt;
-&lt;li&gt;Population genetics&lt;/li&gt;
-&lt;li&gt;Systems biology&lt;/li&gt;
-&lt;li&gt;Imaging&lt;/li&gt;
-&lt;li&gt;Computational proteomics&lt;/li&gt;
-&lt;li&gt;Molecular structural biology&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ProtParam&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;COILS&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The origins of the conference came from the mathematical and computational side of the field, and there remains a focus on computational advances. In addition, the effective use of computational techniques in biological discovery is also an important aspect of the conference.&lt;/p&gt;
+&lt;h3 id=&#34;secondary-structure&#34;&gt;Secondary structure&lt;/h3&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;As of RECOMB 2010, the conference has included a highlights track, modelled on the success of a similar track at the ISMB conference. The highlights track contains presentations for computational biology papers published in the previous 18 months.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PredictProtein&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;In 2014 RECOMB and PLOS Computational Biology coordinated to let authors submit papers in parallel to both conference and journal. Papers not selected for publication in PLOS Computational Biology were published in edited form in the Journal of Computational Biology as usual.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PSIPRED&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tertiary-structure&#34;&gt;tertiary structure&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Phyre&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Swiss-PdbViewer&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>SGD</title>
-      <link>/database/geno_new/sgd/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/database/geno_new/sgd/</guid>
-      <description></description>
     </item>
     
   </channel>
