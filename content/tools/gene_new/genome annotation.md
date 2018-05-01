@@ -32,7 +32,7 @@ math = false
 +++
 ---
 <img src="/img/tools/annotation.jpg" height="300" alt="blast" align="center">
-*[citation](https://www.slideshare.net/karanppt/genome-annotation-2013)*
+
 
 ***This part may contains the following tools:*** **(Will be filled in the future)**
 
@@ -40,5 +40,6 @@ math = false
 
 ### KEGG pathways
 
+*[Image citation](https://www.slideshare.net/karanppt/genome-annotation-2013)*
 
 ---

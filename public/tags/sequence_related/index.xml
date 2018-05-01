@@ -18,9 +18,8 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/seq_new/htsdata/</guid>
-      <description> citation
-This part may contains the following tools: (Will be filled in the future)
-Fastqc Bowtie Cufflinks Tophat IGV </description>
+      <description>This part may contains the following tools: (Will be filled in the future)
+Fastqc Bowtie Cufflinks Tophat IGV Image citation</description>
     </item>
     
     <item>
@@ -29,8 +28,7 @@ Fastqc Bowtie Cufflinks Tophat IGV </description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/seq_new/sequence-alignment/</guid>
-      <description>citation: 
-Table of Contents    Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH  Multiple Sequence Alignment  Clustal Omega Clustal W / Clustal X     In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix.</description>
+      <description>Table of Contents  Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH  Multiple Sequence Alignment  Clustal Omega Clustal W / Clustal X    In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix.</description>
     </item>
     
   </channel>

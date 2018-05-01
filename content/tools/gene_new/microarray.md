@@ -32,7 +32,8 @@ math = false
 +++
 ---
 <img src="/img/tools/microarray.jpg" height="300" alt="blast" align="center">
-*[citation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4541605/)*: An overview of DNA microarray technology. RNA is isolated from the control and the target samples and labelled cDNA is then hybridized.
+
+An overview of DNA microarray technology. RNA is isolated from the control and the target samples and labelled cDNA is then hybridized.
 
 ***This part may contains the following tools:*** **(Will be filled in the future)**
 
@@ -46,5 +47,6 @@ math = false
 
 ### GenMAPP
 
+*[Image citation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4541605/)*
 
 ---

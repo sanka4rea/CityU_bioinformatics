@@ -32,12 +32,12 @@ math = false
 +++
 ---
 <img src="/img/tools/network.jpg" height="300" alt="blast" align="center">
-*[citation](https://www.researchgate.net/figure/Molecular-interaction-and-biological-pathways-networks-of-regulated-proteins-in-liver_fig7_273703365)*
 
 ***This part may contains the following tool:*** **(Will be filled in the future)**
 
 ### Cytoscape
 
+*[Image citation](https://www.researchgate.net/figure/Molecular-interaction-and-biological-pathways-networks-of-regulated-proteins-in-liver_fig7_273703365)*
 
 
 ---

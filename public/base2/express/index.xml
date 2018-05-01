@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gene Expression Databases on CityU-Bioinformatics</title>
+    <link>/base2/express/</link>
+    <description>Recent content in Gene Expression Databases on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/base2/express/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

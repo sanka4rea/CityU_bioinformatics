@@ -297,44 +297,50 @@ defaultContentLanguageInSubdir = false
 #submenu
 [[menu.main]]
   name = "Database"
-  url = "/database/"
+  url = "/base2/"
   weight = 3
   identifier = "Database"
   
 [[menu.main]]
   weight = 1
-  name   = "Nucleic Acid Seq"
-  url    = "/database/nucleic"
+  name   = "DNA Databases"
+  url    = "/base2/dna"
   parent = "Database"
 
 [[menu.main]]
   weight = 2
-  name   = "Protein Sequence"
-  url    = "/database/proseq"
+  name   = "Gene Expression Databases"
+  url    = "/base2/express"
   parent = "Database"
   
  [[menu.main]]
   weight = 3
-  name   = "Protein structure"
-  url    = "/database/prostr"
+  name   = "RNA Databses"
+  url    = "/base2/rna"
   parent = "Database"
 
 [[menu.main]]
   weight = 4
-  name   = "Genome Database"
-  url    = "/database/genome"
+  name   = "Protein Databases"
+  url    = "/base2/protein"
   parent = "Database" 
   
 [[menu.main]]
   weight = 5
-  name   = "Other Database"
-  url    = "/database/other"
+  name   = "Phenotype Databases"
+  url    = "/base2/pheno"
   parent = "Database" 
   
 [[menu.main]]
   weight = 6
-  name   = "Cancer specific"
-  url    = "/database/cancer"
+  name   = "Pathway Databases"
+  url    = "/base2/pathway"
+  parent = "Database" 
+  
+[[menu.main]]
+  weight = 7
+  name   = "Specialized Databases"
+  url    = "/base2/special"
   parent = "Database" 
 #
 ##submenu
@@ -346,39 +352,28 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   weight = 1
-  name   = "Genomics"
-  url    = "/tools2/genomics"
+  name   = "Sequence-related"
+  url    = "/tools/sequence"
   parent = "Tools"
   
 [[menu.main]]
   weight = 2
-  name   = "Epigenomics"
-  url    = "/tools2/epigenomics"
+  name   = "Gene-related"
+  url    = "/tools/genepart"
   parent = "Tools"
 
 [[menu.main]]
   weight = 3
-  name   = "Transcriptomics"
-  url    = "/tools2/transcriptomics"
+  name   = "Protein-related"
+  url    = "/tools/protein"
   parent = "Tools"
   
 [[menu.main]]
   weight = 4
-  name   = "Proteomics"
-  url    = "/tools2/proteomics"
+  name   = "Molecular Evolution"
+  url    = "/tools/molecular"
   parent = "Tools"
   
-[[menu.main]]
-  weight = 5
-  name   = "Metabolomics"
-  url    = "/tools2/metabolomics"
-  parent = "Tools"
-  
-[[menu.main]]
-  weight = 6
-  name   = "Phenomics"
-  url    = "/tools2/phenomics"
-  parent = "Tools"
 ###
 
 [[menu.main]]

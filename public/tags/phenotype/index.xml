@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phenotype on CityU-Bioinformatics</title>
+    <link>/tags/phenotype/</link>
+    <description>Recent content in Phenotype on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/phenotype/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pathogen-Host Interaction database (PHI-base)</title>
+      <link>/base2/newpheno/phi/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpheno/phi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rat Genome Database (RGD)</title>
+      <link>/base2/newpheno/rgd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpheno/rgd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

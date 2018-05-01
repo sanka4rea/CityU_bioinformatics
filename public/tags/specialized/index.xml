@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Specialized on CityU-Bioinformatics</title>
+    <link>/tags/specialized/</link>
+    <description>Recent content in Specialized on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/specialized/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CMVD</title>
+      <link>/base2/newspeci/cmvd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/cmvd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBD</title>
+      <link>/base2/newspeci/dbd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/dbd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPCRdb</title>
+      <link>/base2/newspeci/gpcrdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/gpcrdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMIM</title>
+      <link>/base2/newspeci/omim/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/omim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-2DPAGE</title>
+      <link>/base2/newspeci/swiss-2dpage/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/swiss-2dpage/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

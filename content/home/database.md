@@ -16,7 +16,7 @@ weight = 20
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-folder = "database"
+folder = "base2"
 
 # View.
 # Customize how projects are displayed.
@@ -34,27 +34,34 @@ filter_default = 0
 
 
 [[filter]]
-  name = "Nucleic Acid Seq"
-  tag = ".nucleic"
+  name = "RNA"
+  tag = ".rna"
+  
+[[filter]]
+  name = "DNA"
+  tag = ".dna"
 
 [[filter]]
-  name = "Protein Seq"
-  tag = ".proseq"
+  name = "Gene Expression"
+  tag = ".expression"
   
-  [[filter]]
-  name = "Protein Structure"
-  tag = ".prostr"
+
+  
+[[filter]]
+  name = "Protein"
+  tag = ".protein"
+  
+[[filter]]
+  name = "Phenotype"
+  tag = ".phenotype"
+  
+[[filter]]
+  name = "Pathway"
+  tag = ".pathway"
 
 [[filter]]
-  name = "Genome"
-  tag = ".genome"
+  name = "Specialized"
+  tag = ".specialized"
   
-[[filter]]
-  name = "Other"
-  tag = ".other"
-  
-[[filter]]
-  name = "Cancer"
-  tag = ".cancer"
 +++
 

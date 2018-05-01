@@ -212,49 +212,57 @@
           <ul class="dropdown-menu">
             
             <li class="nav-item">
-              <a href="/database/nucleic" data-target="/database/nucleic">
+              <a href="/base2/dna" data-target="/base2/dna">
                 
-                <span>Nucleic Acid Seq</span>
-                
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="/database/proseq" data-target="/database/proseq">
-                
-                <span>Protein Sequence</span>
+                <span>DNA Databases</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/database/prostr" data-target="/database/prostr">
+              <a href="/base2/express" data-target="/base2/express">
                 
-                <span>Protein structure</span>
-                
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="/database/genome" data-target="/database/genome">
-                
-                <span>Genome Database</span>
+                <span>Gene Expression Databases</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/database/other" data-target="/database/other">
+              <a href="/base2/rna" data-target="/base2/rna">
                 
-                <span>Other Database</span>
+                <span>RNA Databses</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/database/cancer" data-target="/database/cancer">
+              <a href="/base2/protein" data-target="/base2/protein">
                 
-                <span>Cancer specific</span>
+                <span>Protein Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pheno" data-target="/base2/pheno">
+                
+                <span>Phenotype Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pathway" data-target="/base2/pathway">
+                
+                <span>Pathway Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/special" data-target="/base2/special">
+                
+                <span>Specialized Databases</span>
                 
               </a>
             </li>
@@ -276,49 +284,33 @@
           <ul class="dropdown-menu">
             
             <li class="nav-item">
-              <a href="/tools2/genomics" data-target="/tools2/genomics">
+              <a href="/tools/sequence" data-target="/tools/sequence">
                 
-                <span>Genomics</span>
-                
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="/tools2/epigenomics" data-target="/tools2/epigenomics">
-                
-                <span>Epigenomics</span>
+                <span>Sequence-related</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/tools2/transcriptomics" data-target="/tools2/transcriptomics">
+              <a href="/tools/genepart" data-target="/tools/genepart">
                 
-                <span>Transcriptomics</span>
-                
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="/tools2/proteomics" data-target="/tools2/proteomics">
-                
-                <span>Proteomics</span>
+                <span>Gene-related</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/tools2/metabolomics" data-target="/tools2/metabolomics">
+              <a href="/tools/protein" data-target="/tools/protein">
                 
-                <span>Metabolomics</span>
+                <span>Protein-related</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/tools2/phenomics" data-target="/tools2/phenomics">
+              <a href="/tools/molecular" data-target="/tools/molecular">
                 
-                <span>Phenomics</span>
+                <span>Molecular Evolution</span>
                 
               </a>
             </li>
@@ -1199,7 +1191,7 @@ url('/img/headers/biology1.jpg');
 
     
     
-    <span class="hidden default-project-filter">.nucleic</span>
+    <span class="hidden default-project-filter">.rna</span>
     
 
     
@@ -1209,17 +1201,19 @@ url('/img/headers/biology1.jpg');
         <div class="btn-toolbar">
           <div class="btn-group">
             
-              <a href="#" data-filter=".nucleic" class="btn btn-primary btn-large active" target="_blank">Nucleic Acid Seq</a>
+              <a href="#" data-filter=".rna" class="btn btn-primary btn-large active" target="_blank">RNA</a>
             
-              <a href="#" data-filter=".proseq" class="btn btn-primary btn-large" target="_blank">Protein Seq</a>
+              <a href="#" data-filter=".dna" class="btn btn-primary btn-large" target="_blank">DNA</a>
             
-              <a href="#" data-filter=".prostr" class="btn btn-primary btn-large" target="_blank">Protein Structure</a>
+              <a href="#" data-filter=".expression" class="btn btn-primary btn-large" target="_blank">Gene Expression</a>
             
-              <a href="#" data-filter=".genome" class="btn btn-primary btn-large" target="_blank">Genome</a>
+              <a href="#" data-filter=".protein" class="btn btn-primary btn-large" target="_blank">Protein</a>
             
-              <a href="#" data-filter=".other" class="btn btn-primary btn-large" target="_blank">Other</a>
+              <a href="#" data-filter=".phenotype" class="btn btn-primary btn-large" target="_blank">Phenotype</a>
             
-              <a href="#" data-filter=".cancer" class="btn btn-primary btn-large" target="_blank">Cancer</a>
+              <a href="#" data-filter=".pathway" class="btn btn-primary btn-large" target="_blank">Pathway</a>
+            
+              <a href="#" data-filter=".specialized" class="btn btn-primary btn-large" target="_blank">Specialized</a>
             
           </div>
         </div>
@@ -1232,33 +1226,33 @@ url('/img/headers/biology1.jpg');
 
     <div class="row isotope projects-container js-layout-row">
         
-        <div class="col-md-12 project-item isotope-item genome" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">
+            <a href="https://en.wikipedia.org/wiki/Bioinformatic_Harvester" target="_blank" rel="noopener">
           
-          Genome (NCBI)
+          Bioinformatic Harvester
           </a>
           </span>
-          <p class="project-summary">The <strong>National Center for Biotechnology Information</strong> advances science and health by providing access to biomedical and genomic information.</p>
+          <p class="project-summary">The <strong>Bioinformatic Harvester</strong> (PGP)was a bioinformatic meta search engine created by the European Molecular Biology and further developed by KIT Karlsruhe Institute of Technology Laboratory.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item nucleic" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item dna" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" rel="noopener">
+            <a href="https://www.ddbj.nig.ac.jp/index-e.html" target="_blank" rel="noopener">
           
-          GenBank
+          DNA Data Bank of Japan (DDBJ)
           </a>
           </span>
-          <p class="project-summary"><strong>GenBank</strong> is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences.</p>
+          <p class="project-summary"><strong>DNA database of Japan</strong> (DDBJ) Center provides sharing and analysis services for data from life science researches and advances science.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item other" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item specialized" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1271,7 +1265,33 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary">OMIM is <strong>Online Mendelian Inheritance in Manauthored</strong> and edited at the McKusick-Nathans Institute of Genetic Medicine.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item prostr" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item phenotype" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="http://www.phi-base.org/" target="_blank" rel="noopener">
+          
+          Pathogen-Host Interaction database (PHI-base)
+          </a>
+          </span>
+          <p class="project-summary">The <strong>Pathogen-Host Interaction database (PHI-base)</strong> contains expertly curated molecular and biological information on genes proven to affect the outcome of pathogen-host interactions.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item pathway" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2686461/" target="_blank" rel="noopener">
+          
+          Pathway Interaction Database (PID)
+          </a>
+          </span>
+          <p class="project-summary">The <strong>Pathway Interaction Database</strong> (PID) is a free biomedical database of human cellular signaling pathways. The database contains information about the molecular interactions and reactions that take place in cells, with a particular focus on processes that might be relevant to cancer research and treatment.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1284,20 +1304,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>Protein Data Bank</strong> builds upon archive-information about the 3D shapes of proteins, nucleic acids, and complex assemblies that helps students and researchers understand all aspects of biomedicine and agriculture, from protein synthesis to health and disease.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item genome" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item rna" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="https://www.yeastgenome.org/" target="_blank" rel="noopener">
+            <a href="http://rfam.xfam.org/" target="_blank" rel="noopener">
           
-          SGD
+          Rfam
           </a>
           </span>
-          <p class="project-summary">The <strong>Saccharomyces Genome Database</strong> (SGD) provides comprehensive integrated biological information for the budding yeast Saccharomyces cerevisiae along with search and analysis tools to explore these data.</p>
+          <p class="project-summary"><strong>Rfam</strong> is a database containing information about non-coding RNA (ncRNA) families and other structured RNA elements. It is an annotated, open access database originally developed at the Wellcome Trust Sanger Institute in collaboration with Janelia Farm, and currently hosted at the European Bioinformatics Institute. <br>Rfam is designed to be similar to the Pfam database for annotating protein families.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item proseq" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1310,33 +1330,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>The Universal Protein Resource</strong> (UniProt) provides the scientific community with a single, centralized, authoritative resource for protein sequences and functional information.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item nucleic" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item dna" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="https://www.ebi.ac.uk/ena" target="_blank" rel="noopener">
+            <a href="https://www.embl.org/" target="_blank" rel="noopener">
           
-          ENA (EMBL)
+          European Bioinformatics Institute (EMBL)
           </a>
           </span>
-          <p class="project-summary"><strong>The European Nucleotide Archive</strong> (ENA) provides a comprehensive record of the world&rsquo;s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation.</p>
+          <p class="project-summary">The <strong>European Molecular Biology Laboratory</strong> (EMBL) is a molecular biology research institution supported by 22 member states, four prospect and two associate member states.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item genome" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-          
-            <a href="http://www.ecogene.org/" target="_blank" rel="noopener">
-          
-          EcoGene
-          </a>
-          </span>
-          <p class="project-summary">The <strong>EcoGene</strong> database contains updated information about the Escherichia. coli K-12 genome and proteome sequences, including extensive gene bibliographies.</p>
-        </div>
-        
-        <div class="col-md-12 project-item isotope-item other" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item specialized" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1349,7 +1356,33 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary">GPCRdb contains data, diagrams and web tools for <strong>G protein-coupled receptors</strong> (GPCRs).</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item proseq" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://en.wikipedia.org/wiki/Gene_Disease_Database" target="_blank" rel="noopener">
+          
+          Gene Disease Database
+          </a>
+          </span>
+          <p class="project-summary">In Bioinformatics, a <strong>Gene Disease Database</strong> is a systematized collection of data, typically structured to model aspects of reality, in a way to comprehend the underlying mechanisms of complex diseases, by understanding multiple composite interactions between phenotype-genotype relationships and gene-disease mechanisms.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item rna" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="http://www.mirbase.org/" target="_blank" rel="noopener">
+          
+          MiRBase
+          </a>
+          </span>
+          <p class="project-summary">In bioinformatics, <strong>miRBase</strong> is a biological database that acts as an archive of microRNA sequences and annotations. As of September 2010 it contained information about 15,172 microRNAs. This number has rose to 38589 by March 2018. The miRBase registry provides a centralised system for assigning new names to microRNA genes.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1362,7 +1395,33 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>Protein Information Resource</strong>, part of UniProt.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item prostr" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item phenotype" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://rgd.mcw.edu/" target="_blank" rel="noopener">
+          
+          Rat Genome Database (RGD)
+          </a>
+          </span>
+          <p class="project-summary">The <strong>Rat Genome Database (RGD)</strong> is the premiere location for rat genomics, genetics, physiology and functional data, as well as data for comparative genomics between rat, human and mouse.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item pathway" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://twitter.com/reactome" target="_blank" rel="noopener">
+          
+          Reactome
+          </a>
+          </span>
+          <p class="project-summary"><strong>Reactome</strong> is a free online database of biological pathways. There are several Reactomes that concentrate on specific organisms, the largest of these is focused on human biology, the following description concentrates on the human Reactome.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1375,7 +1434,7 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary">SCOP2 is a successor of <strong>Structural classification of proteins</strong> (SCOP).  the main focus of SCOP2 is on proteins that are structurally characterized and deposited in the PDB.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item prostr" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1388,33 +1447,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>The CATH database</strong> is a free, publicly available online resource that provides information on the evolutionary relationships of protein domains.(95 million protein domains classified into 6,119 superfamilies)</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item nucleic" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item dna" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="https://www.ddbj.nig.ac.jp/index-e.html" target="_blank" rel="noopener">
+            <a href="https://www.ncbi.nlm.nih.gov/genbank/" target="_blank" rel="noopener">
           
-          DDBJ
+          GenBank
           </a>
           </span>
-          <p class="project-summary"><strong>DNA database of Japan</strong> (DDBJ) Center provides sharing and analysis services for data from life science researches and advances science.</p>
+          <p class="project-summary"><strong>GenBank</strong> is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item genome" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-          
-            <a href="http://flybase.org/" target="_blank" rel="noopener">
-          
-          FLYBASE
-          </a>
-          </span>
-          <p class="project-summary">A Database of <strong>Drosophila</strong> Genes &amp; Genomes</p>
-        </div>
-        
-        <div class="col-md-12 project-item isotope-item proseq" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1427,7 +1473,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary">The <strong>Kabat</strong> database includes nucleotide sequences, sequences of T cell receptors for antigens (TCR), major histocompatibility complex (MHC) class I and II molecules, and other proteins of immunological interest.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item other" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://www.snpedia.com/index.php/SNPedia" target="_blank" rel="noopener">
+          
+          SNPedia
+          </a>
+          </span>
+          <p class="project-summary">The <strong>SNPedia</strong> (PGP) is a wiki-based bioinformatics web site that serves as a database of single nucleotide polymorphisms (SNPs).</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item specialized" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1440,7 +1499,33 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary">SWISS-2DPAGE is an annotated <strong>two-dimensional polyacrylamide gel electrophoresis</strong> (2-D PAGE) and SDS-PAGE database.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item other" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item pathway" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://www.wikipathways.org/index.php/WikiPathways" target="_blank" rel="noopener">
+          
+          WikiPathways
+          </a>
+          </span>
+          <p class="project-summary"><strong>WikiPathways</strong> is a community resource for contributing and maintaining content dedicated to biological pathways.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item pathway" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://biocyc.org/" target="_blank" rel="noopener">
+          
+          BioCyc database collection
+          </a>
+          </span>
+          <p class="project-summary">The <strong>BioCyc database</strong> collection is an assortment of organism specific Pathway/ Genome Databases (PGDBs). They provide reference to genome and metabolic pathway information for thousands of organisms. As of December 2016, there are 9300 databases within BioCyc.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item specialized" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1453,33 +1538,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>Transcription factor prediction database</strong> (DBD) is a database of predicted transcription factors in completely sequenced genomes.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item nucleic" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="https://www.hiv.lanl.gov/content/index" target="_blank" rel="noopener">
+            <a href="http://asia.ensembl.org/index.html" target="_blank" rel="noopener">
           
-          HIV
+          Ensembl genome database project
           </a>
           </span>
-          <p class="project-summary">The <strong>HIV</strong> databases contain comprehensive data on HIV genetic sequences and immunological epitopes.</p>
+          <p class="project-summary"><strong>Ensembl genome database project</strong> is a joint scientific project between the European Bioinformatics Institute and the Wellcome Trust Sanger Institute, which was launched in 1999 in response to the imminent completion of the Human Genome Project.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item genome" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-          
-            <a href="https://www.maizegdb.org/" target="_blank" rel="noopener">
-          
-          MAIZEDB
-          </a>
-          </span>
-          <p class="project-summary"><strong>MaizeGDB</strong> is a community-oriented, long-term, federally funded informatics service to researchers focused on the crop plant and model organism Zea mays.</p>
-        </div>
-        
-        <div class="col-md-12 project-item isotope-item prostr" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1492,20 +1564,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>PROSITE</strong> consists of documentation entries describing protein domains, families and functional sites as well as associated patterns and profiles to identify them.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item nucleic" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item dna" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="http://combio.pl/rrna/" target="_blank" rel="noopener">
+            <a href="https://www.ncbi.nlm.nih.gov/refseq/" target="_blank" rel="noopener">
           
-          5S rRNA
+          Reference Sequence (RefSeq) database
           </a>
           </span>
-          <p class="project-summary"><strong>5S ribosomal RNA</strong> is an integral component of the large subunit of all cytoplasmic and most organellar ribosomes.</p>
+          <p class="project-summary">The <strong>Reference Sequence</strong> (RefSeq) database[1] is an open access, annotated and curated collection of publicly available nucleotide sequences (DNA, RNA) and their protein products.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item other" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item specialized" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1518,7 +1590,7 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>China Microbiology and Virology Database</strong> (CMVD) is a comprehensive database index.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item proseq" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1531,7 +1603,33 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>ENZYME</strong> is a repository of information relative to the nomenclature of enzymes.And it describes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item prostr" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="http://flybase.org/" target="_blank" rel="noopener">
+          
+          FLYBASE
+          </a>
+          </span>
+          <p class="project-summary">A Database of <strong>Drosophila</strong> Genes &amp; Genomes.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item dna" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://www.ncbi.nlm.nih.gov/omim" target="_blank" rel="noopener">
+          
+          OMIM
+          </a>
+          </span>
+          <p class="project-summary">OMIM is <strong>Online Mendelian Inheritance in Manauthored</strong> and edited at the McKusick-Nathans Institute of Genetic Medicine.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1544,20 +1642,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary">The <strong>SWISS-MODEL</strong> Repository is a database of annotated 3D protein structure models generated by the SWISS-MODEL homology-modelling pipeline.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item nucleic" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item dna" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
           
-            <a href="https://epd.vital-it.ch/index.php" target="_blank" rel="noopener">
+            <a href="https://www.genome.gov/10001688/" target="_blank" rel="noopener">
           
-          EPD
+          Haplotype Map (HapMap)
           </a>
           </span>
-          <p class="project-summary"><strong>Eukaryotic Promoter database</strong> (EPD) is a collection of eukaryotic promoters derived from published articles.</p>
+          <p class="project-summary">The <strong>International HapMap Project</strong> was an organization that aimed to develop a <strong>haplotype map</strong> (HapMap) of the human genome, to describe the common patterns of human genetic variation.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item proseq" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1570,7 +1668,20 @@ url('/img/headers/biology1.jpg');
           <p class="project-summary"><strong>InterPro</strong> provides functional analysis of proteins by classifying them into families and predicting domains and important sites.</p>
         </div>
         
-        <div class="col-md-12 project-item isotope-item prostr" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="col-md-12 project-item isotope-item pathway" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="http://www.kegg.jp/" target="_blank" rel="noopener">
+          
+          KEGG
+          </a>
+          </span>
+          <p class="project-summary">KEGG <strong>(Kyoto Encyclopedia of Genes and Genomes)</strong> is a collection of databases dealing with genomes, biological pathways, diseases, drugs, and chemical substances.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item protein" itemscope itemtype="http://schema.org/CreativeWork">
           <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
 
           <span class="project-title">
@@ -1581,6 +1692,84 @@ url('/img/headers/biology1.jpg');
           </a>
           </span>
           <p class="project-summary"><strong>Protein model portal</strong> (PMP) gives access to various models computed by comparative modeling methods provided by different partner sites, and provides access to various interactive services for model building, and quality assessment.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="http://www.xenbase.org/entry/" target="_blank" rel="noopener">
+          
+          Xenbase
+          </a>
+          </span>
+          <p class="project-summary"><strong>Xenbase</strong> is a Model Organism Database (MOD), providing informatics resources, as well as genomic and biological data on Xenopus frogs.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item dna" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://www.23andme.com/en-int/" target="_blank" rel="noopener">
+          
+          23andMe
+          </a>
+          </span>
+          <p class="project-summary"><strong>23andMe</strong> is a privately held personal genomics and biotechnology company based in Mountain View, California. The company is named for the 23 pairs of <strong>chromosomes</strong> in a normal human cell.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://www.yeastgenome.org/" target="_blank" rel="noopener">
+          
+          Saccharomyces Genome Database
+          </a>
+          </span>
+          <p class="project-summary">The <strong>Saccharomyces Genome Database</strong> is a scientific database of the molecular biology and genetics of the yeast Saccharomyces cerevisiae, which is commonly known as baker&rsquo;s or budding yeast.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="https://wormbase.org/#012-34-5" target="_blank" rel="noopener">
+          
+          WormBase
+          </a>
+          </span>
+          <p class="project-summary"><strong>WormBase</strong> is an online biological database about the biology and genome of the nematode model organism Caenorhabditis elegans and contains information about other related nematodes.</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="http://zfin.org/" target="_blank" rel="noopener">
+          
+          Zebrafish Information Network
+          </a>
+          </span>
+          <p class="project-summary">The <strong>Zebrafish Information Network</strong> (ZFIN) is an online biological database of information about the zebrafish (Danio rerio).</p>
+        </div>
+        
+        <div class="col-md-12 project-item isotope-item expression" itemscope itemtype="http://schema.org/CreativeWork">
+          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
+
+          <span class="project-title">
+          
+            <a href="http://www.personalgenomes.org/" target="_blank" rel="noopener">
+          
+          Personal Genome Project
+          </a>
+          </span>
+          <p class="project-summary">The <strong>Personal Genome Project</strong> (PGP) is a long term, large cohort study which aims to sequence and publicize the complete genomes and medical records of 100,000 volunteers, in order to enable research into personal genomics and personalized medicine.</p>
         </div>
         
     </div>

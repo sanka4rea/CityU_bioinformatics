@@ -158,6 +158,15 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
     </item>
     
     <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/base2/newexpress/harvest/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/harvest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bioinformatics</title>
       <link>/journal/specific/bioinformatics/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -198,6 +207,15 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
     </item>
     
     <item>
+      <title>DNA Data Bank of Japan (DDBJ)</title>
+      <link>/base2/newdna/ddbj/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/ddbj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GenBank</title>
       <link>/database/nucl_new/genbank/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -216,24 +234,18 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/tools/prediction.jpg&#34; width=&#34;700&#34; height=&#34;300&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;
-&lt;em&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=x9S7uIQjs8g&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;
-&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tools/prediction.jpg&#34; width=&#34;700&#34; height=&#34;300&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#genemark&#34;&gt;GeneMark&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#genscan&#34;&gt;GenScan&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#fgenesh&#34;&gt;FGENESH&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#emboss-cpgplot&#34;&gt;EMBOSS Cpgplot&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#splign&#34;&gt;Splign&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 
@@ -246,7 +258,7 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 
 &lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Gene_prediction&#34; target=&#34;_blank&#34;&gt;details&lt;/a&gt; about Empirical methods and Ab initio methods.&lt;/p&gt;
 
-&lt;h3 id=&#34;genemark&#34;&gt;GeneMark&lt;/h3&gt;
+&lt;h1 id=&#34;genemark&#34;&gt;GeneMark&lt;/h1&gt;
 
 &lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;strong&gt;&lt;a href=&#34;http://opal.biology.gatech.edu/GeneMark/&#34; target=&#34;_blank&#34;&gt;GeneMark&lt;/a&gt;&lt;/strong&gt; developed in 1993 was the first gene finding method recognized as an efficient and accurate tool for genome projects. GeneMark was used for annotation of the first completely sequenced bacteria, Haemophilus influenzae, and the first completely sequenced archaea, Methanococcus jannaschii. The GeneMark algorithm uses species specific inhomogeneous Markov chain models of protein-coding DNA sequence as well as homogeneous Markov chain models of non- coding DNA. Parameters of the models are estimated from training sets of sequences of known type. The major step of the algorithm computes a posteriory probability of a sequence fragment to carry on a genetic code in one of six possible frames (including three frames in complementary DNA strand) or to be &amp;ldquo;non-coding&amp;rdquo;.&lt;/p&gt;
 
@@ -265,14 +277,14 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;genscan&#34;&gt;GenScan&lt;/h3&gt;
+&lt;h1 id=&#34;genscan&#34;&gt;GenScan&lt;/h1&gt;
 
 &lt;p&gt;Identifies complete exon/intron structures of genes in genomic DNA. GENSCAN uses a homogeneous fifth order Markov model of noncoding regions and a three periodic (inhomogeneous) fifth order Markov model of coding regions. Features of the program include the capacity to predict multiple genes in a sequence, to deal with partial as well as complete genes, and to predict consistent sets of genes occurring on either or both DNA strands.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://genes.mit.edu/GENSCAN.html&#34; target=&#34;_blank&#34;&gt;Official website&lt;/a&gt;: This server provides access to the program Genscan for predicting the locations and exon-intron structures of genes in genomic sequences from a variety of organisms.
 This server can accept sequences up to 1 million base pairs (1 Mbp) in length. If you have trouble with the web server or if you have a large number of sequences to process, request a local copy of the program (see instructions at the bottom of this page).&lt;/p&gt;
 
-&lt;h3 id=&#34;fgenesh&#34;&gt;FGENESH&lt;/h3&gt;
+&lt;h1 id=&#34;fgenesh&#34;&gt;FGENESH&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.softberry.com/berry.phtml?topic=fgenesh&amp;amp;group=help&amp;amp;subgroup=gfind&#34; target=&#34;_blank&#34;&gt;FGENESH&lt;/a&gt; - Program for predicting multiple genes in genomic DNA sequences.&lt;/p&gt;
 
@@ -286,7 +298,7 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;emboss-cpgplot&#34;&gt;EMBOSS Cpgplot&lt;/h3&gt;
+&lt;h1 id=&#34;emboss-cpgplot&#34;&gt;EMBOSS Cpgplot&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://emboss.sourceforge.net/apps/release/6.3/emboss/apps/cpgplot.html&#34; target=&#34;_blank&#34;&gt;EMBOSS Cpgplot &lt;/a&gt;identifies CpG islands in one or more nucleotide sequences. The ratio of observered to expected number of GC dinucleotides patterns is calculated over a window (sequence region) which is moved along the sequence. The calculated ratios are plotted graphically, together with the regions which match this program&amp;rsquo;s definition of a &amp;ldquo;CpG island&amp;rdquo; (a CG dinucleotide rich area). A report file is written giving the input sequence name, CpG island parameters and data on any CpG islands that are found.&lt;/p&gt;
 
@@ -296,7 +308,7 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 
 &lt;p&gt;&lt;a href=&#34;https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54651534&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Help&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;splign&#34;&gt;Splign&lt;/h3&gt;
+&lt;h1 id=&#34;splign&#34;&gt;Splign&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=documentation&#34; target=&#34;_blank&#34;&gt;Splign&lt;/a&gt; was developed with the following goals in mind:&lt;/p&gt;
 
@@ -314,6 +326,8 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 &lt;p&gt;&lt;img src=&#34;/img/tools/splign1.gif&#34;  alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;The online and algorithm could be found at &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=overview&amp;amp;level=form&#34; target=&#34;_blank&#34;&gt;Splign&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=x9S7uIQjs8g&#34; target=&#34;_blank&#34;&gt;Image citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
 
@@ -438,16 +452,17 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/tools/evolution.gif&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;
-&lt;em&gt;&lt;a href=&#34;http://biology.kenyon.edu/courses/biol114/Chap09/Chap09.html&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tools/evolution.gif&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;This part may contains the following tools:&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;(Will be filled in the future)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;mega&#34;&gt;Mega&lt;/h3&gt;
 
-&lt;h2 id=&#34;orthmcl&#34;&gt;OrthMCL&lt;/h2&gt;
+&lt;h3 id=&#34;orthmcl&#34;&gt;OrthMCL&lt;/h3&gt;
 
-&lt;h2 id=&#34;phylip&#34;&gt;Phylip&lt;/h2&gt;
+&lt;h3 id=&#34;phylip&#34;&gt;Phylip&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://biology.kenyon.edu/courses/biol114/Chap09/Chap09.html&#34; target=&#34;_blank&#34;&gt;Image citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
@@ -455,64 +470,11 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
     
     <item>
       <title>OMIM</title>
-      <link>/database/oth_new/omim/</link>
+      <link>/base2/newspeci/omim/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/oth_new/omim/</guid>
+      <guid>/base2/newspeci/omim/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Please Click other labels on the bar to see details.</title>
-      <link>/journal/menu-folding/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/journal/menu-folding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prediction of Protein Structure</title>
-      <link>/tools/pro_new/structure/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tools/pro_new/structure/</guid>
-      <description>
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/tools/structure.jpg&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;This part may contains the following tools:&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;(Will be filled in the future)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;primary-structure&#34;&gt;Primary structure&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;ProtParam&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;COILS&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;secondary-structure&#34;&gt;Secondary structure&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;PredictProtein&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;PSIPRED&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;tertiary-structure&#34;&gt;tertiary structure&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Phyre&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Swiss-PdbViewer&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
     </item>
     
   </channel>

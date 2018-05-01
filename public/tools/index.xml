@@ -18,8 +18,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/gene_new/gene-prediction/</guid>
-      <description>citation 
-Table of Contents      GeneMark GenScan FGENESH EMBOSS Cpgplot Splign     In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.</description>
+      <description>Table of Contents  GeneMark GenScan FGENESH EMBOSS Cpgplot Splign   In computational biology, gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes. This includes protein-coding genes as well as RNA genes, but may also include prediction of other functional elements such as regulatory regions. Gene finding is one of the first and most important steps in understanding the genome of a species once it has been sequenced.</description>
     </item>
     
     <item>
@@ -28,9 +27,8 @@ Table of Contents      GeneMark GenScan FGENESH EMBOSS Cpgplot Splign     In com
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/mole_new/evolution/</guid>
-      <description> citation
-This part may contains the following tools: (Will be filled in the future)
-Mega OrthMCL Phylip </description>
+      <description>This part may contains the following tools: (Will be filled in the future)
+Mega OrthMCL Phylip Image citation</description>
     </item>
     
     <item>
@@ -55,8 +53,7 @@ Primary structure  ProtParam
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/seq_new/sequence-alignment/</guid>
-      <description>citation: 
-Table of Contents    Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH  Multiple Sequence Alignment  Clustal Omega Clustal W / Clustal X     In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix.</description>
+      <description>Table of Contents  Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH  Multiple Sequence Alignment  Clustal Omega Clustal W / Clustal X    In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix.</description>
     </item>
     
     <item>
@@ -65,9 +62,8 @@ Table of Contents    Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/seq_new/htsdata/</guid>
-      <description> citation
-This part may contains the following tools: (Will be filled in the future)
-Fastqc Bowtie Cufflinks Tophat IGV </description>
+      <description>This part may contains the following tools: (Will be filled in the future)
+Fastqc Bowtie Cufflinks Tophat IGV Image citation</description>
     </item>
     
     <item>
@@ -76,9 +72,9 @@ Fastqc Bowtie Cufflinks Tophat IGV </description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/gene_new/microarray/</guid>
-      <description> citation: An overview of DNA microarray technology. RNA is isolated from the control and the target samples and labelled cDNA is then hybridized.
+      <description>An overview of DNA microarray technology. RNA is isolated from the control and the target samples and labelled cDNA is then hybridized.
 This part may contains the following tools: (Will be filled in the future)
-Express Coverter MIDAS MeV Cluster GenMAPP </description>
+Express Coverter MIDAS MeV Cluster GenMAPP Image citation</description>
     </item>
     
     <item>
@@ -97,9 +93,8 @@ X!Tandem Mascot Sequest TPP citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/gene_new/genome-annotation/</guid>
-      <description> citation
-This part may contains the following tools: (Will be filled in the future)
-Gene Ontology KEGG pathways </description>
+      <description>This part may contains the following tools: (Will be filled in the future)
+Gene Ontology KEGG pathways Image citation</description>
     </item>
     
     <item>
@@ -108,9 +103,8 @@ Gene Ontology KEGG pathways </description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/gene_new/network/</guid>
-      <description> citation
-This part may contains the following tool: (Will be filled in the future)
-Cytoscape </description>
+      <description>This part may contains the following tool: (Will be filled in the future)
+Cytoscape Image citation</description>
     </item>
     
   </channel>

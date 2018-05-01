@@ -13,56 +13,65 @@
     
     
     <item>
-      <title>DNA Data Bank of Japan (DDBJ)</title>
-      <link>/database/dn_new/ddbj/</link>
+      <title>23andMe</title>
+      <link>/base2/newdna/23andme/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/dn_new/ddbj/</guid>
+      <guid>/base2/newdna/23andme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA Data Bank of Japan (DDBJ)</title>
+      <link>/base2/newdna/ddbj/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/ddbj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>European Bioinformatics Institute (EMBL)</title>
-      <link>/database/dn_new/embl/</link>
+      <link>/base2/newdna/embl/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/dn_new/embl/</guid>
+      <guid>/base2/newdna/embl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GenBank</title>
-      <link>/database/dn_new/genbank/</link>
+      <link>/base2/newdna/genbank/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/dn_new/genbank/</guid>
+      <guid>/base2/newdna/genbank/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Haplotype Map (HapMap)</title>
-      <link>/database/dn_new/hapmap/</link>
+      <link>/base2/newdna/hapmap/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/dn_new/hapmap/</guid>
+      <guid>/base2/newdna/hapmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OMIM</title>
-      <link>/database/dn_new/omim/</link>
+      <link>/base2/newdna/omim/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/dn_new/omim/</guid>
+      <guid>/base2/newdna/omim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reference Sequence (RefSeq) database</title>
-      <link>/database/dn_new/refseq/</link>
+      <link>/base2/newdna/refseq/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/database/dn_new/refseq/</guid>
+      <guid>/base2/newdna/refseq/</guid>
       <description></description>
     </item>
     

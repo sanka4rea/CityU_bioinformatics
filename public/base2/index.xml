@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base2s on CityU-Bioinformatics</title>
+    <link>/base2/</link>
+    <description>Recent content in Base2s on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/base2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bioinformatic Harvester</title>
+      <link>/base2/newexpress/harvest/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/harvest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA Data Bank of Japan (DDBJ)</title>
+      <link>/base2/newdna/ddbj/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/ddbj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMIM</title>
+      <link>/base2/newspeci/omim/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/omim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pathogen-Host Interaction database (PHI-base)</title>
+      <link>/base2/newpheno/phi/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpheno/phi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pathway Interaction Database (PID)</title>
+      <link>/base2/newpath/pid/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpath/pid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RCSB PDB</title>
+      <link>/base2/newprotein/pdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/pdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rfam</title>
+      <link>/base2/newrna/rfam/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newrna/rfam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniport (SWISS-PROT/TrEMBL)</title>
+      <link>/base2/newprotein/uniport/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/uniport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>European Bioinformatics Institute (EMBL)</title>
+      <link>/base2/newdna/embl/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/embl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPCRdb</title>
+      <link>/base2/newspeci/gpcrdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/gpcrdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gene Disease Database</title>
+      <link>/base2/newexpress/genedisease/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/genedisease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiRBase</title>
+      <link>/base2/newrna/mir/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newrna/mir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PIR</title>
+      <link>/base2/newprotein/pir/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/pir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rat Genome Database (RGD)</title>
+      <link>/base2/newpheno/rgd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpheno/rgd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reactome</title>
+      <link>/base2/newpath/reactome/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpath/reactome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCOP2</title>
+      <link>/base2/newprotein/scop2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/scop2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CATH/Gene3D</title>
+      <link>/base2/newprotein/cath/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/cath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenBank</title>
+      <link>/base2/newdna/genbank/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/genbank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KABAT</title>
+      <link>/base2/newprotein/kabat/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/kabat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SNPedia</title>
+      <link>/base2/newexpress/snp/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/snp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-2DPAGE</title>
+      <link>/base2/newspeci/swiss-2dpage/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/swiss-2dpage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WikiPathways</title>
+      <link>/base2/newpath/wikipathways/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpath/wikipathways/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BioCyc database collection</title>
+      <link>/base2/newpath/biocyc/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpath/biocyc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBD</title>
+      <link>/base2/newspeci/dbd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/dbd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ensembl genome database project</title>
+      <link>/base2/newexpress/ensembl_genomoe/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/ensembl_genomoe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PROSITE</title>
+      <link>/base2/newprotein/prosite/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/prosite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reference Sequence (RefSeq) database</title>
+      <link>/base2/newdna/refseq/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/refseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CMVD</title>
+      <link>/base2/newspeci/cmvd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/cmvd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ENZYME</title>
+      <link>/base2/newprotein/enzyme/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/enzyme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLYBASE</title>
+      <link>/base2/newexpress/flybase/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/flybase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OMIM</title>
+      <link>/base2/newdna/omim/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/omim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-model</title>
+      <link>/base2/newprotein/swiss-model/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/swiss-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haplotype Map (HapMap)</title>
+      <link>/base2/newdna/hapmap/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/hapmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpro</title>
+      <link>/base2/newprotein/interpro/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/interpro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KEGG</title>
+      <link>/base2/newpath/brenda/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpath/brenda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PMP</title>
+      <link>/base2/newprotein/pmp/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newprotein/pmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xenbase</title>
+      <link>/base2/newexpress/xenbase/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/xenbase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>23andMe</title>
+      <link>/base2/newdna/23andme/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newdna/23andme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saccharomyces Genome Database</title>
+      <link>/base2/newexpress/sacch/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/sacch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WormBase</title>
+      <link>/base2/newexpress/worm/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/worm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zebrafish Information Network</title>
+      <link>/base2/newexpress/zebra/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/zebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal Genome Project</title>
+      <link>/base2/newexpress/pgp/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newexpress/pgp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
