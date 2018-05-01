@@ -19,13 +19,13 @@ caption = "Image credit: [**FAQs**](http://animallawsource.org/faq/)"
 
 {{% toc %}}
 
-### What is bioinformatics?
+# What is bioinformatics?
 
 <p align="justify">**Bioinformatics** has been defined many different ways, since practitioners do not always agree upon the scope of its use within the biological and computer sciences, but it is always considered a combination of both sciences, along with other contributing disciplines.
 
 <p align="justify"> As an interdisciplinary field of science, bioinformatics combines Computer Science, Biology, Mathematics, Statistics and Engineering to analyze and interpret biological data. Bioinformatics has been used for in silico analyses of biological queries using mathematical and statistical techniques. More broadly, bioinformatics is applied statistics and computing to biological science.
 
-### What are the origins of bioinformatics?
+# What are the origins of bioinformatics?
 
 <p align="justify">The origins of bioinformatics are disputed.
 
@@ -43,7 +43,7 @@ caption = "Image credit: [**FAQs**](http://animallawsource.org/faq/)"
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-### The goals of bioinformatics
+# The goals of bioinformatics
 
 <p align="justify">The primary goal of bioinformatics is to increase the understanding of biological processes. What sets it apart from other approaches, however, is its focus on developing and applying computationally intensive techniques to achieve this goal. Examples include: **pattern recognition, data mining, machine learning algorithms, and visualization**. Major research efforts in the field include sequence alignment, gene finding, genome assembly, drug design, drug discovery, protein structure alignment, protein structure prediction, prediction of gene expression and protein–protein interactions, genome-wide association studies, the modeling of evolution and cell division/mitosis.
 
@@ -55,7 +55,7 @@ caption = "Image credit: [**FAQs**](http://animallawsource.org/faq/)"
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-### What are the most common bioinformatics programs?
+# What are the most common bioinformatics programs?
 
 **Popular software for bioinformatics**
 
@@ -72,13 +72,13 @@ More:
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-### What are the most common bioinformatics technologies?
+# What are the most common bioinformatics technologies?
 
 <p align="justify">Currently, a lot of bioinformatics work is concerned with the technology of [databases](http://biodatabases.com/whitepaper01.html). These databases include both "public" repositories of gene data like [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) or the [Protein DataBank](https://www.rcsb.org/) (the PDB), and private databases, like those used by research groups involved in gene mapping projects or those held by biotech companies. Making such databases accessible via open standards is very important. Consumers of bioinformatics data use a range of computer platforms: from the more powerful and forbidding UNIX boxes favoured by the developers and curators to the far friendlier Macs often found populating the labs of computer-wary biologists.
 
 <p align="justify">Databases of existing sequencing data can be used to identify homologues of new molecules that have been amplified and sequenced in the lab. The property of sharing a common ancestor, homology, can be a very powerful indicator in bioinformatics.
 
-### How are data analyzed in bioinformatics?
+# How are data analyzed in bioinformatics?
 
 <p align="justify">Bioinformatics tools can be used to obtain sequences of genes or proteins of interest, either from material obtained, labeled, prepared and examined in electric fields by individual researchers/groups or from repositories of sequences from previously investigated material.
 
@@ -96,7 +96,7 @@ More:
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-### Fields related to bioinformatics
+# Fields related to bioinformatics
 
 * [Biophysics](https://www.bioinformatics.org/wiki/Biophysics)
 * [Computational biology](https://www.bioinformatics.org/wiki/Computational_biology)
@@ -108,7 +108,7 @@ More:
 * [Pharmacogenomics](https://www.bioinformatics.org/wiki/Pharmacogenomics)
 * [Pharmacogenetics](https://www.bioinformatics.org/wiki/Pharmacogenetics)
 
-### Citation： 
+# Citation： 
 
 [More details](https://www.bioinformatics.org/wiki/Bioinformatics_FAQ) could be found.
 

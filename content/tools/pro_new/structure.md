@@ -32,7 +32,7 @@ math = false
 +++
 ---
 <img src="/img/tools/structure.jpg" alt="blast" align="center">
-*[citation](https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction)*
+
 
 ***This part may contains the following tools:*** **(Will be filled in the future)**
 
@@ -54,5 +54,6 @@ math = false
 
 * **Swiss-PdbViewer**
 
+*[citation](https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction)*
 
 ---

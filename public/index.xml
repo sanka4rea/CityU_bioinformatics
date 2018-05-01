@@ -12,16 +12,15 @@
     
     <item>
       <title>Getting started with R</title>
-      <link>/tutorial/getstart/getstart/</link>
+      <link>/tutorial/get_new/getstart/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/getstart/getstart/</guid>
+      <guid>/tutorial/get_new/getstart/</guid>
       <description>
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/tutorial/start.jpg&#34; alt=&#34;start&#34; /&gt;
-&lt;a href=&#34;http://www.tekmoz.com/laptop-repair-course-lets-get-started/&#34; target=&#34;_blank&#34;&gt;Preview Image Citation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tutorial/start.jpg&#34; alt=&#34;start&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 
@@ -52,6 +51,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;a href=&#34;https://bookdown.org/rdpeng/rprogdatascience/&#34; target=&#34;_blank&#34;&gt;R programming for data science&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tekmoz.com/laptop-repair-course-lets-get-started/&#34; target=&#34;_blank&#34;&gt;Image Citation&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
@@ -330,7 +331,7 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/tutorial/4001/computer.jpg&#34; alt=&#34;clinvar&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tutorial/4001/computer.jpg&#34;width=&#34;700&#34; height=&#34;400&#34;  alt=&#34;clinvar&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
@@ -419,7 +420,7 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
 &lt;li&gt;Chan Ching Yuen&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://doc-04-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/v86d3jmaoglhqttms6130hffkjthbufh/1524924000000/07193667370322989573/07193667370322989573/17n-eEDP8ASEjFuWzplS2RHBlCP9c2LPZ?e=download&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=17n-eEDP8ASEjFuWzplS2RHBlCP9c2LPZ&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
 
@@ -480,8 +481,7 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/tools/structure.jpg&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;
-&lt;em&gt;&lt;a href=&#34;https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tools/structure.jpg&#34; alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;This part may contains the following tools:&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;(Will be filled in the future)&lt;/strong&gt;&lt;/p&gt;
 
@@ -508,6 +508,8 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Swiss-PdbViewer&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction&#34; target=&#34;_blank&#34;&gt;citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>

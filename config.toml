@@ -249,11 +249,19 @@ defaultContentLanguageInSubdir = false
   name = "Home"
   url = "#bioinformatics"
   weight = 1
-
+  
+#submenu
 [[menu.main]]
-  name = "R language"
-  url = "#R_language"
+  name = "Programming"
+  url = "/program"
   weight = 1.5
+  identifier = "Programming"
+  
+[[menu.main]]
+  weight = 1
+  name   = "R Language"
+  url    = "/program/R"
+  parent = "Programming" 
   
 #submenu
 [[menu.main]]
@@ -264,20 +272,26 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   weight = 1
-  name   = "Getting start"
-  url    = "/tutorial/getstart"
+  name   = "Getting Started With R"
+  url    = "/tutorial/getstart/"
   parent = "Tutorials"  
   
 [[menu.main]]
   weight = 2
   name   = "BMS4001 tutorials"
-  url    = "/tutorial/bms4001"
+  url    = "/tutorial/bms4001/"
   parent = "Tutorials"  
   
 [[menu.main]]
   weight = 3
-  name   = "Find more"
-  url    = "/tutorial/more"
+  name   = "Online Courses"
+  url    = "/tutorial/courses/"
+  parent = "Tutorials"  
+  
+[[menu.main]]
+  weight = 4
+  name   = "Other Resources"
+  url    = "/tutorial/resources/"
   parent = "Tutorials"  
 
 #submenu
@@ -332,26 +346,38 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   weight = 1
-  name   = "Sequence-related"
-  url    = "/tools/sequence"
+  name   = "Genomics"
+  url    = "/tools2/genomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 2
-  name   = "Gene-related"
-  url    = "/tools/genepart"
+  name   = "Epigenomics"
+  url    = "/tools2/epigenomics"
   parent = "Tools"
 
 [[menu.main]]
   weight = 3
-  name   = "Protein-related"
-  url    = "/tools/protein"
+  name   = "Transcriptomics"
+  url    = "/tools2/transcriptomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 4
-  name   = "Molecular Evolution"
-  url    = "/tools/molecular"
+  name   = "Proteomics"
+  url    = "/tools2/proteomics"
+  parent = "Tools"
+  
+[[menu.main]]
+  weight = 5
+  name   = "Metabolomics"
+  url    = "/tools2/metabolomics"
+  parent = "Tools"
+  
+[[menu.main]]
+  weight = 6
+  name   = "Phenomics"
+  url    = "/tools2/phenomics"
   parent = "Tools"
 ###
 
@@ -363,7 +389,7 @@ defaultContentLanguageInSubdir = false
 #submenu
 [[menu.main]]
   weight = 1
-  name   = "Comprehensive"
+  name   = "Multidisciplinary"
   url    = "/journal/comprehensive"
   parent = "Journals"
 
@@ -381,7 +407,7 @@ defaultContentLanguageInSubdir = false
 #
 
 [[menu.main]]
-  name = "Server"
+  name = "Servers"
   url = "/server/"
   weight = 6
   

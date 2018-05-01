@@ -91,7 +91,7 @@ math = false
 * LEUNG Wai Ching 
 * Secily Thompson 
 
-[**Download**](https://doc-0c-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/94srn9u9gepikefr4a1uc81g46b4f2nn/1524924000000/07193667370322989573/07193667370322989573/1Xai6K4nvdRQNIiJmk7fL_id3hcPCvs-K?e=download)
+[**Download**](https://drive.google.com/open?id=1Xai6K4nvdRQNIiJmk7fL_id3hcPCvs-K)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

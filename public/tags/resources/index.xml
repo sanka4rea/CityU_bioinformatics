@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on CityU-Bioinformatics</title>
+    <link>/tags/resources/</link>
+    <description>Recent content in Resources on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sources</title>
+      <link>/tutorial/res_new/sources/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/res_new/sources/</guid>
+      <description>Table of Contents  Online Sources Bioconductor Recommended books Blogs/website Society Careers: How can I become a bioinformatics practitioner?   Online Sources There are many great open sources website which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.
+Bioconductor Bioconductor Bioconductor is an open source, open development software project to provide tools for the analysis and comprehension of high-throughput genomic data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/tutorial/getstart/getstart/</loc>
+      <loc>/tutorial/get_new/getstart/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -176,15 +176,6 @@
     
     <url>
     
-      <loc>/tutorial/mo_new/sources/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/database/pro_seq_new/uniport/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -221,7 +212,7 @@
     
     <url>
     
-      <loc>/tutorial/mo_new/online-courses/</loc>
+      <loc>/tutorial/cou_new/online-courses/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -348,6 +339,15 @@
     <url>
     
       <loc>/database/pro_str_new/scop2/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/res_new/sources/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -896,15 +896,6 @@
     
     <url>
     
-      <loc>/journal/comprehensive/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/journal/conferences/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -923,15 +914,6 @@
     
     <url>
     
-      <loc>/tutorial/more/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tools/genepart/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -942,6 +924,15 @@
     <url>
     
       <loc>/database/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/getstart/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -977,6 +968,15 @@
     
     <url>
     
+      <loc>/journal/comprehensive/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/database/nucleic/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -986,7 +986,25 @@
     
     <url>
     
+      <loc>/tutorial/courses/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/database/other/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tutorial/resources/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1014,6 +1032,69 @@
     <url>
     
       <loc>/tools/protein/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools2/proteomics/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/program/r/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools2/epigenomics/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools2/genomics/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools2/metabolomics/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools2/phenomics/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools2/transcriptomics/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1174,6 +1255,16 @@
     
     <url>
     
+      <loc>/tags/courses/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/fold/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1224,7 +1315,7 @@
     
     <url>
     
-      <loc>/tags/online/</loc>
+      <loc>/tags/other/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1234,8 +1325,7 @@
     
     <url>
     
-      <loc>/tags/other/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <loc>/program/</loc>
       <priority>0</priority>
     </url>
     
@@ -1293,6 +1383,16 @@
     
     <url>
     
+      <loc>/tags/resources/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/sequence_related/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1325,6 +1425,15 @@
     
       <loc>/tags/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tools2/</loc>
       <priority>0</priority>
     </url>
     

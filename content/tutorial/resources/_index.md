@@ -1,31 +1,13 @@
 +++
-# Date this page was created.
-date = "2018-04-11"
-
-# Project title.
-title = "Sources"
-
-weight = 10
-# Project summary to display on homepage. 
-summary = "This part will introduce some open sources website which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "tutorial/sources.jpg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["online"]
-
-# Optional external URL for project (replaces project detail page).
-#external_link = "https://cityu-bioinformatics.netlify.com/tutorial/sources/"
-
-# Does the project detail page use math formatting?
+title = "Other resources"
+date = 2018-04-11
 math = false
+highlight = false
 
 # Optional featured image (relative to `static/img/` folder).
-#[header]
-#image = "headers/bubbles-wide.jpg"
-#caption = "My caption :smile:"
+[header]
+image = ""
+caption = ""
 
 
 +++
@@ -35,12 +17,12 @@ math = false
 {{% toc %}}
 
 <img src="/img/tutorial/sources.jpg" width="600" height="300" alt="edx" align= center/>
-[Preview Image Citation](http://www.gettingsmart.com/2012/09/50-top-sources-of-free-elearning-courses/)
 
-## Online Sources
+
+# Online Sources
 <p align="justify">There are many great **open sources website** which contains tutorials, softwares, tools of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.
 
-## Bioconductor
+# Bioconductor
 <p align="justify">[**Bioconductor**](http://www.bioconductor.org/) Bioconductor is an open source, open development software project to provide tools for the analysis and comprehension of high-throughput genomic data. It is based primarily on the R programming language.
 <img src="/img/tutorial/bioconductor.png" width="800" height="600" alt="edx" align= center/>
 <p align="justify">The Bioconductor [release version](http://www.bioconductor.org/packages/release/bioc/) is updated twice each year, and is appropriate for most users. There is also a [development version](http://bioconductor.org/packages/devel/bioc/), to which new features and packages are added prior to incorporation in the release. A large number of [meta-data packages](http://bioconductor.org/packages/release/data/annotation/) provide pathway, organism, microarray and other annotations.
@@ -52,12 +34,12 @@ math = false
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-## Recommended books
+# Recommended books
 <p align="justify">It's notoriously difficult to find any books on bioinformatics itself that cater well for all of those coming from computing, from mathematics and from biology backgrounds. The few textbooks available in the field tend to be eyewateringly expensive as well. Suggested reading has been divided into books of general interest, those best suited to people coming from a computational/mathematical background and books for biologists interested in bioinformatics.
 
 The Details is on [**Recommended books**](https://www.bioinformatics.org/wiki/Recommended_books)
 
-## Blogs/website
+# Blogs/website
 * [STHDA](http://www.sthda.com/english/): Statistical tools for high-throughput data analysis.
 * [bioinformatics.org](http://www.bioinformatics.org/)
 * [The BIO-WEB](http://cellbiol.com/): Resources for molecular and cell biologists.
@@ -65,14 +47,14 @@ The Details is on [**Recommended books**](https://www.bioinformatics.org/wiki/Re
 * [ColorBasePair](http://www.colorbasepair.com/): online bioinformatics resources.
 
 
-## Society
+# Society
 <p align="justify">The International Society for Computational Biology has links to programs of study and online courses in computational biology and to job postings.
 
 [International Society for Computational Biology](https://www.iscb.org/)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-## Careers: How can I become a bioinformatics practitioner?
+# Careers: How can I become a bioinformatics practitioner?
 **Starting from scratch**:
 
 <p align="justify">If you are a high school student / sixth former, think about taking an interdisciplinary computational biology or bioinformatics bachelor's degree of the sort offered at, for example, Manchester University in the UK or UPenn in the States. Don't worry if you can't find a place on such a course or there isn't one nearby; perhaps the best way to approach this subject is from two sides. Do a bachelor's degree in one area while taking a healthy interest in the other -- or (if you can afford to) complement a first degree in one part of the discipline with a second degree in the second.
@@ -81,7 +63,7 @@ If you are currently doing a computer science or biology PhD, try to take advant
 
 **From a background in biology**:
 
-<p align="justify">Biologists should take as many real computing courses as you can. It's important not just to learn a programming language, but also to learn the discipline of computing; to structure and document your work in a rigorous way. What courses you take might be directed by the kind of work you are interested in doing when you graduate -- whether you see yourself supporting bioinformatics applications or building them. For the former you need all-round familiarity with the programs themselves and the hardware and software needed to run them -- plus your existing understanding of biology. For the latter you need to learn a structured programming language and the principles of good program design -- plus the ability to talk to and understand biologists.
+<p align="justify">Biologists should take as many real computing courses as you can. It's important not just to learn a programming language, but also to learn the discipline of computing, to structure and document your work in a rigorous way. What courses you take might be directed by the kind of work you are interested in doing when you graduate -- whether you see yourself supporting bioinformatics applications or building them. For the former you need all-round familiarity with the programs themselves and the hardware and software needed to run them -- plus your existing understanding of biology. For the latter you need to learn a structured programming language and the principles of good program design -- plus the ability to talk to and understand biologists.
 
 **From a background in computational/quantitative science**:
 
@@ -90,6 +72,12 @@ Quantitative scientists sometimes talk about their interest in studying some asp
 
 The Details is on [**Getting involved**](https://www.bioinformatics.org/wiki/Getting_involved)
 
+[Preview Image Citation](http://www.gettingsmart.com/2012/09/50-top-sources-of-free-elearning-courses/)
+
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ---
+
+
+
+             

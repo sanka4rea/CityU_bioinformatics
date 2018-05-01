@@ -12,9 +12,9 @@ caption = ""
 
 +++
 ---
-This is a list of articles about journals containing peer-reviewed scientific journals that focus on **bioinformatics and computational biology**.
+This is a list of **journals** focusing on bioinformatics and/or computational biology (in **alphabetical order**).
 
-**The journals are only listed in alphabetical order.**
+
 
 
 ---

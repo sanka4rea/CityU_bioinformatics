@@ -79,7 +79,7 @@ This tool cannot accurately estimate risk of colorectal cancer for people who ha
 * Lau Angie 
 * Luu Si Xin 
 
-[**Download**](https://doc-0s-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/9usac3j5u45etc12jblcpdfmrd2r4oii/1524916800000/07193667370322989573/07193667370322989573/1H6eVprAYtZJa-A41z0Q_sKHQKxA6HtMF?e=download)
+[**Download**](https://drive.google.com/open?id=1H6eVprAYtZJa-A41z0Q_sKHQKxA6HtMF)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

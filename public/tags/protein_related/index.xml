@@ -18,15 +18,14 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/pro_new/structure/</guid>
-      <description> citation
-This part may contains the following tools: (Will be filled in the future)
+      <description>This part may contains the following tools: (Will be filled in the future)
 Primary structure  ProtParam
  COILS
   Secondary structure  PredictProtein
  PSIPRED
   tertiary structure  Phyre
  Swiss-PdbViewer
-  </description>
+  citation</description>
     </item>
     
     <item>
@@ -35,9 +34,8 @@ Primary structure  ProtParam
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tools/pro_new/mass/</guid>
-      <description> citation
-This part may contains the following tools: (Will be filled in the future)
-X!Tandem Mascot Sequest TPP </description>
+      <description>This part may contains the following tools: (Will be filled in the future)
+X!Tandem Mascot Sequest TPP citation</description>
     </item>
     
   </channel>

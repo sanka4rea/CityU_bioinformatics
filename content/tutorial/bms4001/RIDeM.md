@@ -52,10 +52,7 @@ math = false
 
 2. <p align="justify">**Diseases and treatment options** are identified in each article automatically using the MetaMap and SemRep tools developed at NLM.
 
-3. Outcome Extraction tool:
-*	automatically verifies that an article is about the disease.
-* automatically identifies strength of evidence in the article (as Grade I, II, III, or no evidence), based on the type of the study, for example, clinical trial, reputation of the journal, and the number of participants in the study.
-* automatically estimates the likelihood of a sentence being an outcome statement in an article. Any number of top ranking sentences, for example 2-3, could be extracted as a summary.
+3. Outcome Extraction tool:<br>	Automatically verifies that an article is about the disease.<br><br> Automatically identifies strength of evidence in the article (as Grade I, II, III, or no evidence), based on the type of the study, for example, clinical trial, reputation of the journal, and the number of participants in the study.<br><br> Automatically estimates the likelihood of a sentence being an outcome statement in an article. Any number of top ranking sentences, for example 2-3, could be extracted as a summary.
 
 4. The extracted outcomes could be stored in a database (with or without human curation.)
 
@@ -81,7 +78,7 @@ math = false
 * Kwan Yuk Tip                       
 * Chan Man Chung          
 
-[**Download**](https://doc-00-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/6dt4kmk4oan2ncpm5239799toeuum2j9/1524924000000/07193667370322989573/07193667370322989573/1OMw8wx2Hs5ZHVpLGEI32eZE8VbqHjjY9?e=download)
+[**Download**](https://drive.google.com/open?id=1OMw8wx2Hs5ZHVpLGEI32eZE8VbqHjjY9)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

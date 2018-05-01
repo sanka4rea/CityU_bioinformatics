@@ -1,5 +1,5 @@
 +++
-title = "Comprehensive"
+title = "Multidisciplinary"
 date = 2018-04-11
 math = false
 highlight = false
@@ -12,9 +12,7 @@ caption = ""
 
 +++
 ---
-Here we listed some **comprehensive and authoritative** journals that may contain bioinformatics and computational biology topics. 
-
-**The journals are only listed in alphabetical order.**
+Here is a list of **journals** that may publish articles related to bioinformatics and computational biology (in **alphabetical order**).
 
 ---
 {{% alert note %}}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on CityU-Bioinformatics</title>
+    <link>/tags/courses/</link>
+    <description>Recent content in Courses on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Online Courses</title>
+      <link>/tutorial/cou_new/online-courses/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/cou_new/online-courses/</guid>
+      <description>Table of Contents  Online Courses edx online courses  R Programming courses: Data Science related courses: Mechine Learning courses:  Coursera online courses  R Programming courses: Data Science related courses: Mechine Learning courses:    Online Courses There are many great online learning platforms that provide various elementary and advanced courses of R/Data science/R-packages. Most of those courses is free, but you can also choose some charged courses for specific needs or pay for a verified certificate of the courses.</description>
+    </item>
+    
+  </channel>
+</rss>

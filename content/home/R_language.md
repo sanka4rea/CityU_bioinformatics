@@ -5,8 +5,8 @@ widget = "posts"
 active = true
 date = "2018-04-11"
 
-title = "R Language"
-subtitle = "Brifely introduce about the R programming language and the IDE-like software: Rstudio"
+title = "Programming"
+subtitle = "Brifely introduce some programming language and the IDE-like software."
 
 
 # Order that this section will appear in.

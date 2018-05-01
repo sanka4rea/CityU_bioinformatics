@@ -76,6 +76,15 @@
     </item>
     
     <item>
+      <title>Courses</title>
+      <link>/tags/courses/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fold</title>
       <link>/tags/fold/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -121,15 +130,6 @@
     </item>
     
     <item>
-      <title>Online</title>
-      <link>/tags/online/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/online/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Other</title>
       <link>/tags/other/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -171,6 +171,15 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/tags/resources/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/resources/</guid>
       <description></description>
     </item>
     

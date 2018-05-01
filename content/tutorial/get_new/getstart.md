@@ -31,7 +31,6 @@ math = false
 +++
 ---
 ![start](/img/tutorial/start.jpg)
-[Preview Image Citation](http://www.tekmoz.com/laptop-repair-course-lets-get-started/)
 
 ### Installation
 <p align="justify">The first thing you need to do to get started with R is to install it on your computer. R works on pretty much every platform available, including the widely available Windows, Mac OS X, and Linux systems. If you want to watch a step-by-step tutorial on how to install R for Mac or Windows, you can watch these videos:
@@ -55,5 +54,6 @@ The RStudio IDE is available from [RStudio’s web site](https://www.rstudio.com
 
 **Citation:**[R programming for data science](https://bookdown.org/rdpeng/rprogdatascience/)
 
+[Image Citation](http://www.tekmoz.com/laptop-repair-course-lets-get-started/)
 
 ---

@@ -44,9 +44,9 @@ Breast cancer is fatal,  it can spread to the lymph nodes,lungs and brain by met
 
 However, breast cancer can be treated easily if diagnosed in an early stage, it can:
 
-* increase survival rate 
-* reduce medical cost
-* avoid extensive treatment (psychological and physical impact)
+* Increase survival rate 
+* Reduce medical cost
+* Avoid extensive treatment (psychological and physical impact)
 
 
 <img src="/img/tutorial/4001/brca2.png" alt="clinvar" align="center">
@@ -54,10 +54,10 @@ However, breast cancer can be treated easily if diagnosed in an early stage, it 
 
 ### Functionalities
 
-* Estimate  woman’s risk of developing invasive breast cancer at > 35 years old. <br>1. Personal medical history. <br>2.Her reproductive history. <br>3. History of breast cancer among her first-degree relatives  
+* Estimate  woman’s risk of developing invasive breast cancer at > 35 years old. <br>1. Personal medical history. <br>2. Her reproductive history. <br>3. History of breast cancer among her first-degree relatives  
 
 * Total 11 questions designed for calculating the risk
-* Use The Gail model. <br>1.has been tested in large populations of white women.<br>2.shown to provide accurate estimates of breast cancer risk.
+* Use The Gail model. <br>1.Has been tested in large populations of white women.<br>2.Shown to provide accurate estimates of breast cancer risk.
 * System will be updated when new data and research are available.
 
 ### Limitations
@@ -75,7 +75,7 @@ However, breast cancer can be treated easily if diagnosed in an early stage, it 
 * PONG Yin Chung Charles 
 * SO Wai Yin 
 
-[**Download**](https://doc-08-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/7cd3rvhjq70piv6gl08a7pa2r2hj2rom/1524916800000/07193667370322989573/07193667370322989573/11fySlMDvq_jx9wAAGfBNmFoNu4kgsvHF?e=download)
+[**Download**](https://drive.google.com/open?id=11fySlMDvq_jx9wAAGfBNmFoNu4kgsvHF)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

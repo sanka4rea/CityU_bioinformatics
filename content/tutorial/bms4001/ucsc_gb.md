@@ -75,7 +75,7 @@ To measure  length of genome: count no. of base pair
 * Wong Yin Chung, Alex      
 * Yu Man Yee, Mandy                    
 
-[**Download**](https://doc-10-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/ruvmr73plrd20jciomhflkf7gvnqp27q/1524916800000/07193667370322989573/07193667370322989573/1WlkLbgGoF5WB0Rf2LE5nsOaft8JkvpxL?e=download)
+[**Download**](https://drive.google.com/open?id=1WlkLbgGoF5WB0Rf2LE5nsOaft8JkvpxL)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

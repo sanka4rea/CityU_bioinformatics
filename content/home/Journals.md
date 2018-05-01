@@ -8,7 +8,7 @@ date = "2018-04-11"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "Journals"
-subtitle = "The comprehensive list of the bioinformatics and computational biology journals. The journals are only listed in alphabetical order."
+subtitle = "The comprehensive list of the bioinformatics and computational biology journals and conferences (in alphabetical order). "
 
 # Order that this section will appear in.
 weight = 40
@@ -36,11 +36,11 @@ filter_default = 0
   tag = ".fold"
 
 [[filter]]
-  name = "Comprehensive_p1"
+  name = "Multidisciplinary_p1"
   tag = ".Comprehensive1"
   
 [[filter]]
-  name = "Comprehensive_P2"
+  name = "Multidisciplinary_p2"
   tag = ".Comprehensive"
 
 [[filter]]

@@ -45,9 +45,12 @@ filter_default = 0
   tag = ".bms4001_p2"
 
 [[filter]]
-  name = "Find More"
-  tag = ".online"
+  name = "Online Courses"
+  tag = ".courses"
   
+[[filter]]
+  name = "Other Resources"
+  tag = ".resources"
 
 +++
 

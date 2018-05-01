@@ -32,7 +32,7 @@ math = false
 
 +++
 ---
-<img src="/img/tutorial/4001/computer.jpg" alt="clinvar" align="center">
+<img src="/img/tutorial/4001/computer.jpg"width="700" height="400"  alt="clinvar" align="center">
 
 <span id="top"></span>
 
@@ -104,7 +104,7 @@ The great and detailed **introduction** could be found in **references** and/or 
 * Chan Ching Yuen
 
 
-[**Download**](https://doc-04-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/v86d3jmaoglhqttms6130hffkjthbufh/1524924000000/07193667370322989573/07193667370322989573/17n-eEDP8ASEjFuWzplS2RHBlCP9c2LPZ?e=download)
+[**Download**](https://drive.google.com/open?id=17n-eEDP8ASEjFuWzplS2RHBlCP9c2LPZ)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

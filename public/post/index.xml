@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/post/bioinformatics/</guid>
-      <description>Table of Contents      What is bioinformatics? What are the origins of bioinformatics? The goals of bioinformatics What are the most common bioinformatics programs? What are the most common bioinformatics technologies? How are data analyzed in bioinformatics? Fields related to bioinformatics Citation：     What is bioinformatics? Bioinformatics has been defined many different ways, since practitioners do not always agree upon the scope of its use within the biological and computer sciences, but it is always considered a combination of both sciences, along with other contributing disciplines.</description>
+      <description>Table of Contents  What is bioinformatics? What are the origins of bioinformatics? The goals of bioinformatics What are the most common bioinformatics programs? What are the most common bioinformatics technologies? How are data analyzed in bioinformatics? Fields related to bioinformatics Citation：   What is bioinformatics? Bioinformatics has been defined many different ways, since practitioners do not always agree upon the scope of its use within the biological and computer sciences, but it is always considered a combination of both sciences, along with other contributing disciplines.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/post/r/</guid>
-      <description>Table of Contents    What is R ? The R environment Design of the R System Limittations of R R Resources  Official Manuals Other Resources     What is R ? R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&amp;amp;T, now Lucent Technologies) by John Chambers and colleagues.</description>
+      <description>Table of Contents  What is R ? The R environment Design of the R System Limittations of R R Resources  Official Manuals Other Resources    What is R ? R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&amp;amp;T, now Lucent Technologies) by John Chambers and colleagues.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/post/rstudio/</guid>
-      <description>What is Rstudio Rstudiois an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. Click here to see more RStudio features.
+      <description>What is Rstudio Rstudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. Click here to see more RStudio features.
 RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server or RStudio Server Pro (Debian/Ubuntu, RedHat/CentOS, and SUSE Linux).</description>
     </item>
     

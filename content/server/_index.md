@@ -1,5 +1,5 @@
 +++
-title = "Server"
+title = "Servers"
 date = 2018-04-11
 math = false
 highlight = false
@@ -15,14 +15,16 @@ caption = ""
 [**Rstudio server:**](http://144.214.26.67:8787/auth-sign-in)
 {{% /alert %}}
 <img src="/img/server/rstudioserver.png" alt="server" align="center">
-<p align="justify">Here is a [**Rstudio server**](http://144.214.26.67:8787/auth-sign-in) for students of City University Hong Kong.    
-***Account is needed!*** Please check your e-mail for the account.
+<p align="justify">Click [**here**](http://144.214.26.67:8787/auth-sign-in) to access the Rstudio server in the Wang Lab. 
+
+Please contact **xin.wang@cityu.edu.hk** if you need an account.
 
 ---
 {{% alert note %}}
 [**Galaxy:**](http://144.214.26.35:8080/)
 {{% /alert %}}
 <img src="/img/server/galaxy.png" alt="galaxy" align="center">
-<p align="justify">**Galaxy** is an open, web-based platform for accessible, reproducible, and transparent computational biomedical research. 
+<p align="justify">Click [**here**](http://144.214.26.35:8080/) to access the Galaxy server in the Wang Lab. 
 
-Here is [**the guide of Galaxy**](http://144.214.26.35:8080/)
+Please contact **xin.wang@cityu.edu.hk** if you need an account.
+

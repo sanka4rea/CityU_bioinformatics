@@ -55,7 +55,7 @@ math = false
 * It is an application that enables users with an internet connection to access and view webpages on a computer or mobile device
 
 <img src="/img/tutorial/4001/internet2.jpg" alt="clinvar" align="center">
-[*Image citation*](https://hipertextual.com/archivo/2014/10/internet-cosas/)
+
 
 [**Website**](https://www.investintech.com/content/historyinternet/)
 
@@ -109,7 +109,9 @@ The great and detailed **introduction** could be found in **references** and/or 
 * Kwan Yuk Tip	        
 * Chan Man Chung             
 
-[**Download**](https://doc-04-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/aq88ntckbnrlln8o5soep9sui6he2civ/1524924000000/07193667370322989573/07193667370322989573/1XcY_4At2wcsauVJMmsgIuhdtJdjZdGDf?e=download)
+[**Download**](https://drive.google.com/open?id=1XcY_4At2wcsauVJMmsgIuhdtJdjZdGDf)
+
+[*Image citation*](https://hipertextual.com/archivo/2014/10/internet-cosas/)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

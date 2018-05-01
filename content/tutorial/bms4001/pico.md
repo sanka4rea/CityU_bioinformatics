@@ -108,7 +108,7 @@ math = false
 * Tang Hoi Man, Simon
  
 
-[**Download**](https://doc-14-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/457ot9cc965u25t0ksln2sn1gbkufbv7/1524924000000/07193667370322989573/07193667370322989573/1Hddn8ts8WU_KRGvjqlOa2f1xVroDSCzp?e=download)
+[**Download**](https://drive.google.com/open?id=1Hddn8ts8WU_KRGvjqlOa2f1xVroDSCzp)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

@@ -84,7 +84,7 @@ After proving the utility of this program, DR2 aims to:
 * LEUNG Wai Ching
 * THOMPSON Secily Aniela Marie
 
-[**Download**](https://doc-04-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/j0e6lkrtdrim6dje97oqi24ooo5be2cg/1524916800000/07193667370322989573/07193667370322989573/1f_UoX_-dv2m2gEPaPuT4q1fmAFMlUmsF?e=download)
+[**Download**](https://drive.google.com/open?id=1f_UoX_-dv2m2gEPaPuT4q1fmAFMlUmsF)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

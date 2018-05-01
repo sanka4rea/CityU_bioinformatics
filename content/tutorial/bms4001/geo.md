@@ -55,7 +55,7 @@ GEO data can be retrieved and analyzed in several ways:
 
 * <p align="justify">To look at a particular GEO record for which you have the accession number, use the GEO accession box located on the GEO homepage or at the top of each GEO record.
 * <p align="justify">To download data, see the various options described on the [Download GEO data](https://www.ncbi.nlm.nih.gov/geo/info/download.html) page.
-* <p align="justify">To quickly locate data relevant to your interests, search GEO DataSets and GEO Profiles:<br>[GEO DataSets](https://www.ncbi.nlm.nih.gov/gds/) is a study-level database which users can search for studies relevant to their interests. The database stores descriptions of all original submitter-supplied records, as well as curated DataSets. More information about GEO DataSets and how to interpret GEO DataSets results pages can be found on the About GEO DataSets page. <br>[GEO](https://www.ncbi.nlm.nih.gov/geoprofiles/) Profiles is a gene-level database which users can search for gene expression profiles relevant to their interests. More information about GEO Profiles and how to interpret GEO Profiles results pages can be found on the About GEO Profiles page.
+* <p align="justify">To quickly locate data relevant to your interests, search GEO DataSets and GEO Profiles:<br><br>[GEO DataSets](https://www.ncbi.nlm.nih.gov/gds/) is a study-level database which users can search for studies relevant to their interests. The database stores descriptions of all original submitter-supplied records, as well as curated DataSets. More information about GEO DataSets and how to interpret GEO DataSets results pages can be found on the About GEO DataSets page. <br><br>[GEO](https://www.ncbi.nlm.nih.gov/geoprofiles/) Profiles is a gene-level database which users can search for gene expression profiles relevant to their interests. More information about GEO Profiles and how to interpret GEO Profiles results pages can be found on the About GEO Profiles page.
 
 <p align="justify">GEO DataSet and GEO Profiles searches may be effectively performed by simply entering appropriate keywords and phrases into the search box. However, given the large volumes of data stored in these databases, it is often useful to perform more refined queries in order to filter down to the most relevant data. Examples and full details about how to perform sophisticated queries are provided in the Querying GEO DataSets and GEO Profiles page. Additionally, the Limits and Advanced Search tools, linked at the head of the GEO DataSets and GEO Profiles pages, assist greatly in the construction of complex queries:
 
@@ -77,7 +77,7 @@ GEO data can be retrieved and analyzed in several ways:
 4. <p align="justify">**Data (GDS)**<br>sample data collection assembled by GEO staff.
 
 <br>
-**case study**  could be found in **the student work** below.
+**Case study**  could be found in **the student work** below.
 
 ### BMS4001 2018 Semester B Student Work
 
@@ -86,7 +86,7 @@ GEO data can be retrieved and analyzed in several ways:
 * Hu Yashi, Karen 
 * Kwok Kam Chak, George 
 
-[**Download**](https://doc-0k-b4-docs.googleusercontent.com/docs/securesc/e26fd49upnna624jdr6rqrvfbll89ce5/bthtcn3pd8ku6h33kuh9fjta06ae99lr/1524916800000/07193667370322989573/07193667370322989573/1YtkDn75SwnFex1Qq48qNN60oGTnZahTj?e=download)
+[**Download**](https://drive.google.com/open?id=1YtkDn75SwnFex1Qq48qNN60oGTnZahTj)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
