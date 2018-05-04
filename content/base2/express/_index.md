@@ -57,6 +57,8 @@ The **Zebrafish Information Network** (ZFIN) is an online biological database of
 
 The **Personal Genome Project** (PGP) is a long term, large cohort study which aims to sequence and publicize the complete genomes and medical records of 100,000 volunteers, in order to enable research into personal genomics and personalized medicine.
 
+[*Image Citation*](https://www.genome.gov/18016863/a-brief-guide-to-genomics/)
+
 ---
 
 

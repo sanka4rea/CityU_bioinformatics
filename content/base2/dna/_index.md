@@ -53,6 +53,8 @@ The **International HapMap Project** was an organization that aimed to develop a
 
 **23andMe** is a privately held personal genomics and biotechnology company based in Mountain View, California. The company is named for the 23 pairs of **chromosomes** in a normal human cell.
 
+[*Image Citation*](https://www.genomicseducation.hee.nhs.uk/genetics101/what-is-dna/)
+
 ---
 
 

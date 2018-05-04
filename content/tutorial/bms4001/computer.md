@@ -59,7 +59,7 @@ A computer is a electronic machine that help you:
 <p align="justify">Today, we carry more computing power on our smartphones than was available in these early models. The following brief history of computing is a timeline of how computers evolved from their humble beginnings to the machines of today that surf the Internet, play games and stream multimedia in addition to crunching numbers.
 
 <img src="/img/tutorial/4001/computer2.png" alt="clinvar" align="center">
-[**Website**](http://www.computerhistory.org/timeline/computers/)
+[**Citation & Website**](http://www.computerhistory.org/timeline/computers/)
 
 ### Conclusion
 

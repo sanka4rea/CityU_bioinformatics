@@ -80,6 +80,8 @@ math = false
 
 [**Download**](https://drive.google.com/open?id=1OMw8wx2Hs5ZHVpLGEI32eZE8VbqHjjY9)
 
+[*Image Citation*](https://ceb.nlm.nih.gov/projects/repository-for-informed-decision-making-ridem/)
+
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
 ---

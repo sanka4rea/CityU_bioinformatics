@@ -23,6 +23,8 @@ caption = ""
 
 In bioinformatics, **miRBase** is a biological database that acts as an archive of microRNA sequences and annotations. As of September 2010 it contained information about 15,172 microRNAs. This number has rose to 38589 by March 2018. The miRBase registry provides a centralised system for assigning new names to microRNA genes.
 
+[*Image Citation*](https://en.wikipedia.org/wiki/RNA)
+
 ---
 
 

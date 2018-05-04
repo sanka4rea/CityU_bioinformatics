@@ -91,7 +91,7 @@ math = false
 
 **OUTCOME**
 
-* What can I hope to accomplish, measure, improve, or affect?
+* What can I hope to accomplish, measure, improve, or affect?
 * What would be the desired effect you would like to see?
 * What effects are not wanted?
 * Are there any side effects involved with this form of testing or treatment?
@@ -109,6 +109,8 @@ math = false
  
 
 [**Download**](https://drive.google.com/open?id=1Hddn8ts8WU_KRGvjqlOa2f1xVroDSCzp)
+
+[*Image Citation*](http://libguides.ul.ie/c.php?g=328865&p=2208907)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

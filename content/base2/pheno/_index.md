@@ -27,7 +27,7 @@ The **Pathogen-Host Interaction database (PHI-base)** contains expertly curated 
 
 The **Rat Genome Database (RGD)** is the premiere location for rat genomics, genetics, physiology and functional data, as well as data for comparative genomics between rat, human and mouse.
 
-
+[*Image Citation*](http://buddhajeans.com/encyclopedia/phenotype-illustration/)
 
 ---
 

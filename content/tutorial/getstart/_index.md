@@ -36,7 +36,7 @@ The RStudio IDE is available from [RStudio’s web site](https://www.rstudio.com
 
 **Citation:**[R programming for data science](https://bookdown.org/rdpeng/rprogdatascience/)
 
-[Image Citation](http://www.tekmoz.com/laptop-repair-course-lets-get-started/)
+[*Image Citation*](http://www.tekmoz.com/laptop-repair-course-lets-get-started/)
 
 ---
 
