@@ -13,92 +13,11 @@
     
     
     <item>
-      <title>Bioinformatic Harvester</title>
-      <link>/base2/newexpress/harvest/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/harvest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ensembl genome database project</title>
       <link>/base2/newexpress/ensembl_genomoe/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/base2/newexpress/ensembl_genomoe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FLYBASE</title>
-      <link>/base2/newexpress/flybase/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/flybase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gene Disease Database</title>
-      <link>/base2/newexpress/genedisease/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/genedisease/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal Genome Project</title>
-      <link>/base2/newexpress/pgp/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/pgp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SNPedia</title>
-      <link>/base2/newexpress/snp/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/snp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Saccharomyces Genome Database</title>
-      <link>/base2/newexpress/sacch/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/sacch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WormBase</title>
-      <link>/base2/newexpress/worm/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/worm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xenbase</title>
-      <link>/base2/newexpress/xenbase/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/xenbase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zebrafish Information Network</title>
-      <link>/base2/newexpress/zebra/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newexpress/zebra/</guid>
       <description></description>
     </item>
     

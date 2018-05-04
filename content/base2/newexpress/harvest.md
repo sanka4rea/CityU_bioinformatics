@@ -14,7 +14,7 @@ summary = "The **Bioinformatic Harvester** (PGP)was a bioinformatic meta search 
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["expression"]
+tags = ["genome"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://en.wikipedia.org/wiki/Bioinformatic_Harvester"

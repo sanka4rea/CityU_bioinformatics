@@ -14,7 +14,7 @@ summary = "In Bioinformatics, a **Gene Disease Database** is a systematized coll
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["expression"]
+tags = ["genome"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://en.wikipedia.org/wiki/Gene_Disease_Database"

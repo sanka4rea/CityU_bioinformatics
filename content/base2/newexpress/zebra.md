@@ -14,7 +14,7 @@ summary = "The **Zebrafish Information Network** (ZFIN) is an online biological 
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["expression"]
+tags = ["genome"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://zfin.org/"

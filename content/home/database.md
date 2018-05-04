@@ -42,10 +42,9 @@ filter_default = 0
   tag = ".dna"
 
 [[filter]]
-  name = "Gene Expression"
-  tag = ".expression"
+  name = "Genome"
+  tag = ".genome"
   
-
   
 [[filter]]
   name = "Protein"
@@ -60,8 +59,8 @@ filter_default = 0
   tag = ".pathway"
 
 [[filter]]
-  name = "Specialized"
-  tag = ".specialized"
+  name = "Other"
+  tag = ".other"
   
 +++
 

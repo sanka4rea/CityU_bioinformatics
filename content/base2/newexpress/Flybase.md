@@ -14,7 +14,7 @@ summary = "A Database of **Drosophila** Genes & Genomes."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["expression"]
+tags = ["genome"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://flybase.org/"

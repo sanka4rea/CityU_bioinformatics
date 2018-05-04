@@ -57,7 +57,7 @@ Signal transduction is the process by which a chemical or physical signal is tra
 
 BRENDA **(The Comprehensive Enzyme Information System)** is an information system representing one of the most comprehensive enzyme repositories.
 
-### [BRENDA](http://www.kegg.jp/)
+### [KEGG](http://www.kegg.jp/)
 
 KEGG **(Kyoto Encyclopedia of Genes and Genomes)** is a collection of databases dealing with genomes, biological pathways, diseases, drugs, and chemical substances.
 

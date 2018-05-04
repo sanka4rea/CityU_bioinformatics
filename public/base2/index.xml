@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Genome RNAi</title>
+      <link>/base2/newpheno/rnai/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpheno/rnai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bioinformatic Harvester</title>
       <link>/base2/newexpress/harvest/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -27,15 +36,6 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/base2/newdna/ddbj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OMIM</title>
-      <link>/base2/newspeci/omim/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newspeci/omim/</guid>
       <description></description>
     </item>
     
@@ -301,6 +301,15 @@
     </item>
     
     <item>
+      <title>Biomodels Database</title>
+      <link>/base2/newspeci/biomodels/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/biomodels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Haplotype Map (HapMap)</title>
       <link>/base2/newdna/hapmap/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -346,6 +355,15 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/base2/newspeci/exocarta/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/exocarta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>23andMe</title>
       <link>/base2/newdna/23andme/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -364,6 +382,15 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/base2/newspeci/bacdive/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/bacdive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>WormBase</title>
       <link>/base2/newexpress/worm/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -373,11 +400,29 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/base2/newspeci/eztaxon/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/eztaxon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Zebrafish Information Network</title>
       <link>/base2/newexpress/zebra/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/base2/newexpress/zebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/base2/newspeci/tcia/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/tcia/</guid>
       <description></description>
     </item>
     

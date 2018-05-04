@@ -14,7 +14,7 @@ summary = "**WormBase** is an online biological database about the biology and g
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["expression"]
+tags = ["genome"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://wormbase.org/#012-34-5"

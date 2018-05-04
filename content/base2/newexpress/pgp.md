@@ -14,7 +14,7 @@ summary = "The **Personal Genome Project** (PGP) is a long term, large cohort st
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["expression"]
+tags = ["genome"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://www.personalgenomes.org/"

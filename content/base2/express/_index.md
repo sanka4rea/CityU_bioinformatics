@@ -1,5 +1,5 @@
 +++
-title = "Gene Expression Databases"
+title = "Genome Databases"
 date = 2018-04-11
 math = false
 highlight = false

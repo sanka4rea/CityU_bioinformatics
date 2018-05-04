@@ -14,7 +14,7 @@ summary = "SWISS-2DPAGE is an annotated **two-dimensional polyacrylamide gel ele
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["specialized"]
+tags = ["other"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://world-2dpage.expasy.org/swiss-2dpage/docs/ch2d-top.html"

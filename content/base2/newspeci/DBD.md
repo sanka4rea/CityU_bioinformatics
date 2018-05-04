@@ -14,7 +14,7 @@ summary = "**Transcription factor prediction database** (DBD) is a database of p
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["specialized"]
+tags = ["other"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://www.transcriptionfactor.org/index.cgi?Home"

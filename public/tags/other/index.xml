@@ -13,6 +13,60 @@
     
     
     <item>
+      <title></title>
+      <link>/base2/newspeci/exocarta/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/exocarta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/base2/newspeci/bacdive/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/bacdive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/base2/newspeci/eztaxon/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/eztaxon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/base2/newspeci/tcia/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/tcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biomodels Database</title>
+      <link>/base2/newspeci/biomodels/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/biomodels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CMVD</title>
+      <link>/base2/newspeci/cmvd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/cmvd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CMVD</title>
       <link>/database/oth_new/cmvd/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -23,10 +77,28 @@
     
     <item>
       <title>DBD</title>
+      <link>/base2/newspeci/dbd/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/dbd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBD</title>
       <link>/database/oth_new/dbd/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/database/oth_new/dbd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPCRdb</title>
+      <link>/base2/newspeci/gpcrdb/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/gpcrdb/</guid>
       <description></description>
     </item>
     
@@ -45,6 +117,15 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/database/oth_new/omim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWISS-2DPAGE</title>
+      <link>/base2/newspeci/swiss-2dpage/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/swiss-2dpage/</guid>
       <description></description>
     </item>
     

@@ -14,7 +14,7 @@ summary = "**Ensembl genome database project** is a joint scientific project bet
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["expression"]
+tags = ["genome"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://asia.ensembl.org/index.html"

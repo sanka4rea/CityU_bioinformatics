@@ -309,7 +309,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   weight = 2
-  name   = "Gene Expression Databases"
+  name   = "Genome Databases"
   url    = "/base2/express"
   parent = "Database"
   
@@ -339,7 +339,7 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   weight = 7
-  name   = "Specialized Databases"
+  name   = "Other Databases"
   url    = "/base2/special"
   parent = "Database" 
 #

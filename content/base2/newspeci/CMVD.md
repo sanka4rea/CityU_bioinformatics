@@ -14,7 +14,7 @@ summary = "**China Microbiology and Virology Database** (CMVD) is a comprehensiv
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["specialized"]
+tags = ["other"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://www.micro.csdb.cn/index.html"

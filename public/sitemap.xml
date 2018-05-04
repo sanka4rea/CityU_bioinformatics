@@ -41,6 +41,15 @@
     
     <url>
     
+      <loc>/base2/newpheno/rnai/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tutorial/type1/tutorial1/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -123,15 +132,6 @@
     <url>
     
       <loc>/tools/mole_new/evolution/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/base2/newspeci/omim/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -986,6 +986,15 @@
     
     <url>
     
+      <loc>/base2/newspeci/biomodels/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/database/nucl_new/epd/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1094,6 +1103,15 @@
     
     <url>
     
+      <loc>/base2/newspeci/exocarta/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/base2/newdna/23andme/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1139,6 +1157,15 @@
     
     <url>
     
+      <loc>/base2/newspeci/bacdive/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tutorial/bms4001/breast/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1175,6 +1202,15 @@
     
     <url>
     
+      <loc>/base2/newspeci/eztaxon/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tutorial/bms4001/pico/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1203,6 +1239,15 @@
     <url>
     
       <loc>/journal/comprehensive/systematic-biology/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/newspeci/tcia/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -1301,15 +1346,6 @@
     
     <url>
     
-      <loc>/base2/express/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tools/genepart/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -1320,6 +1356,15 @@
     <url>
     
       <loc>/database/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/express/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1392,6 +1437,15 @@
     <url>
     
       <loc>/database/other/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/special/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1545,15 +1599,6 @@
     <url>
     
       <loc>/server/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/base2/special/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1717,16 +1762,6 @@
     <url>
     
       <loc>/tags/dna/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/expression/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1905,16 +1940,6 @@
     <url>
     
       <loc>/tags/sequence_related/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/specialized/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

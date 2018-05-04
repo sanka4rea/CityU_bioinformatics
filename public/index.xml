@@ -112,6 +112,15 @@
     </item>
     
     <item>
+      <title>Genome RNAi</title>
+      <link>/base2/newpheno/rnai/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newpheno/rnai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tutorials_1</title>
       <link>/tutorial/type1/tutorial1/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -466,15 +475,6 @@ The great and detailed &lt;strong&gt;introduction&lt;/strong&gt; could be found 
 
 &lt;hr /&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>OMIM</title>
-      <link>/base2/newspeci/omim/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newspeci/omim/</guid>
-      <description></description>
     </item>
     
   </channel>
