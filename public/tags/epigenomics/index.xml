@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epigenomics on CityU-Bioinformatics</title>
+    <link>/tags/epigenomics/</link>
+    <description>Recent content in Epigenomics on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/epigenomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNA Modifications</title>
+      <link>/too2/new_epi/modifications/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_epi/modifications/</guid>
+      <description>Table of Contents  DNA modification analysis  DNA Methylation Prediction DNA Methylation Deconvolution  DNA methylation array analysis  Differential Methylation Site Detection Differential Methylation region Detection  Enrichment Analysis  Over-representation analysis Gene set enrichment analysis Topology enrichment analysis  Bisulfite Sequencing Data Analysis (BS-seq analysis)  Differential Methylation region Detection Methylation Annotation EWAS    DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research.</description>
+    </item>
+    
+    <item>
+      <title>DNA-Protein Interactions</title>
+      <link>/too2/new_epi/dna_pro/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_epi/dna_pro/</guid>
+      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery    DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+    </item>
+    
+    <item>
+      <title>Nucleosome Positioning</title>
+      <link>/too2/new_epi/position/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_epi/position/</guid>
+      <description>Table of Contents  Nucleosome Positioning MNase-seq analysis ATAC-seq analysis  Find more tools: OMIVTOOLS    Nucleosome Positioning MNase-seq analysis The technology of micrococcal nuclease (MNase) digestion combined with high-throughput sequencing (MNase-seq) is a powerful method to map the genome-wide distribution of nucleosome occupancy (Mavrich et al., 2008; Schones et al., 2008; Jiang and Pugh, 2009). Source text: Chen et al., 2014.
+ATAC-seq analysis ATAC-seq allows simultaneous interrogation of factor occupancy, nucleosome positions in regulatory sites, and chromatin accessibility genome wide by considering the position of insertion and the distribution of insert lengths captured during the transposition reaction.</description>
+    </item>
+    
+  </channel>
+</rss>

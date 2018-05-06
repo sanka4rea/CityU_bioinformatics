@@ -284,33 +284,49 @@
           <ul class="dropdown-menu">
             
             <li class="nav-item">
-              <a href="/tools/sequence" data-target="/tools/sequence">
+              <a href="/too2/genomics" data-target="/too2/genomics">
                 
-                <span>Sequence-related</span>
-                
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a href="/tools/genepart" data-target="/tools/genepart">
-                
-                <span>Gene-related</span>
+                <span>Genomics</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/tools/protein" data-target="/tools/protein">
+              <a href="/too2/epigenomics" data-target="/too2/epigenomics">
                 
-                <span>Protein-related</span>
+                <span>Epigenomics</span>
                 
               </a>
             </li>
             
             <li class="nav-item">
-              <a href="/tools/molecular" data-target="/tools/molecular">
+              <a href="/too2/transcriptomics" data-target="/too2/transcriptomics">
                 
-                <span>Molecular Evolution</span>
+                <span>Transcriptomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/proteomics" data-target="/too2/proteomics">
+                
+                <span>Proteomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/metabolomics" data-target="/too2/metabolomics">
+                
+                <span>Metabolomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/phenomics" data-target="/too2/phenomics">
+                
+                <span>Phenomics</span>
                 
               </a>
             </li>
@@ -1867,7 +1883,7 @@ url('/img/headers/biology1.jpg');
 
     
     
-    <span class="hidden default-project-filter">.gene_related</span>
+    <span class="hidden default-project-filter">.epigenomics</span>
     
 
     
@@ -1877,13 +1893,17 @@ url('/img/headers/biology1.jpg');
         <div class="btn-toolbar">
           <div class="btn-group">
             
-              <a href="#" data-filter=".sequence_related" class="btn btn-primary btn-large" target="_blank">Sequence-related</a>
+              <a href="#" data-filter=".genomics" class="btn btn-primary btn-large" target="_blank">Genomics</a>
             
-              <a href="#" data-filter=".gene_related" class="btn btn-primary btn-large active" target="_blank">Gene-related</a>
+              <a href="#" data-filter=".epigenomics" class="btn btn-primary btn-large active" target="_blank">Epigenomics</a>
             
-              <a href="#" data-filter=".protein_related" class="btn btn-primary btn-large" target="_blank">Protein-related</a>
+              <a href="#" data-filter=".transcriptomics" class="btn btn-primary btn-large" target="_blank">Transcriptomics</a>
             
-              <a href="#" data-filter=".molecular_evolution" class="btn btn-primary btn-large" target="_blank">Molecular Evolution</a>
+              <a href="#" data-filter=".proteomics" class="btn btn-primary btn-large" target="_blank">Proteomics</a>
+            
+              <a href="#" data-filter=".metabolomics" class="btn btn-primary btn-large" target="_blank">Metabolomics</a>
+            
+              <a href="#" data-filter=".phenomics" class="btn btn-primary btn-large" target="_blank">Phenomics</a>
             
           </div>
         </div>
@@ -1900,18 +1920,18 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item gene_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item metabolomics">
         <div class="card">
           
-          <a href="/tools/gene_new/gene-prediction/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_meta/profiles/" title="" class="card-image hover-overlay"
               target="_blank">
-            <img src="/img/tools/prediction.jpg" alt="" class="img-responsive">
+            <img src="/img/tools/geno/profile.gif" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/gene_new/gene-prediction/"  target="_blank">Gene Prediction</a></h4>
+            <h4><a href="/too2/new_meta/profiles/"  target="_blank"></a></h4>
             <div class="card-desription">
-              <p>Gene prediction or gene finding refers to the process of identifying the regions of genomic DNA that encode genes.</p>
+              
             </div>
           </div>
         </div>
@@ -1920,18 +1940,18 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item molecular_evolution">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item epigenomics">
         <div class="card">
           
-          <a href="/tools/mole_new/evolution/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_epi/modifications/" title="" class="card-image hover-overlay"
               target="_blank">
-            <img src="/img/tools/evolution.gif" alt="" class="img-responsive">
+            <img src="/img/tools/geno/modification.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/mole_new/evolution/"  target="_blank">Molecular Evolution</a></h4>
+            <h4><a href="/too2/new_epi/modifications/"  target="_blank">DNA Modifications</a></h4>
             <div class="card-desription">
-              <p>Molecular evolution is the process of change in the sequence composition of cellular molecules such as DNA, RNA, and proteins across generations.</p>
+              <p>Including: DNA modification analysis, DNA methylation array analysis, Enrichment Analysis,BS-seq analysis.</p>
             </div>
           </div>
         </div>
@@ -1940,16 +1960,36 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item protein_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item genomics">
         <div class="card">
           
-          <a href="/tools/pro_new/structure/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_geno/anno/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tools/geno/anno.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/too2/new_geno/anno/"  target="_blank">Genome Annotation</a></h4>
+            <div class="card-desription">
+              <p>Including: Gene Ontology Annotation, GO Semantic Similarity Analysis, Promoter Predication, Annotation Workflows.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item proteomics">
+        <div class="card">
+          
+          <a href="/too2/new_proteo/structure/" title="" class="card-image hover-overlay"
               target="_blank">
             <img src="/img/tools/structure.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/pro_new/structure/"  target="_blank">Prediction of Protein Structure</a></h4>
+            <h4><a href="/too2/new_proteo/structure/"  target="_blank">Prediction of Protein Structure</a></h4>
             <div class="card-desription">
               <p>Protein structure prediction is the inference of the three-dimensional structure of a protein from its amino acid sequence—that is, the prediction of its folding and its secondary and tertiary structure from its primary structure.</p>
             </div>
@@ -1960,18 +2000,18 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item sequence_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item metabolomics">
         <div class="card">
           
-          <a href="/tools/seq_new/sequence-alignment/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_meta/lipidomics/" title="" class="card-image hover-overlay"
               target="_blank">
-            <img src="/img/tools/seq.jpg" alt="" class="img-responsive">
+            <img src="/img/tools/geno/lipidomics.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/seq_new/sequence-alignment/"  target="_blank">Sequence Alignment</a></h4>
+            <h4><a href="/too2/new_meta/lipidomics/"  target="_blank">RNA Transcription</a></h4>
             <div class="card-desription">
-              <p>Amino acid <strong>sequence alignment and analysis</strong> is central to most biochemical and molecular biology applications.</p>
+              
             </div>
           </div>
         </div>
@@ -1980,18 +2020,18 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item sequence_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item transcriptomics">
         <div class="card">
           
-          <a href="/tools/seq_new/htsdata/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_trans/transcription/" title="" class="card-image hover-overlay"
               target="_blank">
-            <img src="/img/tools/hts.jpg" alt="" class="img-responsive">
+            <img src="/img/tools/geno/rna_tran.png" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/seq_new/htsdata/"  target="_blank"> Analysis of High-throughput Sequencing Data</a></h4>
+            <h4><a href="/too2/new_trans/transcription/"  target="_blank">RNA Transcription</a></h4>
             <div class="card-desription">
-              <p>HTS data with shorter reads has opened up new applications such as whole genome resequencing, indel and SNP detection, transcriptome sequencing, etc.</p>
+              
             </div>
           </div>
         </div>
@@ -2000,18 +2040,18 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item gene_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item genomics">
         <div class="card">
           
-          <a href="/tools/gene_new/microarray/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_geno/dnastr/" title="" class="card-image hover-overlay"
               target="_blank">
-            <img src="/img/tools/microarray.jpg" alt="" class="img-responsive">
+            <img src="/img/tools/geno/dnastr.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/gene_new/microarray/"  target="_blank">Microarray</a></h4>
+            <h4><a href="/too2/new_geno/dnastr/"  target="_blank">DNA Structure</a></h4>
             <div class="card-desription">
-              <p>Data processing and analysis of microarray.</p>
+              <p>Including: DNA structure analysis, DNA structure Database, Small-angle scattering.</p>
             </div>
           </div>
         </div>
@@ -2020,16 +2060,56 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item protein_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item transcriptomics">
         <div class="card">
           
-          <a href="/tools/pro_new/mass/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_trans/lowlevel/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tools/geno/low.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/too2/new_trans/lowlevel/"  target="_blank">Low-level RNA detection</a></h4>
+            <div class="card-desription">
+              <p>Including: Low-level RNA detection, scRNA-seq analysis, Single-cell qPCR, dPCR.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item epigenomics">
+        <div class="card">
+          
+          <a href="/too2/new_epi/position/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tools/geno/position.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/too2/new_epi/position/"  target="_blank">Nucleosome Positioning</a></h4>
+            <div class="card-desription">
+              <p>Including: Nucleosome positioning, MNase-seq analysis, ATAC-seq analysis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item proteomics">
+        <div class="card">
+          
+          <a href="/too2/new_proteo/mass/" title="" class="card-image hover-overlay"
               target="_blank">
             <img src="/img/tools/mass2.gif" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/pro_new/mass/"  target="_blank">Protein Mass Spectrometry</a></h4>
+            <h4><a href="/too2/new_proteo/mass/"  target="_blank">Protein Mass Spectrometry</a></h4>
             <div class="card-desription">
               <p>Protein mass spectrometry refers to the application of mass spectrometry to the study of proteins. Mass spectrometry is an important method for the accurate mass determination and characterization of proteins.</p>
             </div>
@@ -2040,18 +2120,18 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item gene_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item epigenomics">
         <div class="card">
           
-          <a href="/tools/gene_new/genome-annotation/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_epi/dna_pro/" title="" class="card-image hover-overlay"
               target="_blank">
-            <img src="/img/tools/annotation.jpg" alt="" class="img-responsive">
+            <img src="/img/tools/geno/dna_pro.jpg" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/gene_new/genome-annotation/"  target="_blank">Genome annotation</a></h4>
+            <h4><a href="/too2/new_epi/dna_pro/"  target="_blank">DNA-Protein Interactions</a></h4>
             <div class="card-desription">
-              <p>The process of identifying the locations of genes and all of the coding regions in a genome and determining what those genes do.</p>
+              <p>Including: HT-SELEX Analysis, DNase-seq Analysis, ChIO-seq Analysis.</p>
             </div>
           </div>
         </div>
@@ -2060,18 +2140,58 @@ url('/img/headers/biology1.jpg');
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item gene_related">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item genomics">
         <div class="card">
           
-          <a href="/tools/gene_new/network/" title="" class="card-image hover-overlay"
+          <a href="/too2/new_geno/edit/" title="" class="card-image hover-overlay"
               target="_blank">
-            <img src="/img/tools/network.jpg" alt="" class="img-responsive">
+            <img src="/img/tools/geno/edit.png" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="/tools/gene_new/network/"  target="_blank">Genome Network Analysis</a></h4>
+            <h4><a href="/too2/new_geno/edit/"  target="_blank">Genome Editing</a></h4>
             <div class="card-desription">
-              <p>Cytoscape is an open source bioinformatics software platform for visualizing molecular interaction networks and integrating with gene expression profiles and other state data.</p>
+              <p>Including: Genome Edition, Genome Editing Databases, CRISPR/Cas9 Screen Analysis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item genomics">
+        <div class="card">
+          
+          <a href="/too2/new_geno/population/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tools/geno/popu.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/too2/new_geno/population/"  target="_blank">Population Genomics</a></h4>
+            <div class="card-desription">
+              <p>Including: Population genetic analysis, GBS analysis, RAD-seq analysis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item genomics">
+        <div class="card">
+          
+          <a href="/too2/new_geno/dna_pro/" title="" class="card-image hover-overlay"
+              target="_blank">
+            <img src="/img/tools/geno/dna_pro.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/too2/new_geno/dna_pro/"  target="_blank">DNA-Protein Interactions</a></h4>
+            <div class="card-desription">
+              <p>Including: HT-SELEX Analysis, DNase-seq Analysis, ChIO-seq Analysis.</p>
             </div>
           </div>
         </div>

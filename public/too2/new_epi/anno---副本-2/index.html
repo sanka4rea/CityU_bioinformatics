@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Table of Contents  Genome Annotation  Gene Ontology Annotation  BLASTX Blast2GO  GO Semantic Similarity Analysis  G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools clusterProfiler | GO semantic similarity analysis : Genome annotation GOToolBox | GO semantic similarity analysis : DNA sequence analysis SML-Toolkit | Semantic Measures Library Toolkit  Promoter Predication  FirstEF | First Exon Finder CpGpromoter PROmiRNA  Annotation Workflows  RAST | Rapid Annotation using Subsystem Technology Prokka | Annotation workflows BlastKOALA  Find more tools: OMIVTOOLS    Genome Annotation Genome annotation is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/too2/new_epi/anno---%E5%89%AF%E6%9C%AC-2/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/too2/new_epi/anno---%E5%89%AF%E6%9C%AC-2/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/too2/new_epi/anno---%E5%89%AF%E6%9C%AC-2/">
+  <meta property="og:title" content="Genome Annotation | CityU-Bioinformatics">
+  <meta property="og:description" content="Table of Contents  Genome Annotation  Gene Ontology Annotation  BLASTX Blast2GO  GO Semantic Similarity Analysis  G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools clusterProfiler | GO semantic similarity analysis : Genome annotation GOToolBox | GO semantic similarity analysis : DNA sequence analysis SML-Toolkit | Semantic Measures Library Toolkit  Promoter Predication  FirstEF | First Exon Finder CpGpromoter PROmiRNA  Annotation Workflows  RAST | Rapid Annotation using Subsystem Technology Prokka | Annotation workflows BlastKOALA  Find more tools: OMIVTOOLS    Genome Annotation Genome annotation is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Genome Annotation | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#bioinformatics">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Programming</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/program/r">
+                
+                <span>R Language</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorials</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart/">
+                
+                <span>Getting Started With R</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001/">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/courses/">
+                
+                <span>Online Courses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/resources/">
+                
+                <span>Other Resources</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/base2/dna">
+                
+                <span>DNA Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/express">
+                
+                <span>Genome Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/rna">
+                
+                <span>RNA Databses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/protein">
+                
+                <span>Protein Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pheno">
+                
+                <span>Phenotype Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pathway">
+                
+                <span>Pathway Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/special">
+                
+                <span>Other Databases</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tools</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/too2/genomics">
+                
+                <span>Genomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/epigenomics">
+                
+                <span>Epigenomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/transcriptomics">
+                
+                <span>Transcriptomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/proteomics">
+                
+                <span>Proteomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/metabolomics">
+                
+                <span>Metabolomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/phenomics">
+                
+                <span>Phenomics</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Multidisciplinary</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Servers</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Genome Annotation</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Genome%20Annotation&amp;url=%2ftoo2%2fnew_epi%2fanno---%25E5%2589%25AF%25E6%259C%25AC-2%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftoo2%2fnew_epi%2fanno---%25E5%2589%25AF%25E6%259C%25AC-2%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftoo2%2fnew_epi%2fanno---%25E5%2589%25AF%25E6%259C%25AC-2%2f&amp;title=Genome%20Annotation"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftoo2%2fnew_epi%2fanno---%25E5%2589%25AF%25E6%259C%25AC-2%2f&amp;title=Genome%20Annotation"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Genome%20Annotation&amp;body=%2ftoo2%2fnew_epi%2fanno---%25E5%2589%25AF%25E6%259C%25AC-2%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<p><img src="/img/tools/geno/anno.jpg" alt="anno" align="center"></p>
+
+<p><span id="top"></span></p>
+
+<h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#genome-annotation">Genome Annotation</a>
+<ul>
+<li><a href="#font-color-cd5555-face-黑体-gene-ontology-annotation-font"><font color=#CD5555 face="黑体">Gene Ontology Annotation</font></a>
+<ul>
+<li><a href="#blastx">BLASTX</a></li>
+<li><a href="#blast2go">Blast2GO</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-go-semantic-similarity-analysis-font"><font color=#CD5555 face="黑体">GO Semantic Similarity Analysis</font></a>
+<ul>
+<li><a href="#g-sesame-gene-semantic-similarity-analysis-and-measurement-tools">G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools</a></li>
+<li><a href="#clusterprofiler-go-semantic-similarity-analysis-genome-annotation">clusterProfiler | GO semantic similarity analysis : Genome annotation</a></li>
+<li><a href="#gotoolbox-go-semantic-similarity-analysis-dna-sequence-analysis">GOToolBox | GO semantic similarity analysis : DNA sequence analysis</a></li>
+<li><a href="#sml-toolkit-semantic-measures-library-toolkit">SML-Toolkit | Semantic Measures Library Toolkit</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-promoter-predication-font"><font color=#CD5555 face="黑体">Promoter Predication</font></a>
+<ul>
+<li><a href="#firstef-first-exon-finder">FirstEF | First Exon Finder</a></li>
+<li><a href="#cpgpromoter">CpGpromoter</a></li>
+<li><a href="#promirna">PROmiRNA</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-annotation-workflows-font"><font color=#CD5555 face="黑体">Annotation Workflows</font></a>
+<ul>
+<li><a href="#rast-rapid-annotation-using-subsystem-technology">RAST | Rapid Annotation using Subsystem Technology</a></li>
+<li><a href="#prokka-annotation-workflows">Prokka | Annotation workflows</a></li>
+<li><a href="#blastkoala">BlastKOALA</a></li>
+</ul></li>
+<li><a href="#find-more-tools-omivtools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMIVTOOLS</strong></a></a></li>
+</ul></li>
+</ul>
+</nav>
+
+
+<h1 id="genome-annotation">Genome Annotation</h1>
+
+<p><p align="justify"><strong>Genome annotation</strong> is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions. Analysis of DNA sequence with genome annotation software tools allow finding and mapping genes, exons-introns, regulatory elements, repeats and mutations. Genome databases are essential to retrieve information on gene name, protein product and DNA sequence functions.</p>
+
+<h2 id="font-color-cd5555-face-黑体-gene-ontology-annotation-font"><font color=#CD5555 face="黑体">Gene Ontology Annotation</font></h2>
+
+<h3 id="blastx">BLASTX</h3>
+
+<p><p align="justify"><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank"><strong>The Basic Local Alignment Search Tool</strong> (BLAST)</a> finds regions of   local similarity between sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches. BLAST can be used to infer functional and evolutionary relationships between sequences as well as help identify members of gene families.A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold.</p>
+
+<p><p align="justify">Different types of BLASTs are available according to the query sequences. For example, following the discovery of a previously unknown gene in the mouse, a scientist will typically perform a BLAST search of the human genome to see if humans carry a similar gene; BLAST will identify sequences in the human genome that resemble the mouse gene based on similarity of sequence. The BLAST algorithm and program were designed by <code>Stephen Altschul</code>, <code>Warren Gish</code>, <code>Webb Miller</code>, <code>Eugene Myers</code>, and <code>David J. Lipman</code> at the <a href="https://en.wikipedia.org/wiki/National_Institutes_of_Health" target="_blank">National Institutes of Health</a> and was published in the <a href="https://en.wikipedia.org/wiki/Journal_of_Molecular_Biology" target="_blank">Journal of Molecular Biology</a> in 1990 and cited over 50,000 times.</p>
+
+<p><img src="/img/tools/Blast.png" width= 800 height= 500 alt="blast" align="center">
+<strong>Input</strong>: Input sequences (in <a href="https://en.wikipedia.org/wiki/FASTA_format" target="_blank">FASTA</a> or Genbank format) and weight matrix.</p>
+
+<p><strong>Output</strong>: BLAST output can be delivered in a variety of formats. These formats include HTML, plain text, and XML formatting.</p>
+
+<p><p align="justify">The details about <strong>process</strong> and <strong>algorithm</strong> coule be found <a href="https://en.wikipedia.org/wiki/BLAST" target="_blank">here</a> and <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank">official website</a></p>
+
+<p><strong>NCBI BLAST</strong>:</p>
+
+<p><p align="justify">BLAST stands for Basic Local Alignment Search Tool.The emphasis of this tool is to find regions of sequence similarity, which will yield functional and evolutionary clues about the structure and function of your sequence.</p>
+
+<p>This tool can be used in the following contexts:Protein, Nucleotide, Vectors.</p>
+
+<p><strong>PSI-BLAST</strong>:</p>
+
+<p><p align="justify">Position specific iterative BLAST (PSI-BLAST) refers to a feature of BLAST 2.0 in which a profile is automatically constructed from the first set of BLAST alignments. PSI-BLAST is similar to NCBI BLAST2 except that it uses position-specific scoring matrices derived during the search, this tool is used to detect distant evolutionary relationships. PHI-BLAST functionality is available to use patterns to restrict search results.</p>
+
+<p><a href="https://www.ebi.ac.uk/seqdb/confluence/display/THD/PSI-BLAST" target="_blank">How to use</a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Altschul et al., 1997) <a href="https://www.ncbi.nlm.nih.gov/pubmed/9254694" target="_blank">Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</a>.  Nucleic Acids Res. PMID: 9254694</li>
+<li>(Altschul et al., 1990) <a href="https://www.ncbi.nlm.nih.gov/pubmed/2231712" target="_blank">Basic local alignment search tool</a>.  J Mol Biol. PMID: 2231712</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA</p>
+
+<p><em>citation:</em> <a href="https://www.ebi.ac.uk/Tools/sss/" target="_blank">Sequence Similarity Searching</a></p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h3 id="blast2go">Blast2GO</h3>
+
+<p><p align="justify">Permits functional annotation, management, and data mining of novel sequence data. <strong>Blast2GO</strong> is based on the utilization of common controlled vocabulary schemas, the gene ontology (GO). It takes in consideration similarity, the extension of the homology, the database of choice, the GO hierarchy, and the quality of the original annotations. This tool is suitable for plant genomics research. It generates functional annotation and assesses the functional meaning of their experimental results.</p>
+
+<p><img src="/img/tools/geno/blast2go.png" width= 800 height= 500 alt="blast" align="center"></p>
+
+<p><a href="https://www.blast2go.com/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://www.blast2go.com/images/b2g_pdfs/b2g_user_manual.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Conesa et al., 2005) Blast2GO: a universal tool for annotation, visualization and analysis in functional genomics research.<br> PMID: 16081474 DOI: 10.1093/bioinformatics/bti610</li>
+<li>(Conesa and Götz, 2008) Blast2GO: A comprehensive suite for functional analysis in plant genomics.  Int J Plant Genomics. <br>PMID: 18483572 DOI: 10.1155/2008/619832</li>
+<li>(Götz et al., 2008) High-throughput functional annotation and data mining with the Blast2GO suite.  Nucleic Acids Res. <br>PMID: 18445632 DOI: 10.1093/nar/gkn176</li>
+<li>(Aparicio et al., 2006) Blast2GO goes grid: developing a grid-enabled prototype for functional genomics analysis.  Stud Health Technol Inform. <br>PMID: 16823138</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Bioinformatics Department, Centro de Investigación Príncipe Felipe, Valencia, Spain</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-go-semantic-similarity-analysis-font"><font color=#CD5555 face="黑体">GO Semantic Similarity Analysis</font></h2>
+
+<h3 id="g-sesame-gene-semantic-similarity-analysis-and-measurement-tools">G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools</h3>
+
+<p><p align="justify">A set of online tools for measuring the <strong>semantic similarities</strong> of Gene Ontology (GO) terms and the functional similarities of gene products, and for further discovering biomedical knowledge from the GO database. Visualization techniques are provided in these tools to allow users to inspect the locations of the GO terms within the GO graph and to visually determine the semantic similarity. A batch command interface is also provided for users to execute the tools to measure the semantic similarity of a group of GO terms or functional similarities of a group of genes. Web based APIs are also provided for advanced users.</p>
+
+<p><a href="http://bioinformatics.clemson.edu/G-SESAME/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Song, 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26356015" target="_blank">Measure the Semantic Similarity of GO Terms Using Aggregate Information Content</a>.  IEEE Trans Comput Biol Bioinform.<br>PMID: 26356015 DOI: 10.1109/TCBB.2013.176</li>
+<li>(Du et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19491312" target="_blank">G-SESAME: web tools for GO-term-based gene similarity analysis and knowledge discovery</a>.  Nucleic Acids Res. <br>PMID: 19491312 DOI: 10.1093/nar/gkp463</li>
+<li>(Wang et al., 2007) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17344234" target="_blank">A new method to measure the semantic similarity of GO terms</a>. Bioinformatics. <br>PMID: 17344234</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: School of Computing, Clemson University, Clemson, SC, USA</p>
+
+<h3 id="clusterprofiler-go-semantic-similarity-analysis-genome-annotation">clusterProfiler | GO semantic similarity analysis : Genome annotation</h3>
+
+<p><p align="justify">Automates the process of biological-term classification and the enrichment analysis of gene clusters. ClusterProfiler supports three species, including humans, mice, and yeast. It offers a gene classification method, namely groupGO, to sort genes based on their projection at a specific level of the gene ontology (GO) corpus. This tool is able to calculate enrichment test for GO terms and KEGG pathways based on hypergeometric distribution.</p>
+
+<p><a href="http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/GuangchuangYu/clusterProfiler" target="_blank"><strong>Github</strong></a></p>
+
+<p><a href="http://bioconductor.org/packages/release/bioc/manuals/clusterProfiler/man/clusterProfiler.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Yu et al., 2012) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22455463" target="_blank">clusterProfiler: an R package for comparing biological themes among gene clusters</a>.  OMICS.</li>
+<li>(Yu, 2018) <a href="https://www.biorxiv.org/content/early/2018/02/01/256784" target="_blank">clusterProfiler: An universal enrichment tool for functional and comparative study</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: State Key Laboratory of Emerging Infectious Diseases and Centre of Influenza Research, School of Public Health, The University of Hong Kong, Hong Kong, China</p>
+
+<h3 id="gotoolbox-go-semantic-similarity-analysis-dna-sequence-analysis">GOToolBox | GO semantic similarity analysis : DNA sequence analysis</h3>
+
+<p><p align="justify">Provides a series of programs allowing the functional investigation of groups of genes, based on the Gene Ontology resource. GOToolBox allows 1) the identification of statistically relevant over- or under-represented terms in a gene dataset, 2) the clustering of functionally related genes within a set and 3) the retrieval of genes sharing annotations with a query gene. The user can also constrain the GO annotations to a slim hierarchy or to a given level of the ontology, in order to facilitate the interpretation of the results.</p>
+
+<p><a href="http://genome.crg.es/GOToolBox/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Martin et al., 2004) <a href="https://www.ncbi.nlm.nih.gov/pubmed/15575967" target="_blank">GOToolBox: functional analysis of gene datasets based on Gene Ontology</a>.  Genome Biol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Laboratoire de Génétique et Physiologie du Développement, IBDM, CNRS/INSERM/Université de la Méditerranée, Parc Scientifique de Luminy, Marseille, France</p>
+
+<h3 id="sml-toolkit-semantic-measures-library-toolkit">SML-Toolkit | Semantic Measures Library Toolkit</h3>
+
+<p><p align="justify">A Java Toolkit dedicated to semantic measures computation and analysis. SML-Toolkit is composed of various tools related to semantic measures computation and analysis. Those tools are provided through a common command-line interface.</p>
+
+<p><a href="http://www.semantic-measures-library.org/sml/index.php?q=toolkit" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/sharispe/slib/" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Harispe et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24269894" target="_blank">A framework for unifying ontology-based semantic similarity measures: a study in the biomedical domain</a>.  J Biomed Inform.</li>
+<li>(Harispe et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24108186" target="_blank">The semantic measures library and toolkit: fast computation of semantic similarity and relatedness using biomedical ontologies</a>. Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: LGI2P/EMA Research Centre, Site EERIE, Parc Scientifique G Besse, Nîmes, France</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-promoter-predication-font"><font color=#CD5555 face="黑体">Promoter Predication</font></h2>
+
+<h3 id="firstef-first-exon-finder">FirstEF | First Exon Finder</h3>
+
+<p><p align="justify">A <strong>5&rsquo; terminal exon and promoter</strong> prediction program. FirstEF consists of different discriminant functions structured as a decision tree. The probabilistic models are optimized to find potential first donor sites and CpG-related and non-CpG-related promoter regions based on discriminant analysis. For every potential first donor site (GT) and an upstream promoter region, FirstEF decides whether or not the intermediate region can be a potential first exon, based on a set of quadratic discriminant functions.</p>
+
+<p><a href="http://rulai.cshl.org/tools/FirstEF/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://rulai.cshl.org/tools/FirstEF/Readme/README.html" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Davuluri et al., 2001) <a href="https://www.ncbi.nlm.nih.gov/pubmed/11726928" target="_blank">Computational identification of promoters and first exons in the human genome</a>.  Nat Genet.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, NY, USA</p>
+
+<h3 id="cpgpromoter">CpGpromoter</h3>
+
+<p><p align="justify">A program for a large-scale human promoter mapping using CpG islands. CpGpromoter is based on results of discriminant analysis between the promoter-associated CpG islands and non-associated ones. It enables an efficient mapping of human promoters with 2Kb resolution, if there is a CpG island inside an interval (-500&hellip;+1,500) around a transcription start site.</p>
+
+<p><a href="http://rulai.cshl.org/tools/CpG_promoter/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Ioshikhes and Zhang, 2000) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10973249" target="_blank">Large-scale human promoter mapping using CpG islands</a>.  Nat Genet.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA</p>
+
+<h3 id="promirna">PROmiRNA</h3>
+
+<p><p align="justify">A program for annotating <strong>miRNA promoters in human</strong>, as well as other species. PROmiRNA uses deepCAGE data from the FANTOM4 Consortium and integrated cage tag counts and other promoter features, such as CpG content, conservation and TATA box affinity, to score the potential of a candidate region to be a promoter. Given a list of genomic regions of interest, in the form of a gff file, PROmiRNA returns the most probable promoter locations, together with the posterior probabilities calculated by the model.</p>
+
+<p><a href="http://promirna.molgen.mpg.de/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Marsico et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23958307" target="_blank">PROmiRNA: a new miRNA promoter recognition method uncovers the complex regulation of intronic miRNAs</a>. Genome Biol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Max Planck Institute for Molecular Genetics, Berlin, Germany; Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-annotation-workflows-font"><font color=#CD5555 face="黑体">Annotation Workflows</font></h2>
+
+<h3 id="rast-rapid-annotation-using-subsystem-technology">RAST | Rapid Annotation using Subsystem Technology</h3>
+
+<p><p align="justify">Assists in annotating complete or nearly complete bacterial and archaeal genomes. RAST is a fully-automated application provides high quality genome annotations for these genomes across the whole phylogenetic tree. It includes a user interface that allows registered users to make manual changes to their genomes before retrieving them. It was designed to extend annotations to as many protein-encoding genes in as many genomes as possible.</p>
+
+<p><a href="http://rast.nmpdr.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Overbeek et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24293654" target="_blank">The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST)</a>.  Nucleic Acids Res.</li>
+<li>(Aziz et al., 2008) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18261238" target="_blank">The RAST Server: rapid annotations using subsystems technology</a>.  BMC Genomics.</li>
+</ul>
+
+<h3 id="prokka-annotation-workflows">Prokka | Annotation workflows</h3>
+
+<p><p align="justify">A command line software tool to fully annotate a draft bacterial genome in about 10 min on a typical desktop computer. It produces standards-compliant output files for further analysis or viewing in genome browsers. Prokka uses parallel processing to decrease running time on multicore computers. The most time-consuming steps are BLAST+ and hmmscan, which both support multiple CPUs natively. However, Prokka is more efficient if it runs multiple single CPU threads on subsets of the data, which it achieves using GNU parallel.</p>
+
+<p><a href="http://www.vicbioinformatics.com/software.prokka.shtml" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Seemann, 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24642063" target="_blank">Prokka: rapid prokaryotic genome annotation</a>.  Bioinformatics.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Victorian Bioinformatics Consortium, Monash University, Clayton; Life Sciences Computation Centre, Victorian Life Sciences Computation Initiative, Carlton, Australia</p>
+
+<h3 id="blastkoala">BlastKOALA</h3>
+
+<p><p align="justify">Assigns K numbers to the user&rsquo;s sequence data by BLAST searches, respectively, against a nonredundant set of KEGG GENES. KOALA (KEGG Orthology And Links Annotation) is KEGG&rsquo;s internal annotation tool for K number assignment of KEGG GENES using SSEARCH computation. Annotate Sequence in KEGG Mapper and Pathogen Checker in KEGG Pathogen are special interfaces to this server and can be executed in an interactive mode. BlastKOALA is suitable for annotating fully sequenced genomes.</p>
+
+<p><a href="http://www.kegg.jp/blastkoala/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Kanehisa et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26585406" target="_blank">BlastKOALA and GhostKOALA: KEGG Tools for Functional Characterization of Genome and Metagenome Sequences</a>.  J Mol Biol.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Institute for Chemical Research, Kyoto University, Uji, Kyoto, Japan; Healthcare Solutions Department, Fujitsu Kyushu Systems Ltd, Hakata-ku, Fukuoka, Japan; Institute for Chemical Research, Kyoto University, Uji, Kyoto, Japan</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="find-more-tools-omivtools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMIVTOOLS</strong></a></h2>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/genomics" target="_blank">genomics</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/too2/new_epi/anno---%E5%89%AF%E6%9C%AC-4/">Genome Annotation</a></li>
+        
+        <li><a href="/too2/new_geno/edit/">Genome Editing</a></li>
+        
+        <li><a href="/too2/new_epi/anno---%E5%89%AF%E6%9C%AC/">Genome Annotation</a></li>
+        
+        <li><a href="/too2/new_epi/modifications/">Genome Annotation</a></li>
+        
+        <li><a href="/too2/new_geno/anno/">Genome Annotation</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

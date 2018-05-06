@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Table of Contents  DNA Structure  Shape prediction  do_x3dna 3DNA DINAMelt DNAshape  R-loop forming sequence prediction  QmRLFS-finder  DNA Structure Database  R-loopDB | R-loop forming sequence databases  Small-angle Scattering  AXES FoXS AquaSAXS  Find more tools: OMIVTOOLS    DNA Structure DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/too2/new_geno/dnastr/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/too2/new_geno/dnastr/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/too2/new_geno/dnastr/">
+  <meta property="og:title" content="DNA Structure | CityU-Bioinformatics">
+  <meta property="og:description" content="Table of Contents  DNA Structure  Shape prediction  do_x3dna 3DNA DINAMelt DNAshape  R-loop forming sequence prediction  QmRLFS-finder  DNA Structure Database  R-loopDB | R-loop forming sequence databases  Small-angle Scattering  AXES FoXS AquaSAXS  Find more tools: OMIVTOOLS    DNA Structure DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>DNA Structure | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#bioinformatics">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Programming</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/program/r">
+                
+                <span>R Language</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorials</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart/">
+                
+                <span>Getting Started With R</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001/">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/courses/">
+                
+                <span>Online Courses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/resources/">
+                
+                <span>Other Resources</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/base2/dna">
+                
+                <span>DNA Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/express">
+                
+                <span>Genome Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/rna">
+                
+                <span>RNA Databses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/protein">
+                
+                <span>Protein Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pheno">
+                
+                <span>Phenotype Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pathway">
+                
+                <span>Pathway Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/special">
+                
+                <span>Other Databases</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tools</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/too2/genomics">
+                
+                <span>Genomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/epigenomics">
+                
+                <span>Epigenomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/transcriptomics">
+                
+                <span>Transcriptomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/proteomics">
+                
+                <span>Proteomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/metabolomics">
+                
+                <span>Metabolomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/phenomics">
+                
+                <span>Phenomics</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Multidisciplinary</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Servers</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">DNA Structure</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=DNA%20Structure&amp;url=%2ftoo2%2fnew_geno%2fdnastr%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftoo2%2fnew_geno%2fdnastr%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftoo2%2fnew_geno%2fdnastr%2f&amp;title=DNA%20Structure"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftoo2%2fnew_geno%2fdnastr%2f&amp;title=DNA%20Structure"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=DNA%20Structure&amp;body=%2ftoo2%2fnew_geno%2fdnastr%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<p><img src="/img/tools/geno/dnastr.jpg"  width="400", height="600" alt="dnastr" align="center"></p>
+
+<p><span id="top"></span></p>
+
+<h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#dna-structure">DNA Structure</a>
+<ul>
+<li><a href="#font-color-cd5555-face-黑体-shape-prediction-font"><font color=#CD5555 face="黑体">Shape prediction</font></a>
+<ul>
+<li><a href="#do-x3dna">do_x3dna</a></li>
+<li><a href="#3dna">3DNA</a></li>
+<li><a href="#dinamelt">DINAMelt</a></li>
+<li><a href="#dnashape">DNAshape</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-r-loop-forming-sequence-prediction-font"><font color=#CD5555 face="黑体">R-loop forming sequence prediction</font></a>
+<ul>
+<li><a href="#qmrlfs-finder">QmRLFS-finder</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-dna-structure-database-font"><font color=#CD5555 face="黑体">DNA Structure Database</font></a>
+<ul>
+<li><a href="#r-loopdb-r-loop-forming-sequence-databases">R-loopDB | R-loop forming sequence databases</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-small-angle-scattering-font"><font color=#CD5555 face="黑体">Small-angle Scattering</font></a>
+<ul>
+<li><a href="#axes">AXES</a></li>
+<li><a href="#foxs">FoXS</a></li>
+<li><a href="#aquasaxs">AquaSAXS</a></li>
+</ul></li>
+<li><a href="#find-more-tools-omivtools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMIVTOOLS</strong></a></a></li>
+</ul></li>
+</ul>
+</nav>
+
+
+<h1 id="dna-structure">DNA Structure</h1>
+
+<p><p align="justify">DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc. <strong>Structure analysis</strong> software tools help predict and model nucleic acid structure and conformation variations according to specific parameters.</p>
+
+<h2 id="font-color-cd5555-face-黑体-shape-prediction-font"><font color=#CD5555 face="黑体">Shape prediction</font></h2>
+
+<h3 id="do-x3dna">do_x3dna</h3>
+
+<p><p align="justify">Analyzes the structural fluctuations of DNA or RNA during molecular dynamics simulations. do_x3dna extends the capability of the 3DNA package to GROMACS MD trajectories and includes new methods to calculate the global-helical axis of DNA and bending fluctuations during simulations. The package also includes a Python module dnaMD to perform and visualize statistical analyses of complex data obtained from the trajectories.</p>
+
+<p><a href="https://github.com/rjdkmr/do_x3dna" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://do-x3dna.readthedocs.io/en/latest/" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><a href="https://github.com/rjdkmr/do_x3dna/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Kumar and Grubmüller, 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25838463" target="_blank">do_x3dna: a tool to analyze structural fluctuations of dsDNA or dsRNA from molecular dynamics simulations</a>.  Bioinformatics.</li>
+<li>(Lu and Olson, 2003) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12930962" target="_blank">3DNA: a software package for the analysis, rebuilding and visualization of three-dimensional nucleic acid structures</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Theoretical and Computational Biophysics, Max Planck Institute for Biophysical Chemistry, Göttingen, Germany</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h3 id="3dna">3DNA</h3>
+
+<p><p align="justify">A comprehensive software package for the analysis, reconstruction and visualization of three-dimensional nucleic acid structures. <strong>3DNA</strong> can be applied to parallel and antiparallel double helices, single-stranded forms, multi-stranded helices and complex tertiary folding motifs found in both DNA and RNA structures. The rebuilding module of 3DNA can be used to generate sequence-dependent atomic structures of nucleic acids, with or without the sugar–phosphate backbone. These structures provide a useful starting point for molecular mechanics and molecular dynamics calculations.</p>
+
+<p><a href="http://x3dna.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://x3dna.bio.columbia.edu/docs/dssr-manual.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><a href="http://forum.x3dna.org/" target="_blank"><strong>Forum</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Lu and Olson, 2003) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12930962" target="_blank">3DNA: a software package for the analysis, rebuilding and visualization of three-dimensional nucleic acid structures</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Department of Chemistry and Chemical Biology, Wright-Rieman Laboratories, The State University of New Jersey, Piscataway, NJ, USA</p>
+
+<h3 id="dinamelt">DINAMelt</h3>
+
+<p><p align="justify">Provides a platform for allowing the simulation single-stranded nucleic acids melt in a solution. DINAMelt is a web application that calculates features such as ultraviolet (UV) absorbance, or concentrations of various dimer as a function of temperature. The interface allows users to set the temperature range, the nucleic acid type; the initial concentration as well as the salt conditions.</p>
+
+<p><a href="http://unafold.rna.albany.edu/?q=DINAMelt" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Markham and Zuker, 2005) <a href="https://www.ncbi.nlm.nih.gov/pubmed/15980540" target="_blank">DINAMelt web server for nucleic acid melting prediction</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Department of Computer Science, Rensselaer Polytechnic Institute, Troy, NY, USA; Department of Mathematical Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA</p>
+
+<h3 id="dnashape">DNAshape</h3>
+
+<p><p align="justify">A method and web server for predicting <strong>DNA structural features</strong> in a high-throughput (HT) manner for massive sequence data. DNAshape provides the framework for the integration of DNA sequence and shape analyses in genome-wide studies. The HT methodology uses a sliding-window approach to mine DNA structural information obtained from Monte Carlo simulations. It requires only nucleotide sequence as input and instantly predicts multiple structural features of DNA (minor groove width, roll, propeller twist and helix twist).</p>
+
+<p><a href="http://rohslab.cmb.usc.edu/DNAshape/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://rohslab.cmb.usc.edu/DNAshape/serverManual.html" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Zhou et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23703209" target="_blank">DNAshape: a method for the high-throughput prediction of DNA structural features on a genomic scale</a>.  Nucleic Acids Res.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Molecular and Computational Biology Program, Department of Biological Sciences; Department of Physics and Astronomy; Department of Chemistry; Department of Computer Science; Norris Comprehensive Cancer Center, University of Southern California, Los Angeles, CA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-r-loop-forming-sequence-prediction-font"><font color=#CD5555 face="黑体">R-loop forming sequence prediction</font></h2>
+
+<h3 id="qmrlfs-finder">QmRLFS-finder</h3>
+
+<p><p align="justify"><strong>Predicts R-loop Forming Sequences</strong> (RLFSs) in nucleic acid sequences based on experimentally supported structural models of RLFSs. This tool identifies and visualizes RLFS coordinates from any natural or artificial DNA or RNA input sequences and creates standards-compliant output files for further annotation and analysis. QmRLFS-finder demonstrates highly accurate predictions of the detected RLFSs, proposing new perspective to further discoveries in R-loop biology, biotechnology and molecular therapy.</p>
+
+<p><a href="http://rloop.bii.a-star.edu.sg/?pg=qmrlfs-finder" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Jenjaroenpun et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25883153" target="_blank">QmRLFS-finder: a model, web server and stand-alone tool for prediction and analysis of R-loop forming sequences</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Department of Genome and Gene Expression Data Analysis, Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-dna-structure-database-font"><font color=#CD5555 face="黑体">DNA Structure Database</font></h2>
+
+<h3 id="r-loopdb-r-loop-forming-sequence-databases">R-loopDB | R-loop forming sequence databases</h3>
+
+<p><p align="justify">A collection of computationally predicted <strong>R-loop forming sequences</strong> (RLFSs). R-loopDB is a comprehensive database of RLFSs in eight organisms, i.e. human, chimp, mouse, rat, chicken, frog, fruit fly and yeast, that offers benefits for the researchers who study R-loop related human diseases using these species. The combination of several other data resources, such as RLFS strand, GC skew value and experimental R-loop detection data, could provide more information for advanced analyses and predictions. R-loopDB allows searching of RLFSs in the genes and in the 2 kb upstream and downstream flanking sequences of any gene. R-loopDB exploits the Ensembl gene annotation system, providing users with chromosome coordinates, sequences, gene and genomic data of the 1,565,795 RLFSs distributed in 121,056 genic or proximal gene regions of the covered organisms.</p>
+
+<p><a href="http://rloop.bii.a-star.edu.sg/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://rloop.bii.a-star.edu.sg/?pg2=help" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Jenjaroenpun et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899586" target="_blank">R-loopDB: a database for R-loop forming sequences (RLFS) and R-loops</a>.  Nucleic Acids Res.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Department of Genome and Gene Expression Data Analysis, Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-small-angle-scattering-font"><font color=#CD5555 face="黑体">Small-angle Scattering</font></h2>
+
+<h3 id="axes">AXES</h3>
+
+<p><p align="justify">Fits <strong>small angle X-ray scattering</strong> (SAXS) data to macromolecular structures and ensembles of structures. AXES is a web application using a Powell minimization of the penalty function against the adjustable parameters for both experimental and predicted data. The software allows the prediction of solution X-ray scattering data for a macromolecule in explicit aqueous solvent and calculation of the best fit between the experimental scattering data and a structural model.</p>
+
+<p><a href="https://spin.niddk.nih.gov/bax/nmrserver/saxs1/about.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://spin.niddk.nih.gov/bax/nmrserver/saxs1/about.html" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Grishaev et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20958032" target="_blank">Improved fitting of solution X-ray scattering data to macromolecular structures and structural ensembles by explicit water modeling</a>. J Am Chem Soc.<br /></li>
+</ul>
+
+<p><strong>Institution(s)</strong>: Laboratory of Chemical Physics, National Institute of Diabetes and DigestiVe and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</p>
+
+<h3 id="foxs">FoXS</h3>
+
+<p><p align="justify">A rapid method for computing a SAXS profile of a given structure and for matching of the computed and experimental profiles. FoXS also provides an optimization of the hydration layer density as well as the excluded volume of the protein, to maximize the fit of the computed profile to the experimental profile. Additional optimization is achieved by adjusting the ‘background’ of the experimental profile for wider scattering angles.</p>
+
+<p><a href="https://modbase.compbio.ucsf.edu/foxs/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Schneidman-Duhovny et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23972848" target="_blank">Accurate SAXS profile computation and its assessment by contrast variation experiments</a>. Biophys J.</li>
+<li>(Schneidman-Duhovny et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20507903" target="_blank">FoXS: a web server for rapid computation and fitting of SAXS profiles</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Department of Bioengineering and Therapeutic Sciences, Department of Pharmaceutical Chemistry, and California Institute for Quantitative Biosciences (QB3), University of California at San Francisco, CA, USA</p>
+
+<h3 id="aquasaxs">AquaSAXS</h3>
+
+<p><p align="justify">Allows structural biologists to compare their SAXS data to the theoretical one for a model given as a PDB or PQR file. <strong>AquaSAXS</strong> takes advantage of recently developed methods, such as AquaSol, that give the equilibrium solvent density map around macromolecules, to compute an accurate SAXS/WAXS profile of a given structure and to compare it to the experimental one. AquaSAXS provides a way for the user to check and/or tune the atomic types and the corresponding parameters that are used for computing the solute and the solvent-excluded-volume contribution to the SAXS profile.</p>
+
+<p><a href="http://chaconlab.org/modeling/dalai-ga" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>Poitevin et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21665925" target="_blank">AquaSAXS: a web server for computation and fitting of SAXS profiles with non-uniformally hydrated atomic models</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>: Institut Pasteur, Unit of Structural Dynamics of Macromolecules, CNRS, URA 2185, Paris, France</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="find-more-tools-omivtools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMIVTOOLS</strong></a></h2>
+
+<p><a href="https://visual.ly/community/infographic/health/dna-structure" target="_blank"><em>Image Citation</em></a></p>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/genomics" target="_blank">genomics</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/too2/new_geno/anno/">Genome Annotation</a></li>
+        
+        <li><a href="/too2/new_geno/dna_pro/">DNA-Protein Interactions</a></li>
+        
+        <li><a href="/too2/new_geno/population/">Population Genomics</a></li>
+        
+        <li><a href="/too2/new_geno/edit/">Genome Editing</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

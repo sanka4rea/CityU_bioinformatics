@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transcriptomics on CityU-Bioinformatics</title>
+    <link>/tags/transcriptomics/</link>
+    <description>Recent content in Transcriptomics on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/transcriptomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Low-level RNA detection</title>
+      <link>/too2/new_trans/lowlevel/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_trans/lowlevel/</guid>
+      <description>Table of Contents  DNA modification analysis Low-level RNA detection scRNA-seq analysis  Noise reduction Transcript quantification Cell lineage and pseudotime inference Dimensionality reduction  Single-cell qPCR dPCR   DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research. It is supposed to have a great effect on cancers and tumors, and even be involved in the senility of human.</description>
+    </item>
+    
+    <item>
+      <title>RNA Transcription</title>
+      <link>/too2/new_trans/transcription/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_trans/transcription/</guid>
+      <description>Table of Contents  Transcription analysis  Prognostic Biomarker Identification Region Discrimination Gene co-expression prediction Gene regulatory network inference Gene set enrichment analysis Over-representation analysisi  RNA-seq analysis  Read count Known transcript quantification Gene fusion detection Prognostic biomarker identification Differential expression Alternative splicing events identification  CAGE Analysis  TSS detection De novo motif discovery  Gene expression array analysis  Differential expression detection Time course Meta-analysis  Metatranscriptomic sequencing analysis  Prediction-base Taxonomic Homology-Based Taxonomic    Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.</description>
+    </item>
+    
+  </channel>
+</rss>

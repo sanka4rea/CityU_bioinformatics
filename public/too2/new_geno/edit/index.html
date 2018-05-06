@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Table of Contents  Genome Editing  CRISPR/Cas9 sgRNA Design  CRISPR design GuideScan E-CRISP CRISPRscan  TALEN design  TALE-NT TALEN Targeter  ZFN Design  Zinc Finger Tools ZifNN ZFN-Site  CRISPR/Cas9 Screen Analysis  CREATE | CRISPR-enabled trackable genome engineering MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout MAGeCK-VISPR caRpools | CRISPR-AnalyzeR for pooled screens  Genome Editing Database Find more tools: OMIVTOOLS    Genome Editing Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/too2/new_geno/edit/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/too2/new_geno/edit/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/too2/new_geno/edit/">
+  <meta property="og:title" content="Genome Editing | CityU-Bioinformatics">
+  <meta property="og:description" content="Table of Contents  Genome Editing  CRISPR/Cas9 sgRNA Design  CRISPR design GuideScan E-CRISP CRISPRscan  TALEN design  TALE-NT TALEN Targeter  ZFN Design  Zinc Finger Tools ZifNN ZFN-Site  CRISPR/Cas9 Screen Analysis  CREATE | CRISPR-enabled trackable genome engineering MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout MAGeCK-VISPR caRpools | CRISPR-AnalyzeR for pooled screens  Genome Editing Database Find more tools: OMIVTOOLS    Genome Editing Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Genome Editing | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#bioinformatics">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Programming</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/program/r">
+                
+                <span>R Language</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorials</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart/">
+                
+                <span>Getting Started With R</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001/">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/courses/">
+                
+                <span>Online Courses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/resources/">
+                
+                <span>Other Resources</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/base2/dna">
+                
+                <span>DNA Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/express">
+                
+                <span>Genome Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/rna">
+                
+                <span>RNA Databses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/protein">
+                
+                <span>Protein Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pheno">
+                
+                <span>Phenotype Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pathway">
+                
+                <span>Pathway Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/special">
+                
+                <span>Other Databases</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tools</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/too2/genomics">
+                
+                <span>Genomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/epigenomics">
+                
+                <span>Epigenomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/transcriptomics">
+                
+                <span>Transcriptomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/proteomics">
+                
+                <span>Proteomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/metabolomics">
+                
+                <span>Metabolomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/phenomics">
+                
+                <span>Phenomics</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Multidisciplinary</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Servers</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Genome Editing</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Genome%20Editing&amp;url=%2ftoo2%2fnew_geno%2fedit%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftoo2%2fnew_geno%2fedit%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftoo2%2fnew_geno%2fedit%2f&amp;title=Genome%20Editing"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftoo2%2fnew_geno%2fedit%2f&amp;title=Genome%20Editing"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Genome%20Editing&amp;body=%2ftoo2%2fnew_geno%2fedit%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<p><img src="/img/tools/geno/edit.png" width="500", height="300" alt="dnastr" align="center"></p>
+
+<p><span id="top"></span></p>
+
+<h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#genome-editing">Genome Editing</a>
+<ul>
+<li><a href="#font-color-cd5555-face-黑体-crispr-cas9-sgrna-design-font"><font color=#CD5555 face="黑体">CRISPR/Cas9 sgRNA Design</font></a>
+<ul>
+<li><a href="#crispr-design">CRISPR design</a></li>
+<li><a href="#guidescan">GuideScan</a></li>
+<li><a href="#e-crisp">E-CRISP</a></li>
+<li><a href="#crisprscan">CRISPRscan</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-talen-design-font"><font color=#CD5555 face="黑体">TALEN design</font></a>
+<ul>
+<li><a href="#tale-nt">TALE-NT</a></li>
+<li><a href="#talen-targeter">TALEN Targeter</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-zfn-design-font"><font color=#CD5555 face="黑体">ZFN Design</font></a>
+<ul>
+<li><a href="#zinc-finger-tools">Zinc Finger Tools</a></li>
+<li><a href="#zifnn">ZifNN</a></li>
+<li><a href="#zfn-site">ZFN-Site</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-crispr-cas9-screen-analysis-font"><font color=#CD5555 face="黑体">CRISPR/Cas9 Screen Analysis</font></a>
+<ul>
+<li><a href="#create-crispr-enabled-trackable-genome-engineering">CREATE | CRISPR-enabled trackable genome engineering</a></li>
+<li><a href="#mageck-model-based-analysis-of-genome-wide-crispr-cas9-knockout">MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout</a></li>
+<li><a href="#mageck-vispr">MAGeCK-VISPR</a></li>
+<li><a href="#carpools-crispr-analyzer-for-pooled-screens">caRpools | CRISPR-AnalyzeR for pooled screens</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-genome-editing-database-font"><font color=#CD5555 face="黑体">Genome Editing Database</font></a></li>
+<li><a href="#find-more-tools-omivtools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMIVTOOLS</strong></a></a></li>
+</ul></li>
+</ul>
+</nav>
+
+
+<h1 id="genome-editing">Genome Editing</h1>
+
+<p><p align="justify">Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants. The value of these enzymes in research, medicine and biotechnology arises from their ability to induce site-specific DNA cleavage in the genome, the repair (through endogenous mechanisms) of which allows high-precision genome editing.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Genome_editing" target="_blank">Related websites</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-crispr-cas9-sgrna-design-font"><font color=#CD5555 face="黑体">CRISPR/Cas9 sgRNA Design</font></h2>
+
+<h3 id="crispr-design">CRISPR design</h3>
+
+<p><p align="justify">A web tool crafted to simplify the process of <strong>CRISPR guide selection</strong> in an input DNA sequence by (i) discovering possible offtargets genome-wide, (ii) highlighting guides with high target specificity, and (iii) flagging guides with numerous or genic offtargets in target genomes. The CRISPR design tool allows users to enter a 23-1000bp DNA sequence of interest and will find all SpCas9 target sites within the input sequence. The result will contain a rank ordered list of target sites based on predicted specificity.</p>
+
+<p><a href="http://crispr.mit.edu/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Hsu et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23873081" target="_blank">DNA targeting specificity of RNA-guided Cas9 nucleases</a>.  Nat Biotechnol.</li>
+</ul>
+
+<p><strong>Institution(s)</strong>: Broad Institute of MIT and Harvard, Cambridge, MA, USA; McGovern Institute for Brain Research, Department of Brain and Cognitive Sciences, Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA</p>
+
+<h3 id="guidescan">GuideScan</h3>
+
+<p><p align="justify">Allows for the design of <strong>CRISPR</strong> guide RNA libraries that can be used to edit coding and noncoding genomic regions. GuideScan produces high-density sets of guide RNAs (gRNAs) for single- and paired-gRNA genome-wide screens. Rather than using an alignment tool, GuideScan uses a retrieval tree (trie) data structure, which efficiently and precisely enumerates all targetable sequences present in a given genome. Traversals of the trie allow for the computation of sequence mismatch neighborhoods, which are used to construct databases of gRNAs whose target sites are unique in the genome up to a user-defined number of mismatches. The GuideScan website allows users to input coordinates of genomic features in batch, to choose between designing single internal gRNAs or pairs of flanking gRNAs, and retrieve for each genomic coordinate a pre-defined number of gRNAs or gRNA pairs.</p>
+
+<p><a href="http://www.guidescan.com/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://www.guidescan.com/help" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Perez, 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28263296" target="_blank">GuideScan software for improved single and paired CRISPR guide RNA design</a>.  Nat Biotechnol.<br /></li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA; Cancer Biology and Genetics Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA</p>
+
+<h3 id="e-crisp">E-CRISP</h3>
+
+<p><p align="justify">A software tool to design and evaluate target sites for use with the <strong>Clustered Regularly Interspaced Short Palindromic Repeat</strong> (CRISPR) system.</p>
+
+<p><a href="http://www.e-crisp.org/E-CRISP/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Heigwer et al., 2014)<a href="https://www.ncbi.nlm.nih.gov/pubmed/24481216" target="_blank"> E-CRISP: fast CRISPR target site identification</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Division of Signaling and Functional Genomics, German Cancer Research Center (DKFZ), Heidelberg, Germany; Department of Cell and Molecular Biology, Medical Faculty Mannheim, Heidelberg University, Heidelberg, Germany</p>
+
+<h3 id="crisprscan">CRISPRscan</h3>
+
+<p><p align="justify">A predictive <strong>single guide RNAs</strong> (sgRNA)-scoring algorithm that effectively captures the sequence features affecting the activity of CRISPR-Cas9 in vivo. Based on a large scale analysis of sgRNA mutagenesis activity in zebrafish, we established rules to predict sgRNA activity in vivo and build the CRISPRscan model integrating these rules. We independently validated with success our predictions using sgRNAs different from the large scale analysis.</p>
+
+<p><a href="http://www.crisprscan.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Moreno-Mateos et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26322839" target="_blank">CRISPRscan: designing highly efficient sgRNAs for CRISPR-Cas9 targeting in vivo</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Genetics, Yale University School of Medicine, New Haven, CT, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-talen-design-font"><font color=#CD5555 face="黑体">TALEN design</font></h2>
+
+<h3 id="tale-nt">TALE-NT</h3>
+
+<p><p align="justify">Enables design of custom <strong>TAL effector repeat arrays</strong> for desired targets and prediction of TAL effector binding sites, ranked by likelihood, in a genome, promoterome or other sequence of interest.</p>
+
+<p><a href="https://tale-nt.cac.cornell.edu/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Doyle et al., 2012) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22693217" target="_blank">TAL Effector-Nucleotide Targeter (TALE-NT) 2.0: tools for TAL effector design and target prediction</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong></p>
+
+<p>Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA, USA</p>
+
+<h3 id="talen-targeter">TALEN Targeter</h3>
+
+<p><p align="justify">Aids researchers in adopting <strong>TAL effector nucleases</strong> (TALENs) as gene editing tools. TALEN Targeter is a web application that identifies paired monomer (typically heteromeric) binding sites oriented 50 –30 on opposite strands of the DNA and separated by a spacer. It also allows users to specify a range for the spacer length, and all possible combinations of repeat numbers and spacer lengths are considered.</p>
+
+<p><a href="https://tale-nt.cac.cornell.edu/node/add/talen" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Doyle et al., 2012) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22693217" target="_blank">TAL Effector-Nucleotide Targeter (TALE-NT) 2.0: tools for TAL effector design and target prediction</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong></p>
+
+<p>Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA, USA; Department of Entomology, Iowa State University, Ames, IA, USA; Department of Genetics, Development and Cell Biology, Iowa State University, Ames, IA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-zfn-design-font"><font color=#CD5555 face="黑体">ZFN Design</font></h2>
+
+<h3 id="zinc-finger-tools">Zinc Finger Tools</h3>
+
+<p><p align="justify">This site provides several tools for selecting zinc finger protein (ZFP) target sites and for designing the proteins that will target them.</p>
+
+<p><a href="http://www.scripps.edu/barbas/zfdesign/zfdesignhome.php" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Mandell and Barbas CF 3rd, 2006) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16845061" target="_blank">Zinc Finger Tools: custom DNA-binding domains for transcription factors and nucleases</a>.  Nucleic Acids Res.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong></p>
+
+<p>Department of Molecular Biology and The Skaggs Institute for Chemical Biology, The Scripps Research Institute, La Jolla, CA, USA</p>
+
+<h3 id="zifnn">ZifNN</h3>
+
+<p><p align="justify">Predicts high throughput of optimal <strong>zinc finger protein</strong> for 9 bp DNA sequences of choice. ZifNN is inspired from an ensemble machine learning approach, and incorporates the predictions made by 100 parallel neural networks. It assumes synergistic mode of binding, thus capturing the molecular interactions between the DNA sequence and the zinc finger protein (ZFP) helices in greater detail. The tool is capable of domain adaptation, which allows it to make predictions about data points from a domain other than the one used for training the model.</p>
+
+<p><a href="http://web.iitd.ac.in/~sundar/ZifNN/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://web.iitd.ac.in/~sundar/ZifNN/Home.html#services" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Dutta, 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28155662" target="_blank">An ensemble micro neural network approach for elucidating interactions between zinc finger proteins and their target DNA</a>.  BMC Genomics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong></p>
+
+<p>Department of Biochemical Engineering and Biotechnology</p>
+
+<h3 id="zfn-site">ZFN-Site</h3>
+
+<p><p align="justify">ZFN-Site</p>
+
+<p>A web interface that searches multiple genomes for ZFN off-target sites.</p>
+
+<p><a href="https://ccg.vital-it.ch/tagger/targetsearch.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Cradick et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21569489" target="_blank">ZFN-site searches genomes for zinc finger nuclease target sites and off-target sites</a>.  BMC Bioinformatics.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong></p>
+
+<p>University of Iowa School of Medicine, Department of Internal Medicine, Iowa City, IA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-crispr-cas9-screen-analysis-font"><font color=#CD5555 face="黑体">CRISPR/Cas9 Screen Analysis</font></h2>
+
+<h3 id="create-crispr-enabled-trackable-genome-engineering">CREATE | CRISPR-enabled trackable genome engineering</h3>
+
+<p><p align="justify">Links each guide RNA to homologous repair cassettes that both edit loci and function as barcodes to track genotype-phenotype relationships. <strong>CREATE</strong> combines automated design of CREATE cassettes (modular guide RNA-editing oligos), arraybased CREATE cassette synthesis, and sequencing in a streamlined workflow for genome engineering. CREATE was applied to site saturation mutagenesis for protein engineering, reconstruction of adaptive laboratory evolution experiments, and identification of stress tolerance and antibiotic resistance genes in bacteria.</p>
+
+<p><a href="http://www.thebioverse.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Garst et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27941803" target="_blank">Genome-wide mapping of mutations at single-nucleotide resolution for protein, metabolic and genome engineering</a>.  Nat Biotechnol.<br /></li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Chemical and Biological Engineering, University of Colorado Boulder, Boulder, CO, USA; Muse Biotechnology Inc., Boulder, CO, USA</p>
+
+<h3 id="mageck-model-based-analysis-of-genome-wide-crispr-cas9-knockout">MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout</h3>
+
+<p><p align="justify">Identifies positively and negatively selected sgRNAs and genes in genome-scale CRISPR/Cas9 knockout experiments. <strong>MAGeCK</strong> consists of four steps: read count normalization, mean-variance modeling, sgRNA ranking and gene ranking. The software results are robust across different sequencing depths and numbers of sgRNAs per gene. It is also able to perform both positive and negative selection screens simultaneously, and identify biologically meaningful and cell type-specific essential genes and pathways.</p>
+
+<p><a href="https://sourceforge.net/projects/mageck/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Li et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25476604" target="_blank">MAGeCK enables robust identification of essential genes from genome-scale CRISPR/Cas9 knockout screens</a>. Genome Biol.</li>
+<li>(Li et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26673418" target="_blank">Quality control, modeling, and visualization of CRISPR screens with MAGeCK-VISPR</a>.  Genome Biol.</li>
+<li>(Wu et al., 2018) <a href="https://www.biorxiv.org/content/early/2018/01/11/247031" target="_blank">Reducing False Positives in CRISPR/Cas9 Screens from Copy Number Variations</a>.  BioRxiv.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute and Harvard School of Public Health, Boston, MA, USA;</p>
+
+<h3 id="mageck-vispr">MAGeCK-VISPR</h3>
+
+<p><p align="justify">Allows users to estimate the effects of <strong>gene knockouts</strong> (KO) in clustered regularly interspaced short palindromic repeats (CRISPR) screens. MAGeCK-VISPR consists of an algorithm named “MAGeCK-MLE” that contains the following functions: (1) define a set of quality control (QC) measurements; (2) extend the MAGeCK algorithm to call essential genes under multiple conditions while considering single guide RNA (sgRNA) knockout efficiency; and (3) provide a web-based visualization framework (VISPR) for interactive exploration of CRISPR screen QC and analysis results.</p>
+
+<p><a href="https://bitbucket.org/liulab/mageck-vispr" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://bitbucket.org/liulab/vispr/issues?status=new&amp;status=open" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Li et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26673418" target="_blank">Quality control, modeling, and visualization of CRISPR screens with MAGeCK-VISPR</a>.  Genome Biol.</li>
+<li>(Wu et al., 2018) <a href="https://www.biorxiv.org/content/early/2018/01/11/247031" target="_blank">Reducing False Positives in CRISPR/Cas9 Screens from Copy Number Variations</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Harvard T.H. Chan School of Public Health, Boston, MA, USA</p>
+
+<h3 id="carpools-crispr-analyzer-for-pooled-screens">caRpools | CRISPR-AnalyzeR for pooled screens</h3>
+
+<p><p align="justify">An R package for exploratory data analysis that provides a complete workflow to analyze <strong>CRISPR/Cas9 screens</strong>. To further support the analysis of large-scale screens, caRpools integrates screening documentation and generation of standardized analysis reports. It is designed to be user-friendly for novice and expert users: caRpools’ open virtual appliance allows analysis without prior programming knowledge.</p>
+
+<p><a href="https://github.com/boutroslab/caRpools" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/boutroslab/caRpools/wiki" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Winter et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26508755" target="_blank">caRpools: an R package for exploratory data analysis and documentation of pooled CRISPR/Cas9 screens</a>. Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>German Cancer Research Center (DKFZ), Division Signaling and Functional Genomics and Heidelberg University, Heidelberg, Germany</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="font-color-cd5555-face-黑体-genome-editing-database-font"><font color=#CD5555 face="黑体">Genome Editing Database</font></h2>
+
+<p><p align="justify">Genome edition uses the properties of bacterial clustered regularly interspaced short palindromic repeat (CRISPR) to elicit targeted genetic modifications in cultured cells, as well as in whole animals and plants. Genome editing databases gather CRISPR/cas9 screening experiments, target sequences, and more, to help design gene editing experiments.</p>
+
+<p>Find Meganuclease/CRISPR/Cas9/TALEN/ZEN database in <a href="https://omictools.com/genome-editing-databases-category" target="_blank">HERE</a></p>
+
+<h2 id="find-more-tools-omivtools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMIVTOOLS</strong></a></h2>
+
+<p><a href="https://naturwissenschaften.ch/service/news/95331-genome-editing-science-policy-and-security-experts-call-for-proactive-international-dialogue-about-security---and-benefits" target="_blank"><em>Image Citation</em></a></p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/genomics" target="_blank">genomics</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/too2/new_geno/anno/">Genome Annotation</a></li>
+        
+        <li><a href="/too2/new_geno/dnastr/">DNA Structure</a></li>
+        
+        <li><a href="/too2/new_geno/population/">Population Genomics</a></li>
+        
+        <li><a href="/too2/new_geno/dna_pro/">DNA-Protein Interactions</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

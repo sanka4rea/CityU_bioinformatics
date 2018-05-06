@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proteomics on CityU-Bioinformatics</title>
+    <link>/tags/proteomics/</link>
+    <description>Recent content in Proteomics on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/proteomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prediction of Protein Structure</title>
+      <link>/too2/new_proteo/structure/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_proteo/structure/</guid>
+      <description>This part may contains the following tools: (Will be filled in the future)
+Primary structure  ProtParam
+ COILS
+  Secondary structure  PredictProtein
+ PSIPRED
+  tertiary structure  Phyre
+ Swiss-PdbViewer
+  citation</description>
+    </item>
+    
+    <item>
+      <title>Protein Mass Spectrometry</title>
+      <link>/too2/new_proteo/mass/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_proteo/mass/</guid>
+      <description>This part may contains the following tools: (Will be filled in the future)
+X!Tandem Mascot Sequest TPP citation</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Table of Contents  DNA modification analysis  DNA Methylation Prediction DNA Methylation Deconvolution  DNA methylation array analysis  Differential Methylation Site Detection Differential Methylation region Detection  Enrichment Analysis  Over-representation analysis Gene set enrichment analysis Topology enrichment analysis  Bisulfite Sequencing Data Analysis (BS-seq analysis)  Differential Methylation region Detection Methylation Annotation EWAS    DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/too2/new_trans/modifications/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/too2/new_trans/modifications/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/too2/new_trans/modifications/">
+  <meta property="og:title" content="RNA Transcription | CityU-Bioinformatics">
+  <meta property="og:description" content="Table of Contents  DNA modification analysis  DNA Methylation Prediction DNA Methylation Deconvolution  DNA methylation array analysis  Differential Methylation Site Detection Differential Methylation region Detection  Enrichment Analysis  Over-representation analysis Gene set enrichment analysis Topology enrichment analysis  Bisulfite Sequencing Data Analysis (BS-seq analysis)  Differential Methylation region Detection Methylation Annotation EWAS    DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>RNA Transcription | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#bioinformatics">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Programming</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/program/r">
+                
+                <span>R Language</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorials</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart/">
+                
+                <span>Getting Started With R</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001/">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/courses/">
+                
+                <span>Online Courses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/resources/">
+                
+                <span>Other Resources</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/base2/dna">
+                
+                <span>DNA Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/express">
+                
+                <span>Genome Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/rna">
+                
+                <span>RNA Databses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/protein">
+                
+                <span>Protein Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pheno">
+                
+                <span>Phenotype Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pathway">
+                
+                <span>Pathway Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/special">
+                
+                <span>Other Databases</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tools</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/too2/genomics">
+                
+                <span>Genomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/epigenomics">
+                
+                <span>Epigenomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/transcriptomics">
+                
+                <span>Transcriptomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/proteomics">
+                
+                <span>Proteomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/metabolomics">
+                
+                <span>Metabolomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/phenomics">
+                
+                <span>Phenomics</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Multidisciplinary</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Servers</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">RNA Transcription</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=RNA%20Transcription&amp;url=%2ftoo2%2fnew_trans%2fmodifications%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftoo2%2fnew_trans%2fmodifications%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftoo2%2fnew_trans%2fmodifications%2f&amp;title=RNA%20Transcription"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftoo2%2fnew_trans%2fmodifications%2f&amp;title=RNA%20Transcription"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=RNA%20Transcription&amp;body=%2ftoo2%2fnew_trans%2fmodifications%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<p><img src="/img/tools/geno/modification.jpg"  width="500" height="400" alt="anno" align="center"></p>
+
+<p><span id="top"></span></p>
+
+<h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#dna-modification-analysis">DNA modification analysis</a>
+<ul>
+<li><a href="#dna-methylation-prediction">DNA Methylation Prediction</a></li>
+<li><a href="#dna-methylation-deconvolution">DNA Methylation Deconvolution</a></li>
+</ul></li>
+<li><a href="#dna-methylation-array-analysis">DNA methylation array analysis</a>
+<ul>
+<li><a href="#differential-methylation-site-detection">Differential Methylation Site Detection</a></li>
+<li><a href="#differential-methylation-region-detection">Differential Methylation region Detection</a></li>
+</ul></li>
+<li><a href="#enrichment-analysis">Enrichment Analysis</a>
+<ul>
+<li><a href="#over-representation-analysis">Over-representation analysis</a></li>
+<li><a href="#gene-set-enrichment-analysis">Gene set enrichment analysis</a></li>
+<li><a href="#topology-enrichment-analysis">Topology enrichment analysis</a></li>
+</ul></li>
+<li><a href="#bisulfite-sequencing-data-analysis-bs-seq-analysis">Bisulfite Sequencing Data Analysis (BS-seq analysis)</a>
+<ul>
+<li><a href="#differential-methylation-region-detection-1">Differential Methylation region Detection</a></li>
+<li><a href="#methylation-annotation">Methylation Annotation</a></li>
+<li><a href="#ewas">EWAS</a></li>
+</ul></li>
+</ul>
+</nav>
+
+
+<h1 id="dna-modification-analysis">DNA modification analysis</h1>
+
+<p><p align="justify">Whole genome DNA methylation detection is one of the most important part of epigenetics research. It is supposed to have a great effect on cancers and tumors, and even be involved in the senility of human. In addition, it is believed that in medical aspects, DNA methylation may have a strong relationship with diabetes and immunological diseases (Jeong et al., 2014; Hackett et al., 2013; Duthie, 2011).</p>
+
+<h2 id="dna-methylation-prediction">DNA Methylation Prediction</h2>
+
+<h2 id="dna-methylation-deconvolution">DNA Methylation Deconvolution</h2>
+
+<h1 id="dna-methylation-array-analysis">DNA methylation array analysis</h1>
+
+<p><p align="justify">DNA methylation is involved in numerous physiological processes and also disease states, such as cancer (Jones, 2012). This has raised wide interest in developing large-scale DNA methylation profiling technologies to improve our molecular understanding of diseases. The recently released Infinium HumanMethylation450 (Bibikova et al., 2011; Dedeurwaerder et al., 2011) is a preferred technology for studying the DNA methylomes of various cell types in large-scale studies, and there is a current explosion of data generated with this technology (Rakyan et al., 2011). Sequencing-based methods, although offering much higher genome coverage, are still not affordable by all laboratories, notably those with moderate budgets. Another reason for the success of DNA methylation arrays is the ease of reading and understanding the data generated, notably because microarrays have been widely used over the past decades, particularly for gene expression profiling.</p>
+
+<h2 id="differential-methylation-site-detection">Differential Methylation Site Detection</h2>
+
+<h2 id="differential-methylation-region-detection">Differential Methylation region Detection</h2>
+
+<h1 id="enrichment-analysis">Enrichment Analysis</h1>
+
+<h2 id="over-representation-analysis">Over-representation analysis</h2>
+
+<h2 id="gene-set-enrichment-analysis">Gene set enrichment analysis</h2>
+
+<h2 id="topology-enrichment-analysis">Topology enrichment analysis</h2>
+
+<h1 id="bisulfite-sequencing-data-analysis-bs-seq-analysis">Bisulfite Sequencing Data Analysis (BS-seq analysis)</h1>
+
+<p><p align="justify">DNA methylation contributes to the epigenetic regulation of many key developmental processes including genomic imprinting, X-inactivation, genome stability and gene regulation. Bisulfite conversion of genomic DNA combined with next-generation sequencing (BS-seq) is widely used to measure the methylation state of a whole genome, the methylome, at single-base resolution (Lister et al., 2009; Bock et al., 2010; Harris et al., 2010).</p>
+
+<h2 id="differential-methylation-region-detection-1">Differential Methylation region Detection</h2>
+
+<h2 id="methylation-annotation">Methylation Annotation</h2>
+
+<h2 id="ewas">EWAS</h2>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/epigenomics" target="_blank">epigenomics</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/too2/new_epi/dna_pro/">DNA-Protein Interactions</a></li>
+        
+        <li><a href="/too2/new_epi/modifications/">DNA Modifications</a></li>
+        
+        <li><a href="/too2/new_epi/position/">Nucleosome Positioning</a></li>
+        
+        <li><a href="/too2/new_trans/modifications---%E5%89%AF%E6%9C%AC/">DNA Modifications</a></li>
+        
+        <li><a href="/too2/new_trans/modifications---%E5%89%AF%E6%9C%AC-3/">DNA Modifications</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

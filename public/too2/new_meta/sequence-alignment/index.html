@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="author" content="Computational Biology Lab">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Table of Contents  Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH  Multiple Sequence Alignment  Clustal Omega Clustal W / Clustal X    In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/too2/new_meta/sequence-alignment/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="CityU-Bioinformatics">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/too2/new_meta/sequence-alignment/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="CityU-Bioinformatics">
+  <meta property="og:url" content="/too2/new_meta/sequence-alignment/">
+  <meta property="og:title" content="Sequence Alignment | CityU-Bioinformatics">
+  <meta property="og:description" content="Table of Contents  Sequence Alignment  Blast FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH  Multiple Sequence Alignment  Clustal Omega Clustal W / Clustal X    In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Sequence Alignment | CityU-Bioinformatics</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">CityU-Bioinformatics</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#bioinformatics">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Programming</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/program/r">
+                
+                <span>R Language</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tutorials</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/tutorial/getstart/">
+                
+                <span>Getting Started With R</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/bms4001/">
+                
+                <span>BMS4001 tutorials</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/courses/">
+                
+                <span>Online Courses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/tutorial/resources/">
+                
+                <span>Other Resources</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Database</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/base2/dna">
+                
+                <span>DNA Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/express">
+                
+                <span>Genome Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/rna">
+                
+                <span>RNA Databses</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/protein">
+                
+                <span>Protein Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pheno">
+                
+                <span>Phenotype Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/pathway">
+                
+                <span>Pathway Databases</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/base2/special">
+                
+                <span>Other Databases</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Tools</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/too2/genomics">
+                
+                <span>Genomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/epigenomics">
+                
+                <span>Epigenomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/transcriptomics">
+                
+                <span>Transcriptomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/proteomics">
+                
+                <span>Proteomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/metabolomics">
+                
+                <span>Metabolomics</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/too2/phenomics">
+                
+                <span>Phenomics</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Journals</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/journal/comprehensive">
+                
+                <span>Multidisciplinary</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/specific">
+                
+                <span>Bioinformatics Specific</span>
+                
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/journal/conferences">
+                
+                <span>Conferences</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/server/">
+            
+            <span>Servers</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Sequence Alignment</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Computational Biology Lab">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Sequence%20Alignment&amp;url=%2ftoo2%2fnew_meta%2fsequence-alignment%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftoo2%2fnew_meta%2fsequence-alignment%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftoo2%2fnew_meta%2fsequence-alignment%2f&amp;title=Sequence%20Alignment"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftoo2%2fnew_meta%2fsequence-alignment%2f&amp;title=Sequence%20Alignment"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Sequence%20Alignment&amp;body=%2ftoo2%2fnew_meta%2fsequence-alignment%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<hr />
+
+<p><img src="/img/tools/sequence-alignment.jpg" alt="blast" align="center"></p>
+
+<p><span id="top"></span></p>
+
+<h2>Table of Contents</h2>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#sequence-alignment">Sequence Alignment</a>
+<ul>
+<li><a href="#blast">Blast</a></li>
+<li><a href="#fasta-ssearch-psi-search-ggsearch-glsearch">FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH</a></li>
+</ul></li>
+<li><a href="#multiple-sequence-alignment">Multiple Sequence Alignment</a>
+<ul>
+<li><a href="#clustal-omega">Clustal Omega</a></li>
+<li><a href="#clustal-w-clustal-x">Clustal W / Clustal X</a></li>
+</ul></li>
+</ul>
+</nav>
+
+
+<p><p align="justify">In bioinformatics, a sequence alignment is a way of arranging the sequences of DNA, RNA, or protein to identify regions of similarity that may be a consequence of functional, structural, or evolutionary relationships between the sequences. Aligned sequences of nucleotide or amino acid residues are typically represented as rows within a matrix. Gaps are inserted between the residues so that identical or similar characters are aligned in successive columns.</p>
+
+<h1 id="sequence-alignment">Sequence Alignment</h1>
+
+<h2 id="blast">Blast</h2>
+
+<p><p align="justify"><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank"><strong>The Basic Local Alignment Search Tool</strong> (BLAST)</a> finds regions of   local similarity between sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches. BLAST can be used to infer functional and evolutionary relationships between sequences as well as help identify members of gene families.A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold.</p>
+
+<p><p align="justify">Different types of BLASTs are available according to the query sequences. For example, following the discovery of a previously unknown gene in the mouse, a scientist will typically perform a BLAST search of the human genome to see if humans carry a similar gene; BLAST will identify sequences in the human genome that resemble the mouse gene based on similarity of sequence. The BLAST algorithm and program were designed by <code>Stephen Altschul</code>, <code>Warren Gish</code>, <code>Webb Miller</code>, <code>Eugene Myers</code>, and <code>David J. Lipman</code> at the <a href="https://en.wikipedia.org/wiki/National_Institutes_of_Health" target="_blank">National Institutes of Health</a> and was published in the <a href="https://en.wikipedia.org/wiki/Journal_of_Molecular_Biology" target="_blank">Journal of Molecular Biology</a> in 1990 and cited over 50,000 times.</p>
+
+<p><img src="/img/tools/Blast.png" width= 800 height= 500 alt="blast" align="center">
+<strong>Input</strong>: Input sequences (in <a href="https://en.wikipedia.org/wiki/FASTA_format" target="_blank">FASTA</a> or Genbank format) and weight matrix.</p>
+
+<p><strong>Output</strong>: BLAST output can be delivered in a variety of formats. These formats include HTML, plain text, and XML formatting.</p>
+
+<p><p align="justify">The details about <strong>process</strong> and <strong>algorithm</strong> coule be found <a href="https://en.wikipedia.org/wiki/BLAST" target="_blank">here</a> and <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank">official website</a></p>
+
+<p><strong>NCBI BLAST</strong>:</p>
+
+<p><p align="justify">BLAST stands for Basic Local Alignment Search Tool.The emphasis of this tool is to find regions of sequence similarity, which will yield functional and evolutionary clues about the structure and function of your sequence.</p>
+
+<p>This tool can be used in the following contexts:Protein, Nucleotide, Vectors.</p>
+
+<p><strong>PSI-BLAST</strong>:</p>
+
+<p><p align="justify">Position specific iterative BLAST (PSI-BLAST) refers to a feature of BLAST 2.0 in which a profile is automatically constructed from the first set of BLAST alignments. PSI-BLAST is similar to NCBI BLAST2 except that it uses position-specific scoring matrices derived during the search, this tool is used to detect distant evolutionary relationships. PHI-BLAST functionality is available to use patterns to restrict search results.</p>
+
+<p><a href="https://www.ebi.ac.uk/seqdb/confluence/display/THD/PSI-BLAST" target="_blank">How to use</a></p>
+
+<p><em>citation:</em> <a href="https://www.ebi.ac.uk/Tools/sss/" target="_blank">Sequence Similarity Searching</a></p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h2 id="fasta-ssearch-psi-search-ggsearch-glsearch">FASTA/SSEARCH/PSI-Search/GGSEARCH/GLSEARCH</h2>
+
+<p><p align="justify"><strong>FASTA (pronounced FAST-AYE)</strong> is a suite of programs for searching nucleotide or protein databases with a query sequence. FASTA itself performs a local heuristic search of a protein or nucleotide database for a query of the same type. FASTX and FASTY translate a nucleotide query for searching a protein database. TFASTX and TFASTY translate a nucleotide database to be searched with a protein query. Optimal searches are available with the programs SSEARCH (local), GGSEARCH (global) and GLSEARCH (global query against local database).</p>
+
+<ul>
+<li><p align="justify"><strong>SSEARCH</strong> is an optimal (as opposed to heuristics-based) local alignment search tool using the Smith-Waterman algorithm. Optimal searches guarantee you find the best alignment score for your given parameters.</li>
+<li><p align="justify"><strong>PSI-Search</strong> combines the sensitivity of the Smith-Waterman search algorithm (SSEARCH) with the PSI-BLAST profile construction strategy to find distantly related protein sequences.</li>
+<li><p align="justify"><strong>GGSEARCH</strong> performs optimal global-global alignment searches using the Needleman-Wunsch algorithm.</li>
+<li><p align="justify"><strong>GLSEARCH</strong> performs an optimal sequence search using alignments that are global in the query but local in the database sequence. This can be useful when you want to match all of a short query sequence to part of a larger database sequence.</li>
+</ul>
+
+<p>This tools can be used in the following contexts:</p>
+
+<ul>
+<li><a href="https://www.ebi.ac.uk/Tools/sss/fasta/index.html" target="_blank">Protein Databases</a></li>
+<li><a href="https://www.ebi.ac.uk/Tools/sss/fasta/nucleotide.html" target="_blank">Nucleotide Databases</a></li>
+<li><a href="https://www.ebi.ac.uk/Tools/sss/fasta/genomes.html" target="_blank">Genomes Databases</a></li>
+<li><a href="https://www.ebi.ac.uk/Tools/sss/fasta/proteomes.html" target="_blank">Proteomes Databases</a></li>
+<li><a href="https://www.ebi.ac.uk/Tools/sss/fasta/wgs.html" target="_blank">Whole Genome Shotgun Databases</a></li>
+</ul>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<h1 id="multiple-sequence-alignment">Multiple Sequence Alignment</h1>
+
+<h2 id="clustal-omega">Clustal Omega</h2>
+
+<p><p align="justify"><strong>Clustal Omega</strong> is the latest addition to the Clustal family. It offers a significant increase in scalability over previous versions, allowing hundreds of thousands of sequences to be aligned in only a few hours. It will also make use of multiple processors, where present. In addition, the quality of alignments is superior to previous versions, as measured by a range of popular benchmarks.</p>
+
+<p>Clustal Omega is currently a <strong>command line-only</strong> tool.</p>
+
+<p><p align="justify">A full description of the <strong>algorithms</strong> used by Clustal Omega is available in the Molecular Systems Biology paper <a href="http://msb.embopress.org/content/7/1/539" target="_blank">Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega</a>.</p>
+
+<p>Clustal Omega can be run local or online at the following websites:</p>
+
+<ul>
+<li><a href="https://www.ebi.ac.uk/Tools/msa/clustalo/" target="_blank">EBI web server</a></li>
+<li><a href="https://galaxy.pasteur.fr/forms::clustalO-multialign" target="_blank">Mobyle@Pasteur</a></li>
+</ul>
+
+<h2 id="clustal-w-clustal-x">Clustal W / Clustal X</h2>
+
+<p><p align="justify">Clustal 2 comes in two flavors: the command-line version Clustal W and the graphical version Clustal X. Precompiled executables for Linux, Mac OS X and Windows (incl. XP and Vista) of the most recent version (currently 2.1) along with the source code are <a href="http://www.clustal.org/download/current/" target="_blank">available for download</a> here. You can also browse for <a href="http://www.clustal.org/download/" target="_blank">older versions</a> (Clustal W 1.81, Clustal V etc).</p>
+
+<p><img src="/img/tools/clustal.png" width= 800 height= 500 alt="blast" align="center"></p>
+
+<p><a href="http://www.clustal.org/" target="_blank">More detials and official website</a></p>
+
+<p><em><a href="http://www.sequence-alignment.com/" target="_blank">Image citation</a></em></p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/sequence_related" target="_blank">sequence_related</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/tools/seq_new/htsdata/"> Analysis of High-throughput Sequencing Data</a></li>
+        
+        <li><a href="/tools/seq_new/sequence-alignment/">Sequence Alignment</a></li>
+        
+        <li><a href="/too2/new_pheno/sequence-alignment/">Sequence Alignment</a></li>
+        
+        <li><a href="/too2/new_proteo/sequence-alignment/">Sequence Alignment</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyD3AGpKDAfo_LjBRHd-YkYmMjBDlIHfdlo"></script>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

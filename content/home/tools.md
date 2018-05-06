@@ -16,7 +16,7 @@ weight = 30
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-folder = "tools"
+folder = "too2"
 
 # View.
 # Customize how projects are displayed.
@@ -32,21 +32,27 @@ filter_default = 1
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
-  name = "Sequence-related"
-  tag = ".sequence_related"
+  name = "Genomics"
+  tag = ".genomics"
 
 [[filter]]
-  name = "Gene-related"
-  tag = ".gene_related"
+  name = "Epigenomics"
+  tag = ".epigenomics"
   
 [[filter]]
-  name = "Protein-related"
-  tag = ".protein_related"
+  name = "Transcriptomics"
+  tag = ".transcriptomics"
 
 [[filter]]
-  name = "Molecular Evolution"
-  tag = ".molecular_evolution"
+  name = "Proteomics"
+  tag = ".proteomics"
   
+[[filter]]
+  name = "Metabolomics"
+  tag = ".metabolomics"
+[[filter]]
+  name = "Phenomics"
+  tag = ".phenomics"
 
 +++
 

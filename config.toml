@@ -346,32 +346,44 @@ defaultContentLanguageInSubdir = false
 ##submenu
 [[menu.main]]
   name = "Tools"
-  url = "tools/"
+  url = "too2/"
   weight = 4
   identifier="Tools"
   
 [[menu.main]]
   weight = 1
-  name   = "Sequence-related"
-  url    = "/tools/sequence"
+  name   = "Genomics"
+  url    = "/too2/genomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 2
-  name   = "Gene-related"
-  url    = "/tools/genepart"
+  name   = "Epigenomics"
+  url    = "/too2/epigenomics"
   parent = "Tools"
 
 [[menu.main]]
   weight = 3
-  name   = "Protein-related"
-  url    = "/tools/protein"
+  name   = "Transcriptomics"
+  url    = "/too2/transcriptomics"
   parent = "Tools"
   
 [[menu.main]]
   weight = 4
-  name   = "Molecular Evolution"
-  url    = "/tools/molecular"
+  name   = "Proteomics"
+  url    = "/too2/proteomics"
+  parent = "Tools"
+  
+[[menu.main]]
+  weight = 5
+  name   = "Metabolomics"
+  url    = "/too2/metabolomics"
+  parent = "Tools"
+  
+[[menu.main]]
+  weight = 6
+  name   = "Phenomics"
+  url    = "/too2/phenomics"
   parent = "Tools"
   
 ###
