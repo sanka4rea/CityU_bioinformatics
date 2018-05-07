@@ -3,14 +3,14 @@
 date = "2018-04-11"
 
 # Project title.
- title = "RNA Transcription"
+title = "Lipidomics"
 
-weight = 10
+weight = 20
 # Project summary to display on homepage.
 # summary = "Including: Lipidomics Databases, MS-based untargeted lipidomics, MS-based targeted lipidomics."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "tools/geno/lipidomics.jpg"
+image_preview = "tools/meta/lipidomics.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -32,7 +32,7 @@ math = false
 +++
 ---
 
-<img src="/img/tools/geno/lipidomics.jpg"  width="500" height="400" alt="anno" align="center">
+<img src="/img/tools/meta/lipidomics.jpg"  width="500" height="400" alt="anno" align="center">
 
 <span id="top"></span>
 
@@ -40,7 +40,7 @@ math = false
 
 # Transcription analysis
 
-<p align="justify">Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
+<p align="justify">**Transcript abundance** is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
 
 # Lipidomics Databases
 
@@ -48,7 +48,7 @@ math = false
 
 # MS-based untargeted lipidomics
 
-<p align="justify">Due to its sensitivity and selectivity mass spectrometry (MS) is the method of choice for qualitative and quantitative lipidomic analysis. Although it is not yet possible to detect and quantify all individual lipids in a given cellular system, the aim of lipidomic analysis is to determine as many individual lipids as possible.
+<p align="justify">Due to its sensitivity and selectivity **mass spectrometry** (MS) is the method of choice for qualitative and quantitative lipidomic analysis. Although it is not yet possible to detect and quantify all individual lipids in a given cellular system, the aim of lipidomic analysis is to determine as many individual lipids as possible.
 
 # MS-based targeted lipidomics
 

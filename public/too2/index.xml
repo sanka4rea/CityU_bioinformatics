@@ -13,15 +13,6 @@
     
     
     <item>
-      <title></title>
-      <link>/too2/new_meta/profiles/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/too2/new_meta/profiles/</guid>
-      <description>Table of Contents  Metabolic profiles analysis  Metabolic Network analysis mGWAS Metabolite enrichment analysis  MS-based untargeted Metabolomics  Metabolic Network analysis mGWAS Metabolite enrichment analysis  NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections Spectral deconvolution Chemometric analysis Metabolite identification    Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.</description>
-    </item>
-    
-    <item>
       <title>DNA Modifications</title>
       <link>/too2/new_epi/modifications/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -40,22 +31,21 @@
     </item>
     
     <item>
+      <title>Metabolic Profiles</title>
+      <link>/too2/new_meta/profiles/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_meta/profiles/</guid>
+      <description>Table of Contents  Metabolic profiles analysis  Metabolic Network analysis mGWAS Metabolite enrichment analysis  MS-based untargeted Metabolomics  Metabolic Network analysis mGWAS Metabolite enrichment analysis  NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections Spectral deconvolution Chemometric analysis Metabolite identification  Find more tools: OMICTOOLS   Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.</description>
+    </item>
+    
+    <item>
       <title>Protein Sequence/Expression</title>
       <link>/too2/new_proteo/pro_seq/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/pro_seq/</guid>
       <description>Table of Contents  Protein Sequence Analysis  Amino Acid Repeat Prediction Subcellular Localizaton Prediction T3S effector Prediction Protein Clustering SDS Prediction  MS-based (Mass Spectrometry) untargeted Proteomics  2D gel Image Analysis In Silico Analysis Phosphorylation Site Assignment PTM Identification Glycosylation Identification  MS-based Metaproteomics Antibody Array Analysis Proteogenomics Analysis Find more tools: OMICTOOLS   Protein Sequence Analysis Protein sequence analysis tools are used to predict specific functions, activities, origin, or localization of proteins based on their amino-acid sequence.</description>
-    </item>
-    
-    <item>
-      <title>RNA Transcription</title>
-      <link>/too2/new_meta/lipidomics/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/too2/new_meta/lipidomics/</guid>
-      <description>Table of Contents  Transcription analysis Lipidomics Databases MS-based untargeted lipidomics MS-based targeted lipidomics   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
-Lipidomics Databases Development of databases and the related bioinformatics tools has become an essential part of the omics studies.</description>
     </item>
     
     <item>
@@ -74,6 +64,16 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       
       <guid>/too2/new_geno/dnastr/</guid>
       <description>Table of Contents  DNA Structure  Shape prediction  do_x3dna 3DNA DINAMelt DNAshape  R-loop forming sequence prediction  QmRLFS-finder  DNA Structure Database  R-loopDB | R-loop forming sequence databases  Small-angle Scattering  AXES FoXS AquaSAXS   Find more tools: OMICTOOLS   DNA Structure DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc.</description>
+    </item>
+    
+    <item>
+      <title>Lipidomics</title>
+      <link>/too2/new_meta/lipidomics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_meta/lipidomics/</guid>
+      <description>Table of Contents  Transcription analysis Lipidomics Databases MS-based untargeted lipidomics MS-based targeted lipidomics   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
+Lipidomics Databases Development of databases and the related bioinformatics tools has become an essential part of the omics studies.</description>
     </item>
     
     <item>
@@ -113,6 +113,15 @@ Find more tools: OMICTOOLS Image Citation</description>
       
       <guid>/too2/new_epi/dna_pro/</guid>
       <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+    </item>
+    
+    <item>
+      <title>Drug Discovery</title>
+      <link>/too2/new_meta/drug/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_meta/drug/</guid>
+      <description>Table of Contents  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors Find more tools: OMICTOOLS   In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.</description>
     </item>
     
     <item>

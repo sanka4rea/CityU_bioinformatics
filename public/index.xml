@@ -167,88 +167,6 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
     </item>
     
     <item>
-      <title></title>
-      <link>/too2/new_meta/profiles/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/too2/new_meta/profiles/</guid>
-      <description>
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/tools/geno/profile.gif&#34;  width=&#34;500&#34; height=&#34;400&#34; alt=&#34;anno&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#metabolic-profiles-analysis&#34;&gt;Metabolic profiles analysis&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#metabolic-network-analysis&#34;&gt;Metabolic Network analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#mgwas&#34;&gt;mGWAS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#metabolite-enrichment-analysis&#34;&gt;Metabolite enrichment analysis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#ms-based-untargeted-metabolomics&#34;&gt;MS-based untargeted Metabolomics&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#metabolic-network-analysis-1&#34;&gt;Metabolic Network analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#mgwas-1&#34;&gt;mGWAS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#metabolite-enrichment-analysis-1&#34;&gt;Metabolite enrichment analysis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nmr-based-metabolomics-ms-based-targeted-metabolomics&#34;&gt;NMR-based Metabolomics/MS-based targeted metabolomics&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#spectral-corrections&#34;&gt;Spectral corrections&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#spectral-deconvolution&#34;&gt;Spectral deconvolution&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#chemometric-analysis&#34;&gt;Chemometric analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#metabolite-identification&#34;&gt;Metabolite identification&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-
-
-&lt;h1 id=&#34;metabolic-profiles-analysis&#34;&gt;Metabolic profiles analysis&lt;/h1&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics. Whilst metabolic fingerprinting or metabonomics assumes it is not necessary to determine levels of all individual metabolites for classification or response readouts, metabolic profiling or metabolomics absolutely requires the identification and quantification of as broad a class of metabolites as possible.&lt;/p&gt;
-
-&lt;h2 id=&#34;metabolic-network-analysis&#34;&gt;Metabolic Network analysis&lt;/h2&gt;
-
-&lt;h2 id=&#34;mgwas&#34;&gt;mGWAS&lt;/h2&gt;
-
-&lt;h2 id=&#34;metabolite-enrichment-analysis&#34;&gt;Metabolite enrichment analysis&lt;/h2&gt;
-
-&lt;h1 id=&#34;ms-based-untargeted-metabolomics&#34;&gt;MS-based untargeted Metabolomics&lt;/h1&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Metabolomics is an emerging field of study in post-genomics, which aims at comprehensive analysis of small organic molecules in biological systems (Patti et al., 2012). Techniques of mass spectrometry coupled to liquid chromatography (LC–MS) stand out as dominant methods in metabolomic experiments (Dettmer et al., 2007).&lt;/p&gt;
-
-&lt;h2 id=&#34;metabolic-network-analysis-1&#34;&gt;Metabolic Network analysis&lt;/h2&gt;
-
-&lt;h2 id=&#34;mgwas-1&#34;&gt;mGWAS&lt;/h2&gt;
-
-&lt;h2 id=&#34;metabolite-enrichment-analysis-1&#34;&gt;Metabolite enrichment analysis&lt;/h2&gt;
-
-&lt;h1 id=&#34;nmr-based-metabolomics-ms-based-targeted-metabolomics&#34;&gt;NMR-based Metabolomics/MS-based targeted metabolomics&lt;/h1&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Elucidation of the chemical composition of biological samples is a main focus of systems biology and metabolomics. Because nuclear magnetic resonance (NMR) spectroscopy is a rich source of molecular information, it has a unique potential for this task.&lt;/p&gt;
-
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Targeted metabolomics assay platforms are extremely useful for hypothesis testing. These experiments require extensive planning to define the key metabolites in biochemical pathways of interest. Rate-limiting precursors, end-product pools, critical intermediates, and potential alternate precursors or products need to be incorporated into an assay platform.&lt;/p&gt;
-
-&lt;h2 id=&#34;spectral-corrections&#34;&gt;Spectral corrections&lt;/h2&gt;
-
-&lt;h2 id=&#34;spectral-deconvolution&#34;&gt;Spectral deconvolution&lt;/h2&gt;
-
-&lt;h2 id=&#34;chemometric-analysis&#34;&gt;Chemometric analysis&lt;/h2&gt;
-
-&lt;h2 id=&#34;metabolite-identification&#34;&gt;Metabolite identification&lt;/h2&gt;
-
-&lt;p&gt;#MS-based targeted metabolomics&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Bioinformatic Harvester</title>
       <link>/base2/newexpress/harvest/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -509,6 +427,295 @@ This server can accept sequences up to 1 million base pairs (1 Mbp) in length. I
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=x9S7uIQjs8g&#34; target=&#34;_blank&#34;&gt;Image citation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Genome Annotation</title>
+      <link>/too2/new_geno/anno/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_geno/anno/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tools/geno/anno.jpg&#34; alt=&#34;anno&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#genome-annotation&#34;&gt;Genome Annotation&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-gene-ontology-annotation-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Gene Ontology Annotation&lt;/font&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#blastx&#34;&gt;BLASTX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#blast2go&#34;&gt;Blast2GO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-go-semantic-similarity-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;GO Semantic Similarity Analysis&lt;/font&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#g-sesame-gene-semantic-similarity-analysis-and-measurement-tools&#34;&gt;G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#clusterprofiler-go-semantic-similarity-analysis-genome-annotation&#34;&gt;clusterProfiler | GO semantic similarity analysis : Genome annotation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gotoolbox-go-semantic-similarity-analysis-dna-sequence-analysis&#34;&gt;GOToolBox | GO semantic similarity analysis : DNA sequence analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sml-toolkit-semantic-measures-library-toolkit&#34;&gt;SML-Toolkit | Semantic Measures Library Toolkit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-promoter-predication-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Promoter Predication&lt;/font&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#firstef-first-exon-finder&#34;&gt;FirstEF | First Exon Finder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cpgpromoter&#34;&gt;CpGpromoter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#promirna&#34;&gt;PROmiRNA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-annotation-workflows-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Annotation Workflows&lt;/font&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#rast-rapid-annotation-using-subsystem-technology&#34;&gt;RAST | Rapid Annotation using Subsystem Technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#prokka-annotation-workflows&#34;&gt;Prokka | Annotation workflows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#blastkoala&#34;&gt;BlastKOALA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#find-more-tools-omictools-https-omictools-com-genomics2-category&#34;&gt;Find more tools: &lt;a href=&#34;https://omictools.com/genomics2-category&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;OMICTOOLS&lt;/strong&gt;&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;h1 id=&#34;genome-annotation&#34;&gt;Genome Annotation&lt;/h1&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;strong&gt;Genome annotation&lt;/strong&gt; is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions. Analysis of DNA sequence with genome annotation software tools allow finding and mapping genes, exons-introns, regulatory elements, repeats and mutations. Genome databases are essential to retrieve information on gene name, protein product and DNA sequence functions.&lt;/p&gt;
+
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-gene-ontology-annotation-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Gene Ontology Annotation&lt;/font&gt;&lt;/h2&gt;
+
+&lt;h3 id=&#34;blastx&#34;&gt;BLASTX&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;a href=&#34;https://blast.ncbi.nlm.nih.gov/Blast.cgi&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;The Basic Local Alignment Search Tool&lt;/strong&gt; (BLAST)&lt;/a&gt; finds regions of   local similarity between sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches. BLAST can be used to infer functional and evolutionary relationships between sequences as well as help identify members of gene families.A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Different types of BLASTs are available according to the query sequences. For example, following the discovery of a previously unknown gene in the mouse, a scientist will typically perform a BLAST search of the human genome to see if humans carry a similar gene; BLAST will identify sequences in the human genome that resemble the mouse gene based on similarity of sequence. The BLAST algorithm and program were designed by &lt;code&gt;Stephen Altschul&lt;/code&gt;, &lt;code&gt;Warren Gish&lt;/code&gt;, &lt;code&gt;Webb Miller&lt;/code&gt;, &lt;code&gt;Eugene Myers&lt;/code&gt;, and &lt;code&gt;David J. Lipman&lt;/code&gt; at the &lt;a href=&#34;https://en.wikipedia.org/wiki/National_Institutes_of_Health&#34; target=&#34;_blank&#34;&gt;National Institutes of Health&lt;/a&gt; and was published in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Journal_of_Molecular_Biology&#34; target=&#34;_blank&#34;&gt;Journal of Molecular Biology&lt;/a&gt; in 1990 and cited over 50,000 times.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tools/Blast.png&#34; width= 800 height= 500 alt=&#34;blast&#34; align=&#34;center&#34;&gt;
+&lt;strong&gt;Input&lt;/strong&gt;: Input sequences (in &lt;a href=&#34;https://en.wikipedia.org/wiki/FASTA_format&#34; target=&#34;_blank&#34;&gt;FASTA&lt;/a&gt; or Genbank format) and weight matrix.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;: BLAST output can be delivered in a variety of formats. These formats include HTML, plain text, and XML formatting.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;The details about &lt;strong&gt;process&lt;/strong&gt; and &lt;strong&gt;algorithm&lt;/strong&gt; coule be found &lt;a href=&#34;https://en.wikipedia.org/wiki/BLAST&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://blast.ncbi.nlm.nih.gov/Blast.cgi&#34; target=&#34;_blank&#34;&gt;official website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NCBI BLAST&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;BLAST stands for Basic Local Alignment Search Tool.The emphasis of this tool is to find regions of sequence similarity, which will yield functional and evolutionary clues about the structure and function of your sequence.&lt;/p&gt;
+
+&lt;p&gt;This tool can be used in the following contexts:Protein, Nucleotide, Vectors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PSI-BLAST&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Position specific iterative BLAST (PSI-BLAST) refers to a feature of BLAST 2.0 in which a profile is automatically constructed from the first set of BLAST alignments. PSI-BLAST is similar to NCBI BLAST2 except that it uses position-specific scoring matrices derived during the search, this tool is used to detect distant evolutionary relationships. PHI-BLAST functionality is available to use patterns to restrict search results.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.ebi.ac.uk/seqdb/confluence/display/THD/PSI-BLAST&#34; target=&#34;_blank&#34;&gt;How to use&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Altschul et al., 1997) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/9254694&#34; target=&#34;_blank&#34;&gt;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&lt;/a&gt;.  Nucleic Acids Res. PMID: 9254694&lt;/li&gt;
+&lt;li&gt;(Altschul et al., 1990) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/2231712&#34; target=&#34;_blank&#34;&gt;Basic local alignment search tool&lt;/a&gt;.  J Mol Biol. PMID: 2231712&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institution(s)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, USA&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;citation:&lt;/em&gt; &lt;a href=&#34;https://www.ebi.ac.uk/Tools/sss/&#34; target=&#34;_blank&#34;&gt;Sequence Similarity Searching&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;blast2go&#34;&gt;Blast2GO&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Permits functional annotation, management, and data mining of novel sequence data. &lt;strong&gt;Blast2GO&lt;/strong&gt; is based on the utilization of common controlled vocabulary schemas, the gene ontology (GO). It takes in consideration similarity, the extension of the homology, the database of choice, the GO hierarchy, and the quality of the original annotations. This tool is suitable for plant genomics research. It generates functional annotation and assesses the functional meaning of their experimental results.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tools/geno/blast2go.png&#34; width= 800 height= 500 alt=&#34;blast&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.blast2go.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.blast2go.com/images/b2g_pdfs/b2g_user_manual.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Conesa et al., 2005) Blast2GO: a universal tool for annotation, visualization and analysis in functional genomics research.&lt;br&gt; PMID: 16081474 DOI: 10.1093/bioinformatics/bti610&lt;/li&gt;
+&lt;li&gt;(Conesa and Götz, 2008) Blast2GO: A comprehensive suite for functional analysis in plant genomics.  Int J Plant Genomics. &lt;br&gt;PMID: 18483572 DOI: 10.1155/2008/619832&lt;/li&gt;
+&lt;li&gt;(Götz et al., 2008) High-throughput functional annotation and data mining with the Blast2GO suite.  Nucleic Acids Res. &lt;br&gt;PMID: 18445632 DOI: 10.1093/nar/gkn176&lt;/li&gt;
+&lt;li&gt;(Aparicio et al., 2006) Blast2GO goes grid: developing a grid-enabled prototype for functional genomics analysis.  Stud Health Technol Inform. &lt;br&gt;PMID: 16823138&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: Bioinformatics Department, Centro de Investigación Príncipe Felipe, Valencia, Spain&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-go-semantic-similarity-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;GO Semantic Similarity Analysis&lt;/font&gt;&lt;/h2&gt;
+
+&lt;h3 id=&#34;g-sesame-gene-semantic-similarity-analysis-and-measurement-tools&#34;&gt;G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;A set of online tools for measuring the &lt;strong&gt;semantic similarities&lt;/strong&gt; of Gene Ontology (GO) terms and the functional similarities of gene products, and for further discovering biomedical knowledge from the GO database. Visualization techniques are provided in these tools to allow users to inspect the locations of the GO terms within the GO graph and to visually determine the semantic similarity. A batch command interface is also provided for users to execute the tools to measure the semantic similarity of a group of GO terms or functional similarities of a group of genes. Web based APIs are also provided for advanced users.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bioinformatics.clemson.edu/G-SESAME/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Song, 2014) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/26356015&#34; target=&#34;_blank&#34;&gt;Measure the Semantic Similarity of GO Terms Using Aggregate Information Content&lt;/a&gt;.  IEEE Trans Comput Biol Bioinform.&lt;br&gt;PMID: 26356015 DOI: 10.1109/TCBB.2013.176&lt;/li&gt;
+&lt;li&gt;(Du et al., 2009) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/19491312&#34; target=&#34;_blank&#34;&gt;G-SESAME: web tools for GO-term-based gene similarity analysis and knowledge discovery&lt;/a&gt;.  Nucleic Acids Res. &lt;br&gt;PMID: 19491312 DOI: 10.1093/nar/gkp463&lt;/li&gt;
+&lt;li&gt;(Wang et al., 2007) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/17344234&#34; target=&#34;_blank&#34;&gt;A new method to measure the semantic similarity of GO terms&lt;/a&gt;. Bioinformatics. &lt;br&gt;PMID: 17344234&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: School of Computing, Clemson University, Clemson, SC, USA&lt;/p&gt;
+
+&lt;h3 id=&#34;clusterprofiler-go-semantic-similarity-analysis-genome-annotation&#34;&gt;clusterProfiler | GO semantic similarity analysis : Genome annotation&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Automates the process of biological-term classification and the enrichment analysis of gene clusters. ClusterProfiler supports three species, including humans, mice, and yeast. It offers a gene classification method, namely groupGO, to sort genes based on their projection at a specific level of the gene ontology (GO) corpus. This tool is able to calculate enrichment test for GO terms and KEGG pathways based on hypergeometric distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/GuangchuangYu/clusterProfiler&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bioconductor.org/packages/release/bioc/manuals/clusterProfiler/man/clusterProfiler.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Yu et al., 2012) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/22455463&#34; target=&#34;_blank&#34;&gt;clusterProfiler: an R package for comparing biological themes among gene clusters&lt;/a&gt;.  OMICS.&lt;/li&gt;
+&lt;li&gt;(Yu, 2018) &lt;a href=&#34;https://www.biorxiv.org/content/early/2018/02/01/256784&#34; target=&#34;_blank&#34;&gt;clusterProfiler: An universal enrichment tool for functional and comparative study&lt;/a&gt;.  BioRxiv.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: State Key Laboratory of Emerging Infectious Diseases and Centre of Influenza Research, School of Public Health, The University of Hong Kong, Hong Kong, China&lt;/p&gt;
+
+&lt;h3 id=&#34;gotoolbox-go-semantic-similarity-analysis-dna-sequence-analysis&#34;&gt;GOToolBox | GO semantic similarity analysis : DNA sequence analysis&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Provides a series of programs allowing the functional investigation of groups of genes, based on the Gene Ontology resource. GOToolBox allows 1) the identification of statistically relevant over- or under-represented terms in a gene dataset, 2) the clustering of functionally related genes within a set and 3) the retrieval of genes sharing annotations with a query gene. The user can also constrain the GO annotations to a slim hierarchy or to a given level of the ontology, in order to facilitate the interpretation of the results.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://genome.crg.es/GOToolBox/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Martin et al., 2004) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/15575967&#34; target=&#34;_blank&#34;&gt;GOToolBox: functional analysis of gene datasets based on Gene Ontology&lt;/a&gt;.  Genome Biol.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: Laboratoire de Génétique et Physiologie du Développement, IBDM, CNRS/INSERM/Université de la Méditerranée, Parc Scientifique de Luminy, Marseille, France&lt;/p&gt;
+
+&lt;h3 id=&#34;sml-toolkit-semantic-measures-library-toolkit&#34;&gt;SML-Toolkit | Semantic Measures Library Toolkit&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;A Java Toolkit dedicated to semantic measures computation and analysis. SML-Toolkit is composed of various tools related to semantic measures computation and analysis. Those tools are provided through a common command-line interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.semantic-measures-library.org/sml/index.php?q=toolkit&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sharispe/slib/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Harispe et al., 2014) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/24269894&#34; target=&#34;_blank&#34;&gt;A framework for unifying ontology-based semantic similarity measures: a study in the biomedical domain&lt;/a&gt;.  J Biomed Inform.&lt;/li&gt;
+&lt;li&gt;(Harispe et al., 2014) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/24108186&#34; target=&#34;_blank&#34;&gt;The semantic measures library and toolkit: fast computation of semantic similarity and relatedness using biomedical ontologies&lt;/a&gt;. Bioinformatics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: LGI2P/EMA Research Centre, Site EERIE, Parc Scientifique G Besse, Nîmes, France&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-promoter-predication-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Promoter Predication&lt;/font&gt;&lt;/h2&gt;
+
+&lt;h3 id=&#34;firstef-first-exon-finder&#34;&gt;FirstEF | First Exon Finder&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;A &lt;strong&gt;5&amp;rsquo; terminal exon and promoter&lt;/strong&gt; prediction program. FirstEF consists of different discriminant functions structured as a decision tree. The probabilistic models are optimized to find potential first donor sites and CpG-related and non-CpG-related promoter regions based on discriminant analysis. For every potential first donor site (GT) and an upstream promoter region, FirstEF decides whether or not the intermediate region can be a potential first exon, based on a set of quadratic discriminant functions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rulai.cshl.org/tools/FirstEF/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rulai.cshl.org/tools/FirstEF/Readme/README.html&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Davuluri et al., 2001) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/11726928&#34; target=&#34;_blank&#34;&gt;Computational identification of promoters and first exons in the human genome&lt;/a&gt;.  Nat Genet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, NY, USA&lt;/p&gt;
+
+&lt;h3 id=&#34;cpgpromoter&#34;&gt;CpGpromoter&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;A program for a large-scale human promoter mapping using CpG islands. CpGpromoter is based on results of discriminant analysis between the promoter-associated CpG islands and non-associated ones. It enables an efficient mapping of human promoters with 2Kb resolution, if there is a CpG island inside an interval (-500&amp;hellip;+1,500) around a transcription start site.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rulai.cshl.org/tools/CpG_promoter/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Ioshikhes and Zhang, 2000) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/10973249&#34; target=&#34;_blank&#34;&gt;Large-scale human promoter mapping using CpG islands&lt;/a&gt;.  Nat Genet.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA&lt;/p&gt;
+
+&lt;h3 id=&#34;promirna&#34;&gt;PROmiRNA&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;A program for annotating &lt;strong&gt;miRNA promoters in human&lt;/strong&gt;, as well as other species. PROmiRNA uses deepCAGE data from the FANTOM4 Consortium and integrated cage tag counts and other promoter features, such as CpG content, conservation and TATA box affinity, to score the potential of a candidate region to be a promoter. Given a list of genomic regions of interest, in the form of a gff file, PROmiRNA returns the most probable promoter locations, together with the posterior probabilities calculated by the model.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://promirna.molgen.mpg.de/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Marsico et al., 2013) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/23958307&#34; target=&#34;_blank&#34;&gt;PROmiRNA: a new miRNA promoter recognition method uncovers the complex regulation of intronic miRNAs&lt;/a&gt;. Genome Biol.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: Max Planck Institute for Molecular Genetics, Berlin, Germany; Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-annotation-workflows-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Annotation Workflows&lt;/font&gt;&lt;/h2&gt;
+
+&lt;h3 id=&#34;rast-rapid-annotation-using-subsystem-technology&#34;&gt;RAST | Rapid Annotation using Subsystem Technology&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Assists in annotating complete or nearly complete bacterial and archaeal genomes. RAST is a fully-automated application provides high quality genome annotations for these genomes across the whole phylogenetic tree. It includes a user interface that allows registered users to make manual changes to their genomes before retrieving them. It was designed to extend annotations to as many protein-encoding genes in as many genomes as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rast.nmpdr.org/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Overbeek et al., 2014) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/24293654&#34; target=&#34;_blank&#34;&gt;The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST)&lt;/a&gt;.  Nucleic Acids Res.&lt;/li&gt;
+&lt;li&gt;(Aziz et al., 2008) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/18261238&#34; target=&#34;_blank&#34;&gt;The RAST Server: rapid annotations using subsystems technology&lt;/a&gt;.  BMC Genomics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;prokka-annotation-workflows&#34;&gt;Prokka | Annotation workflows&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;A command line software tool to fully annotate a draft bacterial genome in about 10 min on a typical desktop computer. It produces standards-compliant output files for further analysis or viewing in genome browsers. Prokka uses parallel processing to decrease running time on multicore computers. The most time-consuming steps are BLAST+ and hmmscan, which both support multiple CPUs natively. However, Prokka is more efficient if it runs multiple single CPU threads on subsets of the data, which it achieves using GNU parallel.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.vicbioinformatics.com/software.prokka.shtml&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Seemann, 2014) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/24642063&#34; target=&#34;_blank&#34;&gt;Prokka: rapid prokaryotic genome annotation&lt;/a&gt;.  Bioinformatics.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: Victorian Bioinformatics Consortium, Monash University, Clayton; Life Sciences Computation Centre, Victorian Life Sciences Computation Initiative, Carlton, Australia&lt;/p&gt;
+
+&lt;h3 id=&#34;blastkoala&#34;&gt;BlastKOALA&lt;/h3&gt;
+
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Assigns K numbers to the user&amp;rsquo;s sequence data by BLAST searches, respectively, against a nonredundant set of KEGG GENES. KOALA (KEGG Orthology And Links Annotation) is KEGG&amp;rsquo;s internal annotation tool for K number assignment of KEGG GENES using SSEARCH computation. Annotate Sequence in KEGG Mapper and Pathogen Checker in KEGG Pathogen are special interfaces to this server and can be executed in an interactive mode. BlastKOALA is suitable for annotating fully sequenced genomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.kegg.jp/blastkoala/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Official Website&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publications&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Kanehisa et al., 2016) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/26585406&#34; target=&#34;_blank&#34;&gt;BlastKOALA and GhostKOALA: KEGG Tools for Functional Characterization of Genome and Metagenome Sequences&lt;/a&gt;.  J Mol Biol.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Institutions(s)&lt;/strong&gt;: Institute for Chemical Research, Kyoto University, Uji, Kyoto, Japan; Healthcare Solutions Department, Fujitsu Kyushu Systems Ltd, Hakata-ku, Fukuoka, Japan; Institute for Chemical Research, Kyoto University, Uji, Kyoto, Japan&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;find-more-tools-omictools-https-omictools-com-genomics2-category&#34;&gt;Find more tools: &lt;a href=&#34;https://omictools.com/genomics2-category&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;OMICTOOLS&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.slideshare.net/karanppt/genome-annotation-2013&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Image Citation&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>

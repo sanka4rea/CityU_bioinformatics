@@ -15,7 +15,7 @@ caption = ""
 [**Rstudio server:**](http://144.214.26.67:8787/auth-sign-in)
 {{% /alert %}}
 <img src="/img/server/rstudioserver.png" alt="server" align="center">
-<p align="justify">Click [**here**](http://144.214.26.67:8787/auth-sign-in) to access the Rstudio server in the Wang Lab. 
+<p align="justify">Click [**here**](http://144.214.26.36:8887/auth-sign-in) to access the Rstudio server in the Wang Lab. 
 
 Please contact **xin.wang@cityu.edu.hk** if you need an account.
 

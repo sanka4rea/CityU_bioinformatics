@@ -68,15 +68,6 @@
     
     <url>
     
-      <loc>/too2/new_meta/profiles/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/base2/newexpress/harvest/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -158,6 +149,15 @@
     
     <url>
     
+      <loc>/too2/new_meta/profiles/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tools/mole_new/evolution/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -231,15 +231,6 @@
     <url>
     
       <loc>/database/pro_str_new/pdb/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/too2/new_meta/lipidomics/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -473,6 +464,15 @@
     
     <url>
     
+      <loc>/too2/new_meta/lipidomics/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/too2/new_trans/lowlevel/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -663,6 +663,15 @@
     <url>
     
       <loc>/too2/new_epi/dna_pro/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/new_meta/drug/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
