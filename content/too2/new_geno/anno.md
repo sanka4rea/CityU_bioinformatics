@@ -252,6 +252,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-## Find more tools: [**OMIVTOOLS**](https://omictools.com/genomics2-category)
+# Find more tools: [**OMICTOOLS**](https://omictools.com/genomics2-category)
+
+[*Image Citation*](https://www.slideshare.net/karanppt/genome-annotation-2013)
 
 ---

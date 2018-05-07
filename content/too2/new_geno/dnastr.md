@@ -188,7 +188,7 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-## Find more tools: [**OMIVTOOLS**](https://omictools.com/genomics2-category)
+# Find more tools: [**OMICTOOLS**](https://omictools.com/genomics2-category)
 
 [*Image Citation*](https://visual.ly/community/infographic/health/dna-structure)
 

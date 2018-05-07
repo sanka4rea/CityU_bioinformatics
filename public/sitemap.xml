@@ -203,7 +203,7 @@
     
     <url>
     
-      <loc>/too2/new_proteo/structure/</loc>
+      <loc>/tools/pro_new/structure/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -212,7 +212,7 @@
     
     <url>
     
-      <loc>/tools/pro_new/structure/</loc>
+      <loc>/too2/new_proteo/pro_seq/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -527,7 +527,7 @@
     
     <url>
     
-      <loc>/too2/new_proteo/mass/</loc>
+      <loc>/too2/new_proteo/structure/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -716,6 +716,15 @@
     
     <url>
     
+      <loc>/too2/new_proteo/immune/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/base2/newprotein/kabat/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -726,6 +735,15 @@
     <url>
     
       <loc>/database/pro_seq_new/kabat/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/new_trans/rnamodification/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -914,6 +932,24 @@
     
     <url>
     
+      <loc>/too2/new_proteo/interactions/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/new_trans/rna_pro/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/base2/newdna/refseq/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1032,6 +1068,15 @@
     <url>
     
       <loc>/journal/specific/mathematical-biosciences/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/new_proteo/membrane/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -1184,6 +1229,15 @@
     
     <url>
     
+      <loc>/too2/new_trans/non_coding/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/base2/newprotein/pmp/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1194,6 +1248,15 @@
     <url>
     
       <loc>/database/pro_str_new/pmp/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/new_geno/phylogenetic/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     

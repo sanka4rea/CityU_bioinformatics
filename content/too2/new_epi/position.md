@@ -32,7 +32,7 @@ math = false
 +++
 ---
 
-<img src="/img/tools/geno/position.jpg" width="500" height="400" alt="position" align="center">
+<img src="/img/tools/geno/position.jpg" width="600" height="400" alt="position" align="center">
 
 <span id="top"></span>
 
@@ -51,6 +51,8 @@ math = false
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
-## Find more tools: [**OMIVTOOLS**](https://omictools.com/epigenomics-category)
+# Find more tools: [**OMIVTOOLS**](https://omictools.com/epigenomics-category)
+
+[*Image Citation*](https://www.nature.com/articles/nbt.1685)
 
 ---

@@ -32,7 +32,7 @@ math = false
 +++
 ---
 
-<img src="/img/tools/geno/modification.jpg"  width="500" height="400" alt="anno" align="center">
+<img src="/img/tools/geno/modification.jpg"  width="400" height="300" alt="anno" align="center">
 
 <span id="top"></span>
 
@@ -40,38 +40,42 @@ math = false
 
 # DNA modification analysis
 
-<p align="justify">Whole genome DNA methylation detection is one of the most important part of epigenetics research. It is supposed to have a great effect on cancers and tumors, and even be involved in the senility of human. In addition, it is believed that in medical aspects, DNA methylation may have a strong relationship with diabetes and immunological diseases (Jeong et al., 2014; Hackett et al., 2013; Duthie, 2011). 
+<p align="justify">**Whole genome DNA methylation detection** is one of the most important part of epigenetics research. It is supposed to have a great effect on cancers and tumors, and even be involved in the senility of human. In addition, it is believed that in medical aspects, DNA methylation may have a strong relationship with diabetes and immunological diseases (Jeong et al., 2014; Hackett et al., 2013; Duthie, 2011). 
 
-## DNA Methylation Prediction 
+## <font color=#CD5555 face="黑体">DNA Methylation Prediction</font> 
 
-## DNA Methylation Deconvolution 
+## <font color=#CD5555 face="黑体">DNA Methylation Deconvolution</font> 
 
 # DNA methylation array analysis
 
-<p align="justify">DNA methylation is involved in numerous physiological processes and also disease states, such as cancer (Jones, 2012). This has raised wide interest in developing large-scale DNA methylation profiling technologies to improve our molecular understanding of diseases. The recently released Infinium HumanMethylation450 (Bibikova et al., 2011; Dedeurwaerder et al., 2011) is a preferred technology for studying the DNA methylomes of various cell types in large-scale studies, and there is a current explosion of data generated with this technology (Rakyan et al., 2011). Sequencing-based methods, although offering much higher genome coverage, are still not affordable by all laboratories, notably those with moderate budgets. Another reason for the success of DNA methylation arrays is the ease of reading and understanding the data generated, notably because microarrays have been widely used over the past decades, particularly for gene expression profiling.
+<p align="justify">**DNA methylation** is involved in numerous physiological processes and also disease states, such as cancer (Jones, 2012). This has raised wide interest in developing large-scale DNA methylation profiling technologies to improve our molecular understanding of diseases. The recently released Infinium HumanMethylation450 (Bibikova et al., 2011; Dedeurwaerder et al., 2011) is a preferred technology for studying the DNA methylomes of various cell types in large-scale studies, and there is a current explosion of data generated with this technology (Rakyan et al., 2011). Sequencing-based methods, although offering much higher genome coverage, are still not affordable by all laboratories, notably those with moderate budgets. Another reason for the success of DNA methylation arrays is the ease of reading and understanding the data generated, notably because microarrays have been widely used over the past decades, particularly for gene expression profiling.
 
-## Differential Methylation Site Detection
+## <font color=#CD5555 face="黑体">Differential Methylation Site Detection</font>
 
-## Differential Methylation region Detection
+## <font color=#CD5555 face="黑体">Differential Methylation region Detection</font>
 
 # Enrichment Analysis
 
-## Over-representation analysis
+## <font color=#CD5555 face="黑体">Over-representation analysis</font>
 
-## Gene set enrichment analysis
+## <font color=#CD5555 face="黑体">Gene set enrichment analysis</font>
 
-## Topology enrichment analysis
+## <font color=#CD5555 face="黑体">Topology enrichment analysis</font>
 
 # Bisulfite Sequencing Data Analysis (BS-seq analysis)
 
-<p align="justify">DNA methylation contributes to the epigenetic regulation of many key developmental processes including genomic imprinting, X-inactivation, genome stability and gene regulation. Bisulfite conversion of genomic DNA combined with next-generation sequencing (BS-seq) is widely used to measure the methylation state of a whole genome, the methylome, at single-base resolution (Lister et al., 2009; Bock et al., 2010; Harris et al., 2010).
+<p align="justify">**DNA methylation** contributes to the epigenetic regulation of many key developmental processes including genomic imprinting, X-inactivation, genome stability and gene regulation. Bisulfite conversion of genomic DNA combined with next-generation sequencing (BS-seq) is widely used to measure the methylation state of a whole genome, the methylome, at single-base resolution (Lister et al., 2009; Bock et al., 2010; Harris et al., 2010).
 
-## Differential Methylation region Detection
+## <font color=#CD5555 face="黑体">Differential Methylation region Detection</font>
 
-## Methylation Annotation
+## <font color=#CD5555 face="黑体">Methylation Annotation</font>
 
-## EWAS
+## <font color=#CD5555 face="黑体">EWAS</font>
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+# Find more tools: [**OMICTOOLS**](https://omictools.com/epigenomics-category)
+
+[*Image Citation*](https://www.the-scientist.com/?articles.view/articleNo/50203/title/The-Role-of-DNA-Base-Modifications/)
 
 ---

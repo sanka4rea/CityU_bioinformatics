@@ -316,7 +316,7 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/tools/geno/modification.jpg&#34;  width=&#34;500&#34; height=&#34;400&#34; alt=&#34;anno&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/tools/geno/modification.jpg&#34;  width=&#34;400&#34; height=&#34;300&#34; alt=&#34;anno&#34; align=&#34;center&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 
@@ -325,65 +325,70 @@ Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse plate
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#dna-modification-analysis&#34;&gt;DNA modification analysis&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#dna-methylation-prediction&#34;&gt;DNA Methylation Prediction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#dna-methylation-deconvolution&#34;&gt;DNA Methylation Deconvolution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-dna-methylation-prediction-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;DNA Methylation Prediction&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-dna-methylation-deconvolution-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;DNA Methylation Deconvolution&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#dna-methylation-array-analysis&#34;&gt;DNA methylation array analysis&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#differential-methylation-site-detection&#34;&gt;Differential Methylation Site Detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#differential-methylation-region-detection&#34;&gt;Differential Methylation region Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-differential-methylation-site-detection-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Differential Methylation Site Detection&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-differential-methylation-region-detection-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Differential Methylation region Detection&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#enrichment-analysis&#34;&gt;Enrichment Analysis&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#over-representation-analysis&#34;&gt;Over-representation analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#gene-set-enrichment-analysis&#34;&gt;Gene set enrichment analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#topology-enrichment-analysis&#34;&gt;Topology enrichment analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-over-representation-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Over-representation analysis&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-gene-set-enrichment-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Gene set enrichment analysis&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-topology-enrichment-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Topology enrichment analysis&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#bisulfite-sequencing-data-analysis-bs-seq-analysis&#34;&gt;Bisulfite Sequencing Data Analysis (BS-seq analysis)&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#differential-methylation-region-detection-1&#34;&gt;Differential Methylation region Detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#methylation-annotation&#34;&gt;Methylation Annotation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#ewas&#34;&gt;EWAS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-differential-methylation-region-detection-font-1&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Differential Methylation region Detection&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-methylation-annotation-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Methylation Annotation&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#font-color-cd5555-face-黑体-ewas-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;EWAS&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#find-more-tools-omictools-https-omictools-com-epigenomics-category&#34;&gt;Find more tools: &lt;a href=&#34;https://omictools.com/epigenomics-category&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;OMICTOOLS&lt;/strong&gt;&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 
 
 &lt;h1 id=&#34;dna-modification-analysis&#34;&gt;DNA modification analysis&lt;/h1&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;Whole genome DNA methylation detection is one of the most important part of epigenetics research. It is supposed to have a great effect on cancers and tumors, and even be involved in the senility of human. In addition, it is believed that in medical aspects, DNA methylation may have a strong relationship with diabetes and immunological diseases (Jeong et al., 2014; Hackett et al., 2013; Duthie, 2011).&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;strong&gt;Whole genome DNA methylation detection&lt;/strong&gt; is one of the most important part of epigenetics research. It is supposed to have a great effect on cancers and tumors, and even be involved in the senility of human. In addition, it is believed that in medical aspects, DNA methylation may have a strong relationship with diabetes and immunological diseases (Jeong et al., 2014; Hackett et al., 2013; Duthie, 2011).&lt;/p&gt;
 
-&lt;h2 id=&#34;dna-methylation-prediction&#34;&gt;DNA Methylation Prediction&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-dna-methylation-prediction-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;DNA Methylation Prediction&lt;/font&gt;&lt;/h2&gt;
 
-&lt;h2 id=&#34;dna-methylation-deconvolution&#34;&gt;DNA Methylation Deconvolution&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-dna-methylation-deconvolution-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;DNA Methylation Deconvolution&lt;/font&gt;&lt;/h2&gt;
 
 &lt;h1 id=&#34;dna-methylation-array-analysis&#34;&gt;DNA methylation array analysis&lt;/h1&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;DNA methylation is involved in numerous physiological processes and also disease states, such as cancer (Jones, 2012). This has raised wide interest in developing large-scale DNA methylation profiling technologies to improve our molecular understanding of diseases. The recently released Infinium HumanMethylation450 (Bibikova et al., 2011; Dedeurwaerder et al., 2011) is a preferred technology for studying the DNA methylomes of various cell types in large-scale studies, and there is a current explosion of data generated with this technology (Rakyan et al., 2011). Sequencing-based methods, although offering much higher genome coverage, are still not affordable by all laboratories, notably those with moderate budgets. Another reason for the success of DNA methylation arrays is the ease of reading and understanding the data generated, notably because microarrays have been widely used over the past decades, particularly for gene expression profiling.&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;strong&gt;DNA methylation&lt;/strong&gt; is involved in numerous physiological processes and also disease states, such as cancer (Jones, 2012). This has raised wide interest in developing large-scale DNA methylation profiling technologies to improve our molecular understanding of diseases. The recently released Infinium HumanMethylation450 (Bibikova et al., 2011; Dedeurwaerder et al., 2011) is a preferred technology for studying the DNA methylomes of various cell types in large-scale studies, and there is a current explosion of data generated with this technology (Rakyan et al., 2011). Sequencing-based methods, although offering much higher genome coverage, are still not affordable by all laboratories, notably those with moderate budgets. Another reason for the success of DNA methylation arrays is the ease of reading and understanding the data generated, notably because microarrays have been widely used over the past decades, particularly for gene expression profiling.&lt;/p&gt;
 
-&lt;h2 id=&#34;differential-methylation-site-detection&#34;&gt;Differential Methylation Site Detection&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-differential-methylation-site-detection-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Differential Methylation Site Detection&lt;/font&gt;&lt;/h2&gt;
 
-&lt;h2 id=&#34;differential-methylation-region-detection&#34;&gt;Differential Methylation region Detection&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-differential-methylation-region-detection-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Differential Methylation region Detection&lt;/font&gt;&lt;/h2&gt;
 
 &lt;h1 id=&#34;enrichment-analysis&#34;&gt;Enrichment Analysis&lt;/h1&gt;
 
-&lt;h2 id=&#34;over-representation-analysis&#34;&gt;Over-representation analysis&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-over-representation-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Over-representation analysis&lt;/font&gt;&lt;/h2&gt;
 
-&lt;h2 id=&#34;gene-set-enrichment-analysis&#34;&gt;Gene set enrichment analysis&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-gene-set-enrichment-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Gene set enrichment analysis&lt;/font&gt;&lt;/h2&gt;
 
-&lt;h2 id=&#34;topology-enrichment-analysis&#34;&gt;Topology enrichment analysis&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-topology-enrichment-analysis-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Topology enrichment analysis&lt;/font&gt;&lt;/h2&gt;
 
 &lt;h1 id=&#34;bisulfite-sequencing-data-analysis-bs-seq-analysis&#34;&gt;Bisulfite Sequencing Data Analysis (BS-seq analysis)&lt;/h1&gt;
 
-&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;DNA methylation contributes to the epigenetic regulation of many key developmental processes including genomic imprinting, X-inactivation, genome stability and gene regulation. Bisulfite conversion of genomic DNA combined with next-generation sequencing (BS-seq) is widely used to measure the methylation state of a whole genome, the methylome, at single-base resolution (Lister et al., 2009; Bock et al., 2010; Harris et al., 2010).&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;justify&#34;&gt;&lt;strong&gt;DNA methylation&lt;/strong&gt; contributes to the epigenetic regulation of many key developmental processes including genomic imprinting, X-inactivation, genome stability and gene regulation. Bisulfite conversion of genomic DNA combined with next-generation sequencing (BS-seq) is widely used to measure the methylation state of a whole genome, the methylome, at single-base resolution (Lister et al., 2009; Bock et al., 2010; Harris et al., 2010).&lt;/p&gt;
 
-&lt;h2 id=&#34;differential-methylation-region-detection-1&#34;&gt;Differential Methylation region Detection&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-differential-methylation-region-detection-font-1&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Differential Methylation region Detection&lt;/font&gt;&lt;/h2&gt;
 
-&lt;h2 id=&#34;methylation-annotation&#34;&gt;Methylation Annotation&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-methylation-annotation-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;Methylation Annotation&lt;/font&gt;&lt;/h2&gt;
 
-&lt;h2 id=&#34;ewas&#34;&gt;EWAS&lt;/h2&gt;
+&lt;h2 id=&#34;font-color-cd5555-face-黑体-ewas-font&#34;&gt;&lt;font color=#CD5555 face=&#34;黑体&#34;&gt;EWAS&lt;/font&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;&lt;i class=&#34;fa fa-hand-o-up fa-1x &#34;&gt;&lt;/i&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;find-more-tools-omictools-https-omictools-com-epigenomics-category&#34;&gt;Find more tools: &lt;a href=&#34;https://omictools.com/epigenomics-category&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;OMICTOOLS&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.the-scientist.com/?articles.view/articleNo/50203/title/The-Role-of-DNA-Base-Modifications/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Image Citation&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>

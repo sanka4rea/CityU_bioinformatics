@@ -44,36 +44,40 @@ math = false
 
 <p align="justify">Genetic diversity is the amount of variation observed between DNA sequences from distinct individuals of a given species. This pivotal concept of population genetics has implications for species health, domestication, management and conservation. Levels of genetic diversity seem to vary greatly in natural populations and species, but the determinants of this variation, and particularly the relative influences of species biology and ecology versus population history, are still largely mysterious.
 
-## Pedigree Reconstruction
+## <font color=#CD5555 face="黑体">Pedigree Reconstruction</font>
 
-## Forward Simulation
+## <font color=#CD5555 face="黑体">Forward Simulation</font>
 
-## Population Structure Inference
+## <font color=#CD5555 face="黑体">Population Structure Inference</font>
 
 # Genotyping by Sequencing data analysis (GBS Analysis) 
 
 <p align="justify">Genotyping by sequencing (GBS) is a next generation sequencing based method that takes advantage of reduced representation to enable high throughput genotyping of large numbers of individuals at a large number of SNP markers. The relatively straightforward, robust, and cost-effective GBS protocol is currently being applied in numerous species by a large number of researchers.
 
-## Base Callling
+## <font color=#CD5555 face="黑体">Base Callling</font>
 
-## Read Quality Contorl
+## <font color=#CD5555 face="黑体">Read Quality Contorl</font>
 
-## Adapter trimming
+## <font color=#CD5555 face="黑体">Adapter trimming</font>
 
-## Gerline SNO Detection
+## <font color=#CD5555 face="黑体">Gerline SNO Detection</font>
 
-## Somatic SNV detection
+## <font color=#CD5555 face="黑体">Somatic SNV detection</font>
 
 # Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis) 
 
 <p align="justify">RAD markers were first implemented using microarrays (Miller et al., 2007) and later adapted for NGS (Baird et al., 2008). RAD-seq could generate a genome-wide density of genetic markers. RAD-seq has been used to study population differentiation and selection (Emerson et al., 2010; Hohenlohe et al., 2011).
 
-## Phylogenetic Inference
+## <font color=#CD5555 face="黑体">Phylogenetic Inference</font>
 
-## SNP/SNV Annotation
+## <font color=#CD5555 face="黑体">SNP/SNV Annotation</font>
 
 
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+# Find more tools: [**OMICTOOLS**](https://omictools.com/genomics2-category)
+
+[*Image Citation*](http://www.cnag.crg.eu/news/new-research-team-population-genomics)
 
 ---

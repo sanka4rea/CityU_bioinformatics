@@ -18,7 +18,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dnastr/</guid>
-      <description>Table of Contents  DNA Structure  Shape prediction  do_x3dna 3DNA DINAMelt DNAshape  R-loop forming sequence prediction  QmRLFS-finder  DNA Structure Database  R-loopDB | R-loop forming sequence databases  Small-angle Scattering  AXES FoXS AquaSAXS  Find more tools: OMIVTOOLS    DNA Structure DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc.</description>
+      <description>Table of Contents  DNA Structure  Shape prediction  do_x3dna 3DNA DINAMelt DNAshape  R-loop forming sequence prediction  QmRLFS-finder  DNA Structure Database  R-loopDB | R-loop forming sequence databases  Small-angle Scattering  AXES FoXS AquaSAXS   Find more tools: OMICTOOLS   DNA Structure DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery    DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/anno/</guid>
-      <description>Table of Contents  Genome Annotation  Gene Ontology Annotation  BLASTX Blast2GO  GO Semantic Similarity Analysis  G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools clusterProfiler | GO semantic similarity analysis : Genome annotation GOToolBox | GO semantic similarity analysis : DNA sequence analysis SML-Toolkit | Semantic Measures Library Toolkit  Promoter Predication  FirstEF | First Exon Finder CpGpromoter PROmiRNA  Annotation Workflows  RAST | Rapid Annotation using Subsystem Technology Prokka | Annotation workflows BlastKOALA  Find more tools: OMIVTOOLS    Genome Annotation Genome annotation is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions.</description>
+      <description>Table of Contents  Genome Annotation  Gene Ontology Annotation  BLASTX Blast2GO  GO Semantic Similarity Analysis  G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools clusterProfiler | GO semantic similarity analysis : Genome annotation GOToolBox | GO semantic similarity analysis : DNA sequence analysis SML-Toolkit | Semantic Measures Library Toolkit  Promoter Predication  FirstEF | First Exon Finder CpGpromoter PROmiRNA  Annotation Workflows  RAST | Rapid Annotation using Subsystem Technology Prokka | Annotation workflows BlastKOALA   Find more tools: OMICTOOLS   Genome Annotation Genome annotation is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions.</description>
     </item>
     
     <item>
@@ -45,7 +45,17 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/edit/</guid>
-      <description>Table of Contents  Genome Editing  CRISPR/Cas9 sgRNA Design  CRISPR design GuideScan E-CRISP CRISPRscan  TALEN design  TALE-NT TALEN Targeter  ZFN Design  Zinc Finger Tools ZifNN ZFN-Site  CRISPR/Cas9 Screen Analysis  CREATE | CRISPR-enabled trackable genome engineering MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout MAGeCK-VISPR caRpools | CRISPR-AnalyzeR for pooled screens  Genome Editing Database Find more tools: OMIVTOOLS    Genome Editing Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants.</description>
+      <description>Table of Contents  Genome Editing  CRISPR/Cas9 sgRNA Design  CRISPR design GuideScan E-CRISP CRISPRscan  TALEN design  TALE-NT TALEN Targeter  ZFN Design  Zinc Finger Tools ZifNN ZFN-Site  CRISPR/Cas9 Screen Analysis  CREATE | CRISPR-enabled trackable genome engineering MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout MAGeCK-VISPR caRpools | CRISPR-AnalyzeR for pooled screens  Genome Editing Database  Find more tools: OMICTOOLS   Genome Editing Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants.</description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic Data Analysis</title>
+      <link>/too2/new_geno/phylogenetic/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_geno/phylogenetic/</guid>
+      <description>Table of Contents  Popilation Genetic Analysis Phylogenetic inference Phylogenetic Network Construction Discrete Character Evolution Tumor Progression Tree Visualization Find more tools: OMIVTOOLS   
+In biology, phylogenetics is the study of the evolutionary history and relationships among individuals or groups of organisms (e.g. species, or populations). These relationships are discovered through phylogenetic inference methods that evaluate observed heritable traits, such as DNA sequences or morphology under a model of evolution of these traits.</description>
     </item>
     
     <item>
@@ -54,8 +64,8 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/population/</guid>
-      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation    
-Population genomics is the large-scale comparison of DNA sequences of populations. Population genomics is a neologism that is associated with population genetics.</description>
+      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation  Find more tools: OMICTOOLS   
+Population genomics is the large-scale comparison of DNA sequences of populations.</description>
     </item>
     
   </channel>

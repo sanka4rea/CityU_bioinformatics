@@ -260,10 +260,11 @@ German Cancer Research Center (DKFZ), Division Signaling and Functional Genomics
 
 Find Meganuclease/CRISPR/Cas9/TALEN/ZEN database in [HERE](https://omictools.com/genome-editing-databases-category)
 
-## Find more tools: [**OMIVTOOLS**](https://omictools.com/genomics2-category)
-
-[*Image Citation*](https://naturwissenschaften.ch/service/news/95331-genome-editing-science-policy-and-security-experts-call-for-proactive-international-dialogue-about-security---and-benefits)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+# Find more tools: [**OMICTOOLS**](https://omictools.com/genomics2-category)
+
+[*Image Citation*](https://naturwissenschaften.ch/service/news/95331-genome-editing-science-policy-and-security-experts-call-for-proactive-international-dialogue-about-security---and-benefits)
 
 ---

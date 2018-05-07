@@ -5,12 +5,12 @@ date = "2018-04-11"
 # Project title.
 title = "Prediction of Protein Structure"
 
-weight = 10
+weight = 20
 # Project summary to display on homepage.
 summary = "Protein structure prediction is the inference of the three-dimensional structure of a protein from its amino acid sequence—that is, the prediction of its folding and its secondary and tertiary structure from its primary structure."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "tools/structure.jpg"
+image_preview = "tools/protein/structure.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -31,29 +31,34 @@ math = false
 
 +++
 ---
-<img src="/img/tools/structure.jpg" alt="blast" align="center">
+<img src="/img/tools/protein/structure.jpg" alt="blast" align="center">
 
 
 ***This part may contains the following tools:*** **(Will be filled in the future)**
 
-### Primary structure
+# Primary structure
 
-* **ProtParam**
+## **ProtParam**
 
-* **COILS**
+## **COILS**
 
-### Secondary structure
+# Secondary structure
 
-* **PredictProtein**
+## **PredictProtein**
 
-* **PSIPRED**
+## **PSIPRED**
 
-### tertiary structure
+# tertiary structure
 
-* **Phyre**
+## **Phyre**
 
-* **Swiss-PdbViewer**
+## **Swiss-PdbViewer**
 
-*[citation](https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction)*
+
+[<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+# Find more tools: [**OMICTOOLS**](https://omictools.com/proteomics-category)
+
+[*Image Citation*](https://www.slideshare.net/karamveer37/methods-for-protein-structure-prediction)
 
 ---

@@ -27,7 +27,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_epi/modifications/</guid>
-      <description>Table of Contents  DNA modification analysis  DNA Methylation Prediction DNA Methylation Deconvolution  DNA methylation array analysis  Differential Methylation Site Detection Differential Methylation region Detection  Enrichment Analysis  Over-representation analysis Gene set enrichment analysis Topology enrichment analysis  Bisulfite Sequencing Data Analysis (BS-seq analysis)  Differential Methylation region Detection Methylation Annotation EWAS    DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research.</description>
+      <description>Table of Contents  DNA modification analysis  DNA Methylation Prediction DNA Methylation Deconvolution  DNA methylation array analysis  Differential Methylation Site Detection Differential Methylation region Detection  Enrichment Analysis  Over-representation analysis Gene set enrichment analysis Topology enrichment analysis  Bisulfite Sequencing Data Analysis (BS-seq analysis)  Differential Methylation region Detection Methylation Annotation EWAS  Find more tools: OMICTOOLS   DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research.</description>
     </item>
     
     <item>
@@ -36,23 +36,16 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/anno/</guid>
-      <description>Table of Contents  Genome Annotation  Gene Ontology Annotation  BLASTX Blast2GO  GO Semantic Similarity Analysis  G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools clusterProfiler | GO semantic similarity analysis : Genome annotation GOToolBox | GO semantic similarity analysis : DNA sequence analysis SML-Toolkit | Semantic Measures Library Toolkit  Promoter Predication  FirstEF | First Exon Finder CpGpromoter PROmiRNA  Annotation Workflows  RAST | Rapid Annotation using Subsystem Technology Prokka | Annotation workflows BlastKOALA  Find more tools: OMIVTOOLS    Genome Annotation Genome annotation is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions.</description>
+      <description>Table of Contents  Genome Annotation  Gene Ontology Annotation  BLASTX Blast2GO  GO Semantic Similarity Analysis  G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools clusterProfiler | GO semantic similarity analysis : Genome annotation GOToolBox | GO semantic similarity analysis : DNA sequence analysis SML-Toolkit | Semantic Measures Library Toolkit  Promoter Predication  FirstEF | First Exon Finder CpGpromoter PROmiRNA  Annotation Workflows  RAST | Rapid Annotation using Subsystem Technology Prokka | Annotation workflows BlastKOALA   Find more tools: OMICTOOLS   Genome Annotation Genome annotation is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions.</description>
     </item>
     
     <item>
-      <title>Prediction of Protein Structure</title>
-      <link>/too2/new_proteo/structure/</link>
+      <title>Protein Sequence/Expression</title>
+      <link>/too2/new_proteo/pro_seq/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/too2/new_proteo/structure/</guid>
-      <description>This part may contains the following tools: (Will be filled in the future)
-Primary structure  ProtParam
- COILS
-  Secondary structure  PredictProtein
- PSIPRED
-  tertiary structure  Phyre
- Swiss-PdbViewer
-  citation</description>
+      <guid>/too2/new_proteo/pro_seq/</guid>
+      <description>Table of Contents  Protein Sequence Analysis  Amino Acid Repeat Prediction Subcellular Localizaton Prediction T3S effector Prediction Protein Clustering SDS Prediction  MS-based (Mass Spectrometry) untargeted Proteomics  2D gel Image Analysis In Silico Analysis Phosphorylation Site Assignment PTM Identification Glycosylation Identification  MS-based Metaproteomics Antibody Array Analysis Proteogenomics Analysis Find more tools: OMICTOOLS   Protein Sequence Analysis Protein sequence analysis tools are used to predict specific functions, activities, origin, or localization of proteins based on their amino-acid sequence.</description>
     </item>
     
     <item>
@@ -71,7 +64,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_trans/transcription/</guid>
-      <description>Table of Contents  Transcription analysis  Prognostic Biomarker Identification Region Discrimination Gene co-expression prediction Gene regulatory network inference Gene set enrichment analysis Over-representation analysisi  RNA-seq analysis  Read count Known transcript quantification Gene fusion detection Prognostic biomarker identification Differential expression Alternative splicing events identification  CAGE Analysis  TSS detection De novo motif discovery  Gene expression array analysis  Differential expression detection Time course Meta-analysis  Metatranscriptomic sequencing analysis  Prediction-base Taxonomic Homology-Based Taxonomic    Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.</description>
+      <description>Table of Contents  Transcription analysis  Prognostic Biomarker Identification Region Discrimination Gene co-expression prediction Gene regulatory network inference Gene set enrichment analysis Over-representation analysisi  RNA-seq analysis  Read count Known transcript quantification Gene fusion detection Prognostic biomarker identification Differential expression Alternative splicing events identification  CAGE Analysis  TSS detection De novo motif discovery  Gene expression array analysis  Differential expression detection Time course Meta-analysis  Metatranscriptomic sequencing analysis  Prediction-base Taxonomic Homology-Based Taxonomic  Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.</description>
     </item>
     
     <item>
@@ -80,7 +73,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dnastr/</guid>
-      <description>Table of Contents  DNA Structure  Shape prediction  do_x3dna 3DNA DINAMelt DNAshape  R-loop forming sequence prediction  QmRLFS-finder  DNA Structure Database  R-loopDB | R-loop forming sequence databases  Small-angle Scattering  AXES FoXS AquaSAXS  Find more tools: OMIVTOOLS    DNA Structure DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc.</description>
+      <description>Table of Contents  DNA Structure  Shape prediction  do_x3dna 3DNA DINAMelt DNAshape  R-loop forming sequence prediction  QmRLFS-finder  DNA Structure Database  R-loopDB | R-loop forming sequence databases  Small-angle Scattering  AXES FoXS AquaSAXS   Find more tools: OMICTOOLS   DNA Structure DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc.</description>
     </item>
     
     <item>
@@ -89,7 +82,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_trans/lowlevel/</guid>
-      <description>Table of Contents  DNA modification analysis Low-level RNA detection scRNA-seq analysis  Noise reduction Transcript quantification Cell lineage and pseudotime inference Dimensionality reduction  Single-cell qPCR dPCR   DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research. It is supposed to have a great effect on cancers and tumors, and even be involved in the senility of human.</description>
+      <description>Table of Contents  Low-level RNA detection scRNA-seq analysis  Noise reduction Transcript quantification Cell lineage and pseudotime inference Dimensionality reduction  Single-cell qPCR dPCR Find more tools: OMICTOOLS   Low-level RNA detection scRNA-seq analysis The development of high-throughput RNA sequencing (RNA-seq) at the single-cell level has already led to profound new discoveries in biology, ranging from the identification of novel cell types to the study of global patterns of stochastic gene expression.</description>
     </item>
     
     <item>
@@ -98,18 +91,19 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_epi/position/</guid>
-      <description>Table of Contents  Nucleosome Positioning MNase-seq analysis ATAC-seq analysis  Find more tools: OMIVTOOLS    Nucleosome Positioning MNase-seq analysis The technology of micrococcal nuclease (MNase) digestion combined with high-throughput sequencing (MNase-seq) is a powerful method to map the genome-wide distribution of nucleosome occupancy (Mavrich et al., 2008; Schones et al., 2008; Jiang and Pugh, 2009). Source text: Chen et al., 2014.
+      <description>Table of Contents  Nucleosome Positioning MNase-seq analysis ATAC-seq analysis Find more tools: OMIVTOOLS   Nucleosome Positioning MNase-seq analysis The technology of micrococcal nuclease (MNase) digestion combined with high-throughput sequencing (MNase-seq) is a powerful method to map the genome-wide distribution of nucleosome occupancy (Mavrich et al., 2008; Schones et al., 2008; Jiang and Pugh, 2009). Source text: Chen et al., 2014.
 ATAC-seq analysis ATAC-seq allows simultaneous interrogation of factor occupancy, nucleosome positions in regulatory sites, and chromatin accessibility genome wide by considering the position of insertion and the distribution of insert lengths captured during the transposition reaction.</description>
     </item>
     
     <item>
-      <title>Protein Mass Spectrometry</title>
-      <link>/too2/new_proteo/mass/</link>
+      <title>Prediction of Protein Structure</title>
+      <link>/too2/new_proteo/structure/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/too2/new_proteo/mass/</guid>
+      <guid>/too2/new_proteo/structure/</guid>
       <description>This part may contains the following tools: (Will be filled in the future)
-X!Tandem Mascot Sequest TPP citation</description>
+Primary structure ProtParam COILS Secondary structure PredictProtein PSIPRED tertiary structure Phyre Swiss-PdbViewer Top
+Find more tools: OMICTOOLS Image Citation</description>
     </item>
     
     <item>
@@ -118,7 +112,7 @@ X!Tandem Mascot Sequest TPP citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_epi/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery    DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
     </item>
     
     <item>
@@ -127,7 +121,25 @@ X!Tandem Mascot Sequest TPP citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/edit/</guid>
-      <description>Table of Contents  Genome Editing  CRISPR/Cas9 sgRNA Design  CRISPR design GuideScan E-CRISP CRISPRscan  TALEN design  TALE-NT TALEN Targeter  ZFN Design  Zinc Finger Tools ZifNN ZFN-Site  CRISPR/Cas9 Screen Analysis  CREATE | CRISPR-enabled trackable genome engineering MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout MAGeCK-VISPR caRpools | CRISPR-AnalyzeR for pooled screens  Genome Editing Database Find more tools: OMIVTOOLS    Genome Editing Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants.</description>
+      <description>Table of Contents  Genome Editing  CRISPR/Cas9 sgRNA Design  CRISPR design GuideScan E-CRISP CRISPRscan  TALEN design  TALE-NT TALEN Targeter  ZFN Design  Zinc Finger Tools ZifNN ZFN-Site  CRISPR/Cas9 Screen Analysis  CREATE | CRISPR-enabled trackable genome engineering MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout MAGeCK-VISPR caRpools | CRISPR-AnalyzeR for pooled screens  Genome Editing Database  Find more tools: OMICTOOLS   Genome Editing Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants.</description>
+    </item>
+    
+    <item>
+      <title>Immune System</title>
+      <link>/too2/new_proteo/immune/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_proteo/immune/</guid>
+      <description>Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction Structure-based B-cell Epitope Prediction Antibody Structure Prediction MHC Class I Epitope Prediction MHC Class II Epitope Prediction  Flow Cytometry  Cell Population Identification Data Repositories Utilities  Mass Cytometry Peptide Array Analysis Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems. Prediction of B- and T-cell epitopes has long been the focus of immunoinformatics, given the potential translational implications, and many tools have been developed.</description>
+    </item>
+    
+    <item>
+      <title>RNA Modifications</title>
+      <link>/too2/new_trans/rnamodification/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_trans/rnamodification/</guid>
+      <description>Table of Contents  RNA Modifications Analysis  Protein-binding Region Prediction RNA Editing Prediction Alternative Splicing Annotation RNA Methylation Prediction  Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)  Spliced Read Alignment Peak Calling De novo motif discovery  Degradome-seq Analysis Find more tools: OMICTOOLS   RNA Modifications Analysis From a biosynthetic point of view, the roughly 100 known different RNA nucleotide modifications can be easily divided according to their complexity.</description>
     </item>
     
     <item>
@@ -136,8 +148,26 @@ X!Tandem Mascot Sequest TPP citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/population/</guid>
-      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation    
-Population genomics is the large-scale comparison of DNA sequences of populations. Population genomics is a neologism that is associated with population genetics.</description>
+      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation  Find more tools: OMICTOOLS   
+Population genomics is the large-scale comparison of DNA sequences of populations.</description>
+    </item>
+    
+    <item>
+      <title>Protein Interactions</title>
+      <link>/too2/new_proteo/interactions/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_proteo/interactions/</guid>
+      <description>Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction Protein-RNA Interaction Prediction Pocket Detection Drug-target Interaction Prediction Protein-protein Interaction Prediction Protein-ligand Docking Protein-protein Docking  FRET Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions. Mass-spectrometry and protein chips have revolutionized the field of proteomics and the study of protein interactions to a wider scale, which require specific tools for their analyses.</description>
+    </item>
+    
+    <item>
+      <title>RNA-Protein Interactions</title>
+      <link>/too2/new_trans/rna_pro/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_trans/rna_pro/</guid>
+      <description>Table of Contents  CLIP-seq Analysis  Peak Calling Motif Discovery miRNA Target Site Detection  Ribo-seq Analysis  RNase Footprint Detection Ribosome P-site Localization Ribosome Stalling Prediction Translated ORF Prediction  Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples. Recent technological and computational advances permit the analysis of many CLIP-seq samples simultaneously, allowing us to reveal the comprehensive network of RNA-protein interaction and to integrate it to other genome-wide analyses.</description>
     </item>
     
     <item>
@@ -146,7 +176,36 @@ Population genomics is the large-scale comparison of DNA sequences of population
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery    DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+    </item>
+    
+    <item>
+      <title>Membrane Protein</title>
+      <link>/too2/new_proteo/membrane/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_proteo/membrane/</guid>
+      <description>Table of Contents  Membrane Protein Analysis  Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein  FRAP Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling. Their configuration, folding, or activity depend on several biochemical factors that can be predicted by specific software.
+Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein FRAP Top</description>
+    </item>
+    
+    <item>
+      <title>Non-Coding RNA</title>
+      <link>/too2/new_trans/non_coding/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_trans/non_coding/</guid>
+      <description>Table of Contents  Non-Coding RNA Analysis  miRNA Target Prediction miRNA Enrichment miRNA-disease Association Prediction RNAi Reagent Design High-throughput RNAi Screening  Small RNA sequencing Data analysis (sRNA-seq Analysis)  tRNA-derived RNA Annotation ncRNA Identification IsomiR detection nvRNA-related SNPS  miRNA Array analysis Find more tools: OMICTOOLS   Non-Coding RNA Analysis Noncoding RNAs (ncRNAs) accomplish a remarkable variety of biological functions. They regulate gene expression at the levels of transcription, RNA processing, and translation.</description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic Data Analysis</title>
+      <link>/too2/new_geno/phylogenetic/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_geno/phylogenetic/</guid>
+      <description>Table of Contents  Popilation Genetic Analysis Phylogenetic inference Phylogenetic Network Construction Discrete Character Evolution Tumor Progression Tree Visualization Find more tools: OMIVTOOLS   
+In biology, phylogenetics is the study of the evolutionary history and relationships among individuals or groups of organisms (e.g. species, or populations). These relationships are discovered through phylogenetic inference methods that evaluate observed heritable traits, such as DNA sequences or morphology under a model of evolution of these traits.</description>
     </item>
     
   </channel>

@@ -48,17 +48,20 @@ math = false
 
 <p align="justify">Chromatin immunoprecipitation followed by sequencing (ChIP-seq), first described in 2007 (Barski et al., 2007; Johnson et al., 2007; Mikkelsen et al., 2007; Robertson et al., 2007), allows in vivo determination of where a protein binds the genome, which can be transcription factors, DNA-binding enzymes, histones, chaperones, or nucleosomes (Park, 2009; Furey, 2012).
 
-## De novo assembly
+## <font color=#CD5555 face="黑体">De novo assembly</font> 
 
-## Peak calling
+## <font color=#CD5555 face="黑体">Peak calling</font>
 
-## Differential peak calling
+## <font color=#CD5555 face="黑体">Differential peak calling</font>
 
-## De novo motif discovery
-
+## <font color=#CD5555 face="黑体">De novo motif discovery</font>
 
 
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+# Find more tools: [**OMICTOOLS**](https://omictools.com/epigenomics-category)
+
+[*Image Citation*](https://www.slideshare.net/mandeepkaur151/protein-dna-interactions)
 
 ---
