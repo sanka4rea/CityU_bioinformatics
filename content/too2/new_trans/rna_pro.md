@@ -7,7 +7,7 @@ date = "2018-04-11"
 
 weight = 40
 # Project summary to display on homepage.
-# summary = "Including: CLIP-seq Analysis, Ribo-seq Analysis."
+summary = "Including: CLIP-seq Analysis, Ribo-seq Analysis."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/trans/rna_pro.gif"

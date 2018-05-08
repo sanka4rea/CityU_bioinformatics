@@ -7,7 +7,7 @@ date = "2018-04-11"
 
 weight = 10
 # Project summary to display on homepage.
-# summary = "Including: Transcription analysis, RNA-seq analysis, CAGE Analysis,Gene expression array analysis, Metatranscriptomic sequencing analysis."
+summary = "Including: Transcription analysis, RNA-seq analysis, CAGE Analysis,Gene expression array analysis, Metatranscriptomic sequencing analysis."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/trans/rna_tran.png"

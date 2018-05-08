@@ -7,7 +7,7 @@ date = "2018-04-11"
 
 weight = 30
 # Project summary to display on homepage.
-# summary = "Including: Immune System Analysis, Flow Cytometry, Mass Cytometry, Peptide Array Analysis."
+summary = "Including: Immune System Analysis, Flow Cytometry, Mass Cytometry, Peptide Array Analysis."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/protein/immune.jpg"

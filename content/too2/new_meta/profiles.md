@@ -7,7 +7,7 @@ title = "Metabolic Profiles"
 
 weight = 10
 # Project summary to display on homepage.
-# summary = "Including: Metabolic profiles analysis, MS-based untargeted Metabolomics, NMR-based Metabolomics, MS-based targeted metabolomics."
+summary = "Including: Metabolic profiles analysis, MS-based untargeted Metabolomics, NMR-based Metabolomics, MS-based targeted metabolomics."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/meta/profile.gif"

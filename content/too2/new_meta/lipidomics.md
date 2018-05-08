@@ -7,7 +7,7 @@ title = "Lipidomics"
 
 weight = 20
 # Project summary to display on homepage.
-# summary = "Including: Lipidomics Databases, MS-based untargeted lipidomics, MS-based targeted lipidomics."
+summary = "Including: Lipidomics Databases, MS-based untargeted lipidomics, MS-based targeted lipidomics."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/meta/lipidomics.jpg"
@@ -55,5 +55,9 @@ math = false
 
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+# Find more tools: [**OMICTOOLS**](https://omictools.com/metabolomics-category)
+
+[*Image Citation*](https://www.thermofisher.com/hk/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/mass-spectrometry-applications-area/metabolomics-mass-spectrometry/lipidomics-workflows.html)
 
 ---

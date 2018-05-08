@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phenomics on CityU-Bioinformatics</title>
+    <link>/tags/phenomics/</link>
+    <description>Recent content in Phenomics on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/phenomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bioimaging</title>
+      <link>/too2/new_pheno/bioimaging/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/bioimaging/</guid>
+      <description>Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management Education PheWAS  Image Preprocessing  Image Acquisition Image Enhancement Image Deconvolution  Image processing  Image Simulation Image Segmentation Image Registration  Laser Scanning Microscopy  FISH Colocalization Analysis 3D Image Analysis  Conventional Fluorescence microscopy  High-throughput Screening Cell Phenotyping Mitochondrial Network Analysis  Super-resolution Imaging  Morphometric Analysis Single Molecule Detection and Localization FLIM data Analysis FRET Data Analysis  Cryo-EM  Neuron Tracing Single Particle Analysis  Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.</description>
+    </item>
+    
+    <item>
+      <title>Brain Connectomics</title>
+      <link>/too2/new_pheno/brain/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/brain/</guid>
+      <description>Table of Contents  Connectivity Analysis  Functional Brain Connectivity Structural Brain Connectivity  Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  Diffusion Magnetic Resonance Imaging Analysis  Tractography  Neuron Tracing Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed. A central paradigm in modern neuroscience is that anatomical and functional connections between brain regions are organized in a way such that information processing is near optimal.</description>
+    </item>
+    
+    <item>
+      <title>Computational Neuroinformatics</title>
+      <link>/too2/new_pheno/neuroinformatics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/neuroinformatics/</guid>
+      <description>Table of Contents  Biological Steps  Realistic Neuronal Network Modelling Compartment Neuron modelling  File Manipulation  Model Files Conversion Model Files Visualization Model Building  Database Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes. In the same way that processing of information happens at multiple physical scales in the nervous system, software applications have been created which specialize in modelling different aspects of neurons and networks.</description>
+    </item>
+    
+    <item>
+      <title>Medical Imaging</title>
+      <link>/too2/new_pheno/medicalimage/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/medicalimage/</guid>
+      <description>Table of Contents  Medical Phrnotype Analysis  Clinical Risk Prediction Personal Health Record Analysis Clinical Simulation  Magnetic Resonance Imaging (MRI)  Image modelization DICOM files management  Computerized Tomography Scan Imaging (CT)  Phantom Imaging Image Format Management  Nuclear Medicine Imaging  3D Image Reconstruction Kinetic Analysis  Ultrasonic Imaging  Image Acquisition Image Visualization  Find more tools: OMICTOOLS   Medical Phrnotype Analysis Macroscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at macroscopic scale.</description>
+    </item>
+    
+    <item>
+      <title>Neorophysiology</title>
+      <link>/too2/new_pheno/neurophysiology/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/neurophysiology/</guid>
+      <description>Table of Contents  Neurophysiology Analysis Clinical Eletrophysiology  Data Acquisition Spike Sorting Image Data Analysis Data Management and Annotation  Patch-clamp Find more tools: OMICTOOLS   Neurophysiology Analysis Clinical Eletrophysiology Electrophysiology, the &amp;lsquo;gold standard&amp;rsquo; for investigating neuronal signalling, is being challenged by a new generation of optical probes. Together with new forms of microscopy, these probes allow us to measure and control neuronal signals with spatial resolution and genetic specificity that already greatly surpass those of electrophysiology.</description>
+    </item>
+    
+  </channel>
+</rss>

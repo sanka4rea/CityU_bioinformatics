@@ -1,4 +1,4 @@
-﻿+++
++++
 # Date this page was created.
 date = "2018-04-11"
 
@@ -7,7 +7,7 @@ title = "Membrane Protein"
 
 weight = 50
 # Project summary to display on homepage.
-# summary = "Including: Membrane Protein Analysis, FRAP."
+summary = "Including: Membrane Protein Analysis, FRAP."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/protein/membrane.jpg"

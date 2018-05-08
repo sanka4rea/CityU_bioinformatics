@@ -7,7 +7,7 @@ date = "2018-04-11"
 
 weight = 30
 # Project summary to display on homepage.
-# summary = "Including: RNA Modifications Analysis, MeRIP-seq Analysis, Degradome-seq Analysis."
+summary = "Including: RNA Modifications Analysis, MeRIP-seq Analysis, Degradome-seq Analysis."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/trans/modification.png"

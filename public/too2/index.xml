@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Bioimaging</title>
+      <link>/too2/new_pheno/bioimaging/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/bioimaging/</guid>
+      <description>Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management Education PheWAS  Image Preprocessing  Image Acquisition Image Enhancement Image Deconvolution  Image processing  Image Simulation Image Segmentation Image Registration  Laser Scanning Microscopy  FISH Colocalization Analysis 3D Image Analysis  Conventional Fluorescence microscopy  High-throughput Screening Cell Phenotyping Mitochondrial Network Analysis  Super-resolution Imaging  Morphometric Analysis Single Molecule Detection and Localization FLIM data Analysis FRET Data Analysis  Cryo-EM  Neuron Tracing Single Particle Analysis  Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.</description>
+    </item>
+    
+    <item>
       <title>DNA Modifications</title>
       <link>/too2/new_epi/modifications/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -72,7 +81,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_meta/lipidomics/</guid>
-      <description>Table of Contents  Transcription analysis Lipidomics Databases MS-based untargeted lipidomics MS-based targeted lipidomics   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
+      <description>Table of Contents  Transcription analysis Lipidomics Databases MS-based untargeted lipidomics MS-based targeted lipidomics Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
 Lipidomics Databases Development of databases and the related bioinformatics tools has become an essential part of the omics studies.</description>
     </item>
     
@@ -83,6 +92,15 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       
       <guid>/too2/new_trans/lowlevel/</guid>
       <description>Table of Contents  Low-level RNA detection scRNA-seq analysis  Noise reduction Transcript quantification Cell lineage and pseudotime inference Dimensionality reduction  Single-cell qPCR dPCR Find more tools: OMICTOOLS   Low-level RNA detection scRNA-seq analysis The development of high-throughput RNA sequencing (RNA-seq) at the single-cell level has already led to profound new discoveries in biology, ranging from the identification of novel cell types to the study of global patterns of stochastic gene expression.</description>
+    </item>
+    
+    <item>
+      <title>Medical Imaging</title>
+      <link>/too2/new_pheno/medicalimage/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/medicalimage/</guid>
+      <description>Table of Contents  Medical Phrnotype Analysis  Clinical Risk Prediction Personal Health Record Analysis Clinical Simulation  Magnetic Resonance Imaging (MRI)  Image modelization DICOM files management  Computerized Tomography Scan Imaging (CT)  Phantom Imaging Image Format Management  Nuclear Medicine Imaging  3D Image Reconstruction Kinetic Analysis  Ultrasonic Imaging  Image Acquisition Image Visualization  Find more tools: OMICTOOLS   Medical Phrnotype Analysis Macroscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at macroscopic scale.</description>
     </item>
     
     <item>
@@ -107,6 +125,15 @@ Find more tools: OMICTOOLS Image Citation</description>
     </item>
     
     <item>
+      <title>Computational Neuroinformatics</title>
+      <link>/too2/new_pheno/neuroinformatics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/neuroinformatics/</guid>
+      <description>Table of Contents  Biological Steps  Realistic Neuronal Network Modelling Compartment Neuron modelling  File Manipulation  Model Files Conversion Model Files Visualization Model Building  Database Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes. In the same way that processing of information happens at multiple physical scales in the nervous system, software applications have been created which specialize in modelling different aspects of neurons and networks.</description>
+    </item>
+    
+    <item>
       <title>DNA-Protein Interactions</title>
       <link>/too2/new_epi/dna_pro/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -121,7 +148,7 @@ Find more tools: OMICTOOLS Image Citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_meta/drug/</guid>
-      <description>Table of Contents  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors Find more tools: OMICTOOLS   In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.</description>
+      <description>Table of Contents  Drug Discovery  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors  Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.</description>
     </item>
     
     <item>
@@ -152,6 +179,24 @@ Find more tools: OMICTOOLS Image Citation</description>
     </item>
     
     <item>
+      <title>Metabolic Engineering</title>
+      <link>/too2/new_meta/engineer/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_meta/engineer/</guid>
+      <description>Table of Contents  Biological Steps  Constraint based methods Metabolic pathway prediction Strain design Thermodynamics  Network Analysis  Genome-scale Metabolic Reconstruction  13C-fluxomics Find more tools: OMICTOOLS   Growing concerns over limited fossil resources and associated environmental problems are motivating the development of sustainable processes for the production of chemicals, fuels and materials from renewable resources. Metabolic engineering is a key enabling technology for transforming microorganisms into efficient cell factories for these compounds.</description>
+    </item>
+    
+    <item>
+      <title>Neorophysiology</title>
+      <link>/too2/new_pheno/neurophysiology/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/neurophysiology/</guid>
+      <description>Table of Contents  Neurophysiology Analysis Clinical Eletrophysiology  Data Acquisition Spike Sorting Image Data Analysis Data Management and Annotation  Patch-clamp Find more tools: OMICTOOLS   Neurophysiology Analysis Clinical Eletrophysiology Electrophysiology, the &amp;lsquo;gold standard&amp;rsquo; for investigating neuronal signalling, is being challenged by a new generation of optical probes. Together with new forms of microscopy, these probes allow us to measure and control neuronal signals with spatial resolution and genetic specificity that already greatly surpass those of electrophysiology.</description>
+    </item>
+    
+    <item>
       <title>Population Genomics</title>
       <link>/too2/new_geno/population/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -177,6 +222,15 @@ Population genomics is the large-scale comparison of DNA sequences of population
       
       <guid>/too2/new_trans/rna_pro/</guid>
       <description>Table of Contents  CLIP-seq Analysis  Peak Calling Motif Discovery miRNA Target Site Detection  Ribo-seq Analysis  RNase Footprint Detection Ribosome P-site Localization Ribosome Stalling Prediction Translated ORF Prediction  Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples. Recent technological and computational advances permit the analysis of many CLIP-seq samples simultaneously, allowing us to reveal the comprehensive network of RNA-protein interaction and to integrate it to other genome-wide analyses.</description>
+    </item>
+    
+    <item>
+      <title>Brain Connectomics</title>
+      <link>/too2/new_pheno/brain/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_pheno/brain/</guid>
+      <description>Table of Contents  Connectivity Analysis  Functional Brain Connectivity Structural Brain Connectivity  Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  Diffusion Magnetic Resonance Imaging Analysis  Tractography  Neuron Tracing Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed. A central paradigm in modern neuroscience is that anatomical and functional connections between brain regions are organized in a way such that information processing is near optimal.</description>
     </item>
     
     <item>

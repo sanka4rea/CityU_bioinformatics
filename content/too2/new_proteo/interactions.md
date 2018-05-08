@@ -7,7 +7,7 @@ date = "2018-04-11"
 
 weight = 40
 # Project summary to display on homepage.
-# summary = "Including: Protein Interactions Analysis, FRET."
+summary = "Including: Protein Interactions Analysis, FRET."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/protein/actions.png"

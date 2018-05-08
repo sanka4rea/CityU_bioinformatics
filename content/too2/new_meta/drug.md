@@ -7,7 +7,7 @@ title = "Drug Discovery"
 
 weight = 30
 # Project summary to display on homepage.
-# summary = "Including: Chemical Enrichment Analysis, Drug-drug interaction prediction, Ligand-based Virtual Screening, Drug Repositioning, Chemical Toxicity, Molecular editors."
+summary = "Including: Chemical Enrichment Analysis, Drug-drug interaction prediction, Ligand-based Virtual Screening, Drug Repositioning, Chemical Toxicity, Molecular editors."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/meta/drug.png"
@@ -38,22 +38,24 @@ math = false
 
 {{% toc %}}
 
+# Drug Discovery
+
 <p align="justify">In the fields of medicine, biotechnology and pharmacology, **drug discovery** is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology. Since sequencing of the human genome which allowed rapid cloning and synthesis of large quantities of purified proteins, it has become common practice to use high throughput screening of large compounds libraries against isolated biological targets which are hypothesized to be disease modifying in a process known as reverse pharmacology. Hits from these screens are then tested in cells and then in animals for efficacy.
 
 <p align="justify">The goal of **drug discovery** is to identify, optimize and clinically validate those compounds that bind and modulate the function of a target protein implicated in a disease state. A drug molecule must possess certain geometry and physicochemical properties in order to have a sufficiently high binding affinity toward a given macromolecular target. As a result, the number of bioactive compounds is very small compared to a vast collection of candidate compounds. [Source](https://www.ncbi.nlm.nih.gov/pubmed/27420300)
 
 
-# Chemical Enrichment Analysis
+## <font color=#CD5555 face="黑体">Chemical Enrichment Analysis</font>
 
-# Drug-drug interaction prediction
+## <font color=#CD5555 face="黑体">Drug-drug interaction prediction</font>
 
-# Ligand-based Virtual Screening
+## <font color=#CD5555 face="黑体">Ligand-based Virtual Screening</font>
 
-# Drug Repositioning
+## <font color=#CD5555 face="黑体">Drug Repositioning</font>
 
-# Chemical Toxicity
+## <font color=#CD5555 face="黑体">Chemical Toxicity</font>
 
-# Molecular editors
+## <font color=#CD5555 face="黑体">Molecular editors</font>
 
 
 

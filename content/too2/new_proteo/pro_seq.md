@@ -7,7 +7,7 @@ date = "2018-04-11"
 
 weight = 10
 # Project summary to display on homepage.
-# summary = "Including: Protein Sequence Analysis, MS-based untargeted Proteomics, MS-based Metaproteomics, Antibody Array Analysis, Proteogenomics Analysis."
+summary = "Including: Protein Sequence Analysis, MS-based untargeted Proteomics, MS-based Metaproteomics, Antibody Array Analysis, Proteogenomics Analysis."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tools/protein/pro_seq.png"

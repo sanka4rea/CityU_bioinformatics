@@ -18,7 +18,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_meta/drug/</guid>
-      <description>Table of Contents  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors Find more tools: OMICTOOLS   In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.</description>
+      <description>Table of Contents  Drug Discovery  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors  Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.</description>
     </item>
     
     <item>
@@ -27,8 +27,17 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_meta/lipidomics/</guid>
-      <description>Table of Contents  Transcription analysis Lipidomics Databases MS-based untargeted lipidomics MS-based targeted lipidomics   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
+      <description>Table of Contents  Transcription analysis Lipidomics Databases MS-based untargeted lipidomics MS-based targeted lipidomics Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
 Lipidomics Databases Development of databases and the related bioinformatics tools has become an essential part of the omics studies.</description>
+    </item>
+    
+    <item>
+      <title>Metabolic Engineering</title>
+      <link>/too2/new_meta/engineer/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_meta/engineer/</guid>
+      <description>Table of Contents  Biological Steps  Constraint based methods Metabolic pathway prediction Strain design Thermodynamics  Network Analysis  Genome-scale Metabolic Reconstruction  13C-fluxomics Find more tools: OMICTOOLS   Growing concerns over limited fossil resources and associated environmental problems are motivating the development of sustainable processes for the production of chemicals, fuels and materials from renewable resources. Metabolic engineering is a key enabling technology for transforming microorganisms into efficient cell factories for these compounds.</description>
     </item>
     
     <item>

@@ -61,3 +61,19 @@ caption = ""
 * Molecular editors
 
 ---
+
+
+{{% alert note %}}
+[**Metabolic Engineering:**]({{< ref "too2/new_meta/engineer.md">}})
+{{% /alert %}}
+<img src="/img/tools/meta/engineer.jpg" width="500", height="400" alt="blast" align="center">
+<p align="justify">Including: 
+
+* Constraint based methods
+* Metabolic pathway prediction
+* Strain design
+* Thermodynamics
+* Network analysis
+* 13C-fluxomics
+
+---
