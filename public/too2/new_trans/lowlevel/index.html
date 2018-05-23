@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Low-level RNA detection scRNA-seq analysis  Noise reduction Transcript quantification Cell lineage and pseudotime inference Dimensionality reduction  Single-cell qPCR dPCR Find more tools: OMICTOOLS   Low-level RNA detection scRNA-seq analysis The development of high-throughput RNA sequencing (RNA-seq) at the single-cell level has already led to profound new discoveries in biology, ranging from the identification of novel cell types to the study of global patterns of stochastic gene expression.">
+  <meta name="description" content="Table of Contents  Low-level RNA detection    Patch-seq RRR | Patch-seq Reduced-Rank Regression   scRNA-seq analysis  Noise reduction  scLVM | single-cell Latent Variable Model OEFinder URSM | Unified RNA-Sequencing Model  Transcript quantification  TraCeR BRIE | Bayesian Regression for Isoform Estimation UMIS | Unique Molecular IdentifierS  Cell lineage and pseudotime inference/ Marker gene detection  Seurat SPADE | Spanning tree Progression of Density normalized Events Monocle   Single-cell qPCR    DPT MAST | Model-based Analysis of Single-cell Transcriptomics SCATTOME | Single Cell Analysis of Targeted TranscriptOME   dPCR    ddPCRclust Definetherain ddpcr | droplet digital polymerase chain reaction   Find more tools: OMICTOOLS   Low-level RNA detection Patch-seq RRR | Patch-seq Reduced-Rank Regression Provides an interpretable visualization of the relationship between high-dimensional single cell transcriptomes and electrophysiological information obtained using techniques like patch-seq.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_trans/lowlevel/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_trans/lowlevel/">
   <meta property="og:title" content="Low-level RNA detection | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Low-level RNA detection scRNA-seq analysis  Noise reduction Transcript quantification Cell lineage and pseudotime inference Dimensionality reduction  Single-cell qPCR dPCR Find more tools: OMICTOOLS   Low-level RNA detection scRNA-seq analysis The development of high-throughput RNA sequencing (RNA-seq) at the single-cell level has already led to profound new discoveries in biology, ranging from the identification of novel cell types to the study of global patterns of stochastic gene expression.">
+  <meta property="og:description" content="Table of Contents  Low-level RNA detection    Patch-seq RRR | Patch-seq Reduced-Rank Regression   scRNA-seq analysis  Noise reduction  scLVM | single-cell Latent Variable Model OEFinder URSM | Unified RNA-Sequencing Model  Transcript quantification  TraCeR BRIE | Bayesian Regression for Isoform Estimation UMIS | Unique Molecular IdentifierS  Cell lineage and pseudotime inference/ Marker gene detection  Seurat SPADE | Spanning tree Progression of Density normalized Events Monocle   Single-cell qPCR    DPT MAST | Model-based Analysis of Single-cell Transcriptomics SCATTOME | Single Cell Analysis of Targeted TranscriptOME   dPCR    ddPCRclust Definetherain ddpcr | droplet digital polymerase chain reaction   Find more tools: OMICTOOLS   Low-level RNA detection Patch-seq RRR | Patch-seq Reduced-Rank Regression Provides an interpretable visualization of the relationship between high-dimensional single cell transcriptomes and electrophysiological information obtained using techniques like patch-seq.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    11 min read
   </span>
   
 
@@ -523,16 +523,52 @@
 <h2>Table of Contents</h2>
 <nav id="TableOfContents">
 <ul>
-<li><a href="#low-level-rna-detection">Low-level RNA detection</a></li>
+<li><a href="#low-level-rna-detection">Low-level RNA detection</a>
+<ul>
+<li>
+<ul>
+<li><a href="#patch-seq-rrr-patch-seq-reduced-rank-regression">Patch-seq RRR | Patch-seq Reduced-Rank Regression</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#scrna-seq-analysis">scRNA-seq analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-noise-reduction-font"><font color=#CD5555 face="黑体">Noise reduction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-transcript-quantification-font"><font color=#CD5555 face="黑体">Transcript quantification</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-cell-lineage-and-pseudotime-inference-font"><font color=#CD5555 face="黑体">Cell lineage and pseudotime inference</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-dimensionality-reduction-font"><font color=#CD5555 face="黑体">Dimensionality reduction</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-noise-reduction-font"><font color=#CD5555 face="黑体">Noise reduction</font></a>
+<ul>
+<li><a href="#sclvm-single-cell-latent-variable-model">scLVM | single-cell Latent Variable Model</a></li>
+<li><a href="#oefinder">OEFinder</a></li>
+<li><a href="#ursm-unified-rna-sequencing-model">URSM | Unified RNA-Sequencing Model</a></li>
 </ul></li>
-<li><a href="#single-cell-qpcr">Single-cell qPCR</a></li>
-<li><a href="#dpcr">dPCR</a></li>
+<li><a href="#font-color-cd5555-face-黑体-transcript-quantification-font"><font color=#CD5555 face="黑体">Transcript quantification</font></a>
+<ul>
+<li><a href="#tracer">TraCeR</a></li>
+<li><a href="#brie-bayesian-regression-for-isoform-estimation">BRIE | Bayesian Regression for Isoform Estimation</a></li>
+<li><a href="#umis-unique-molecular-identifiers">UMIS | Unique Molecular IdentifierS</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-cell-lineage-and-pseudotime-inference-marker-gene-detection-font"><font color=#CD5555 face="黑体">Cell lineage and pseudotime inference/ Marker gene detection</font></a>
+<ul>
+<li><a href="#seurat">Seurat</a></li>
+<li><a href="#spade-spanning-tree-progression-of-density-normalized-events">SPADE | Spanning tree Progression of Density normalized Events</a></li>
+<li><a href="#monocle">Monocle</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#single-cell-qpcr">Single-cell qPCR</a>
+<ul>
+<li>
+<ul>
+<li><a href="#dpt">DPT</a></li>
+<li><a href="#mast-model-based-analysis-of-single-cell-transcriptomics">MAST | Model-based Analysis of Single-cell Transcriptomics</a></li>
+<li><a href="#scattome-single-cell-analysis-of-targeted-transcriptome">SCATTOME | Single Cell Analysis of Targeted TranscriptOME</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#dpcr">dPCR</a>
+<ul>
+<li>
+<ul>
+<li><a href="#ddpcrclust">ddPCRclust</a></li>
+<li><a href="#definetherain">Definetherain</a></li>
+<li><a href="#ddpcr-droplet-digital-polymerase-chain-reaction">ddpcr | droplet digital polymerase chain reaction</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-transcriptomics-category">Find more tools: <a href="https://omictools.com/transcriptomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -540,21 +576,331 @@
 
 <h1 id="low-level-rna-detection">Low-level RNA detection</h1>
 
+<h3 id="patch-seq-rrr-patch-seq-reduced-rank-regression">Patch-seq RRR | Patch-seq Reduced-Rank Regression</h3>
+
+<p><p align="justify">Provides an interpretable visualization of the relationship between high-dimensional single cell transcriptomes and electrophysiological information obtained using techniques like patch-seq. Patch-seq RRR is a framework based on sparse reduced-rank regression that permits to obtain a low-dimensional representation of key features of the data, relating the dominant gene expression patterns predicting variation in the electrophysiological space</p>
+
+<p><a href="https://github.com/berenslab/patch-seq-rrr" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Kobak et al., ) <a href="https://doi.org/10.1101/302208" target="_blank">Sparse reduced-rank regression for exploratory visualization of single cell patch-seq recordings</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute for Ophthalmic Research, Center for Integrative Neuroscience and Bernstein Center for Computational Neuroscience, University of Tübingen, Tübingen, Germany; Graduate Training Center for Neuroscience, University of Tübingen, Tübingen, Germany</p>
+
+<hr />
+
 <h1 id="scrna-seq-analysis">scRNA-seq analysis</h1>
 
 <p><p align="justify">The development of <strong>high-throughput RNA sequencing</strong> (RNA-seq) at the single-cell level has already led to profound new discoveries in biology, ranging from the identification of novel cell types to the study of global patterns of stochastic gene expression. Alongside the technological breakthroughs that have facilitated the large-scale generation of single-cell transcriptomic data, it is important to consider the specific computational and analytical challenges that still have to be overcome. Although some tools for analysing RNA-seq data from bulk cell populations can be readily applied to single-cell RNA-seq data, many new computational strategies are required to fully exploit this data type and to enable a comprehensive yet detailed study of gene expression at the single-cell level.</p>
 
 <h2 id="font-color-cd5555-face-黑体-noise-reduction-font"><font color=#CD5555 face="黑体">Noise reduction</font></h2>
 
+<h3 id="sclvm-single-cell-latent-variable-model">scLVM | single-cell Latent Variable Model</h3>
+
+<p><p align="justify">A modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources, thereby allowing for the correction of confounding sources of variation. scLVM was primarily designed to account for cell-cycle induced variations in single-cell RNA-seq data where cell cycle is the primary source of variability.</p>
+
+<p><a href="https://github.com/PMBio/scLVM" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/PMBio/scLVM/wiki" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Buettner et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25599176" target="_blank">Computational analysis of cell-to-cell heterogeneity in single-cell RNA-sequencing data reveals hidden subpopulations of cells</a>.  Nat Biotechnol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Helmholtz Zentrum München-German Research Center for Environmental Health, Institute of Computational Biology, Neuherberg, Germany</p>
+
+<hr />
+
+<h3 id="oefinder">OEFinder</h3>
+
+<p><p align="justify">A statistical method and software to identify a sorted list of ordering effect (OE) genes. OEFinder is available as an R package along with user-friendly graphical interface implementations that allows users to check for potential artifacts in scRNA-seq data generated by the Fluidigm C1 platform.</p>
+
+<p><a href="https://github.com/lengning/OEFinder" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Leng et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26743507" target="_blank">OEFinder: a user interface to identify and visualize ordering effects in single-cell RNA-seq data</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Morgridge Institute for Research, Madison, WI, USA; Department of Statistics, University of Wisconsin, Madison, WI, USA; Department of Biostatistics and Medical Informatics, University of Wisconsin, Madison, WI, USA</p>
+
+<hr />
+
+<h3 id="ursm-unified-rna-sequencing-model">URSM | Unified RNA-Sequencing Model</h3>
+
+<p><p align="justify">Analyzes two types of RNA-seq: single cell data and bulk data. URSM adjusts dropout events in single cell data and achieves simultaneously deconvolution in bulk data. This software doesn’t need to calculate on the same subjects the single cell and bulk data. It can (1) obtain reliable estimation of cell type specific gene expression profiles; (2) infer the dropout entries in single cell data; and (3) infer the mixing proportions of different cell types in bulk samples.</p>
+
+<p><a href="https://github.com/lingxuez/URSM" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Zhu et al., 2017) <a href="https://arxiv.org/abs/1609.08028" target="_blank">A Unified Statistical Framework for Single Cell and Bulk RNA Sequencing Data</a>.  ArXiv.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Statistics, Carnegie Mellon University, Pittsburgh, PA, USA; Department of Psychiatry and Human Genetics, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-transcript-quantification-font"><font color=#CD5555 face="黑体">Transcript quantification</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-cell-lineage-and-pseudotime-inference-font"><font color=#CD5555 face="黑体">Cell lineage and pseudotime inference</font></h2>
+<h3 id="tracer">TraCeR</h3>
 
-<h2 id="font-color-cd5555-face-黑体-dimensionality-reduction-font"><font color=#CD5555 face="黑体">Dimensionality reduction</font></h2>
+<p><p align="justify">A computational method to reconstruct full-length, paired T cell receptor (TCR) sequences from T lymphocyte single-cell RNA sequence data. TraCeR links T cell specificity with functional response by revealing clonal relationships between cells alongside their transcriptional profiles. TraCeR extracts TCR-derived sequencing reads for each cell by alignment against ‘combinatorial recombinomes’ comprising all possible combinations of V and J segments. Reads are then assembled into contiguous sequences that are analyzed to find full-length, recombined TCR sequences. Importantly, the reconstructed recombinant sequences typically contain nearly the complete length of the TCR V(D)J region and so allow high-confidence discrimination between closely related gene segments. Our method is sensitive, accurate and easy to adapt to any species for which annotated TCR gene sequences are available.</p>
+
+<p><a href="https://github.com/teichlab/tracer" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Stubbington et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26950746" target="_blank">T cell fate and clonality inference from single-cell transcriptomes</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Cambridge, UK; Wellcome Trust Sanger Institute, Cambridge, UK</p>
+
+<hr />
+
+<h3 id="brie-bayesian-regression-for-isoform-estimation">BRIE | Bayesian Regression for Isoform Estimation</h3>
+
+<p><p align="justify">Quantifies splicing in individual single cells. BRIE is a flexible framework that detects differential splicing between individual cells from scRNA-seq data. This method was developed for modelling and, while sequence features are particularly appealing due to their ease of usage and availability, additional side information, such as DNA methylation and chromatin accessibility, could easily be incorporated.</p>
+
+<p><a href="https://brie-rna.sourceforge.io/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/huangyh09/brie" target="_blank"><strong>Github</strong></a></p>
+
+<p><a href="https://brie-rna.sourceforge.io/manual.html" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Huang and Sanguinetti, 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28655331" target="_blank">BRIE: transcriptome-wide splicing quantification in single cells</a>.  Genome Biol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>School of Informatics, University of Edinburgh, Edinburgh, UK; Centre for Synthetic and Systems Biology (SynthSys), University of Edinburgh, Edinburgh, UK</p>
+
+<hr />
+
+<h3 id="umis-unique-molecular-identifiers">UMIS | Unique Molecular IdentifierS</h3>
+
+<p><p align="justify">Provides a way of removing amplification biases, the assumed absolute quantification does not appear to hold true perfectly. Umis is a flexible tool for counting the number of unique molecular identifiers. There are four steps in this method: (i) formatting reads, (ii) filtering noisy cellular barcodes, (iii) pseudo-mapping to cDNAs, and (iv) counting molecular identifiers. The quantitation used in umis handles reads that could come from multiple transcripts by assigning a fractional count to each transcript and then filtering for a minimum count at the end.</p>
+
+<p><a href="https://github.com/vals/umis" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Svensson et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28263961" target="_blank">Power analysis of single-cell RNA-sequencing experiments</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, UK; Wellcome Trust Sanger Institute, Hinxton, Cambridge, UK</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+<h2 id="font-color-cd5555-face-黑体-cell-lineage-and-pseudotime-inference-marker-gene-detection-font"><font color=#CD5555 face="黑体">Cell lineage and pseudotime inference/ Marker gene detection</font></h2>
+
+<h3 id="seurat">Seurat</h3>
+
+<p><p align="justify">Allows studying of spatial patterning of gene expression at the single-cell level. Seurat is an R package that enables quality control (QC), analysis, and exploration of single cell RNA-seq data. The software includes three computational methods: (1) unsupervised clustering and discovery of cell types and states, (2) spatial reconstruction of single cell data, and (3) integrated analysis of single cell RNA-seq across conditions, technologies, and species. It can also localize rare subpopulations, and map both spatially restricted and scattered groups.</p>
+
+<p><a href="https://satijalab.org/seurat/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/satijalab/seurat/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><a href="https://cran.r-project.org/web/packages/Seurat/Seurat.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Satija et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25867923" target="_blank">Spatial reconstruction of single-cell gene expression data</a>.  Nat Biotechnol.</li>
+<li>(Butler et al., 2018) <a href="https://www.nature.com/articles/nbt.4096" target="_blank">Integrating single-cell transcriptomic data across different conditions, technologies, and species</a>  Nat Biotechnol</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Broad Institute of MIT and Harvard, Cambridge, MA, USA; Department of Molecular and Cellular Biology, Harvard University, Cambridge, MA, USA</p>
+
+<hr />
+
+<h3 id="spade-spanning-tree-progression-of-density-normalized-events">SPADE | Spanning tree Progression of Density normalized Events</h3>
+
+<p><p align="justify">Facilitates the analysis of cellular heterogeneity, the identification of cell types, and comparison of functional markers in response to perturbations, based on a versatile method. SPADE helps to organize high-dimensional cytometry data in an unsupervised manner, and to investigate natural and pathogenic cellular heterogeneity for biological insight. The SPADE algorithm consists of four components: (i) density-dependent downsampling, (ii) clustering, (iii) linking clusters with a minimum spanning tree, and (iv) upsampling to restore all cells in the final result. This modularized process allows more efficient sub-algorithms to replace the current components. In this sense, SPADE can be viewed as a framework for cytometric data analysis and visualization that has the capacity to be evolved and adapted.</p>
+
+<p><a href="https://github.com/nolanlab/spade" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Qiu et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21964415" target="_blank">Extracting a cellular hierarchy from high-dimensional cytometry data with SPADE</a>.  Nat Biotechnol.</li>
+<li>(Bendall et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21551058" target="_blank">Single-cell mass cytometry of differential immune and drug responses across a human hematopoietic continuum</a>.  Science.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Radiology, Stanford University, Stanford, CA, USA</p>
+
+<hr />
+
+<h3 id="monocle">Monocle</h3>
+
+<p><p align="justify">Allows to analyze single-cell gene expression experiments. Monocle can realize differential expression analysis, clustering, visualization, and other useful tasks on single cell expression data. The software orders individual cells according to progress through a biological process, without knowing ahead of time which genes define progress through that process. It is designed to work with RNA-Seq and qPCR data, but could be used with other types as well. The tools Census and BEAM are implemented in Monocle.</p>
+
+<p><a href="http://cole-trapnell-lab.github.io/monocle-release/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/cole-trapnell-lab/monocle-release/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><a href="https://bioconductor.org/packages/release/bioc/manuals/monocle/man/monocle.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Trapnell et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24658644" target="_blank">The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells</a>.  Nat Biotechnol.</li>
+<li>(Qiu et al., 2017) <a href="https://www.biorxiv.org/content/early/2017/02/21/110668" target="_blank">Reversed graph embedding resolves complex single-cell developmental trajectories</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Genome Sciences, University of Washington, Seattle, WA, USA; Molecular and Cellular Biology Program, University of Washington, Seattle, WA, USA; Department of Applied Mathematics, University of Washington, Seattle, WA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="single-cell-qpcr">Single-cell qPCR</h1>
 
+<h3 id="dpt">DPT</h3>
+
+<p><p align="justify">Measures progression through branching lineages using a random-walk-based distance in diffusion map space. DPT allows for branching and pseudotime analysis on large-scale RNA-seq data sets. This package is significantly more robust with respect to noise in low-density regions and cell outliers than existing methods, which rely on the estimation of minimum spanning trees or sampling-based distances. Furthermore, DPT is able to remove asynchronity of scRNA-seq snapshot data from several days, aligning cells in terms of their degree of differentiation.</p>
+
+<p><a href="https://www.helmholtz-muenchen.de/icb/research/groups/machine-learning/projects/dpt/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Haghverdi et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27571553" target="_blank">Diffusion pseudotime robustly reconstructs lineage branching</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Helmholtz Zentrum München, German Research Center for Environmental Health, Institute of Computational Biology, Neuherberg, Germany</p>
+
+<hr />
+
+<h3 id="mast-model-based-analysis-of-single-cell-transcriptomics">MAST | Model-based Analysis of Single-cell Transcriptomics</h3>
+
+<p><p align="justify">A flexible statistical framework for the analysis of single-cell RNA sequencing data. MAST is suitable for supervised analyses about differential expression of genes and gene modules, as well as unsupervised analyses of model residuals, to generate hypotheses regarding co-expression of genes. MAST accounts for the bimodality of single-cell data by jointly modeling rates of expression (discrete) and positive mean expression (continuous) values. Information from the discrete and continuous parts is combined to infer changes in expression levels using gene or gene set-based statistics. Because our approach uses a generalized linear framework, it can be used to jointly estimate nuisance variation from biological and technical sources, as well as biological effects of interest.</p>
+
+<p><a href="https://github.com/RGLab/MAST" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Finak et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26653891" target="_blank">MAST: a flexible statistical framework for assessing transcriptional changes and characterizing heterogeneity in single-cell RNA sequencing data</a>. Genome Biol.</li>
+<li>(McDavid et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23267174" target="_blank">Data exploration, quality control and testing in single-cell qPCR-based gene expression experiments</a>. Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center, Seattle, WA, USA; Benaroya Research Institute at Virginia Mason, Seattle, WA, USA</p>
+
+<hr />
+
+<h3 id="scattome-single-cell-analysis-of-targeted-transcriptome">SCATTOME | Single Cell Analysis of Targeted TranscriptOME</h3>
+
+<p><p align="justify">Predicts drug sensitivity of single cells within human tumors. SCATTome is an R software package that uses machine learning approaches to build binary classification models, selects top significant genes, predicts drug response of individual cells and computes each cell’s probability of response based on the targeted transcriptome signature. This package can be used in other cancer models to predict heterogeneity of drug response in individual cells based on targeted single-cell gene expression analysis and may also be used to identify minimal residual disease (MRD).</p>
+
+<p><a href="https://github.com/bvnlab/SCATTome" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/bvnlab/SCATTome" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Mitra et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26710886" target="_blank">Single-cell analysis of targeted transcriptome predicts drug sensitivity of single cells within human myeloma tumors</a>.  Leukemia.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Genetics, Cell Biology &amp; Development, University of Minnesota, Minneapolis, MN, USA; School of Statistics, University of Minnesota, Minneapolis, MN, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h1 id="dpcr">dPCR</h1>
+
+<h3 id="ddpcrclust">ddPCRclust</h3>
+
+<p><p align="justify">Predicts drug sensitivity of single cells within human tumors. SCATTome is an R software package that uses machine learning approaches to build binary classification models, selects top significant genes, predicts drug response of individual cells and computes each cell’s probability of response based on the targeted transcriptome signature. This package can be used in other cancer models to predict heterogeneity of drug response in individual cells based on targeted single-cell gene expression analysis and may also be used to identify minimal residual disease (MRD).</p>
+
+<p><a href="https://github.com/bgbrink/ddPCRclust" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://bioconductor.org/packages/devel/bioc/manuals/ddPCRclust/man/ddPCRclust.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Brink et al., ) <a href="https://doi.org/10.1093/bioinformatics/bty136" target="_blank">ddPCRclust — An R package and Shiny app for automated analysis of multiplexed ddPCR data</a>.  Bioinformatics.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>International Research Training Group “Computational Methods for the Analysis of the Diversity and Dynamics of Genomes” and Biodata Mining Group, Faculty of Technology and Center for Biotechnology, Bielefeld University, Bielefeld ,Germany</p>
+
+<hr />
+
+<h3 id="definetherain">Definetherain</h3>
+
+<p><p align="justify">Allows user to cluster digital droplet polymerase chain reaction (PCR) data to define positive and negative responses. Definetherain is an open-access web-based JavaScript program based on k-nearest neighbour clustering. It defines indeterminate rain droplets using the positive population rather than negative population. By defining the cut-off for positive droplets from the positive as opposed to the negative cluster and removing ambiguous rain droplets, this application provides improved accuracy at low template copy numbers.</p>
+
+<p><a href="http://definetherain.org.uk/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Jones et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24598230" target="_blank">Low copy target detection by Droplet Digital PCR through application of a novel open access bioinformatic pipeline, &lsquo;definetherain&rsquo;</a>.  J Virol Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Peter Medawar Building for Pathogen Research, Nuffield Department of Clinical Medicine, Oxford, UK; IUH, Hôpital St. Louis, Paris, France; Institute for Emerging Infections, The Oxford Martin School, Oxford, UK</p>
+
+<hr />
+
+<h3 id="ddpcr-droplet-digital-polymerase-chain-reaction">ddpcr | droplet digital polymerase chain reaction</h3>
+
+<p><p align="justify">Quantifies DNA which holds great promise in clinical diagnostics. ddpcr allows users to analyze ddPCR data using an interactive graphical interface. It includes an interactive web application with a visual user interface to facilitate analysis for anyone who is not comfortable with using R. The counting of droplets emitting a sequence-specific fluorescent signal permits the number of copies of that sequence present in the sample to be quantified with excellent sensitivity and precision.</p>
+
+<p><a href="https://cran.r-project.org/web/packages/ddpcr/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Attali et al., 2016)<a href="https://www.ncbi.nlm.nih.gov/pubmed/27703666" target="_blank"> ddpcr: an R package and web application for analysis of droplet digital PCR data</a>.  F1000Res.</li>
+</ul>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
 
@@ -585,11 +931,11 @@
       <h3>Related</h3>
       <ul>
         
+        <li><a href="/too2/new_trans/rnamodification/">RNA Modifications</a></li>
+        
         <li><a href="/too2/new_trans/transcription/">RNA Transcription</a></li>
         
         <li><a href="/too2/new_trans/rna_pro/">RNA-Protein Interactions</a></li>
-        
-        <li><a href="/too2/new_trans/rnamodification/">RNA Modifications</a></li>
         
         <li><a href="/too2/new_trans/non_coding/">Non-Coding RNA</a></li>
         
@@ -611,7 +957,7 @@
 
       &copy; 2018 &middot; 
 
-      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab. zzx. All rights reserved. 
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">

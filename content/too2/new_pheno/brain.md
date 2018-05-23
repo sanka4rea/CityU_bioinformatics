@@ -68,6 +68,6 @@ Image preprocessing, processing, 3D Image Analysis could be found in [**Bioimagi
 
 # Find more tools: [**OMICTOOLS**](https://omictools.com/phenomics-category)
 
-[*Image Citation*](http://blog.myesr.org/mri-reveals-the-human-connectome/)
+[*Image Citation1*](http://blog.myesr.org/mri-reveals-the-human-connectome/)[*2*](https://www.moshimoshi-nippon.jp/zh-hant/80554)
 
 ---

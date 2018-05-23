@@ -27,7 +27,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_epi/modifications/</guid>
-      <description>Table of Contents  DNA modification analysis  DNA Methylation Prediction DNA Methylation Deconvolution  DNA methylation array analysis  Differential Methylation Site Detection Differential Methylation region Detection  Enrichment Analysis  Over-representation analysis Gene set enrichment analysis Topology enrichment analysis  Bisulfite Sequencing Data Analysis (BS-seq analysis)  Differential Methylation region Detection Methylation Annotation EWAS  Find more tools: OMICTOOLS   DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research.</description>
+      <description>Table of Contents  DNA modification analysis  DNA Methylation Prediction  T-BioInfo MethSurv Nanopolish  DNA Methylation Deconvolution  FaST-LMM-EWASher ReFACTor | Reference-Free Adjustment for Cell-Type composition EDec | Epigenomic Deconvolution   DNA methylation array analysis  Differential Methylation Site Detection  limma | Linear Models for Microarray Data FastDMA RnBeads  Differential Methylation region Detection  ChAMP FastDMA RnBeads   Enrichment Analysis  Over-representation analysis  Blast2GO g:Profiler STEM | Short Time-series Expression Miner  Gene set enrichment analysis  GSEA | Gene Set Enrichment Analysis DESeq | Differential expression : HTS analysis edgeR | empirical analysis of DGE in R  Topology enrichment analysis  DAVID | Database for Annotation, Visualization and Integrated Discovery HOMER | Hypergeometric Optimization of Motif EnRichment GeneCodis | Topology enrichment analysis   Bisulfite Sequencing Data Analysis (BS-seq analysis)  Differential Methylation region Detection  methylKit | Methylation annotation : BS-seq analysis SMART | Specific Methylation Analysis and Report Tool DSS-single | Differentially methylated region detection : BS-seq analysis  Methylation Annotation  GBSA | Genome Bisulfite Sequencing Analyser methylKit | Methylation annotation : BS-seq analysis  EWAS  ReFACTor | Reference-Free Adjustment for Cell-Type composition FaST-LMM-EWASher   Find more tools: OMICTOOLS   DNA modification analysis Whole genome DNA methylation detection is one of the most important part of epigenetics research.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/pro_seq/</guid>
-      <description>Table of Contents  Protein Sequence Analysis  Amino Acid Repeat Prediction Subcellular Localizaton Prediction T3S effector Prediction Protein Clustering SDS Prediction  MS-based (Mass Spectrometry) untargeted Proteomics  2D gel Image Analysis In Silico Analysis Phosphorylation Site Assignment PTM Identification Glycosylation Identification  MS-based Metaproteomics Antibody Array Analysis Proteogenomics Analysis Find more tools: OMICTOOLS   Protein Sequence Analysis Protein sequence analysis tools are used to predict specific functions, activities, origin, or localization of proteins based on their amino-acid sequence.</description>
+      <description>Table of Contents  Protein Sequence Analysis  Amino Acid Repeat Prediction  RADAR REPRO  Subcellular Localizaton Prediction  TargetP pRoloc  Protein Clustering  CD-HIT USEARCH   MS-based (Mass Spectrometry) untargeted Proteomics  2D gel Image Analysis  digeR Plasmo2D  In Silico Analysis  OpenMS multiplierz  Phosphorylation Site Assignment  Ascore Phosphonormalizer  PTM Identification  PIQED SUMmOn  Glycosylation Identification  SugarQb MAGIC   MS-based Metaproteomics    Unipept MPA   Antibody Array Analysis    PANDA   Find more tools: OMICTOOLS   Protein Sequence Analysis Protein sequence analysis tools are used to predict specific functions, activities, origin, or localization of proteins based on their amino-acid sequence.</description>
     </item>
     
     <item>
@@ -91,7 +91,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_trans/lowlevel/</guid>
-      <description>Table of Contents  Low-level RNA detection scRNA-seq analysis  Noise reduction Transcript quantification Cell lineage and pseudotime inference Dimensionality reduction  Single-cell qPCR dPCR Find more tools: OMICTOOLS   Low-level RNA detection scRNA-seq analysis The development of high-throughput RNA sequencing (RNA-seq) at the single-cell level has already led to profound new discoveries in biology, ranging from the identification of novel cell types to the study of global patterns of stochastic gene expression.</description>
+      <description>Table of Contents  Low-level RNA detection    Patch-seq RRR | Patch-seq Reduced-Rank Regression   scRNA-seq analysis  Noise reduction  scLVM | single-cell Latent Variable Model OEFinder URSM | Unified RNA-Sequencing Model  Transcript quantification  TraCeR BRIE | Bayesian Regression for Isoform Estimation UMIS | Unique Molecular IdentifierS  Cell lineage and pseudotime inference/ Marker gene detection  Seurat SPADE | Spanning tree Progression of Density normalized Events Monocle   Single-cell qPCR    DPT MAST | Model-based Analysis of Single-cell Transcriptomics SCATTOME | Single Cell Analysis of Targeted TranscriptOME   dPCR    ddPCRclust Definetherain ddpcr | droplet digital polymerase chain reaction   Find more tools: OMICTOOLS   Low-level RNA detection Patch-seq RRR | Patch-seq Reduced-Rank Regression Provides an interpretable visualization of the relationship between high-dimensional single cell transcriptomes and electrophysiological information obtained using techniques like patch-seq.</description>
     </item>
     
     <item>
@@ -109,8 +109,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_epi/position/</guid>
-      <description>Table of Contents  Nucleosome Positioning MNase-seq analysis ATAC-seq analysis Find more tools: OMIVTOOLS   Nucleosome Positioning MNase-seq analysis The technology of micrococcal nuclease (MNase) digestion combined with high-throughput sequencing (MNase-seq) is a powerful method to map the genome-wide distribution of nucleosome occupancy (Mavrich et al., 2008; Schones et al., 2008; Jiang and Pugh, 2009). Source text: Chen et al., 2014.
-ATAC-seq analysis ATAC-seq allows simultaneous interrogation of factor occupancy, nucleosome positions in regulatory sites, and chromatin accessibility genome wide by considering the position of insertion and the distribution of insert lengths captured during the transposition reaction.</description>
+      <description>Table of Contents  Nucleosome Positioning  NuCMap | Nucleosome positioning : Epigenomics nuMap | Nucleosome positioning : Epigenomics ICM | Interactive Chromatin Modeling  MNase-seq analysis  PING nucleR NOrMAL  ATAC-seq analysis  NucleoATAC | Nucleosome positionning analysis : ATAC-seq analysis  Find more tools: OMIVTOOLS   Nucleosome Positioning NuCMap | Nucleosome positioning : Epigenomics Maps directly nucleosome centers. NuCMap is based on chemical modification of engineered histones.</description>
     </item>
     
     <item>
@@ -119,9 +118,7 @@ ATAC-seq analysis ATAC-seq allows simultaneous interrogation of factor occupancy
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/structure/</guid>
-      <description>This part may contains the following tools: (Will be filled in the future)
-Primary structure ProtParam COILS Secondary structure PredictProtein PSIPRED tertiary structure Phyre Swiss-PdbViewer Top
-Find more tools: OMICTOOLS Image Citation</description>
+      <description>Table of Contents  Primary structure    ProtParam COILS   Secondary structure    PredictProtein PSIPRED   tertiary structure    Phyre Swiss-PdbViewer   Find more tools: OMICTOOLS   Primary structure Protein primary structure is the linear sequence of amino acids in a peptide or protein. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal &amp;copy; end.</description>
     </item>
     
     <item>
@@ -175,7 +172,7 @@ Find more tools: OMICTOOLS Image Citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_trans/rnamodification/</guid>
-      <description>Table of Contents  RNA Modifications Analysis  Protein-binding Region Prediction RNA Editing Prediction Alternative Splicing Annotation RNA Methylation Prediction  Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)  Spliced Read Alignment Peak Calling De novo motif discovery  Degradome-seq Analysis Find more tools: OMICTOOLS   RNA Modifications Analysis From a biosynthetic point of view, the roughly 100 known different RNA nucleotide modifications can be easily divided according to their complexity.</description>
+      <description>Table of Contents  RNA Modifications Analysis  Protein-binding Region Prediction  RNAcompete catRAPID omics RBPmap  Alternative Splicing Annotation  APPRIS rPGA Exogean  RNA Methylation Prediction  SRAMP iRNAm5C-PseDNC m6Apred   Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)  Spliced Read Alignment  TopHat HISAT | Hierarchical Indexing for Spliced Alignment of Transcripts Subread  Peak Calling  ExomePeak | Peak calling : MeRIP-seq analysis MeTPeak  De novo motif discovery  Weeder HOMER | Hypergeometric Optimization of Motif EnRichment MEME Suite   Degradome-seq Analysis    sPARTA package CleaveLand   Find more tools: OMICTOOLS   RNA Modifications Analysis From a biosynthetic point of view, the roughly 100 known different RNA nucleotide modifications can be easily divided according to their complexity.</description>
     </item>
     
     <item>
@@ -202,8 +199,7 @@ Find more tools: OMICTOOLS Image Citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/population/</guid>
-      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation  Find more tools: OMICTOOLS   
-Population genomics is the large-scale comparison of DNA sequences of populations.</description>
+      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction  Prest-plus FRANz RELPAIR  Forward Simulation  SeqSIMLA SeDuS SFS_CODE  Population Structure Inference  STRUCTURE PCAngsd PSIKO   Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling  PyroBayes Alta-Cyclic freeIbis  Read Quality Contorl  Trim Galore! MultiQC Octopus-toolkit  Adapter trimming  Trim Galore! dDocent  Gerline SNP Detection  GATK SAMtools dDocent  Somatic SNV detection  GATK SAMtools SNooPer   Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference  MEGA GPSit AnGST  SNP/SNV Annotation  ANNOVAR wANNOVAR DNAscan   Find more tools: OMICTOOLS</description>
     </item>
     
     <item>
@@ -221,7 +217,7 @@ Population genomics is the large-scale comparison of DNA sequences of population
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_trans/rna_pro/</guid>
-      <description>Table of Contents  CLIP-seq Analysis  Peak Calling Motif Discovery miRNA Target Site Detection  Ribo-seq Analysis  RNase Footprint Detection Ribosome P-site Localization Ribosome Stalling Prediction Translated ORF Prediction  Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples. Recent technological and computational advances permit the analysis of many CLIP-seq samples simultaneously, allowing us to reveal the comprehensive network of RNA-protein interaction and to integrate it to other genome-wide analyses.</description>
+      <description>Table of Contents  CLIP-seq Analysis  Peak Calling  DFilter CLIPper  Motif Discovery  RNAmotifs MEMERIS  miRNA Target Site Detection  MicroMUMMIE MIRZA   Ribo-seq Analysis  Ribosome P-site Localization  RiboProfiling riboWaltz  Ribosome Stalling Prediction  ROSE  Translated ORF Prediction  ORF-RATER   Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples.</description>
     </item>
     
     <item>
@@ -239,7 +235,7 @@ Population genomics is the large-scale comparison of DNA sequences of population
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
     </item>
     
     <item>
@@ -258,7 +254,7 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_trans/non_coding/</guid>
-      <description>Table of Contents  Non-Coding RNA Analysis  miRNA Target Prediction miRNA Enrichment miRNA-disease Association Prediction RNAi Reagent Design High-throughput RNAi Screening  Small RNA sequencing Data analysis (sRNA-seq Analysis)  tRNA-derived RNA Annotation ncRNA Identification IsomiR detection nvRNA-related SNPS  miRNA Array analysis Find more tools: OMICTOOLS   Non-Coding RNA Analysis Noncoding RNAs (ncRNAs) accomplish a remarkable variety of biological functions. They regulate gene expression at the levels of transcription, RNA processing, and translation.</description>
+      <description>Table of Contents  Non-Coding RNA Analysis  miRNA Target Prediction  TargetScan PicTar psRNATarget  miRNA Enrichment  DIANA-miRPath FAME | Functional Assignment of MicroRNAs via Enrichment miTEA  miRNA-disease Association Prediction  miRPD MCMG  RNAi Reagent Design  RNAxs WMD | Web MicroRNA Designer E-RNAi  High-throughput RNAi Screening  cellHTS CARD   Small RNA sequencing Data analysis (sRNA-seq Analysis)  tRNA-derived RNA Annotation  tRF2Cancer HAMR  ncRNA Identification  miRDeep omiRas  IsomiR detection  DeAnnIso isomiR-SEA   miRNA Array analysis    InCroMAP AgiMicroRna   Find more tools: OMICTOOLS   Non-Coding RNA Analysis Noncoding RNAs (ncRNAs) accomplish a remarkable variety of biological functions.</description>
     </item>
     
     <item>

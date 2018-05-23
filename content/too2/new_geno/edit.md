@@ -38,11 +38,15 @@ math = false
 
 {{% toc %}}
 
+---
+
 # Genome Editing 
 
 <p align="justify">Programmable nucleases - including zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs) and RNA-guided engineered nucleases (RGENs) derived from the bacterial clustered regularly interspaced short palindromic repeat (CRISPR)-Cas (CRISPR-associated) system - enable targeted genetic modifications in cultured cells, as well as in whole animals and plants. The value of these enzymes in research, medicine and biotechnology arises from their ability to induce site-specific DNA cleavage in the genome, the repair (through endogenous mechanisms) of which allows high-precision genome editing.
 
 [Related websites](https://en.wikipedia.org/wiki/Genome_editing)
+
+---
 
 ## <font color=#CD5555 face="黑体">CRISPR/Cas9 sgRNA Design</font>
 
@@ -57,6 +61,8 @@ math = false
 * (Hsu et al., 2013) [DNA targeting specificity of RNA-guided Cas9 nucleases](https://www.ncbi.nlm.nih.gov/pubmed/23873081).  Nat Biotechnol. 
 
 **Institution(s)**: Broad Institute of MIT and Harvard, Cambridge, MA, USA; McGovern Institute for Brain Research, Department of Brain and Cognitive Sciences, Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA
+
+---
 
 ### GuideScan
 
@@ -74,6 +80,8 @@ math = false
 
 Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA; Cancer Biology and Genetics Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA
 
+---
+
 ### E-CRISP
 
 <p align="justify">A software tool to design and evaluate target sites for use with the **Clustered Regularly Interspaced Short Palindromic Repeat** (CRISPR) system.
@@ -87,6 +95,8 @@ Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York,
 **Institution(s)**
 
 Division of Signaling and Functional Genomics, German Cancer Research Center (DKFZ), Heidelberg, Germany; Department of Cell and Molecular Biology, Medical Faculty Mannheim, Heidelberg University, Heidelberg, Germany
+
+---
 
 ### CRISPRscan
 
@@ -104,6 +114,8 @@ Department of Genetics, Yale University School of Medicine, New Haven, CT, USA
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">TALEN design</font>
 
 ### TALE-NT
@@ -119,6 +131,8 @@ Department of Genetics, Yale University School of Medicine, New Haven, CT, USA
 **Institutions(s)**
 
 Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA, USA
+
+---
 
 ### TALEN Targeter
 
@@ -136,6 +150,8 @@ Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA,
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">ZFN Design</font>
 
 ### Zinc Finger Tools
@@ -152,6 +168,8 @@ Department of Plant Pathology and Microbiology, Iowa State University, Ames, IA,
 
 Department of Molecular Biology and The Skaggs Institute for Chemical Biology, The Scripps Research Institute, La Jolla, CA, USA
 
+---
+
 ### ZifNN 
 
 <p align="justify">Predicts high throughput of optimal **zinc finger protein** for 9 bp DNA sequences of choice. ZifNN is inspired from an ensemble machine learning approach, and incorporates the predictions made by 100 parallel neural networks. It assumes synergistic mode of binding, thus capturing the molecular interactions between the DNA sequence and the zinc finger protein (ZFP) helices in greater detail. The tool is capable of domain adaptation, which allows it to make predictions about data points from a domain other than the one used for training the model.
@@ -167,6 +185,8 @@ Department of Molecular Biology and The Skaggs Institute for Chemical Biology, T
 **Institutions(s)**
 
 Department of Biochemical Engineering and Biotechnology
+
+---
 
 ### ZFN-Site
 
@@ -186,6 +206,8 @@ University of Iowa School of Medicine, Department of Internal Medicine, Iowa Cit
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">CRISPR/Cas9 Screen Analysis</font>
 
 ### CREATE | CRISPR-enabled trackable genome engineering
@@ -201,6 +223,8 @@ University of Iowa School of Medicine, Department of Internal Medicine, Iowa Cit
 **Institution(s)**
 
 Department of Chemical and Biological Engineering, University of Colorado Boulder, Boulder, CO, USA; Muse Biotechnology Inc., Boulder, CO, USA
+
+---
 
 ### MAGeCK | Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout
 
@@ -219,6 +243,8 @@ Department of Chemical and Biological Engineering, University of Colorado Boulde
 
 Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute and Harvard School of Public Health, Boston, MA, USA;
 
+---
+
 ### MAGeCK-VISPR 
 
 <p align="justify">Allows users to estimate the effects of **gene knockouts** (KO) in clustered regularly interspaced short palindromic repeats (CRISPR) screens. MAGeCK-VISPR consists of an algorithm named “MAGeCK-MLE” that contains the following functions: (1) define a set of quality control (QC) measurements; (2) extend the MAGeCK algorithm to call essential genes under multiple conditions while considering single guide RNA (sgRNA) knockout efficiency; and (3) provide a web-based visualization framework (VISPR) for interactive exploration of CRISPR screen QC and analysis results.
@@ -235,6 +261,8 @@ Department of Biostatistics and Computational Biology, Dana-Farber Cancer Instit
 **Institutions(s)**: 
 
 Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Harvard T.H. Chan School of Public Health, Boston, MA, USA
+
+---
 
 ### caRpools | CRISPR-AnalyzeR for pooled screens
 
@@ -253,6 +281,8 @@ Department of Biostatistics and Computational Biology, Dana-Farber Cancer Instit
 German Cancer Research Center (DKFZ), Division Signaling and Functional Genomics and Heidelberg University, Heidelberg, Germany
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+---
 
 ## <font color=#CD5555 face="黑体">Genome Editing Database</font>
 

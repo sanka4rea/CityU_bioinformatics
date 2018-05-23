@@ -17,8 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation  Find more tools: OMICTOOLS   
-Population genomics is the large-scale comparison of DNA sequences of populations.">
+  <meta name="description" content="Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction  Prest-plus FRANz RELPAIR  Forward Simulation  SeqSIMLA SeDuS SFS_CODE  Population Structure Inference  STRUCTURE PCAngsd PSIKO   Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling  PyroBayes Alta-Cyclic freeIbis  Read Quality Contorl  Trim Galore! MultiQC Octopus-toolkit  Adapter trimming  Trim Galore! dDocent  Gerline SNP Detection  GATK SAMtools dDocent  Somatic SNV detection  GATK SAMtools SNooPer   Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference  MEGA GPSit AnGST  SNP/SNV Annotation  ANNOVAR wANNOVAR DNAscan   Find more tools: OMICTOOLS">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_geno/population/">
@@ -77,8 +76,7 @@ Population genomics is the large-scale comparison of DNA sequences of population
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_geno/population/">
   <meta property="og:title" content="Population Genomics | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation  Find more tools: OMICTOOLS   
-Population genomics is the large-scale comparison of DNA sequences of populations.">
+  <meta property="og:description" content="Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction  Prest-plus FRANz RELPAIR  Forward Simulation  SeqSIMLA SeDuS SFS_CODE  Population Structure Inference  STRUCTURE PCAngsd PSIKO   Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling  PyroBayes Alta-Cyclic freeIbis  Read Quality Contorl  Trim Galore! MultiQC Octopus-toolkit  Adapter trimming  Trim Galore! dDocent  Gerline SNP Detection  GATK SAMtools dDocent  Somatic SNV detection  GATK SAMtools SNooPer   Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference  MEGA GPSit AnGST  SNP/SNV Annotation  ANNOVAR wANNOVAR DNAscan   Find more tools: OMICTOOLS">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -457,7 +455,7 @@ Population genomics is the large-scale comparison of DNA sequences of population
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    20 min read
   </span>
   
 
@@ -525,22 +523,71 @@ Population genomics is the large-scale comparison of DNA sequences of population
 <ul>
 <li><a href="#popilation-genetic-analysis">Popilation Genetic Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-pedigree-reconstruction-font"><font color=#CD5555 face="黑体">Pedigree Reconstruction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-forward-simulation-font"><font color=#CD5555 face="黑体">Forward Simulation</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-population-structure-inference-font"><font color=#CD5555 face="黑体">Population Structure Inference</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-pedigree-reconstruction-font"><font color=#CD5555 face="黑体">Pedigree Reconstruction</font></a>
+<ul>
+<li><a href="#prest-plus">Prest-plus</a></li>
+<li><a href="#franz">FRANz</a></li>
+<li><a href="#relpair">RELPAIR</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-forward-simulation-font"><font color=#CD5555 face="黑体">Forward Simulation</font></a>
+<ul>
+<li><a href="#seqsimla">SeqSIMLA</a></li>
+<li><a href="#sedus">SeDuS</a></li>
+<li><a href="#sfs-code">SFS_CODE</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-population-structure-inference-font"><font color=#CD5555 face="黑体">Population Structure Inference</font></a>
+<ul>
+<li><a href="#structure">STRUCTURE</a></li>
+<li><a href="#pcangsd">PCAngsd</a></li>
+<li><a href="#psiko">PSIKO</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#genotyping-by-sequencing-data-analysis-gbs-analysis">Genotyping by Sequencing data analysis (GBS Analysis)</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-base-callling-font"><font color=#CD5555 face="黑体">Base Callling</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-read-quality-contorl-font"><font color=#CD5555 face="黑体">Read Quality Contorl</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-adapter-trimming-font"><font color=#CD5555 face="黑体">Adapter trimming</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-gerline-sno-detection-font"><font color=#CD5555 face="黑体">Gerline SNO Detection</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-somatic-snv-detection-font"><font color=#CD5555 face="黑体">Somatic SNV detection</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-base-callling-font"><font color=#CD5555 face="黑体">Base Callling</font></a>
+<ul>
+<li><a href="#pyrobayes">PyroBayes</a></li>
+<li><a href="#alta-cyclic">Alta-Cyclic</a></li>
+<li><a href="#freeibis">freeIbis</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-read-quality-contorl-font"><font color=#CD5555 face="黑体">Read Quality Contorl</font></a>
+<ul>
+<li><a href="#trim-galore">Trim Galore!</a></li>
+<li><a href="#multiqc">MultiQC</a></li>
+<li><a href="#octopus-toolkit">Octopus-toolkit</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-adapter-trimming-font"><font color=#CD5555 face="黑体">Adapter trimming</font></a>
+<ul>
+<li><a href="#trim-galore-1">Trim Galore!</a></li>
+<li><a href="#ddocent">dDocent</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-gerline-snp-detection-font"><font color=#CD5555 face="黑体">Gerline SNP Detection</font></a>
+<ul>
+<li><a href="#gatk">GATK</a></li>
+<li><a href="#samtools">SAMtools</a></li>
+<li><a href="#ddocent-1">dDocent</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-somatic-snv-detection-font"><font color=#CD5555 face="黑体">Somatic SNV detection</font></a>
+<ul>
+<li><a href="#gatk-1">GATK</a></li>
+<li><a href="#samtools-1">SAMtools</a></li>
+<li><a href="#snooper">SNooPer</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#restriction-site-associated-dna-sequencing-data-analysis-rad-seq-analysis">Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-phylogenetic-inference-font"><font color=#CD5555 face="黑体">Phylogenetic Inference</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-snp-snv-annotation-font"><font color=#CD5555 face="黑体">SNP/SNV Annotation</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-phylogenetic-inference-font"><font color=#CD5555 face="黑体">Phylogenetic Inference</font></a>
+<ul>
+<li><a href="#mega">MEGA</a></li>
+<li><a href="#gpsit">GPSit</a></li>
+<li><a href="#angst">AnGST</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-snp-snv-annotation-font"><font color=#CD5555 face="黑体">SNP/SNV Annotation</font></a>
+<ul>
+<li><a href="#annovar">ANNOVAR</a></li>
+<li><a href="#wannovar">wANNOVAR</a></li>
+<li><a href="#dnascan">DNAscan</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
@@ -557,9 +604,199 @@ Population genomics is the large-scale comparison of DNA sequences of population
 
 <h2 id="font-color-cd5555-face-黑体-pedigree-reconstruction-font"><font color=#CD5555 face="黑体">Pedigree Reconstruction</font></h2>
 
+<h3 id="prest-plus">Prest-plus</h3>
+
+<p><p align="justify">Detects pedigree errors, cryptic relatedness and relationship mispecification in genome-wide association study (GWAS) or linkage data. Using an optimized maximum likelihood estimation (MLE) estimator for identity by descent (IBD) probabilities, prest-plus computes accurate estimates for IBD0/1/2 using any number and combination of single nucleotide polymorphism (SNP) or microsatellite marker data. It can work as efficiently and accurately with a microsatellite linkage panel or SNP data from a GWAS study.</p>
+
+<p><a href="http://www.utstat.toronto.edu/sun/Software/Prest/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://www.utstat.toronto.edu/sun/Software/Prest/media/PREST-plus%20v4.09.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Sun and Dimitromanolakis,2014)<a href="https://www.ncbi.nlm.nih.gov/pubmed/25519375" target="_blank">PREST-plus identifies pedigree errors and cryptic relatedness in the GAW18 sample using genome-wide SNP data</a>. BMC Proc.</li>
+<li>(Sun et al.,2002) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12566741" target="_blank">Enhanced pedigree error detection</a>.Hum Hered.
+(McPeek and Sun, 2000) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10712219" target="_blank">Statistical tests for detection of misspecified relationships by use of genome-screen data</a>. Am J Hum Genet.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Division of Biostatistics, Dalla Lana School of Public Health, University of Toronto, Toronto, ON, Canada; Department of Statistical Sciences, University of Toronto, Toronto, ON, Canada; Department of Clinical Biochemistry, University Health Network, Toronto, ON, Canada</p>
+
+<hr />
+
+<h3 id="franz">FRANz</h3>
+
+<p><p align="justify">A package for pedigree reconstruction in natural populations using co-dominant genomic markers such as microsatellites and single nucleotide polymorphisms (SNPs). FRANz makes use of prior information such as known relationships (sub-pedigrees) or the age and sex of individuals. The accuracy of the algorithm is demonstrated for simulated data as well as an empirical dataset with known pedigree. The parentage inference is robust even in the presence of genotyping errors.</p>
+
+<p><a href="http://www.bioinf.uni-leipzig.de/Software/FRANz/About.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://www.bioinf.uni-leipzig.de/Software/FRANz/FRANz2.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Riester et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20566407" target="_blank">Reconstruction of pedigrees in clonal plant populations</a>. Theor Popul Biol.</li>
+<li>(Riester et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19202194" target="_blank">FRANz: reconstruction of wild multi-generation pedigrees</a>.Bioinformatics.<br /></li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Bioinformatics Group, Department of Computer Science, and Interdisciplinary Center for Bioinformatics, University of Leipzig, Leipzig, Germany; RNomics Group, Fraunhofer Institut for Cell Therapy and Immunology (IZI), Leipzig, Germany; Institute for Theoretical Chemistry, University of Vienna, Währingerstrasse, Vienna, Austria; The Santa Fe Institute, Santa Fe, NM, USA</p>
+
+<hr />
+
+<h3 id="relpair">RELPAIR</h3>
+
+<p><p align="justify">Infers the most likely relationship of a pair of putative sibs. RELPER consider all possible pairs of individuals in the sample, to test for additional relationships, to allow explicitly for genotyping error, and to include X-linked data. Using autosomal genome scan data, our method has excellent power to differentiate monozygotic twins, full sibs, parent-offspring pairs, second-degree (27) relatives, first cousins, and unrelated pairs but is unable to distinguish accurately among the 27 relationships of half sibs, avuncular pairs, and grandparent-grandchild pairs.</p>
+
+<p><a href="https:// https://csg.sph.umich.edu/boehnke/relpair.php" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Epstein et al., 2000)<a href="https://www.ncbi.nlm.nih.gov/pubmed/11032786" target="_blank"> Improved inference of relationship for pairs of individuals</a>.  Am J Hum Genet.
+<strong>Institution(s)</strong><br /></li>
+</ul>
+
+<p>Department of Biostatistics, University of Michigan, Ann Arbor, MI, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-forward-simulation-font"><font color=#CD5555 face="黑体">Forward Simulation</font></h2>
 
+<h3 id="seqsimla">SeqSIMLA</h3>
+
+<p><p align="justify">A simulation tool that can simulate sequence data with user-specified disease and quantitative trait models. SeqSIMLA can efficiently simulate sequence data with disease or quantitative trait models specified by the user. It is useful for evaluating statistical properties for new study designs and new statistical methods using NGS.</p>
+
+<p><a href="http://seqsimla.sourceforge.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li><p>(Yao and Chung, 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26515824" target="_blank">SeqSIMLA2_exact: simulate multiple disease sites in large pedigrees with given disease status for diseases with low prevalence</a>. Bioinformatics.</p></li>
+
+<li><p>(Chung et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25250827" target="_blank">SeqSIMLA2: simulating correlated quantitative traits accounting for shared environmental effects in user-specified pedigree structure</a>. Genet Epidemiol.</p></li>
+
+<li><p>(Chung and Shih, 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23782512" target="_blank">SeqSIMLA: a sequence and phenotype simulation tool for complex disease studies</a>. BMC Bioinformatics.</p></li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Division of Biostatistics and Bioinformatics, Institute of Population Health Sciences, National Health Research Institutes, Zhunan, Miaoli, Taiwan</p>
+
+<hr />
+
+<h3 id="sedus">SeDuS</h3>
+
+<p><p align="justify">A flexible and user-friendly forward-in-time simulator of patterns of molecular evolution within segmental duplications undergoing interlocus gene conversion and crossover. SeDuS introduces known features of interlocus gene conversion such as biased directionality and dependence on local sequence identity. Additionally, it includes aspects such as different selective pressures acting upon copy number and flexible crossover distributions. A graphical user interface allows fast fine-tuning of relevant parameters and straightforward real-time analysis of the evolution of duplicates.</p>
+
+<p><a href="http://www.biologiaevolutiva.org/sedus/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://www.biologiaevolutiva.org/sedus/documentation.html" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li><p>(Hartasánchez et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26358728" target="_blank">SeDuS: segmental duplication simulator</a>.  Bioinformatics.</p></li>
+
+<li><p>(Hartasánchez et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24906640" target="_blank">Interplay of interlocus gene conversion and crossover in segmental duplications under a neutral scenario</a>.  G3.</p></li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Institute of Evolutionary Biology (Universitat Pompeu Fabra – CSIC), PRBB, Barcelona, Spain</p>
+
+<hr />
+
+<h3 id="sfs-code">SFS_CODE</h3>
+
+<p><p align="justify">Generates samples from populations with complex demographic histories under various models of natural selection. SFS_CODE performs simulations under a general Wright-Fisher model with arbitrary demographic, selective, and mutational effects. It allows the user to simulate realistic genomic regions with several loci evolving according to a variety of mutation models (from simple to context-dependent), and takes into account insertions and deletions. Each locus can be annotated as either coding or non-coding, sex-linked or autosomal, selected or neutral, and have an arbitrary linkage structure.</p>
+
+<p><a href="http://sfscode.sourceforge.net/SFS_CODE/index/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://sfscode.sourceforge.net/SFS_CODE_doc.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Hernandez, 2016) <a href="https://doi.org/10.1101/025064" target="_blank">SFS_CODE: More Efficient and Flexible Forward Simulations</a>. BioRxiv.</li>
+<li>(Hernandez, 2008) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18842601" target="_blank">A flexible forward simulator for populations subject to selection and demography</a>. Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Bioengineering and Therapeutic Sciences, Institute for Human Genetics, Institute for Quantitative Biosciences, University of California San Francisco, CA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-population-structure-inference-font"><font color=#CD5555 face="黑体">Population Structure Inference</font></h2>
+
+<h3 id="structure">STRUCTURE</h3>
+
+<p><p align="justify">A free software package for using multi-locus genotype data to investigate population structure. Its uses include inferring the presence of distinct populations, assigning individuals to populations, studying hybrid zones, identifying migrants and admixed individuals, and estimating population allele frequencies in situations where many individuals are migrants or admixed. It can be applied to most of the commonly-used genetic markers, including SNPS, microsatellites, RFLPs and AFLPs. fastSTRUCTURE estimates approximate posterior distributions on ancestry proportions 2 orders of magnitude faster than STRUCTURE, with ancestry estimates and prediction accuracies that are comparable to those of ADMIXTURE.</p>
+
+<p><a href="https://rajanil.github.io/fastStructure/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Hubisz et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21564903" target="_blank">Inferring weak population structure with the assistance of sample group information</a>.  Mol Ecol Resour.</li>
+<li>(Falush et al., 2007) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18784791" target="_blank">Inference of population structure using multilocus genotype data: dominant markers and null alleles</a>.Mol Ecol Notes.</li>
+<li>(Pritchard et al., 2000) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10835412" target="_blank">Inference of population structure using multilocus genotype data</a> .Genetics.</li>
+<li>(Raj et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24700103" target="_blank">fastSTRUCTURE: variational inference of population structure in large SNP data sets</a>.  Genetics.</li>
+<li>(Evanno et al., 2005) <a href="https://www.ncbi.nlm.nih.gov/pubmed/15969739" target="_blank">Detecting the number of clusters of individuals using the software STRUCTURE: a simulation study</a>. Mol Ecol.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Genetics, Stanford University, Stanford, CA, USA</p>
+
+<hr />
+
+<h3 id="pcangsd">PCAngsd</h3>
+
+<p><p align="justify">Aims to infer population structure and admixture proportions in low depth next generation sequencing (NGS) data. PCAngsd utilizes genotype likelihoods to iteratively estimate individual allele frequencies. This tool is able to overcome the observed bias of low and variable sequencing depth by using individual allele frequencies as prior information. Moreover, it can push the lower boundaries of sequencing depth required to perform population genetic analyses using NGS data of large-scale genetic studies.</p>
+
+<p><a href="https://github.com/Rosemeis/pcangsd" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Meisner and Albrechtsen, ) <a href="https://doi.org/10.1101/302463" target="_blank">Inferring Population Structure and Admixture Proportions in Low Depth Next-Generation Sequencing Data</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Biology, Section for Computational and RNA Biology, University of Copenhagen, Copenhagen, Denmark</p>
+
+<hr />
+
+<h3 id="psiko">PSIKO</h3>
+
+<p><p align="justify">A software tool written in C++ for quick and accurate estimation of individual ancestry coefficients of a dataset exhibiting population structure. PSIKO takes as input file in the .geno format, with each row consisting of a SNP, and each column consisting of an individual. It then estimates the number of founder populations, outputs ancestry estimates as well as the principal components of the dataset for subsequent use in association studies.</p>
+
+<p><a href="https://www.uea.ac.uk/computing/psiko" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Popescu and Huber, 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26142187" target="_blank">PSIKO2: a fast and versatile tool to infer population stratification on various levels in GWAS</a>. Bioinformatics.</li>
+<li>(Popescu et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25326237" target="_blank">A novel and fast approach for population structure inference using kernel-PCA and optimization</a>.  Genetics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>School of Computing Sciences, University of East Anglia, Norwich Research Park, Norwich, Norfolk, UK; Centre for Novel Agricultural Products, Department of Biology, University of York, York, UK; Department of Computational and Systems Biology, John Innes Centre, Norwich Research Park, Norwich, UK</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="genotyping-by-sequencing-data-analysis-gbs-analysis">Genotyping by Sequencing data analysis (GBS Analysis)</h1>
 
@@ -567,21 +804,452 @@ Population genomics is the large-scale comparison of DNA sequences of population
 
 <h2 id="font-color-cd5555-face-黑体-base-callling-font"><font color=#CD5555 face="黑体">Base Callling</font></h2>
 
+<h3 id="pyrobayes">PyroBayes</h3>
+
+<p><p align="justify">Consists of a base calling program for pyrosequencing reads from the 454 Life Sciences sequencing machines. PyroBayes enables single-nucleotide polymorphism (SNP) calling in resequencing applications, including in shallow read coverage.</p>
+
+<p><a href="https://urgi.versailles.inra.fr/Tools/PyroBayes" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Quinlan et al., 2008) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18193056" target="_blank">Pyrobayes: an improved base caller for SNP discovery in pyrosequences</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Biology, Boston College,Chestnut Hill, MA, USA</p>
+
+<hr />
+
+<h3 id="alta-cyclic">Alta-Cyclic</h3>
+
+<p><p align="justify">Provides an Illumina genome-analyzer base caller. Alta-Cyclic is an application that uses machine learning to compensate for noise factors. It was developed to improve the number of accurate reads for sequencing runs up to 70 bases. It also permits users to reduce systematic biases, simplifying confident identification of sequence variants. This method works in two stages: the training stage and the base-calling stage.</p>
+
+<p><a href="http://hannonlab.cshl.edu/Alta-Cyclic/main.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Erlich et al., 2008)<a href="https://www.ncbi.nlm.nih.gov/pubmed/18604217" target="_blank"> Alta-Cyclic: a self-optimizing base caller for next-generation sequencing</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Watson School of Biological Sciences, Cold Spring Harbor, NY, USA; Howard Hughes Medical Institute, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA</p>
+
+<hr />
+
+<h3 id="freeibis">freeIbis</h3>
+
+<p><p align="justify">An efficient basecaller for Illumina sequencers with calibrated quality scores. freeIbis offers significant improvements in sequence accuracy owing to the use of a novel multiclass support vector machine (SVM) algorithm. This approach produces more accurate basecalls than the default Illumina basecaller. freeIbis can use the control sequences to calibrate the output of the SVM to produce directly calibrated quality scores. For instance, freeIbis can produce quality scores that correlate highly with observed ones.</p>
+
+<p><a href="http://grenaud.github.io/freeIbis/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Renaud et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23471300" target="_blank">freeIbis: an efficient basecaller with calibrated quality scores for Illumina sequencers</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Evolutionary Genetics, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-read-quality-contorl-font"><font color=#CD5555 face="黑体">Read Quality Contorl</font></h2>
+
+<h3 id="trim-galore">Trim Galore!</h3>
+
+<p><p align="justify">Assists in automating quality, adapter trimming and quality control (QC). Trim Galore! is a wrapper script that provides functionalities to remove biased methylation positions for reduced representation bisulfite sequencing (RRBS) sequence files (for directional, non-directional (or paired-end) sequencing). It can remove sequences if they become too short during the trimming process.</p>
+
+<p><a href="http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Wu et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21169371" target="_blank">Using non-uniform read distribution models to improve isoform expression inference in RNA-Seq</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>TNLIST/Department of Automation, Tsinghua University, Beijing, China</p>
+
+<hr />
+
+<h3 id="multiqc">MultiQC</h3>
+
+<p><p align="justify">A tool to create a single report visualizing output from multiple tools across many samples, enabling global trends and biases to be quickly identified. MultiQC allows accurate comparison between samples, allowing detection of subtle differences not noticeable when switching between different files. Data visualization aids batch effect detection and minimizes the risk of confounding factors affecting the results of the study.</p>
+
+<p><a href="https://github.com/ewels/MultiQC" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/ewels/MultiQC/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Ewels et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27312411" target="_blank">MultiQC: summarize analysis results for multiple tools and samples in a single report</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Stockholm, Sweden; Department of Molecular Medicine and Surgery, Science for Life Laboratory, Center for Molecular Medicine, Karolinska Institute, Stockholm, Sweden; Science for Life Laboratory, School of Biotechnology, Division of Gene Technology, Royal Institute of Technology, Stockholm, Sweden</p>
+
+<hr />
+
+<h3 id="octopus-toolkit">Octopus-toolkit</h3>
+
+<p><p align="justify">Examines epigenomic and transcriptomic next generation sequencing (NGS) data. Octopus-toolkit can be used for antibody- or enzyme-mediated experiments and studies for the quantification of gene expression. It can accelerate the data mining of public epigenomic and transcriptomic NGS data for basic biomedical research. This tool provides a private and a public mode: one to process the user’s own data, and the other to analyze public NGS data by retrieving raw files from the GEO database.</p>
+
+<p><a href="http://octopus-toolkit2.readthedocs.io/en/latest/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://octopus-toolkit2.readthedocs.io/en/latest/guide.html" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Kim et al., 2018) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29420797" target="_blank">Octopus-toolkit: a workflow to automate mining of public epigenomic and transcriptomic next-generation sequencing data</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Korea; Laboratory of Genetics and Physiology, National Institute of Diabetes, Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA; Department of Microbiology, Dankook University, Cheonan, Korea</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-adapter-trimming-font"><font color=#CD5555 face="黑体">Adapter trimming</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-gerline-sno-detection-font"><font color=#CD5555 face="黑体">Gerline SNO Detection</font></h2>
+<p>###Trimmomatic</p>
+
+<p><p align="justify">Performs a variety of trimming tasks for Illumina paired-end and single ended data. Trimmomatic is a flexible, pair-aware preprocessing tool, optimized for Illumina next-generation sequencing (NGS) data. The software includes several processing steps for read trimming and filtering. It uses a pipeline-based architecture, allowing individual ‘steps’ (adapter removal, quality filtering, etc.) to be applied to each read/read pair, in the order specified by user.</p>
+
+<p><a href="http://www.usadellab.org/cms/index.php?page=trimmomatic" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Bolger et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24695404" target="_blank">Trimmomatic: a flexible trimmer for Illumina sequence data</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department Metabolic Networks, Max Planck Institute of Molecular Plant Physiology, Golm,Institut für Biologie I, RWTH Aachen, Aachen and Institute of Bio- and Geosciences: Plant Sciences, Forschungszentrum Jülich, Jülich, Germany</p>
+
+<hr />
+
+<h3 id="trim-galore-1">Trim Galore!</h3>
+
+<p><p align="justify">Assists in automating quality, adapter trimming and quality control (QC). Trim Galore! is a wrapper script that provides functionalities to remove biased methylation positions for reduced representation bisulfite sequencing (RRBS) sequence files (for directional, non-directional (or paired-end) sequencing). It can remove sequences if they become too short during the trimming process.</p>
+
+<p><a href="http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Wu et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21169371" target="_blank">Using non-uniform read distribution models to improve isoform expression inference in RNA-Seq</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>TNLIST/Department of Automation, Tsinghua University, Beijing, China</p>
+
+<hr />
+
+<h3 id="ddocent">dDocent</h3>
+
+<p><p align="justify">Offers a platform for population-level analyses. dDocent is an open-source software dedicated to individually barcoded restriction-site associated DNA sequencing (RADseq) data processing. The application employs data reduction techniques and interact with other programs to propose features such as de novo assembly of RAD loci, single nucleotides polymorphisms (SNPs) and indel calling as well as quality trimming or baseline data filtering.</p>
+
+<p><a href="http://ddocent.com/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://groups.google.com/forum/embed/?place=forum%2Fddocent&amp;showsearch=true&amp;showtabs=false&amp;parenturl=http%3A%2F%2Fddocent.com%2Fhelp%2F&amp;theme=default#!forum/ddocent" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><a href="https://github.com/jpuritz/dDocent/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Puritz et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24949246" target="_blank">dDocent: a RADseq, variant-calling pipeline designed for population genomics of non-model organisms</a>.  PeerJ.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Marine Genomics Laboratory, Harte Research Institute, Texas A&amp;M University-Corpus Christi, Corpus Christi, TX, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+<h2 id="font-color-cd5555-face-黑体-gerline-snp-detection-font"><font color=#CD5555 face="黑体">Gerline SNP Detection</font></h2>
+
+<h3 id="gatk">GATK</h3>
+
+<p><p align="justify">Focuses on variant discovery and genotyping. GATK provides a toolkit, developed at the Broad Institute, composed of several tools and ables to support projects of any size. The application compiles an assortment of command line allowing one to analyze of high-throughput sequencing (HTS) data in various formats such as SAM, BAM, CRAM or VCF. The website includes multiple documentation for guiding users.</p>
+
+<p>[<strong>Official Website</strong>]<a href="https://software.broadinstitute.org/gatk/)" target="_blank">https://software.broadinstitute.org/gatk/)</a></p>
+
+<p><a href="https://gatkforums.broadinstitute.org/gatk/" target="_blank"><strong>Forum</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(van der Auwera et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25431634" target="_blank">From FastQ data to high confidence variant calls: the Genome Analysis Toolkit best practices pipeline</a>. Curr Protoc Bioinformatics.</li>
+<li>(DePristo et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21478889" target="_blank">A framework for variation discovery and genotyping using next-generation DNA sequencing data</a>.  Nat Genet.</li>
+<li>(McKenna et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20644199" target="_blank">The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</a>. Genome Res.</li>
+<li>(Francioli et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27876817" target="_blank">A framework for the detection of de novo mutations in family-based sequencing data</a>.  Eur J Hum Genet.</li>
+<li>(Poplin et al., 2017) <a href="https://doi.org/10.1101/201178" target="_blank">Scaling accurate genetic variant discovery to tens of thousands of samples</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Broad Institute, Cambridge, MA, USA; Massachusetts General Hospital, Boston, MA, USA</p>
+
+<hr />
+
+<h3 id="samtools">SAMtools</h3>
+
+<p><p align="justify">Allows users to interact with high-throughput sequencing data. SAMtools permits the manipulation of alignments in the SAM/BAM/CRAM formats: reading, writing, editing, indexing, viewing and converting SAM/BAM/CRAM format. It limits the mapping quality of reads with excessive mismatches and applies base alignment quality to fix alignment errors. This tool can sort and merge alignments, remove polymerase chain reaction (PCR) duplicates or generate per-position information.</p>
+
+<p><a href="http://www.htslib.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Li, 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21903627" target="_blank">A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data</a>. Bioinformatics.</li>
+<li>(Li, 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21320865" target="_blank">Improving SNP discovery by base alignment quality</a>. Bioinformatics.</li>
+<li>(Li et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943" target="_blank">The Sequence Alignment/Map format and SAMtools</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Medical Population Genetics Program, Broad Institute, Cambridge Center, Cambridge, MA, USA</p>
+
+<hr />
+
+<h3 id="ddocent-1">dDocent</h3>
+
+<p><p align="justify">Offers a platform for population-level analyses. dDocent is an open-source software dedicated to individually barcoded restriction-site associated DNA sequencing (RADseq) data processing. The application employs data reduction techniques and interact with other programs to propose features such as de novo assembly of RAD loci, single nucleotides polymorphisms (SNPs) and indel calling as well as quality trimming or baseline data filtering.</p>
+
+<p><a href="http://ddocent.com/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://groups.google.com/forum/embed/?place=forum%2Fddocent&amp;showsearch=true&amp;showtabs=false&amp;parenturl=http%3A%2F%2Fddocent.com%2Fhelp%2F&amp;theme=default#!forum/ddocent" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><a href="https://github.com/jpuritz/dDocent/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Puritz et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24949246" target="_blank">dDocent: a RADseq, variant-calling pipeline designed for population genomics of non-model organisms</a>.  PeerJ.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Marine Genomics Laboratory, Harte Research Institute, Texas A&amp;M University-Corpus Christi, Corpus Christi, TX, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-somatic-snv-detection-font"><font color=#CD5555 face="黑体">Somatic SNV detection</font></h2>
+
+<h3 id="gatk-1">GATK</h3>
+
+<p><p align="justify">Focuses on variant discovery and genotyping. GATK provides a toolkit, developed at the Broad Institute, composed of several tools and ables to support projects of any size. The application compiles an assortment of command line allowing one to analyze of high-throughput sequencing (HTS) data in various formats such as SAM, BAM, CRAM or VCF. The website includes multiple documentation for guiding users.</p>
+
+<p>[<strong>Official Website</strong>]<a href="https://software.broadinstitute.org/gatk/)" target="_blank">https://software.broadinstitute.org/gatk/)</a></p>
+
+<p><a href="https://gatkforums.broadinstitute.org/gatk/" target="_blank"><strong>Forum</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(van der Auwera et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25431634" target="_blank">From FastQ data to high confidence variant calls: the Genome Analysis Toolkit best practices pipeline</a>. Curr Protoc Bioinformatics.</li>
+<li>(DePristo et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21478889" target="_blank">A framework for variation discovery and genotyping using next-generation DNA sequencing data</a>.  Nat Genet.</li>
+<li>(McKenna et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20644199" target="_blank">The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data</a>. Genome Res.</li>
+<li>(Francioli et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27876817" target="_blank">A framework for the detection of de novo mutations in family-based sequencing data</a>.  Eur J Hum Genet.</li>
+<li>(Poplin et al., 2017) <a href="https://doi.org/10.1101/201178" target="_blank">Scaling accurate genetic variant discovery to tens of thousands of samples</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Broad Institute, Cambridge, MA, USA; Massachusetts General Hospital, Boston, MA, USA</p>
+
+<hr />
+
+<h3 id="samtools-1">SAMtools</h3>
+
+<p><p align="justify">Allows users to interact with high-throughput sequencing data. SAMtools permits the manipulation of alignments in the SAM/BAM/CRAM formats: reading, writing, editing, indexing, viewing and converting SAM/BAM/CRAM format. It limits the mapping quality of reads with excessive mismatches and applies base alignment quality to fix alignment errors. This tool can sort and merge alignments, remove polymerase chain reaction (PCR) duplicates or generate per-position information.</p>
+
+<p><a href="http://www.htslib.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Li, 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21903627" target="_blank">A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data</a>. Bioinformatics.</li>
+<li>(Li, 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21320865" target="_blank">Improving SNP discovery by base alignment quality</a>. Bioinformatics.</li>
+<li>(Li et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19505943" target="_blank">The Sequence Alignment/Map format and SAMtools</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Medical Population Genetics Program, Broad Institute, Cambridge Center, Cambridge, MA, USA</p>
+
+<hr />
+
+<h3 id="snooper">SNooPer</h3>
+
+<p><p align="justify">A versatile machine learning approach that uses Random Forest classification models to accurately call somatic variants in low-depth sequencing data. SNooPer uses a subset of variant positions from the sequencing output for which the class, true variation or sequencing error, is known to train the data-specific model. During the training phase, using a real dataset of 40 childhood acute lymphoblastic leukemia patients, it was shown how the SNooPer algorithm is not affected by low coverage or low variant allele frequencies, and can be used to reduce overall sequencing costs while maintaining high specificity and sensitivity to somatic variant calling.</p>
+
+<p><a href="https://sourceforge.net/projects/snooper/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Spinella et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27842494" target="_blank">SNooPer: a machine learning-based method for somatic variant identification from low-pass next-generation sequencing</a>. BMC Genomics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>CHU Sainte-Justine Research Center, Université de Montréal, Montreal, Canada; Department of Pediatrics, Faculty of Medicine, Université de Montréal, Montreal, Canada; Division of Hematology-Oncology, CHU Sainte-Justine Research Center, Montreal, Canada</p>
+
+<hr />
 
 <h1 id="restriction-site-associated-dna-sequencing-data-analysis-rad-seq-analysis">Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)</h1>
 
 <p><p align="justify">RAD markers were first implemented using microarrays (Miller et al., 2007) and later adapted for NGS (Baird et al., 2008). RAD-seq could generate a genome-wide density of genetic markers. RAD-seq has been used to study population differentiation and selection (Emerson et al., 2010; Hohenlohe et al., 2011).</p>
 
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-phylogenetic-inference-font"><font color=#CD5555 face="黑体">Phylogenetic Inference</font></h2>
 
+<h3 id="mega">MEGA</h3>
+
+<p><p align="justify">An integrated tool for conducting sequence alignment, inferring phylogenetic trees, estimating divergence times, mining online databases, estimating rates of molecular evolution, inferring ancestral sequences, and testing evolutionary hypotheses.</p>
+
+<p><a href="https://www.megasoftware.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Kumar et al., 1994) <a href="https://www.ncbi.nlm.nih.gov/pubmed/8019868" target="_blank">MEGA: Molecular Evolutionary Genetics Analysis software for microcomputers</a>. Comput Appl Biosci.</li>
+<li>(Kumar et al., 2001)<a href="https://www.ncbi.nlm.nih.gov/pubmed/11751241" target="_blank">MEGA2: molecular evolutionary genetics analysis software</a>.  Bioinformatics.</li>
+<li>(Tamura et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21546353" target="_blank">MEGA5: molecular evolutionary genetics analysis using maximum likelihood, evolutionary distance, and maximum parsimony methods</a>. Mol Biol Evol.</li>
+<li>(Kumar et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27004904" target="_blank">MEGA7: Molecular Evolutionary Genetics Analysis Version 7.0 for Bigger Datasets</a>.  Mol Biol Evol.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Institute for Genomics and Evolutionary Medicine, Temple University Department of Biology, Temple University Center for Excellence in Genome Medicine and Research, King Abdulaziz University, Jeddah, Saudi Arabia.</p>
+
+<hr />
+
+<h3 id="gpsit">GPSit</h3>
+
+<p><p align="justify">Facilitates phylogenomic analyses on microeukaryotes. GPSit is an automated method that is compatible with data from genome sequencing and transcriptome sequencing, including that from single cells. The software can contribute to the automated process and scalability of collection of extended DNA barcodes and specimen identification after genome skimming or single-cell sequencing. It is useful for molecular systematics and molecular ecological investigations.</p>
+
+<p><a href="https://github.com/seanchen607/GPSit" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Chen et al., 2018) <a href="https://doi.org/10.1111/1755-0998.12750" target="_blank">GPSit: An Automated Method for Evolutionary Analysis of Nonculturable Ciliated Microeukaryotes</a>.  Mol Ecol Resour.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Institute of Evolution &amp; Marine Biodiversity, Ocean University of China, Qingdao, China; Laboratory for Marine Biology and Biotechnology, Qingdao National Laboratory for Marine Science and Technology, Qingdao, China; Department of Life Sciences, Natural History Museum, London, UK; College of Marine Life Sciences, Ocean University of China, Qingdao, China</p>
+
+<hr />
+
+<h3 id="angst">AnGST</h3>
+
+<p><p align="justify">Allows analysis of gene and species trees. AnGST is a phylogenomic method comparing individual gene phylogenies with the phylogeny of organisms. This tool uses the topology of the genealogy tree to function, and can infer the direction of gene transfer in addition to gene duplication. It accounts for uncertainty in gene trees by incorporating reconciliation into the tree-building process.</p>
+
+<p><a href="http://almlab.mit.edu/angst.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/almlab/angst/blob/master/doc/manual.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><a href="https://github.com/almlab/angst/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(David and Alm, 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21170026" target="_blank">Rapid evolutionary innovation during an Archaean genetic expansion</a>.  Nature.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Computational &amp; Systems Biology Initiative, Massachusetts Institute of Technology, Cambridge, MA, USA; Departments of Biological Engineering &amp; Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA; The Broad Institute, Cambridge, MA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-snp-snv-annotation-font"><font color=#CD5555 face="黑体">SNP/SNV Annotation</font></h2>
+
+<h3 id="annovar">ANNOVAR</h3>
+
+<p><p align="justify">An efficient software tool to utilize update-to-date information to functionally annotate genetic variants detected from diverse genomes (including human genome hg18, hg19, hg38, as well as mouse, worm, fly, yeast and many others). Using a desktop computer, ANNOVAR requires ∼4 min to perform gene-based annotation and ∼15 min to perform variants reduction on 4.7 million variants, making it practical to handle hundreds of human genomes in a day.</p>
+
+<p><a href="http://annovar.openbioinformatics.org/en/latest/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Wang et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20601685" target="_blank">ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data</a>.  Nucleic Acids Res.</li>
+<li>(Yang and Wang, 2015)<a href="https://www.ncbi.nlm.nih.gov/pubmed/26379229" target="_blank"> Genomic variant annotation and prioritization with ANNOVAR and wANNOVAR</a>.  Nat Protoc.</li>
+<li>(Chang and Wang, 2012)<a href="https://www.ncbi.nlm.nih.gov/pubmed/22717648" target="_blank"> wANNOVAR: annotating genetic variants for personal genomes via the web</a>.  J Med Genet.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Center for Applied Genomics, Children’s Hospital of Philadelphia, Department of Biostatistics and Epidemiology and Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, USA</p>
+
+<hr />
+
+<h3 id="wannovar">wANNOVAR</h3>
+
+<p><p align="justify">ANNOVAR is a rapid, efficient tool to annotate functional consequences of genetic variation from high-throughput sequencing data. wANNOVAR provides easy and intuitive web-based access to the most popular functionalities of the ANNOVAR software. It provides simple and intuitive interface to help users determine the functional significance of variants. These include annotating single nucleotide variants and insertions/deletions for their effects on genes, reporting their conservation levels (such as PhyloP and GERP++ scores), calculating their predicted functional importance scores (such as SIFT and PolyPhen scores), retrieving allele frequencies in public databases (such as the 1000 Genomes Project and NHLBI-ESP 5400 exomes), and implementing a &lsquo;variants reduction&rsquo; protocol to identify a subset of potentially deleterious variants/genes.</p>
+
+<p>[<strong>Official Website</strong>]<a href="http://wannovar.wglab.org/)" target="_blank">http://wannovar.wglab.org/)</a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Chang and Wang, 2012)<a href="https://www.ncbi.nlm.nih.gov/pubmed/22717648" target="_blank"> wANNOVAR: annotating genetic variants for personal genomes via the web</a>.  J Med Genet.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA</p>
+
+<hr />
+
+<h3 id="dnascan">DNAscan</h3>
+
+<p><p align="justify">Offers a platform dedicated to DNA next-generation sequencing (NGS) data analysis, annotation and visualization. DNAscan can be set for running on various mode to adapt its performance to focus on a specific subregion or material. The application is able to detect a wide range of genetic material including single nucleotides variants (SNVs), repeat expansions and structural variants (SVs). The application can be run through Docker and Singularity.</p>
+
+<p><a href="https://github.com/KHP-Informatics/DNAscan" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Iacoangeli et al., ) <a href="https://doi.org/10.1101/267195" target="_blank">DNAscan: a fast, computationally and memory efficient bioinformatics pipeline for the analysis of DNA next-generation-sequencing data</a>. BioRxiv.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Biostatistics and Health Informatics, King’s College London, London, UK; Maurice Wohl Clinical Neuroscience Institute, King’s College London, London, UK.</p>
+
+<hr />
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
 
@@ -614,11 +1282,11 @@ Population genomics is the large-scale comparison of DNA sequences of population
         
         <li><a href="/too2/new_geno/edit/">Genome Editing</a></li>
         
-        <li><a href="/too2/new_geno/dnastr/">DNA Structure</a></li>
-        
         <li><a href="/too2/new_geno/anno/">Genome Annotation</a></li>
         
         <li><a href="/too2/new_geno/phylogenetic/">Phylogenetic Data Analysis</a></li>
+        
+        <li><a href="/too2/new_geno/dnastr/">DNA Structure</a></li>
         
         <li><a href="/too2/new_geno/dna_pro/">DNA-Protein Interactions</a></li>
         
@@ -640,7 +1308,7 @@ Population genomics is the large-scale comparison of DNA sequences of population
 
       &copy; 2018 &middot; 
 
-      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab. zzx. All rights reserved. 
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">

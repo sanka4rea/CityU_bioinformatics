@@ -27,7 +27,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
+      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
     </item>
     
     <item>
@@ -64,8 +64,7 @@ In biology, phylogenetics is the study of the evolutionary history and relations
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/population/</guid>
-      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction Forward Simulation Population Structure Inference  Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling Read Quality Contorl Adapter trimming Gerline SNO Detection Somatic SNV detection  Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference SNP/SNV Annotation  Find more tools: OMICTOOLS   
-Population genomics is the large-scale comparison of DNA sequences of populations.</description>
+      <description>Table of Contents  Popilation Genetic Analysis  Pedigree Reconstruction  Prest-plus FRANz RELPAIR  Forward Simulation  SeqSIMLA SeDuS SFS_CODE  Population Structure Inference  STRUCTURE PCAngsd PSIKO   Genotyping by Sequencing data analysis (GBS Analysis)  Base Callling  PyroBayes Alta-Cyclic freeIbis  Read Quality Contorl  Trim Galore! MultiQC Octopus-toolkit  Adapter trimming  Trim Galore! dDocent  Gerline SNP Detection  GATK SAMtools dDocent  Somatic SNV detection  GATK SAMtools SNooPer   Restriction Site Associated DNA Sequencing Data Analysis (RAD-seq Analysis)  Phylogenetic Inference  MEGA GPSit AnGST  SNP/SNV Annotation  ANNOVAR wANNOVAR DNAscan   Find more tools: OMICTOOLS</description>
     </item>
     
   </channel>

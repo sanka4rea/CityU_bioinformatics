@@ -37,9 +37,7 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/structure/</guid>
-      <description>This part may contains the following tools: (Will be filled in the future)
-Primary structure ProtParam COILS Secondary structure PredictProtein PSIPRED tertiary structure Phyre Swiss-PdbViewer Top
-Find more tools: OMICTOOLS Image Citation</description>
+      <description>Table of Contents  Primary structure    ProtParam COILS   Secondary structure    PredictProtein PSIPRED   tertiary structure    Phyre Swiss-PdbViewer   Find more tools: OMICTOOLS   Primary structure Protein primary structure is the linear sequence of amino acids in a peptide or protein. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal &amp;copy; end.</description>
     </item>
     
     <item>
@@ -57,7 +55,7 @@ Find more tools: OMICTOOLS Image Citation</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/pro_seq/</guid>
-      <description>Table of Contents  Protein Sequence Analysis  Amino Acid Repeat Prediction Subcellular Localizaton Prediction T3S effector Prediction Protein Clustering SDS Prediction  MS-based (Mass Spectrometry) untargeted Proteomics  2D gel Image Analysis In Silico Analysis Phosphorylation Site Assignment PTM Identification Glycosylation Identification  MS-based Metaproteomics Antibody Array Analysis Proteogenomics Analysis Find more tools: OMICTOOLS   Protein Sequence Analysis Protein sequence analysis tools are used to predict specific functions, activities, origin, or localization of proteins based on their amino-acid sequence.</description>
+      <description>Table of Contents  Protein Sequence Analysis  Amino Acid Repeat Prediction  RADAR REPRO  Subcellular Localizaton Prediction  TargetP pRoloc  Protein Clustering  CD-HIT USEARCH   MS-based (Mass Spectrometry) untargeted Proteomics  2D gel Image Analysis  digeR Plasmo2D  In Silico Analysis  OpenMS multiplierz  Phosphorylation Site Assignment  Ascore Phosphonormalizer  PTM Identification  PIQED SUMmOn  Glycosylation Identification  SugarQb MAGIC   MS-based Metaproteomics    Unipept MPA   Antibody Array Analysis    PANDA   Find more tools: OMICTOOLS   Protein Sequence Analysis Protein sequence analysis tools are used to predict specific functions, activities, origin, or localization of proteins based on their amino-acid sequence.</description>
     </item>
     
   </channel>

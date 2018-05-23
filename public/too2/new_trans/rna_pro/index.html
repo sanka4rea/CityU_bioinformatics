@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  CLIP-seq Analysis  Peak Calling Motif Discovery miRNA Target Site Detection  Ribo-seq Analysis  RNase Footprint Detection Ribosome P-site Localization Ribosome Stalling Prediction Translated ORF Prediction  Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples. Recent technological and computational advances permit the analysis of many CLIP-seq samples simultaneously, allowing us to reveal the comprehensive network of RNA-protein interaction and to integrate it to other genome-wide analyses.">
+  <meta name="description" content="Table of Contents  CLIP-seq Analysis  Peak Calling  DFilter CLIPper  Motif Discovery  RNAmotifs MEMERIS  miRNA Target Site Detection  MicroMUMMIE MIRZA   Ribo-seq Analysis  Ribosome P-site Localization  RiboProfiling riboWaltz  Ribosome Stalling Prediction  ROSE  Translated ORF Prediction  ORF-RATER   Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_trans/rna_pro/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_trans/rna_pro/">
   <meta property="og:title" content="RNA-Protein Interactions | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  CLIP-seq Analysis  Peak Calling Motif Discovery miRNA Target Site Detection  Ribo-seq Analysis  RNase Footprint Detection Ribosome P-site Localization Ribosome Stalling Prediction Translated ORF Prediction  Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples. Recent technological and computational advances permit the analysis of many CLIP-seq samples simultaneously, allowing us to reveal the comprehensive network of RNA-protein interaction and to integrate it to other genome-wide analyses.">
+  <meta property="og:description" content="Table of Contents  CLIP-seq Analysis  Peak Calling  DFilter CLIPper  Motif Discovery  RNAmotifs MEMERIS  miRNA Target Site Detection  MicroMUMMIE MIRZA   Ribo-seq Analysis  Ribosome P-site Localization  RiboProfiling riboWaltz  Ribosome Stalling Prediction  ROSE  Translated ORF Prediction  ORF-RATER   Find more tools: OMICTOOLS   CLIP-seq Analysis Cross-Linking Immunoprecipitation associated to high-throughput sequencing (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    7 min read
   </span>
   
 
@@ -525,16 +525,37 @@
 <ul>
 <li><a href="#clip-seq-analysis">CLIP-seq Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak Calling</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-motif-discovery-font"><font color=#CD5555 face="黑体">Motif Discovery</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-mirna-target-site-detection-font"><font color=#CD5555 face="黑体">miRNA Target Site Detection</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak Calling</font></a>
+<ul>
+<li><a href="#dfilter">DFilter</a></li>
+<li><a href="#clipper">CLIPper</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-motif-discovery-font"><font color=#CD5555 face="黑体">Motif Discovery</font></a>
+<ul>
+<li><a href="#rnamotifs">RNAmotifs</a></li>
+<li><a href="#memeris">MEMERIS</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-mirna-target-site-detection-font"><font color=#CD5555 face="黑体">miRNA Target Site Detection</font></a>
+<ul>
+<li><a href="#micromummie">MicroMUMMIE</a></li>
+<li><a href="#mirza">MIRZA</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#ribo-seq-analysis">Ribo-seq Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-rnase-footprint-detection-font"><font color=#CD5555 face="黑体">RNase Footprint Detection</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-ribosome-p-site-localization-font"><font color=#CD5555 face="黑体">Ribosome P-site Localization</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-ribosome-stalling-prediction-font"><font color=#CD5555 face="黑体">Ribosome Stalling Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-translated-orf-prediction-font"><font color=#CD5555 face="黑体">Translated ORF Prediction</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-ribosome-p-site-localization-font"><font color=#CD5555 face="黑体">Ribosome P-site Localization</font></a>
+<ul>
+<li><a href="#riboprofiling">RiboProfiling</a></li>
+<li><a href="#ribowaltz">riboWaltz</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-ribosome-stalling-prediction-font"><font color=#CD5555 face="黑体">Ribosome Stalling Prediction</font></a>
+<ul>
+<li><a href="#rose">ROSE</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-translated-orf-prediction-font"><font color=#CD5555 face="黑体">Translated ORF Prediction</font></a>
+<ul>
+<li><a href="#orf-rater">ORF-RATER</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-transcriptomics-category">Find more tools: <a href="https://omictools.com/transcriptomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
@@ -547,21 +568,214 @@
 
 <h2 id="font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak Calling</font></h2>
 
+<h3 id="dfilter">DFilter</h3>
+
+<p><p align="justify">Detects functional signals in tag profiles from different assays such as histone ChIP-seq, TF ChiP-seq, DNase-seq and FAIRE-seq. DFilter is based on a single receiver operating characteristic – area under the curve (ROC-AUC) optimizing algorithm. This software suits for genomic signals of individual cell types diluted in cellular mixture because the proportion of marginal signals can be mistaken for noise by suboptimal algorithms.</p>
+
+<p><a href="http://collaborations.gis.a-star.edu.sg/~cmb6/kumarv1/dfilter/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Kumar et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23770639" target="_blank">Uniform, optimal signal processing of mapped deep-sequencing data</a>.  Nat Biotechnol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computational and Systems Biology, Genome Institute of Singapore, Singapore; Gene Regulation Laboratory, Genome Institute of Singapore, Singapore</p>
+
+<hr />
+
+<h3 id="clipper">CLIPper</h3>
+
+<p><p align="justify">Defines peaks in CLIP-seq dataset. CLIPper combines features from many CLIP peak-finding algorithms. To reduce false-positives, it employes a three-pass filter on our peaks. For each gene it calculates the false-discovery rate threshold (FDR), which is the &ldquo;height&rdquo; of reads mapped at a single genomic position that is likely to be noise, determined by randomly scattering the same number of faux reads as real reads across a faux transcript that is the same effective length as the real transcript.</p>
+
+<p><a href="https://github.com/YeoLab/clipper/wiki/CLIPper-Home" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/YeoLab/clipper" target="_blank"><strong>Github</strong></a></p>
+
+<p><a href="https://github.com/YeoLab/clipper/wiki" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><a href="https://groups.google.com/forum/?fromgroups#!forum/clipper-discuss" target="_blank"><strong>Forum</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Lovci et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24213538" target="_blank">Rbfox proteins regulate alternative mRNA splicing through evolutionarily conserved RNA bridges</a>.  Nat Struct Mol Biol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Supercomputing Facility for Bioinformatics &amp; Computational Biology, IIT Delhi, India; Department of Bioinformatics, Banasthali Vidyapith, Banasthali, India</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-motif-discovery-font"><font color=#CD5555 face="黑体">Motif Discovery</font></h2>
 
+<h3 id="rnamotifs">RNAmotifs</h3>
+
+<p><p align="justify">Recognizes clusters of motifs underlying regulatory principles of alternative splicing and alternative polyadenylation. RNAmotifs computes an enrichment score (ES) on the super-imposed sequences of all the features. It finds possible short motifs, convolutes their signals with a short sliding window.</p>
+
+<p><a href="https://github.com/grexor/rnamotifs2" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Cereda et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24485098" target="_blank">RNAmotifs: prediction of multivalent RNA motifs that control alternative splicing</a>.  Genome Biol.</li>
+<li>(Rot et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28467899" target="_blank">High-Resolution RNA Maps Suggest Common Principles of Splicing and Polyadenylation Regulation by TDP-43</a>.  Cell Rep.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Molecular Life Sciences and Swiss Institute of Bioinformatics, Zurich, Switzerland; MRC Laboratory of Molecular Biology, Cambridge, UK</p>
+
+<hr />
+
+<h3 id="memeris">MEMERIS</h3>
+
+<p><p align="justify">A computational method for searching sequence motifs in a set of RNA sequences and simultaneously integrating information about secondary structures. MEMERIS precomputes values that characterize the single-strandedness of all putative motif occurrences. These values are then used to guide the motif search towards single-stranded regions. Authors conclude that MEMERIS preferably selects single stranded motif occurrences and that it is able to identify a weaker over a stronger motif if the average single strandedness is sufficiently higher.</p>
+
+<p><a href="http://www.bioinf.uni-freiburg.de/~hiller/MEMERIS/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Hiller et al., 2006) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16987907" target="_blank">Using RNA secondary structures to guide sequence motif finding towards single-stranded regions</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Computer Science, Chair for Bioinformatics, Albert-Ludwigs-University Freiburg, Georges-Koehler-AlleeFreiburg, Germany</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-mirna-target-site-detection-font"><font color=#CD5555 face="黑体">miRNA Target Site Detection</font></h2>
+
+<h3 id="micromummie">MicroMUMMIE</h3>
+
+<p><p align="justify">A specific model, implemented within the MUMMIE framework, for predicting micro-RNA binding sites using PAR-CLIP data.</p>
+
+<p><a href="https://ohlerlab.mdc-berlin.de/software/microMUMMIE_99/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Majoros et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23708386" target="_blank">MicroRNA target site identification by integrating sequence and binding information</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute for Genome Sciences and Policy, Duke University, Durham, NC, USA</p>
+
+<hr />
+
+<h3 id="mirza">MIRZA</h3>
+
+<p><p align="justify">A biophysical model of miRNA-target interaction and infer its energy parameters from Ago-CLIP data. MIRZA includes parameters associated with base pairs and loops and specific miRNA position–dependent energy parameters that reflect the constraints imposed by the Argonaute protein on miRNA-mRNA interaction. MIRZA predicts the frequencies with which RNA-induced silencing complexes (RISCs) bind to different mRNA fragments in the mRNA pool.</p>
+
+<p><a href="http://www.clipz.unibas.ch/downloads/mirza/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Khorshid et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23334102" target="_blank">A biophysical miRNA-mRNA interaction model infers canonical and noncanonical targets</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Biozentrum, University of Basel, Basel, Switzerland; Swiss Institute of Bioinformatics, Basel, Switzerland</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="ribo-seq-analysis">Ribo-seq Analysis</h1>
 
 <p><p align="justify">Genome-wide analyses of gene expression have so far focused on the abundance of mRNA species as measured either by microarray or, more recently, by RNA sequencing. However, neither approach provides information on protein synthesis, which is the true end point of gene expression. <strong>Ribosome profiling</strong> is an emerging technique that uses deep sequencing to monitor in vivo translation. Studies using ribosome profiling have already provided new insights into the identity and the amount of proteins that are produced by cells, as well as detailed views into the mechanism of protein synthesis itself. <a href="https://www.ncbi.nlm.nih.gov/pubmed/24468696" target="_blank">Source</a></p>
 
-<h2 id="font-color-cd5555-face-黑体-rnase-footprint-detection-font"><font color=#CD5555 face="黑体">RNase Footprint Detection</font></h2>
-
 <h2 id="font-color-cd5555-face-黑体-ribosome-p-site-localization-font"><font color=#CD5555 face="黑体">Ribosome P-site Localization</font></h2>
+
+<h3 id="riboprofiling">RiboProfiling</h3>
+
+<p><p align="justify">Offers a collection of tools for Ribo-seq data analysis. RiboProfiling provides a unique, straightforward R implementation of a ribosome profiling pipeline from BAM, to P-site calibration, quantification of reads on sequence features, and codon coverage. The packages’ graphical features offer quality assessment and result representation across the analyses. Following the overview of Ribo-seq experiments with ’RiboProfiling, the output tables can then be easily integrated into more specialized dowstream analyses.</p>
+
+<p><a href="https://www.bioconductor.org/packages/release/bioc/html/RiboProfiling.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://www.bioconductor.org/packages/release/bioc/manuals/RiboProfiling/man/RiboProfiling.pdf" target="_blank">*<em>Documentation</em></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Popa et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27347386" target="_blank">RiboProfiling: a Bioconductor package for standard Ribo-seq pipeline processing</a>.  F1000Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institut de Pharmacologie Moléculaire et Cellulaire, University Nice Sophia Antipolis and CNRS, Sophia- Antipolis, Nice, France</p>
+
+<hr />
+
+<h3 id="ribowaltz">riboWaltz</h3>
+
+<p><p align="justify">Computes the P-site Offset (PO) for all reads from single or multiple RiboSeq samples. riboWaltz provides the user with a variety of graphical representations, laying the foundations for further accurate RiboSeq analyses and better interpretation of positional information. It uses reads aligning across annotated translation initiation sites to identify P-site. This tool is able to assist with the detailed interrogation of RiboSeq data at single nucleotide resolution.</p>
+
+<p><a href="https://github.com/LabTranslationalArchitectomics/RiboWaltz" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Lauria et al., 2017) <a href="https://www.biorxiv.org/content/early/2017/07/28/169862" target="_blank">riboWaltz: optimization of ribosome P-site positioning in ribosome profiling data</a>.  BioRxiv.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Biophysics, CNR Unit at Trento, Italy; Centre for Integrative Biology, University of Trento, Italy</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-ribosome-stalling-prediction-font"><font color=#CD5555 face="黑体">Ribosome Stalling Prediction</font></h2>
 
+<h3 id="rose">ROSE</h3>
+
+<p><p align="justify">Analyzes large-scale ribosome profiling data and study the contextual regulation of ribosome stalling and its potential functions in protein biogenesis. ROSE formalizes the modeling problem as a classification task, in which the resulting prediction score can be used to measure the probability of a ribosome stalling event. It is able to predict ribosome stalling events in several different datasets generated from other studies.</p>
+
+<p><a href="https://github.com/zhangsaithu/rose" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Zhang et al., 2016) <a href="https://doi.org/10.1101/067108" target="_blank">ROSE: a deep learning based framework for predicting ribosome stalling</a>.  BioRxiv.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute for Interdisciplinary Information Sciences, Tsinghua University, Beijing, China; School of Medicine, Tsinghua University, Beijing, China</p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-translated-orf-prediction-font"><font color=#CD5555 face="黑体">Translated ORF Prediction</font></h2>
+
+<h3 id="orf-rater">ORF-RATER</h3>
+
+<p><p align="justify">Allows users to identify and quantify translation from protein-coding DNA sequences (CDSs) regardless of start codon. ORF-RATER makes the assumption that translated ORFs display a pattern of ribosome occupancy that mimics that of annotated genes. This tool is based on linear regression, which naturally integrates multiple lines of evidence simultaneously. Also, it enables each open reading frame (ORF) to be evaluated in the context of nearby and overlapping ORFs.</p>
+
+<p><a href="https://github.com/alexfields/ORF-RATER" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Fields et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26638175" target="_blank">A Regression-Based Analysis of Ribosome-Profiling Data Reveals a Conserved Complexity to Mammalian Translation</a>.  Mol Cell.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Howard Hughes Medical Institute, Department of Cellular and Molecular Pharmacology, University of California, San Francisco and California Institute for Quantitative Biomedical Research, San Francisco, CA, USA</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
 
@@ -592,13 +806,13 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_trans/rnamodification/">RNA Modifications</a></li>
-        
-        <li><a href="/too2/new_trans/lowlevel/">Low-level RNA detection</a></li>
+        <li><a href="/too2/new_trans/non_coding/">Non-Coding RNA</a></li>
         
         <li><a href="/too2/new_trans/transcription/">RNA Transcription</a></li>
         
-        <li><a href="/too2/new_trans/non_coding/">Non-Coding RNA</a></li>
+        <li><a href="/too2/new_trans/lowlevel/">Low-level RNA detection</a></li>
+        
+        <li><a href="/too2/new_trans/rnamodification/">RNA Modifications</a></li>
         
       </ul>
     </div>
@@ -618,7 +832,7 @@
 
       &copy; 2018 &middot; 
 
-      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab. zzx. All rights reserved. 
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">

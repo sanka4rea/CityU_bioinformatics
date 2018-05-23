@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.">
+  <meta name="description" content="Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_geno/dna_pro/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_geno/dna_pro/">
   <meta property="og:title" content="DNA-Protein Interactions | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.">
+  <meta property="og:description" content="Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    7 min read
   </span>
   
 
@@ -527,10 +527,28 @@
 <li><a href="#dnase-seq-analysis">DNase-seq Analysis</a></li>
 <li><a href="#chip-seq-analysis">ChIP-seq Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-de-novo-assembly-font"><font color=#CD5555 face="黑体">De novo assembly</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak calling</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-differential-peak-calling-font"><font color=#CD5555 face="黑体">Differential peak calling</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-de-novo-assembly-font"><font color=#CD5555 face="黑体">De novo assembly</font></a>
+<ul>
+<li><a href="#denovochipseq">denovochipseq</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak calling</font></a>
+<ul>
+<li><a href="#homer">HOMER</a></li>
+<li><a href="#macs">MACS</a></li>
+<li><a href="#sicer">SICER</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-differential-peak-calling-font"><font color=#CD5555 face="黑体">Differential peak calling</font></a>
+<ul>
+<li><a href="#diffbind">DiffBind</a></li>
+<li><a href="#genogam">GenoGAM</a></li>
+<li><a href="#manorm">MAnorm</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></a>
+<ul>
+<li><a href="#homer-1">HOMER</a></li>
+<li><a href="#weeder">Weeder</a></li>
+<li><a href="#kmerhmm">kmerHMM</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-genomics2-category">Find more tools: <a href="https://omictools.com/genomics2-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
@@ -541,7 +559,15 @@
 
 <h1 id="ht-selex-analysis">HT-SELEX Analysis</h1>
 
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h1 id="dnase-seq-analysis">DNase-seq Analysis</h1>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="chip-seq-analysis">ChIP-seq Analysis</h1>
 
@@ -549,11 +575,207 @@
 
 <h2 id="font-color-cd5555-face-黑体-de-novo-assembly-font"><font color=#CD5555 face="黑体">De novo assembly</font></h2>
 
+<h3 id="denovochipseq">denovochipseq</h3>
+
+<p><p align="justify">A computational pipeline to extract the transcription factor binding motifs from ChIP-seq data, assuming no reference genome is available. denovochipseq combines de novo assembly with statistical tests enabling motif discovery without the use of a reference genome. We validate the performance of denovochipseq using human and mouse data. Analysis of fly data indicates that denovochipseq outperforms alignment based methods that utilize closely related species.</p>
+
+<p><a href="https://github.com/yuhaow/denovochipseq" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/yuhaow/denovochipseq/issues" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(He et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26400819" target="_blank">De novo ChIP-seq analysis</a>.  Genome Biol.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Human Genetics, The University of Chicago, CLSC, Chicago, IL, USA; Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak calling</font></h2>
+
+<h3 id="homer">HOMER</h3>
+
+<p><p align="justify">Performs peak finding and downstream data analysis for next-generation sequencing analysis. HOMER affords several tools and methods to make use of ChIP-Seq, GRO-Seq, RNA-Seq, DNase-Seq, Hi-C and other types of functional genomics sequencing data sets. This software offers support to UCSC visualization, peaks annotation, quantification of transcripts and repeats or differential features, enrichment and expression.</p>
+
+<p><a href="http://homer.ucsd.edu/homer/ngs/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Heinz et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20513432" target="_blank">Simple combinations of lineage-determining transcription factors prime cis-regulatory elements required for macrophage and B cell identities</a>. Mol Cell.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, USA; Department of Medicine, University of California, San Diego, La Jolla, CA, USA</p>
+
+<hr />
+
+<h3 id="macs">MACS</h3>
+
+<p><p align="justify">Analyzes data generated by short read sequencers. MACS is a standalone software dedicated to the forecasting of protein-DNA interaction sites from ChIP-Seq. The application is able to: (i) model the distance d and shifting tags by d/2 to enable the spatial resolution of the predicted sites; (ii) capture local biases in the genome by exploiting a dynamic λ local parameter and (iii) evaluate the false discovery rate (FDR) for each detected peak.</p>
+
+<p><a href="https://github.com/taoliu/MACS" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/taoliu/MACS/" target="_blank"><strong>Github</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Zhang et al., 2008) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18798982" target="_blank">Model-based analysis of ChIP-Seq (MACS)</a>.  Genome Biol.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute and Harvard School of Public Health, Boston, MA, USA.</p>
+
+<hr />
+
+<h3 id="sicer">SICER</h3>
+
+<p><p align="justify">Recognizes ChIP-enriched regions in histone modification data. SCIER is based on a mathematical theory for the score distribution in a genomic background model of random reads. It finds spatial clusters, large and small, unlikely to appear by chance. This tool is able to deal with the enrichment context of a local window in determining its significance. It assists users to reduce the sampling fluctuations in the control library.</p>
+
+<p><a href="https://home.gwu.edu/~wpeng/Software.htm" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Zang et al., 2009)<a href="https://www.ncbi.nlm.nih.gov/pubmed/19505939" target="_blank"> A clustering approach for identification of enriched domains from histone modification ChIP-Seq data</a>. Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Physics, The George Washington University, Washington, DC, USA; Laboratory of Molecular Immunology, National Heart Lung and Blood Institute, NIH, Bethesda, MD, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-differential-peak-calling-font"><font color=#CD5555 face="黑体">Differential peak calling</font></h2>
 
+<h3 id="diffbind">DiffBind</h3>
+
+<p><p align="justify">Allows processing ChIP-seq data enriched for genomic loci where specific protein/DNA binding occurs. DiffBind is applicable to peak sets identified by ChIP-seq peak callers and aligned sequence read datasets. It is able to find sites that are differentially bound between two sample groups. This tool is useful to manage the results of multiple peak callers. It can serve to merge peak sets and count sequencing reads overlapping intervals in peak sets.</p>
+
+<p><a href="http://bioconductor.org/packages/release/bioc/html/DiffBind.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="http://bioconductor.org/packages/release/bioc/manuals/DiffBind/man/DiffBind.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Ross-Innes et al., 2012) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22217937" target="_blank">Differential oestrogen receptor binding is associated with clinical outcome in breast cancer</a>.  Nature.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Cancer Research UK, Cambridge Research Institute, Li Ka Shing Centre, Cambridge, UK; UCL Cancer Institute, University College London, London, UK.</p>
+
+<hr />
+
+<h3 id="genogam">GenoGAM</h3>
+
+<p><p align="justify">Offers methods dedicated to ChIP-Seq factorial design experiments modelization. GenoGAM is an R package employing generalized additive models to perform statistical analysis of genome-wide data. It provides base-level and region-level significance testing with controlled type I error rate. Additionally, the software is able to fit generalized additive models (GAMs) to very long longitudinal data such as whole chromosomes at base-pair resolution.</p>
+
+<p><a href="https://github.com/gstricker/fastGenoGAM" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://www.bioconductor.org/packages/release/bioc/vignettes/GenoGAM/inst/doc/GenoGAM.pdf" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Stricker, 2016) <a href="https://doi.org/10.1101/047464" target="_blank">Genome-wide generalized additive models</a>.  BioRxiv.</li>
+<li>(Stricker et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28369277" target="_blank">GenoGAM: genome-wide generalized additive models for ChIP-Seq analysis</a>.  Bioinformatics.</li>
+<li>(Stricker et al., 2018) <a href="https://doi.org/10.1101/265595" target="_blank">GenoGAM 2.0: Scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes</a>. BioRxiv.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Informatics, Technical University Munich, Munich, Germany</p>
+
+<hr />
+
+<h3 id="manorm">MAnorm</h3>
+
+<p><p align="justify">A simple and effective method for quantitative comparison of ChIP-Seq data sets describing transcription factor binding sites and epigenetic modifications. The quantitative binding differences inferred by MAnorm showed strong correlation with both the changes in expression of target genes and the binding of cell type-specific regulators.</p>
+
+<p><a href="http://bcb.dfci.harvard.edu/~gcyuan/MAnorm/MAnorm.htm" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Shao et al., 2012) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22424423" target="_blank">MAnorm: a robust model for quantitative comparison of ChIP-Seq data sets</a>.  Genome Biol.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Departments of Pediatric Oncology and Computational Biology, Dana-Farber Cancer Institute, Boston, MA, USA, Division of Pediatric Hematology-Oncology, The Karp Family Research Laboratories, Children&rsquo;s Hospital, Boston, MA, USA and Division of Cell and Molecular Biology, Department of Biology, Boston University, Boston, MA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></h2>
+
+<h3 id="homer-1">HOMER</h3>
+
+<p><p align="justify">Performs peak finding and downstream data analysis for next-generation sequencing analysis. HOMER affords several tools and methods to make use of ChIP-Seq, GRO-Seq, RNA-Seq, DNase-Seq, Hi-C and other types of functional genomics sequencing data sets. This software offers support to UCSC visualization, peaks annotation, quantification of transcripts and repeats or differential features, enrichment and expression.</p>
+
+<p><a href="http://homer.ucsd.edu/homer/ngs/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Heinz et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20513432" target="_blank">Simple combinations of lineage-determining transcription factors prime cis-regulatory elements required for macrophage and B cell identities</a>. Mol Cell.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, USA; Department of Medicine, University of California, San Diego, La Jolla, CA, USA</p>
+
+<hr />
+
+<h3 id="weeder">Weeder</h3>
+
+<p><p align="justify">Falls into the motif enumeration family of motif discovery tools in which the occurrence of motifs in the query sequences are counted and, in this case, compared to a pre-calculated set of genome specific background motifs. This has the benefit of not having to construct a background set of sequences (no easy task). Weeder was initially used to identify common motifs in defined promoter regions, but evolved to consider first ChIP-chip and then ChIP-seq data.</p>
+
+<p><a href="https://omictools.com/weeder-tool" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>Pavesi et al., 2004) <a href="https://www.ncbi.nlm.nih.gov/pubmed/15215380" target="_blank">Weeder Web: discovery of transcription factor binding sites in a set of sequences from co-regulated genes</a>. Nucleic Acids Res.</li>
+<li>(Pavesi et al., 2006) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16845071" target="_blank">MoD Tools: regulatory motif discovery in nucleotide sequences from co-regulated or homologous genes</a>. Nucleic Acids Res.</li>
+<li>(Zambelli et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25199791" target="_blank">Using Weeder, Pscan, and PscanChIP for the Discovery of Enriched Transcription Factor Binding Site Motifs in Nucleotide Sequences</a>. Curr Protoc Bioinformatics.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>University of Milan, Italy</p>
+
+<hr />
+
+<h3 id="kmerhmm">kmerHMM</h3>
+
+<p><p align="justify">Discovers DNA motifs on protein binding microarray (PBM) data. kmerHMM is a computational pipeline for PBM motif discovery in which hidden markov models (HMMs) are trained to model DNA motifs, and Belief Propagation is used to elucidate multiple motif models from each trained HMM. The software model the dependence between adjacent nucleotide positions and can also deduce multiple binding modes for a given transcription factor (TF).</p>
+
+<p><a href="http://www.cs.toronto.edu/~wkc/kmerHMM/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong></p>
+
+<ul>
+<li>(Wong et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23814189" target="_blank">DNA motif elucidation using belief propagation</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institution(s)</strong></p>
+
+<p>Department of Computer Science, University of Toronto, Toronto, ON, Canada; Terrence Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, ON, Canada.</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
 
@@ -586,13 +808,13 @@
         
         <li><a href="/too2/new_geno/anno/">Genome Annotation</a></li>
         
+        <li><a href="/too2/new_geno/phylogenetic/">Phylogenetic Data Analysis</a></li>
+        
         <li><a href="/too2/new_geno/population/">Population Genomics</a></li>
         
         <li><a href="/too2/new_geno/dnastr/">DNA Structure</a></li>
         
         <li><a href="/too2/new_geno/edit/">Genome Editing</a></li>
-        
-        <li><a href="/too2/new_geno/phylogenetic/">Phylogenetic Data Analysis</a></li>
         
       </ul>
     </div>
@@ -612,7 +834,7 @@
 
       &copy; 2018 &middot; 
 
-      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab. zzx. All rights reserved. 
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">

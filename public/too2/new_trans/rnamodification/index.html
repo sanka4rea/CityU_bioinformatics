@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  RNA Modifications Analysis  Protein-binding Region Prediction RNA Editing Prediction Alternative Splicing Annotation RNA Methylation Prediction  Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)  Spliced Read Alignment Peak Calling De novo motif discovery  Degradome-seq Analysis Find more tools: OMICTOOLS   RNA Modifications Analysis From a biosynthetic point of view, the roughly 100 known different RNA nucleotide modifications can be easily divided according to their complexity.">
+  <meta name="description" content="Table of Contents  RNA Modifications Analysis  Protein-binding Region Prediction  RNAcompete catRAPID omics RBPmap  Alternative Splicing Annotation  APPRIS rPGA Exogean  RNA Methylation Prediction  SRAMP iRNAm5C-PseDNC m6Apred   Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)  Spliced Read Alignment  TopHat HISAT | Hierarchical Indexing for Spliced Alignment of Transcripts Subread  Peak Calling  ExomePeak | Peak calling : MeRIP-seq analysis MeTPeak  De novo motif discovery  Weeder HOMER | Hypergeometric Optimization of Motif EnRichment MEME Suite   Degradome-seq Analysis    sPARTA package CleaveLand   Find more tools: OMICTOOLS   RNA Modifications Analysis From a biosynthetic point of view, the roughly 100 known different RNA nucleotide modifications can be easily divided according to their complexity.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_trans/rnamodification/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_trans/rnamodification/">
   <meta property="og:title" content="RNA Modifications | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  RNA Modifications Analysis  Protein-binding Region Prediction RNA Editing Prediction Alternative Splicing Annotation RNA Methylation Prediction  Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)  Spliced Read Alignment Peak Calling De novo motif discovery  Degradome-seq Analysis Find more tools: OMICTOOLS   RNA Modifications Analysis From a biosynthetic point of view, the roughly 100 known different RNA nucleotide modifications can be easily divided according to their complexity.">
+  <meta property="og:description" content="Table of Contents  RNA Modifications Analysis  Protein-binding Region Prediction  RNAcompete catRAPID omics RBPmap  Alternative Splicing Annotation  APPRIS rPGA Exogean  RNA Methylation Prediction  SRAMP iRNAm5C-PseDNC m6Apred   Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)  Spliced Read Alignment  TopHat HISAT | Hierarchical Indexing for Spliced Alignment of Transcripts Subread  Peak Calling  ExomePeak | Peak calling : MeRIP-seq analysis MeTPeak  De novo motif discovery  Weeder HOMER | Hypergeometric Optimization of Motif EnRichment MEME Suite   Degradome-seq Analysis    sPARTA package CleaveLand   Find more tools: OMICTOOLS   RNA Modifications Analysis From a biosynthetic point of view, the roughly 100 known different RNA nucleotide modifications can be easily divided according to their complexity.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    12 min read
   </span>
   
 
@@ -525,18 +525,53 @@
 <ul>
 <li><a href="#rna-modifications-analysis">RNA Modifications Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-protein-binding-region-prediction-font"><font color=#CD5555 face="黑体">Protein-binding Region Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-rna-editing-prediction-font"><font color=#CD5555 face="黑体">RNA Editing Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-alternative-splicing-annotation-font"><font color=#CD5555 face="黑体">Alternative Splicing Annotation</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-rna-methylation-prediction-font"><font color=#CD5555 face="黑体">RNA Methylation Prediction</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-protein-binding-region-prediction-font"><font color=#CD5555 face="黑体">Protein-binding Region Prediction</font></a>
+<ul>
+<li><a href="#rnacompete">RNAcompete</a></li>
+<li><a href="#catrapid-omics">catRAPID omics</a></li>
+<li><a href="#rbpmap">RBPmap</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-alternative-splicing-annotation-font"><font color=#CD5555 face="黑体">Alternative Splicing Annotation</font></a>
+<ul>
+<li><a href="#appris">APPRIS</a></li>
+<li><a href="#rpga">rPGA</a></li>
+<li><a href="#exogean">Exogean</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-rna-methylation-prediction-font"><font color=#CD5555 face="黑体">RNA Methylation Prediction</font></a>
+<ul>
+<li><a href="#sramp">SRAMP</a></li>
+<li><a href="#irnam5c-psednc">iRNAm5C-PseDNC</a></li>
+<li><a href="#m6apred">m6Apred</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#methylated-rna-immunoprecipitation-sequencing-data-analysis-merip-seq-analysis">Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-spliced-read-alignment-font"><font color=#CD5555 face="黑体">Spliced Read Alignment</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak Calling</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-spliced-read-alignment-font"><font color=#CD5555 face="黑体">Spliced Read Alignment</font></a>
+<ul>
+<li><a href="#tophat">TopHat</a></li>
+<li><a href="#hisat-hierarchical-indexing-for-spliced-alignment-of-transcripts">HISAT | Hierarchical Indexing for Spliced Alignment of Transcripts</a></li>
+<li><a href="#subread">Subread</a></li>
 </ul></li>
-<li><a href="#degradome-seq-analysis">Degradome-seq Analysis</a></li>
+<li><a href="#font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak Calling</font></a>
+<ul>
+<li><a href="#exomepeak-peak-calling-merip-seq-analysis">ExomePeak | Peak calling : MeRIP-seq analysis</a></li>
+<li><a href="#metpeak">MeTPeak</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></a>
+<ul>
+<li><a href="#weeder">Weeder</a></li>
+<li><a href="#homer-hypergeometric-optimization-of-motif-enrichment">HOMER | Hypergeometric Optimization of Motif EnRichment</a></li>
+<li><a href="#meme-suite">MEME Suite</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#degradome-seq-analysis">Degradome-seq Analysis</a>
+<ul>
+<li>
+<ul>
+<li><a href="#sparta-package">sPARTA package</a></li>
+<li><a href="#cleaveland">CleaveLand</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-transcriptomics-category">Find more tools: <a href="https://omictools.com/transcriptomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -548,11 +583,182 @@
 
 <h2 id="font-color-cd5555-face-黑体-protein-binding-region-prediction-font"><font color=#CD5555 face="黑体">Protein-binding Region Prediction</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-rna-editing-prediction-font"><font color=#CD5555 face="黑体">RNA Editing Prediction</font></h2>
+<h3 id="rnacompete">RNAcompete</h3>
+
+<p><p align="justify">Allows the study of RNA-protein interactions. RNAcompete provides an estimate of relative preference for a large number of individual sequences using a single binding reaction. It also permits to design arrays that focus on variants of a specific type of sequence and structure. Finally, this method can be used to reliably identify preferred binding sequences for RNA-binding proteins (RBPs), whether these are in structured or unstructured RNA contexts.</p>
+
+<p><a href="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Ray et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19561594" target="_blank">Rapid and systematic analysis of the RNA recognition specificities of RNA-binding proteins</a>.  Nat Biotechnol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Banting and Best Department of Medical Research, University of Toronto, Toronto, ON, Canada; Department of Computer Science, University of Toronto, Toronto, ON, Canada</p>
+
+<hr />
+
+<h3 id="catrapid-omics">catRAPID omics</h3>
+
+<p><p align="justify">A server for large-scale calculations of protein-RNA interactions. catRAPID omics allows (i) predictions at proteomic and transcriptomic level; (ii) use of protein and RNA sequences without size restriction; (iii) analysis of nucleic acid binding regions in proteins; and (iv) detection of RNA motifs involved in protein recognition.</p>
+
+<p><a href="http://s.tartaglialab.com/page/catrapid_omics_group" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Agostini et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23975767" target="_blank">catRAPID omics: a web server for large-scale prediction of protein-RNA interactions</a>.  Bioinformatics.</li>
+<li>(Bellucci et al., 2011) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21623348" target="_blank">Predicting protein associations with long noncoding RNAs</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Gene Function and Evolution, Bioinformatics and Genomics, Centre for Genomic Regulation (CRG) and Universitat Pompeu Fabra (UPF), Barcelona, Spain</p>
+
+<hr />
+
+<h3 id="rbpmap">RBPmap</h3>
+
+<p><p align="justify">A web server for accurate prediction and mapping of RBP binding sites. RBPmap has been developed specifically for mapping RBPs in human, mouse and Drosophila melanogaster genomes, though it supports other organisms too. RBPmap enables the users to select motifs from a large database of experimentally defined motifs. In addition, users can provide any motif of interest, given as either a consensus or a PSSM.</p>
+
+<p><a href="http://rbpmap.technion.ac.il/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Paz et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24829458" target="_blank">RBPmap: a web server for mapping binding sites of RNA-binding proteins</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biology, Technion - Israel Institute of Technology, Technion City, Haifa, Israel</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-alternative-splicing-annotation-font"><font color=#CD5555 face="黑体">Alternative Splicing Annotation</font></h2>
 
+<h3 id="appris">APPRIS</h3>
+
+<p><p align="justify">The main goal of developing the APPRIS WebServer and WebServices is to allow users to annotate splice isoforms and select a principal isoform for vertebrate genome species beyond those that are annotated in the APPRIS Database, to annotate genes and variants that are missing from the APPRIS Database, and to annotate their experimental results with existing annotations. The APPRIS WebServer has been designed to be used for the comparison of splice isoform annotations for individual genes, while the APPRIS WebServices have been created to allow access to the APPRIS Database and to run an automatic version of the APPRIS server, using REST architecture to be portable, modular and flexible in the automation of programmatic scripts.</p>
+
+<p><a href="http://appris.bioinfo.cnio.es/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Rodriguez et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25990727" target="_blank">APPRIS WebServer and WebServices</a>.  Nucleic Acids Res.</li>
+<li>(Rodriguez et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23161672" target="_blank">APPRIS: annotation of principal and alternative splice isoforms</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Spanish National Bioinformatics Institute (INB) and Structural Biology and Biocomputing Programme, Spanish National Cancer Research Centre (CNIO), Madrid, Spain</p>
+
+<hr />
+
+<h3 id="rpga">rPGA</h3>
+
+<p><p align="justify">Allows users to discover hidden splice junctions by mapping personal RNA-seq data to the matching personal genome sequence. rPGA personalizes the reference genome according to an individual’s single nucleotide polymorphisms (SNPs) and then maps the individual’s transcriptome to the corresponding personal genome, and discovers novel splice variants specific to the individual. This software was applied to analyze RNA-seq data from individuals with whole-genome genotype data in the 1000 Genomes project.</p>
+
+<p><a href="https://github.com/Xinglab/rPGA" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://github.com/Xinglab/rPGA/wiki" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Stein et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26578562" target="_blank">Discover hidden splicing variations by mapping personal transcriptomes to personal genomes</a>.  Nucleic Acids Res</li>
+<li>(Stein et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28766294" target="_blank">Using RNA-Seq to Discover Genetic Polymorphisms That Produce Hidden Splice Variants</a>.  Methods Mol Biol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA, USA</p>
+
+<hr />
+
+<h3 id="exogean">Exogean</h3>
+
+<p><p align="justify">Predicts transcripts human mRNA and mouse protein sequence alignments. Exogean enables prediction of several alternative transcripts per gene. It can be useful for annotation of eukaryote protein coding genes based on alignments with proteins from a different species and/or mRNAs from the same species. This tool produces information on each predicted gene and transcript that summarizes their structure, the evidence used, the problems and conflicts encountered and the solutions applied.</p>
+
+<p><a href="https://github.com/DyogenIBENS/Exogean" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Djebali et al., 2006) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16925841" target="_blank">Exogean: a framework for annotating protein-coding genes in eukaryotic genomic DNA</a>.  Genome Biol.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Dyogen Lab, CNRS UMR8541, Ecole Normale Superieure, Paris, France; IBISC Lab, CNRS FRE2873, Universite d’Evry Val d’Essonne, Genopole, Evry, France</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-rna-methylation-prediction-font"><font color=#CD5555 face="黑体">RNA Methylation Prediction</font></h2>
+
+<h3 id="sramp">SRAMP</h3>
+
+<p><p align="justify">A mammalian m6A sites predictor. SRAMP achieves promising performance both in cross-validation tests on its training dataset, and in the rigorous independent tests. Another highlighting trait of this predictor is that only RNA sequences are required when running a prediction and no external -omics data are loaded. With either kind of input sequence, SRAMP achieves competitive performance in both cross-validation tests and rigorous independent benchmarking tests. SRAMP serves as a useful tool to predict m6A modification sites on the RNA sequences of interests.</p>
+
+<p><a href="http://www.cuilab.cn/sramp" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Zhou et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26896799" target="_blank">SRAMP: prediction of mammalian N6-methyladenosine (m6A) sites based on sequence-derived features</a>.  Nucleic Acids Res.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University, Beijing, China</p>
+
+<hr />
+
+<h3 id="irnam5c-psednc">iRNAm5C-PseDNC</h3>
+
+<p><p align="justify">Predicts the identifying RNA 5-methylcytosine modification sites. iRNAm5C-PseDNC is a web-server and a predictor developed by incorporating ten types of physical-chemical properties into pseudo dinucleotide composition. To obtain the predicted result with the anticipated success rate, the user have to employ the entire sequence of the query RNA rather than its fragment as an input.</p>
+
+<p><a href="http://www.jci-bioinfo.cn/iRNAm5C-PseDNC" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Qiu et al., 2017) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28476023" target="_blank">iRNAm5C-PseDNC: identifying RNA 5-methylcytosine sites by incorporating physical-chemical properties into pseudo dinucleotide composition</a>. Oncotarget.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Computer Science and Bond Life Science Center, University of Missouri, Columbia, MO, USA</p>
+
+<hr />
+
+<h3 id="m6apred">m6Apred</h3>
+
+<p><p align="justify">A support vector machine based-method is proposed to identify m(6)A sites in Saccharomyces cerevisiae genome. In this model, RNA sequences are encoded by their nucleotide chemical property and accumulated nucleotide frequency information. It is observed in the jackknife test that the accuracy achieved by the proposed model in identifying the m(6)A site was 78.15%.</p>
+
+<p><a href="http://lin-group.cn/server/m6Apred.php" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Chen et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26343792" target="_blank">Identification and analysis of the N(6)-methyladenosine in the Saccharomyces cerevisiae transcriptome</a>.  Sci Rep.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Physics, School of Sciences, and Center for Genomics and Computational Biology, Hebei United University, Tangshan, China</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="methylated-rna-immunoprecipitation-sequencing-data-analysis-merip-seq-analysis">Methylated RNA Immunoprecipitation Sequencing Data Analysis (MeRIP-seq Analysis)</h1>
 
@@ -560,11 +766,208 @@
 
 <h2 id="font-color-cd5555-face-黑体-spliced-read-alignment-font"><font color=#CD5555 face="黑体">Spliced Read Alignment</font></h2>
 
+<h3 id="tophat">TopHat</h3>
+
+<p><p align="justify">Aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie. TopHat also analyzes the mapping results to identify splice junctions between exons. It can align reads of various lengths produced by the latest sequencing technologies, while allowing for variable-length indels with respect to the reference genome. The tool combines the ability to identify novel splice sites with direct mapping to known transcripts, producing sensitive and accurate alignments, even for highly repetitive genomes or in the presence of pseudogenes.</p>
+
+<p><a href="http://ccb.jhu.edu/software/tophat/index.shtml" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://toolshed.g2.bx.psu.edu/repository?repository_id=3bece861a6a3608c" target="_blank"><strong>Galaxy</strong></a></p>
+
+<p><a href="Documentation:  http://ccb.jhu.edu/software/tophat/manual.shtml" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Kim et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23618408" target="_blank">TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions</a>.  Genome Biol.<br /></li>
+<li>(Trapnell et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19289445" target="_blank">TopHat: discovering splice junctions with RNA-Seq</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD, USA; Department of Computer Science, University of Maryland, College Park, MD, USA</p>
+
+<hr />
+
+<h3 id="hisat-hierarchical-indexing-for-spliced-alignment-of-transcripts">HISAT | Hierarchical Indexing for Spliced Alignment of Transcripts</h3>
+
+<p><p align="justify">A fast and sensitive spliced alignment program for mapping RNA-seq reads. In addition to one global FM index that represents a whole genome, HISAT uses a large set of small FM indexes that collectively cover the whole genome (each index represents a genomic region of ~64,000 bp and ~48,000 indexes are needed to cover the human genome). These small indexes (called local indexes) combined with several alignment strategies enable effective alignment of RNA-seq reads, in particular, reads spanning multiple exons. The memory footprint of HISAT is relatively low (~4.3GB for the human genome).</p>
+
+<p><a href="http://www.ccb.jhu.edu/software/hisat/index.shtml" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Kim et al., 2015) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25751142" target="_blank">HISAT: a fast spliced aligner with low memory requirements</a>.  Nat Methods.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Center for Computational Biology, McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD, USA</p>
+
+<hr />
+
+<h3 id="subread">Subread</h3>
+
+<p><p align="justify">Assists users in mapping reads to a reference genome. Subread consists of a seed-and-vote step, that achieves local alignment simultaneously in multiple parts of the read. This strategy uses a large number of short equi-spaced seeds from each read, called subreads. It allows all the subreads to vote on the optimal location for the read.</p>
+
+<p><a href="http://subread.sourceforge.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://toolshed.g2.bx.psu.edu/repository?repository_id=a6153f28cd8d7a19" target="_blank"><strong>Documentation</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Liao et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24227677" target="_blank">featureCounts: an efficient general purpose program for assigning sequence reads to genomic features</a>. Bioinformatics.<br /></li>
+<li>(Liao et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23558742" target="_blank">The Subread aligner: fast, accurate and scalable read mapping by seed-and-vote</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Division of Bioinformatics, The Walter and Eliza Hall Institute of Medical Research, Parkville, VIC, Australia</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-peak-calling-font"><font color=#CD5555 face="黑体">Peak Calling</font></h2>
+
+<h3 id="exomepeak-peak-calling-merip-seq-analysis">ExomePeak | Peak calling : MeRIP-seq analysis</h3>
+
+<p><p align="justify">The package is developed for the analysis of affinity-based epitranscriptome shortgun sequencing data from MeRIP-seq (maA-seq).</p>
+
+<p><a href="http://compgenomics.utsa.edu/exomePeak/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Meng et al., 2013) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23589649" target="_blank">Exome-based analysis for RNA epigenome sequencing data</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Picower Institute for Learning and Memory, Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, MA, USA</p>
+
+<hr />
+
+<h3 id="metpeak">MeTPeak</h3>
+
+<p><p align="justify">A graphical model-based peak calling method for transcriptome-wide detection of m6A sites from MeRIP-seq data. MeTPeak models read count of m6A site and introduces a hierarchical layer of Beta variables to capture the variances and a Hidden Markov model (HMM) to characterize the reads dependency across a site. MetPeak prediction on real MeRIPseq datasets have suggested that it precisely recapitulates the motif and distribution of m6A sites, as well as correctly predicting the methylation differences among these methyltransferases.</p>
+
+<p><a href="https://github.com/compgenomics/MeTPeak" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Cui et al., 2016) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27307641" target="_blank">A novel algorithm for calling mRNA m6A peaks by modeling biological variances in MeRIP-seq data</a>.  Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Electrical and Computer Engineering, University of Texas at San Antonio, TX, USA; Department of Biological Science, XI&rsquo;an Jiaotong-Liverpool University, Suzhou, China</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></h2>
 
+<h3 id="weeder">Weeder</h3>
+
+<p><p align="justify">Falls into the motif enumeration family of motif discovery tools in which the occurrence of motifs in the query sequences are counted and, in this case, compared to a pre-calculated set of genome specific background motifs. This has the benefit of not having to construct a background set of sequences (no easy task). Weeder was initially used to identify common motifs in defined promoter regions, but evolved to consider first ChIP-chip and then ChIP-seq data.</p>
+
+<p><a href="http://159.149.160.51/modtools/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://toolshed.g2.bx.psu.edu/repository?repository_id=45d66a9eacc4ddaf" target="_blank"><strong>Galaxy</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Pavesi and Pesole, 2006) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18428764" target="_blank">Using Weeder for the discovery of conserved transcription factor binding sites</a>.  Curr Protoc Bioinformatics.</li>
+<li>(Zambelli et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25199791" target="_blank">Using Weeder, Pscan, and PscanChIP for the Discovery of Enriched Transcription Factor Binding Site Motifs in Nucleotide Sequences</a>. Curr Protoc Bioinformatics.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>University of Milan, Italy</p>
+
+<hr />
+
+<h3 id="homer-hypergeometric-optimization-of-motif-enrichment">HOMER | Hypergeometric Optimization of Motif EnRichment</h3>
+
+<p><p align="justify">Performs peak finding and downstream data analysis for next-generation sequencing analysis. HOMER affords several tools and methods to make use of ChIP-Seq, GRO-Seq, RNA-Seq, DNase-Seq, Hi-C and other types of functional genomics sequencing data sets. This software offers support to UCSC visualization, peaks annotation, quantification of transcripts and repeats or differential features, enrichment and expression.</p>
+
+<p><a href="http://homer.ucsd.edu/homer/ngs/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><a href="https://toolshed.g2.bx.psu.edu/repository?repository_id=aaa8f7315ce6dac2" target="_blank"><strong>Galaxy</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Heinz et al., 2010) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20513432" target="_blank">Simple combinations of lineage-determining transcription factors prime cis-regulatory elements required for macrophage and B cell identities</a>. Mol Cell.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA, USA; Department of Medicine, University of California, San Diego, La Jolla, CA, USA</p>
+
+<hr />
+
+<h3 id="meme-suite">MEME Suite</h3>
+
+<p><p align="justify">Provides a unified portal for online discovery and analysis of sequence motifs representing features such as DNA binding sites and protein interaction domains. The popular MEME motif discovery algorithm is now complemented by the GLAM2 algorithm which allows discovery of motifs containing gaps. Three sequence scanning algorithms&ndash;MAST, FIMO and GLAM2SCAN&ndash;allow scanning numerous DNA and protein sequence databases for motifs discovered by MEME and GLAM2. Transcription factor motifs (including those discovered using MEME) can be compared with motifs in many popular motif databases using the motif database scanning algorithm TOMTOM. Transcription factor motifs can be further analyzed for putative function by association with Gene Ontology (GO) terms using the motif-GO term association tool GOMO. MEME output now contains sequence LOGOS for each discovered motif, as well as buttons to allow motifs to be conveniently submitted to the sequence and motif database scanning algorithms (MAST, FIMO and TOMTOM), or to GOMO, for further analysis. GLAM2 output similarly contains buttons for further analysis using GLAM2SCAN and for rerunning GLAM2 with different parameters.</p>
+
+<p><a href="http://meme-suite.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Bailey et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19458158" target="_blank">MEME SUITE: tools for motif discovery and searching</a>.  Nucleic Acids Res.</li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute for Molecular Bioscience, University of Queensland, Brisbane, Queensland, Australia</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h1 id="degradome-seq-analysis">Degradome-seq Analysis</h1>
+
+<h3 id="sparta-package">sPARTA package</h3>
+
+<p><p align="justify">A powerful tool for plant miRNA target prediction and PARE validation. It can search for targets in unannotated genomic regions, which is useful to discover novel regulatory modules, independent of genome annotations that may be incomplete.</p>
+
+<p><a href="http://mpss.danforthcenter.org/tools/mirna_apps/download.php" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Kakrana et al., 2014) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25120269" target="_blank">sPARTA: a parallelized pipeline for integrated analysis of plant miRNA and cleaved mRNA data sets, including new miRNA target-identification software</a>. Nucleic Acids Res.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Center for Bioinformatics and Computational Biology, University of Delaware, Newark, DE, USA; Delaware Biotechnology Institute, University of Delaware, Newark, DE, USA; Department of Plant and Soil Sciences, University of Delaware, Newark, DE, USA</p>
+
+<hr />
+
+<h3 id="cleaveland">CleaveLand</h3>
+
+<p><p align="justify">A generalizable computational pipeline for the detection of cleaved miRNA targets from degradome data.</p>
+
+<p><a href="https://github.com/MikeAxtell/CleaveLand4" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Addo-Quaye et al., 2009) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19017659" target="_blank">CleaveLand: a pipeline for using degradome data to find cleaved small RNA targets</a>.  Bioinformatics.<br /></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Computer Science and Engineering and Department of Biology, Pennsylvania State University, University Park, PA, USA</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
 
@@ -595,13 +998,13 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_trans/lowlevel/">Low-level RNA detection</a></li>
-        
         <li><a href="/too2/new_trans/rna_pro/">RNA-Protein Interactions</a></li>
         
-        <li><a href="/too2/new_trans/non_coding/">Non-Coding RNA</a></li>
-        
         <li><a href="/too2/new_trans/transcription/">RNA Transcription</a></li>
+        
+        <li><a href="/too2/new_trans/lowlevel/">Low-level RNA detection</a></li>
+        
+        <li><a href="/too2/new_trans/non_coding/">Non-Coding RNA</a></li>
         
       </ul>
     </div>
@@ -621,7 +1024,7 @@
 
       &copy; 2018 &middot; 
 
-      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab.  All rights reserved. 
+      Copyright© 2018 Lin QI of Dr.Xin Wang's Lab. zzx. All rights reserved. 
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">
