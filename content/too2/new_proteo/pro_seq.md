@@ -419,6 +419,8 @@ The Winship Cancer Institute, Emory University School of Medicine, Atlanta, Geor
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 # Find more tools: [**OMICTOOLS**](https://omictools.com/proteomics-category)
 
 [*Image Citation*](https://www.ebi.ac.uk/training/online/course/introduction-protein-classification-ebi/protein-classification)

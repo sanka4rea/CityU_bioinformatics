@@ -355,20 +355,20 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/base2/newspeci/exocarta/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newspeci/exocarta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>23andMe</title>
       <link>/base2/newdna/23andme/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/base2/newdna/23andme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ExoCarta</title>
+      <link>/base2/newspeci/exocarta/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/exocarta/</guid>
       <description></description>
     </item>
     
@@ -382,7 +382,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>BacDive</title>
       <link>/base2/newspeci/bacdive/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
@@ -400,7 +400,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>EzTaxon Database</title>
       <link>/base2/newspeci/eztaxon/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
@@ -418,20 +418,20 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/base2/newspeci/tcia/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newspeci/tcia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Personal Genome Project</title>
       <link>/base2/newexpress/pgp/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/base2/newexpress/pgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cancer Imaging Archive (TCIA)</title>
+      <link>/base2/newspeci/tcia/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/tcia/</guid>
       <description></description>
     </item>
     

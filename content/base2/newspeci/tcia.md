@@ -3,7 +3,7 @@
 date = "2018-04-11"
 
 # Project title.
-# title = "The Cancer Imaging Archive (TCIA)"
+title = "The Cancer Imaging Archive (TCIA)"
 
 weight = 100
 # Project summary to display on homepage.

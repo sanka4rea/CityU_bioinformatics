@@ -18,7 +18,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/immune/</guid>
-      <description>Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction Structure-based B-cell Epitope Prediction Antibody Structure Prediction MHC Class I Epitope Prediction MHC Class II Epitope Prediction  Flow Cytometry  Cell Population Identification Data Repositories Utilities  Mass Cytometry Peptide Array Analysis Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems. Prediction of B- and T-cell epitopes has long been the focus of immunoinformatics, given the potential translational implications, and many tools have been developed.</description>
+      <description>Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction  ABCpred BepiPred  Structure-based B-cell Epitope Prediction  LYRA  MHC Class I Epitope Prediction  ProPred1 GradDock  MHC Class II Epitope Prediction  HLAMatchmaker ProPred   Flow Cytometry  Cell Population Identification  FCS Express FlowJo   Mass Cytometry  SPADE (Spanning tree Progression of Density normalized Events viSNE | Data visualization : Flow cytometry  Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/membrane/</guid>
-      <description>Table of Contents  Membrane Protein Analysis  Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein  FRAP Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling. Their configuration, folding, or activity depend on several biochemical factors that can be predicted by specific software.
-Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein FRAP Top</description>
+      <description>Table of Contents  Membrane Protein Analysis  Membrane Simulation  CHARMM-GUI Membrane Builder | Membrane simulation : Membrane protein analysis  Transmembrane Beta-barrel Prediction  PROFtmb | Transmembrane beta-barrel prediction : Membrane protein analysis PRED-TMBB | Transmembrane beta-barrel prediction : Membrane protein analysis  Transmembrane Helix Prediction  CCTOP | Consensus Constrained TOPology prediction SignalP   FRAP    easy-FRAP | FRAP : Laser scanning microscopy PyFRAP | Python Fluorescence Recovery After Photobleaching   Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling.</description>
     </item>
     
     <item>
@@ -37,7 +36,7 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/structure/</guid>
-      <description>Table of Contents  Primary structure    ProtParam COILS   Secondary structure    PredictProtein PSIPRED   tertiary structure    Phyre Swiss-PdbViewer   Find more tools: OMICTOOLS   Primary structure Protein primary structure is the linear sequence of amino acids in a peptide or protein. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal &amp;copy; end.</description>
+      <description>Table of Contents  Primary structure  ProtParam COILS  Secondary structure  PredictProtein PSIPRED  tertiary structure  Phyre Swiss-PdbViewer  Find more tools: OMICTOOLS   Primary structure Protein primary structure is the linear sequence of amino acids in a peptide or protein. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal &amp;copy; end. Protein biosynthesis is most commonly performed by ribosomes in cells.</description>
     </item>
     
     <item>
@@ -46,7 +45,7 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/interactions/</guid>
-      <description>Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction Protein-RNA Interaction Prediction Pocket Detection Drug-target Interaction Prediction Protein-protein Interaction Prediction Protein-ligand Docking Protein-protein Docking  FRET Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions. Mass-spectrometry and protein chips have revolutionized the field of proteomics and the study of protein interactions to a wider scale, which require specific tools for their analyses.</description>
+      <description>Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction  LigParGen | Protein-ligand docking : Protein interaction analysis DBSI | DNA Binding Site Identifier  Protein-RNA Interaction Prediction  HADDOCK | High Ambiguity Driven protein-protein DOCKing Global Score | Protein-RNA interactions  Drug-target Interaction Prediction  Open Targets | Drug-target interaction prediction : Protein interaction analysis PiHelper | Drug-target interaction prediction : Protein interaction analysis  Protein-protein Interaction Prediction  mentha | Protein-protein interaction prediction : Protein interaction analysis compPASS | comparative proteomic analysis software suite  Protein-ligand Docking  UCSF Chimera  Protein-protein Docking  PIPER | Protein-protein docking : Protein interaction analysis HADDOCK | High Ambiguity Driven protein-protein DOCKing   Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions.</description>
     </item>
     
     <item>

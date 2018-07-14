@@ -13,38 +13,11 @@
     
     
     <item>
-      <title></title>
-      <link>/base2/newspeci/exocarta/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newspeci/exocarta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>BacDive</title>
       <link>/base2/newspeci/bacdive/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/base2/newspeci/bacdive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/base2/newspeci/eztaxon/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newspeci/eztaxon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/base2/newspeci/tcia/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/base2/newspeci/tcia/</guid>
       <description></description>
     </item>
     
@@ -94,6 +67,24 @@
     </item>
     
     <item>
+      <title>ExoCarta</title>
+      <link>/base2/newspeci/exocarta/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/exocarta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EzTaxon Database</title>
+      <link>/base2/newspeci/eztaxon/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/eztaxon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GPCRdb</title>
       <link>/base2/newspeci/gpcrdb/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -135,6 +126,15 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/database/oth_new/swiss-2dpage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Cancer Imaging Archive (TCIA)</title>
+      <link>/base2/newspeci/tcia/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/newspeci/tcia/</guid>
       <description></description>
     </item>
     

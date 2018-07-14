@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Transcription analysis  Prognostic Biomarker Identification Region Discrimination Gene co-expression prediction Gene regulatory network inference Gene set enrichment analysis Over-representation analysisi  RNA-seq analysis  Read count Known transcript quantification Gene fusion detection Prognostic biomarker identification Differential expression Alternative splicing events identification  CAGE Analysis  TSS detection De novo motif discovery  Gene expression array analysis  Differential expression detection Time course Meta-analysis  Metatranscriptomic sequencing analysis  Prediction-base Taxonomic Homology-Based Taxonomic  Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.">
+  <meta name="description" content="Table of Contents  Transcription analysis  Prognostic Biomarker Identification  KM plotter cBioPortal  Region Discrimination  CPC CNCI  Gene co-expression prediction  GeneMANIA WGCNA  Gene regulatory network inference  NIR GRAM  Gene set enrichment analysis  GSEA DAVID   RNA-seq analysis  Gene fusion detection  Segemehl Subread  Alternative splicing events identification  Cufflinks   Gene expression array analysis  Prognostic biomarker identification  KM plotter cBioPortal  Differential expression  DESeq agriGO   Metatranscriptomic sequencing analysis  Prediction-base Taxonomic  MetaBAT  Homology-Based Taxonomic  MEGAN | MEtaGenome ANalyzer   Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_trans/transcription/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_trans/transcription/">
   <meta property="og:title" content="RNA Transcription | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Transcription analysis  Prognostic Biomarker Identification Region Discrimination Gene co-expression prediction Gene regulatory network inference Gene set enrichment analysis Over-representation analysisi  RNA-seq analysis  Read count Known transcript quantification Gene fusion detection Prognostic biomarker identification Differential expression Alternative splicing events identification  CAGE Analysis  TSS detection De novo motif discovery  Gene expression array analysis  Differential expression detection Time course Meta-analysis  Metatranscriptomic sequencing analysis  Prediction-base Taxonomic Homology-Based Taxonomic  Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.">
+  <meta property="og:description" content="Table of Contents  Transcription analysis  Prognostic Biomarker Identification  KM plotter cBioPortal  Region Discrimination  CPC CNCI  Gene co-expression prediction  GeneMANIA WGCNA  Gene regulatory network inference  NIR GRAM  Gene set enrichment analysis  GSEA DAVID   RNA-seq analysis  Gene fusion detection  Segemehl Subread  Alternative splicing events identification  Cufflinks   Gene expression array analysis  Prognostic biomarker identification  KM plotter cBioPortal  Differential expression  DESeq agriGO   Metatranscriptomic sequencing analysis  Prediction-base Taxonomic  MetaBAT  Homology-Based Taxonomic  MEGAN | MEtaGenome ANalyzer   Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    15 min read
   </span>
   
 
@@ -525,37 +525,67 @@
 <ul>
 <li><a href="#transcription-analysis">Transcription analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-prognostic-biomarker-identification-font"><font color=#CD5555 face="黑体">Prognostic Biomarker Identification</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-region-discrimination-font"><font color=#CD5555 face="黑体">Region Discrimination</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-gene-co-expression-prediction-font"><font color=#CD5555 face="黑体">Gene co-expression prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-gene-regulatory-network-inference-font"><font color=#CD5555 face="黑体">Gene regulatory network inference</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-gene-set-enrichment-analysis-font"><font color=#CD5555 face="黑体">Gene set enrichment analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-over-representation-analysisi-font"><font color=#CD5555 face="黑体">Over-representation analysisi</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-prognostic-biomarker-identification-font"><font color=#CD5555 face="黑体">Prognostic Biomarker Identification</font></a>
+<ul>
+<li><a href="#km-plotter">KM plotter</a></li>
+<li><a href="#cbioportal">cBioPortal</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-region-discrimination-font"><font color=#CD5555 face="黑体">Region Discrimination</font></a>
+<ul>
+<li><a href="#cpc">CPC</a></li>
+<li><a href="#cnci">CNCI</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-gene-co-expression-prediction-font"><font color=#CD5555 face="黑体">Gene co-expression prediction</font></a>
+<ul>
+<li><a href="#genemania">GeneMANIA</a></li>
+<li><a href="#wgcna">WGCNA</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-gene-regulatory-network-inference-font"><font color=#CD5555 face="黑体">Gene regulatory network inference</font></a>
+<ul>
+<li><a href="#nir">NIR</a></li>
+<li><a href="#gram">GRAM</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-gene-set-enrichment-analysis-font"><font color=#CD5555 face="黑体">Gene set enrichment analysis</font></a>
+<ul>
+<li><a href="#gsea">GSEA</a></li>
+<li><a href="#david">DAVID</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#rna-seq-analysis">RNA-seq analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-read-count-font"><font color=#CD5555 face="黑体">Read count</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-known-transcript-quantification-font"><font color=#CD5555 face="黑体">Known transcript quantification</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-gene-fusion-detection-font"><font color=#CD5555 face="黑体">Gene fusion detection</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-prognostic-biomarker-identification-font-1"><font color=#CD5555 face="黑体">Prognostic biomarker identification</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-differential-expression-font"><font color=#CD5555 face="黑体">Differential expression</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-alternative-splicing-events-identification-font"><font color=#CD5555 face="黑体">Alternative splicing events identification</font></a></li>
-</ul></li>
-<li><a href="#cage-analysis">CAGE Analysis</a>
+<li><a href="#font-color-cd5555-face-黑体-gene-fusion-detection-font"><font color=#CD5555 face="黑体">Gene fusion detection</font></a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-tss-detection-font"><font color=#CD5555 face="黑体">TSS detection</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></a></li>
+<li><a href="#segemehl">Segemehl</a></li>
+<li><a href="#subread">Subread</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-alternative-splicing-events-identification-font"><font color=#CD5555 face="黑体">Alternative splicing events identification</font></a>
+<ul>
+<li><a href="#cufflinks">Cufflinks</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#gene-expression-array-analysis">Gene expression array analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-differential-expression-detection-font"><font color=#CD5555 face="黑体">Differential expression detection</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-time-course-font"><font color=#CD5555 face="黑体">Time course</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-meta-analysis-font"><font color=#CD5555 face="黑体">Meta-analysis</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-prognostic-biomarker-identification-font-1"><font color=#CD5555 face="黑体">Prognostic biomarker identification</font></a>
+<ul>
+<li><a href="#km-plotter-1">KM plotter</a></li>
+<li><a href="#cbioportal-1">cBioPortal</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-differential-expression-font"><font color=#CD5555 face="黑体">Differential expression</font></a>
+<ul>
+<li><a href="#deseq">DESeq</a></li>
+<li><a href="#agrigo">agriGO</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#metatranscriptomic-sequencing-analysis">Metatranscriptomic sequencing analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-prediction-base-taxonomic-font"><font color=#CD5555 face="黑体">Prediction-base Taxonomic</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-homology-based-taxonomic-font"><font color=#CD5555 face="黑体">Homology-Based Taxonomic</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-prediction-base-taxonomic-font"><font color=#CD5555 face="黑体">Prediction-base Taxonomic</font></a>
+<ul>
+<li><a href="#metabat">MetaBAT</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-homology-based-taxonomic-font"><font color=#CD5555 face="黑体">Homology-Based Taxonomic</font></a>
+<ul>
+<li><a href="#megan-metagenome-analyzer">MEGAN | MEtaGenome ANalyzer</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-transcriptomics-category">Find more tools: <a href="https://omictools.com/transcriptomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
@@ -566,51 +596,411 @@
 
 <p><p align="justify"><strong>Transcript abundance</strong> is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.</p>
 
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-prognostic-biomarker-identification-font"><font color=#CD5555 face="黑体">Prognostic Biomarker Identification</font></h2>
+
+<p>Survival analysis using gene expression to derive predictive gene signatures is a commonly used feature in research studies employing high throughput genomic data. Gene signatures predictive of overall, relapse free or metastasis free survival are popular and several such signatures are published periodically and the data submitted to public repositories. Data from such studies which is available on the public domain can be leveraged to identify prognostic markers in different cancer types.</p>
+
+<hr />
+
+<h3 id="km-plotter">KM plotter</h3>
+
+<p><p align="justify">Assesses the effect of genes on survival using cancer samples. KM plotter is a web application, developed for meta-analysis-based biomarker assessment, that can be used for breast, ovarian, lung, gastric, and liver cancer. The software includes patients with a mean follow-up of 69 / 40/ 49 /33 months. The subtool miRpower enables the validation of the prognostic relevance of microRNAs (miRNAs) in breast and liver cancer.</p>
+
+<p><a href="http://kmplot.com/analysis/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2016 Oncotarget) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27384994" target="_blank">Cross-validation of survival associated biomarkers in gastric cancer using transcriptomic data of 1,065 patients.</a></p></li>
+
+<li><p>(2016 Breast Cancer Res Treat) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27744485" target="_blank">miRpower: a web-tool to validate survival-associated miRNAs utilizing expression data from 2178 breast cancer patients.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>MTA TTK Lendulet Cancer Biomarker Research Group, Budapest, Hungary; Department of Pediatrics, Semmelweis University, Budapest, Hungary</p>
+
+<hr />
+
+<h3 id="cbioportal">cBioPortal</h3>
+
+<p><p align="justify">Provides a web resource for exploring, visualizing, and analyzing multidimensional cancer genomics data. cBioPortal reduces molecular profiling data from cancer tissues and cell lines into readily understandable genetic, epigenetic, gene expression, and proteomic events. The query interface, combined with customized data storage, enables researchers to interactively explore genetic alterations across samples, genes, and pathways and, when available in the underlying data, to link these to clinical outcomes.</p>
+
+<p><a href="http://www.cbioportal.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2013 Sci Signal) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23550210" target="_blank">Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal.</a></p></li>
+
+<li><p>(2012 Cancer Discov) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22588877" target="_blank">The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computational Biology Center, Memorial Sloan-Kettering Cancer Center, New York, NY, USA; Computer Engineering Department, Bilkent University, Ankara, Turkey.</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-region-discrimination-font"><font color=#CD5555 face="黑体">Region Discrimination</font></h2>
 
+<p><p align="justify">With the availability of genome-wide transcription data and massive comparative sequencing, the discrimination of coding from noncoding RNAs and the assessment of coding potential in evolutionarily conserved regions arose as a core analysis task.</p>
+
+<hr />
+
+<h3 id="cpc">CPC</h3>
+
+<p><p align="justify">Distinguishes protein-coding from non-coding RNAs. CPC employs a discriminative model based on four sequence intrinsic features. The CPC model is species-neutral, making it useful for ever-growing non-model organism transcriptomes and even transcriptomes of organisms that are poorly annotated or lack genome assembly. The web server is mobile-friendly and more accessible on mobile devices such as the iPad.</p>
+
+<p><a href="http://cpc2.cbi.pku.edu.cn/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28521017" target="_blank">CPC2: a fast and accurate coding potential calculator based on sequence intrinsic features. 2017</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Center for Bioinformatics, Peking University, Beijing, China</p>
+
+<hr />
+
+<h3 id="cnci">CNCI</h3>
+
+<p><p align="justify">A powerful signature tool by profiling adjoining nucleotide triplets to effectively distinguish protein-coding and non-coding sequences independent of known annotations. CNCI is effective for classifying incomplete transcripts and sense-antisense pairs. The implementation of CNCI offered highly accurate classification of transcripts assembled from whole-transcriptome sequencing data in a cross-species manner, that demonstrated gene evolutionary divergence between vertebrates, and invertebrates, or between plants, and provided a long non-coding RNA catalog of orangutan.</p>
+
+<p><a href="https://github.com/www-bioinfo-org/CNCI" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2013 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23892401" target="_blank">Utilizing sequence intrinsic composition to classify protein-coding and long non-coding transcripts.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Bioinformatics Research Group, Advanced Computing Research Laboratory, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-gene-co-expression-prediction-font"><font color=#CD5555 face="黑体">Gene co-expression prediction</font></h2>
+
+<p><p align="justify">Ever since the publication of the first gene expression arrays, the correlated expression of genes involved in a related molecular process has been used to predict functional relations between gene pairs (<a href="https://www.ncbi.nlm.nih.gov/pubmed/9784122" target="_blank">Chu et al., 1998</a>). Large amounts of microarray and RNA-seq transcript expression, measured under a plethora of conditions enable mining for concordantly expressed genes.</p>
+
+<hr />
+
+<h3 id="genemania">GeneMANIA</h3>
+
+<p><p align="justify">Predicts the function of genes and gene sets. GeneMANIA is used for probing of gene function and revealing pairwise connections linking genes in yeast, fly, worm, human and other species. The GeneMANIA app extends the capabilities of the GeneMANIA prediction server by allowing users to quickly construct networks from gene lists for custom organisms and network data. The prediction performed by GeneMANIA provides a method for leveraging functionally informative associations to explore bacterial gene function.</p>
+
+<p><a href="http://genemania.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 Nucleic Acids Res) <a href="https://academic.oup.com/nar/article/46/W1/W60/5038280" target="_blank">GeneMANIA update 2018</a></p></li>
+
+<li><p>(2015 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25316676" target="_blank">Novel function discovery with GeneMANIA: a new integrated resource for gene function prediction in Escherichia coli.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biochemistry, University of Regina, Regina, SK, Canada</p>
+
+<hr />
+
+<h3 id="wgcna">WGCNA</h3>
+
+<p><p align="justify">A comprehensive collection of R functions for performing various aspects of weighted correlation network analysis. WGCNA includes functions for network construction, module detection, gene selection, calculations of topological properties, data simulation, visualization, and interfacing with external software. While the methods development was motivated by gene expression data, the underlying data mining approach can be applied to a variety of different settings.</p>
+
+<p><a href="https://labs.genetics.ucla.edu/horvath/htdocs/CoexpressionNetwork/Rpackages/WGCNA/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2008 BMC Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19114008" target="_blank">WGCNA: an R package for weighted correlation network analysis.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Human Genetics, University of California, Los Angeles, CA, USA; Department of Human Genetics and Department of Biostatistics, University of California, Los Angeles, CA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-gene-regulatory-network-inference-font"><font color=#CD5555 face="黑体">Gene regulatory network inference</font></h2>
 
+<p>Elucidating gene regulatory network (GRN) from large scale experimental data remains a central challenge in systems biology. The advent of high-throughput data generation technologies has allowed researchers to fit theoretical models to experimental data on gene-expression profiles.</p>
+
+<hr />
+
+<h3 id="nir">NIR</h3>
+
+<p><p align="justify">Produces description of a network as a continuous time dynamical system. NIR can be applied to target prediction, and can be very useful for drug discovery. It uses measurements of mRNA concentration changes at steady state following the application of a compound to a cell population to make its predictions. This tool is based on the recovered network model that is a representation of a nonlinear system.</p>
+
+<p><a href="http://dibernardo.tigem.it/softwares/network-inference-by-reverse-engineering-nir" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2004 Pac Symp Biocomput) <a href="https://www.ncbi.nlm.nih.gov/pubmed/14992527" target="_blank">Robust identification of large genetic networks.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>TIGEM, Naples, Italy; Center for BioDynamics and Department of Biomedical Engineering, Boston University, Boston, MA, USA</p>
+
+<hr />
+
+<h3 id="gram">GRAM</h3>
+
+<p><p align="justify">Assists users for finding regulatory networks of gene modules. GRAM is an algorithm that combines information from genome-wide location and expression data sets. This program works by first performing search over all possible combinations of transcriptional regulators indicated by the DNA-binding data with a stringent criterion for determining binding. It then detects a subset of these genes with highly correlated expression, which serves as a ‘seed’ for a gene module.</p>
+
+<p><a href="http://groups.csail.mit.edu/cgs/onePageGram/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2003 Nat Biotechnol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/14555958" target="_blank">Computational discovery of gene modules and regulatory networks.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>MIT Computer Science and Artificial Intelligence Laboratory, Cambridge, MA, USA; Whitehead Institute for Biomedical Research, Nine Cambridge Center, Cambridge, MA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-gene-set-enrichment-analysis-font"><font color=#CD5555 face="黑体">Gene set enrichment analysis</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-over-representation-analysisi-font"><font color=#CD5555 face="黑体">Over-representation analysisi</font></h2>
+<p><p align="justify">A common feature of many current functional genomics technologies, as well as many different types of bioinformatics analyses, is that they output very large lists of genes, typically in the order of hundreds or thousands. Evidently, interpreting these lists by assessing each gene individually is not practical. Therefore, Gene Set Enrichment Analysis (GSEA) has become the first step in interpreting these long lists of genes. The principle of GSEA is to search for sets of genes that are significantly over-represented in a given list of genes, compared to a background set of genes. These sets of genes consist typically, but not always, of genes that function together in a known biological pathway.</p>
+
+<hr />
+
+<h3 id="gsea">GSEA</h3>
+
+<p><p align="justify">Evaluates microarray data at the level of gene sets. GSEA aims to determine whether members of a gene set S tend to occur toward the top (or bottom) of the list L, in which case the gene set is correlated with the phenotypic class distinction. This method eases the interpretation of a largescale experiment by identifying pathways and processes, and can boost the signal-to-noise ratio when the members of a gene set exhibit strong cross-correlation, allowing to detect modest changes in individual genes.</p>
+
+<p><a href="http://software.broadinstitute.org/gsea/index.jsp" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2005 Proc Natl Acad Sci U S A) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16199517" target="_blank">Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA, USA; Department of Systems Biology, Harvard Medical School, Boston, MA, USA; Institute for Genome Sciences and Policy, Center for Interdisciplinary Engineering, Medicine, and Applied Sciences, Duke University, Durham, NC, USA;</p>
+
+<hr />
+
+<h3 id="david">DAVID</h3>
+
+<p><p align="justify">Allows users to obtain biological features/meaning associated with large gene or protein lists. DAVID can determine gene-gene similarity, based on the assumption that genes sharing global functional annotation profiles are functionally related to each other. It groups related genes or terms into functional groups employing the similarity distances measure. This tool takes into account the redundant and network nature of biological annotation contents.</p>
+
+<p><a href="https://david.ncifcrf.gov/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2012 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22543366" target="_blank">DAVID-WS: a stateful web service to facilitate gene/protein list analysis.</a></p></li>
+
+<li><p>(2009 Nat Protoc) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19131956" target="_blank">Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Laboratory of Immunopathogenesis and Bioinformatics, Frederick, MD, USA; Advanced Biomedical Computing Center, Frederick, MD, USA; Clinical Services Program, SAIC-Frederick, Inc., National Cancer Institute at Frederick, Frederick, MD, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="rna-seq-analysis">RNA-seq analysis</h1>
 
 <p><p align="justify"><strong>RNA sequencing (RNA-seq)</strong> also known as whole transcriptome shotgun sequencing (WTSS) is the next-generation sequencing technology to study the transcriptome. It could be used as an alternative to microarrays for gene expression analysis, without the need to know the RNA sequence a priori. RNA-seq offers more accurate data and applications including detection of gene fusion, variants, alternative splicing, post-transcriptional modifications as well as for analysis of small RNAs such as tRNA or miRNA profiles. A complete picture of the RNA content can be obtained from low quantity biological samples. Several analytical steps are critical for a successful characterization and quantification of the transcriptome. A large list of bioinformatic tools is proposed here for quality control, data processing, quantification, annotation and visualization as well as for interpretation and biological network analysis for understanding RNA-seq data.</p>
 
-<h2 id="font-color-cd5555-face-黑体-read-count-font"><font color=#CD5555 face="黑体">Read count</font></h2>
-
-<h2 id="font-color-cd5555-face-黑体-known-transcript-quantification-font"><font color=#CD5555 face="黑体">Known transcript quantification</font></h2>
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-gene-fusion-detection-font"><font color=#CD5555 face="黑体">Gene fusion detection</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-prognostic-biomarker-identification-font-1"><font color=#CD5555 face="黑体">Prognostic biomarker identification</font></h2>
+<p><p align="justify">Gene fusions arising from chromosomal translocations have been implicated in cancer. RNA-seq has the potential to discover such rearrangements generating functional proteins (chimera/fusion). Recently, many methods for chimeras detection have been published.</p>
 
-<h2 id="font-color-cd5555-face-黑体-differential-expression-font"><font color=#CD5555 face="黑体">Differential expression</font></h2>
+<hr />
+
+<h3 id="segemehl">Segemehl</h3>
+
+<p><p align="justify">Maps short sequencer reads to reference genomes. Segemehl is a read aligner that allows to detect mismatches, insertions and deletions. The software implements a matching strategy based on enhanced suffix arrays (ESA): it aims to find the best-scoring seed for each suffix of a read. The tool lack, which rescues unmapped RNAseq, reads and works in conjunction with segemehl and many other frequently used split-read aligners, is distributed together with it.</p>
+
+<p><a href="http://www.bioinf.uni-leipzig.de/Software/segemehl/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2014 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24626854" target="_blank">Lacking alignments? The next-generation sequencing mapper segemehl revisited.</a></p></li>
+
+<li><p>(2014 Genome Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24626854" target="_blank">A multi-split mapping algorithm for circular RNA, splicing, trans-splicing and fusion detection.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Junior Research Group Transcriptome Bioinformatics, University Leipzig, Leipzig, Germany</p>
+
+<hr />
+
+<h3 id="subread">Subread</h3>
+
+<p><p align="justify">Assists users in mapping reads to a reference genome. Subread offers a suite of programs for processing next-generation sequencing read data. This package includes Subread (an aligner), Subjunc (an aligner), Sublong (a long-read aligner), Subindel (a long indel detection program), featureCounts (a read quantification program), exactSNP (an SNP calling program) and other utility programs.</p>
+
+<p><a href="http://subread.sourceforge.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24227677" target="_blank">featureCounts: an efficient general purpose program for assigning sequence reads to genomic features.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Division of Bioinformatics, The Walter and Eliza Hall Institute of Medical Research, Parkville, VIC, Australia</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-alternative-splicing-events-identification-font"><font color=#CD5555 face="黑体">Alternative splicing events identification</font></h2>
 
-<h1 id="cage-analysis">CAGE Analysis</h1>
+<p>Alternative splicing is widely recognized for its roles in regulating genes and creating gene diversity. Consequently the identification and quantification of differentially spliced transcripts is pivotal for transcriptome analysis.</p>
 
-<p><p align="justify"><strong>Cap analysis of gene expression</strong> (CAGE) provides accurate high-throughput measurement of RNA expression. By the large-scale analysis of 5&rsquo; end of transcripts using CAGE method, it enables not only determination of the transcription start site but also prediction of promoter region.</p>
+<hr />
 
-<h2 id="font-color-cd5555-face-黑体-tss-detection-font"><font color=#CD5555 face="黑体">TSS detection</font></h2>
+<h3 id="cufflinks">Cufflinks</h3>
 
-<h2 id="font-color-cd5555-face-黑体-de-novo-motif-discovery-font"><font color=#CD5555 face="黑体">De novo motif discovery</font></h2>
+<p><p align="justify">Assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. Cufflinks assembles individual transcripts from RNA-seq reads that have been aligned to the genome. This software is able to infer the splicing structure of each gene because reads from multiple splice variants for a given gene can be found in a sample. Quantification of transcript abundances is also possible by preferring a reference annotation to assembling the reads.</p>
+
+<p><a href="http://cole-trapnell-lab.github.io/cufflinks/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2012 Nat Protoc) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22383036" target="_blank">Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Broad Institute of MIT and Harvard, Cambridge, MA, USA; Department of Stem Cell and Regenerative Biology, Harvard University, Cambridge, MA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="gene-expression-array-analysis">Gene expression array analysis</h1>
 
 <p><p align="justify"><strong>Gene expression microarray</strong> is a very powerful high-throughput tool capable of monitoring the expression of thousands of genes in an organism simultaneously. The power of these tools has been applied to a range of applications, including discovering novel disease subtypes, developing new diagnostic tools, and identifying underlying mechanisms of disease or drug response. However, this technology necessarily produces a large amount of data, challenging us to interpret it by exploiting modern computational and statistical tools.</p>
 
-<h2 id="font-color-cd5555-face-黑体-differential-expression-detection-font"><font color=#CD5555 face="黑体">Differential expression detection</font></h2>
+<h2 id="font-color-cd5555-face-黑体-prognostic-biomarker-identification-font-1"><font color=#CD5555 face="黑体">Prognostic biomarker identification</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-time-course-font"><font color=#CD5555 face="黑体">Time course</font></h2>
+<p><p align="justify">Survival analysis using gene expression to derive predictive gene signatures is a commonly used feature in research studies employing high throughput genomic data. Gene signatures predictive of overall, relapse free or metastasis free survival are popular and several such signatures are published periodically and the data submitted to public repositories. Data from such studies which is available on the public domain can be leveraged to identify prognostic markers in different cancer types.</p>
 
-<h2 id="font-color-cd5555-face-黑体-meta-analysis-font"><font color=#CD5555 face="黑体">Meta-analysis</font></h2>
+<hr />
+
+<h3 id="km-plotter-1">KM plotter</h3>
+
+<p><p align="justify">Assesses the effect of genes on survival using cancer samples. KM plotter is a web application, developed for meta-analysis-based biomarker assessment, that can be used for breast, ovarian, lung, gastric, and liver cancer. The software includes patients with a mean follow-up of 69 / 40/ 49 /33 months. The subtool miRpower enables the validation of the prognostic relevance of microRNAs (miRNAs) in breast and liver cancer.</p>
+
+<p><a href="http://kmplot.com/analysis/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2016 Oncotarget) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27384994" target="_blank">Cross-validation of survival associated biomarkers in gastric cancer using transcriptomic data of 1,065 patients.</a></p></li>
+
+<li><p>(2016 Breast Cancer Res Treat) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27744485" target="_blank">miRpower: a web-tool to validate survival-associated miRNAs utilizing expression data from 2178 breast cancer patients.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>MTA TTK Lendulet Cancer Biomarker Research Group, Budapest, Hungary; Department of Pediatrics, Semmelweis University, Budapest, Hungary</p>
+
+<hr />
+
+<h3 id="cbioportal-1">cBioPortal</h3>
+
+<p><p align="justify">Provides a web resource for exploring, visualizing, and analyzing multidimensional cancer genomics data. cBioPortal reduces molecular profiling data from cancer tissues and cell lines into readily understandable genetic, epigenetic, gene expression, and proteomic events. The query interface, combined with customized data storage, enables researchers to interactively explore genetic alterations across samples, genes, and pathways and, when available in the underlying data, to link these to clinical outcomes.</p>
+
+<p><a href="http://www.cbioportal.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2013 Sci Signal) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23550210" target="_blank">Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal.</a></p></li>
+
+<li><p>(2012 Cancer Discov) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22588877" target="_blank">The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computational Biology Center, Memorial Sloan-Kettering Cancer Center, New York, NY, USA; Computer Engineering Department, Bilkent University, Ankara, Turkey.</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+<h2 id="font-color-cd5555-face-黑体-differential-expression-font"><font color=#CD5555 face="黑体">Differential expression</font></h2>
+
+<p><p align="justify">One of the main goals of RNA-seq experiments is to identify the differentially expressed genes in two or more conditions. Such genes are selected based on a combination of expression change threshold and score cutoff, which are usually based on P values generated by statistical modeling. Normalization in the context of differential analysis is essential in order to account for the presence of systematic variation between samples as well as differences in library composition.</p>
+
+<hr />
+
+<h3 id="deseq">DESeq</h3>
+
+<p><p align="justify">Performs differential gene expression analysis. DEseq is a method that integrates methodological advances with features to facilitate quantitative analysis of comparative RNA-seq data using shrinkage estimators for dispersion and fold change. The software is suitable for small studies with few replicates as well as for large observational studies. Its heuristics for outlier detection assist in recognizing genes for which the modeling assumptions are unsuitable and so avoids type-I errors caused by these.</p>
+
+<p><a href="http://bioconductor.org/packages/release/bioc/html/DESeq2.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2010 Genome Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20979621" target="_blank">Differential expression analysis for sequence count data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biostatistics and Computational Biology, Dana Farber Cancer Institute, Boston, MA, USA; Department of Biostatistics, Harvard School of Public Health, Boston, MA, USA</p>
+
+<hr />
+
+<h3 id="agrigo">agriGO</h3>
+
+<p><p align="justify">Automates the job for experimental biologists to identify enriched Gene Ontology (GO) terms in a list of microarray probe sets or gene identifiers (with or without expression information). agriGO consists of an analysis toolkit and database for agricultural community. This tools is able to perform custom analyses, including search, singular enrichment analysis (SEA), or parametric analysis of gene set enrichment (PAGE). It also contains a large number of species and datatypes available, which have been classified into several groups.</p>
+
+<p><a href="http://systemsbiology.cau.edu.cn/agriGOv2/index.php" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2017 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28472432" target="_blank">agriGO v2.0: a GO analysis toolkit for the agricultural community, 2017 update.</a></p></li>
+
+<li><p>(2010 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20435677" target="_blank">agriGO: a GO analysis toolkit for the agricultural community.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>State Key Laboratory of Plant Physiology and Biochemistry, College of Biological Sciences, China Agricultural University, Beijing, China</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="metatranscriptomic-sequencing-analysis">Metatranscriptomic sequencing analysis</h1>
 
@@ -618,9 +1008,57 @@
 
 <h2 id="font-color-cd5555-face-黑体-prediction-base-taxonomic-font"><font color=#CD5555 face="黑体">Prediction-base Taxonomic</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-homology-based-taxonomic-font"><font color=#CD5555 face="黑体">Homology-Based Taxonomic</font></h2>
+<p>Prediction-Based Taxonomic Software Tools for shotgun metagenomic analysis.</p>
+
+<hr />
+
+<h3 id="metabat">MetaBAT</h3>
+
+<p><p align="justify">Integrates empirical probabilistic distances of genome abundance and tetranucleotide frequency for accurate metagenome binning. MetaBAT outperforms alternative methods in accuracy and computational efficiency on both synthetic and real metagenome datasets. It automatically forms hundreds of high quality genome bins on a very large assembly consisting millions of contigs in a matter of hours on a single node.</p>
+
+<p><a href="https://bitbucket.org/berkeleylab/metabat" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 PeerJ) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26336640" target="_blank">MetaBAT, an efficient tool for accurately reconstructing single genomes from complex microbial communities.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Energy Joint Genome Institute, Walnut Creek, CA, USA; Genomics Division, Lawrence Berkeley National Laboratory, Berkeley, CA, USA; School of Natural Sciences, University of California at Merced, Merced, CA, USA</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+<h2 id="font-color-cd5555-face-黑体-homology-based-taxonomic-font"><font color=#CD5555 face="黑体">Homology-Based Taxonomic</font></h2>
+
+<p><p align="justify">A majority of methods available for binning datasets obtained using shotgun sequencing belong to the taxonomy-dependent category. Based on the strategy used for comparing reads with sequences/pre-computed models, taxonomy-dependent methods can be sub-classified into alignment-based, composition-based and hybrid methods.</p>
+
+<hr />
+
+<h3 id="megan-metagenome-analyzer">MEGAN | MEtaGenome ANalyzer</h3>
+
+<p><p align="justify">Allows users to taxonomically and functionally explore and analyze large-scale microbiome sequencing data. MEGAN is a comprehensive microbiome analysis toolbox for metagenome, meta-transcriptome, amplicon and from other sources data. Users can perform taxonomic, functional or comparative analysis, map reads to reference sequences, reference-based multiple alignments and reference-guided assembly and integrate their own classifications.</p>
+
+<p><a href="http://ab.inf.uni-tuebingen.de/software/megan6/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2017 BioRxiv) <a href="https://www.biorxiv.org/content/early/2017/11/24/224535" target="_blank">MEGAN-LR: New algorithms allow accurate binning and easy interactive exploration of metagenomic long reads and contigs.</a></p></li>
+
+<li><p>(2016 PLoS Comput Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27327495" target="_blank">MEGAN Community Edition - Interactive Exploration and Analysis of Large-Scale Microbiome Sequencing Data.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Center for Bioinformatics, University of Tübingen, Tübingen, Germany</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-transcriptomics-category">Find more tools: <a href="https://omictools.com/transcriptomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -649,11 +1087,11 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_trans/non_coding/">Non-Coding RNA</a></li>
+        <li><a href="/too2/new_trans/lowlevel/">Low-level RNA detection</a></li>
         
         <li><a href="/too2/new_trans/rna_pro/">RNA-Protein Interactions</a></li>
         
-        <li><a href="/too2/new_trans/lowlevel/">Low-level RNA detection</a></li>
+        <li><a href="/too2/new_trans/non_coding/">Non-Coding RNA</a></li>
         
         <li><a href="/too2/new_trans/rnamodification/">RNA Modifications</a></li>
         

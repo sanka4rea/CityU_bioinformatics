@@ -3,7 +3,7 @@
 date = "2018-04-11"
 
 # Project title.
-# title = "EzTaxon Database"
+ title = "EzTaxon Database"
 
 weight = 90
 # Project summary to display on homepage.

@@ -42,6 +42,7 @@ math = false
 
 <p align="justify">Cross-Linking Immunoprecipitation associated to **high-throughput sequencing** (CLIP-seq) is a technique used to identify RNA directly bound to RNA-binding proteins across the entire transcriptome in cell or tissue samples. Recent technological and computational advances permit the analysis of many CLIP-seq samples simultaneously, allowing us to reveal the comprehensive network of RNA-protein interaction and to integrate it to other genome-wide analyses. Therefore, the design and quality management of the CLIP-seq analyses are of critical importance to extract clean and biological meaningful information from CLIP-seq experiments. The application of CLIP-seq technique to Argonaute 2 (Ago2) protein, the main component of the microRNA (miRNA)-induced silencing complex, reveals the direct binding sites of miRNAs, thus providing insightful information about the role played by miRNA(s). [Source](https://www.ncbi.nlm.nih.gov/pubmed/28605404)
 
+---
 
 ## <font color=#CD5555 face="黑体">Peak Calling</font>
 
@@ -236,6 +237,8 @@ Howard Hughes Medical Institute, Department of Cellular and Molecular Pharmacolo
 
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+---
 
 # Find more tools: [**OMICTOOLS**](https://omictools.com/transcriptomics-category)
 

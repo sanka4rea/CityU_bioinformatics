@@ -689,15 +689,6 @@
     
     <url>
     
-      <loc>/too2/new_epi/dna_pro/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/too2/new_meta/drug/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1094,6 +1085,15 @@
     
     <url>
     
+      <loc>/too2/new_epi/dna_pro/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/too2/new_geno/dna_pro/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1355,15 +1355,6 @@
     
     <url>
     
-      <loc>/base2/newspeci/exocarta/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/base2/newdna/23andme/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1374,6 +1365,15 @@
     <url>
     
       <loc>/tutorial/bms4001/colorectal/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/newspeci/exocarta/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -1499,15 +1499,6 @@
     
     <url>
     
-      <loc>/base2/newspeci/tcia/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/base2/newexpress/pgp/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -1518,6 +1509,15 @@
     <url>
     
       <loc>/tutorial/bms4001/ridem/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/newspeci/tcia/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     

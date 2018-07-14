@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction Protein-RNA Interaction Prediction Pocket Detection Drug-target Interaction Prediction Protein-protein Interaction Prediction Protein-ligand Docking Protein-protein Docking  FRET Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions. Mass-spectrometry and protein chips have revolutionized the field of proteomics and the study of protein interactions to a wider scale, which require specific tools for their analyses.">
+  <meta name="description" content="Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction  LigParGen | Protein-ligand docking : Protein interaction analysis DBSI | DNA Binding Site Identifier  Protein-RNA Interaction Prediction  HADDOCK | High Ambiguity Driven protein-protein DOCKing Global Score | Protein-RNA interactions  Drug-target Interaction Prediction  Open Targets | Drug-target interaction prediction : Protein interaction analysis PiHelper | Drug-target interaction prediction : Protein interaction analysis  Protein-protein Interaction Prediction  mentha | Protein-protein interaction prediction : Protein interaction analysis compPASS | comparative proteomic analysis software suite  Protein-ligand Docking  UCSF Chimera  Protein-protein Docking  PIPER | Protein-protein docking : Protein interaction analysis HADDOCK | High Ambiguity Driven protein-protein DOCKing   Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_proteo/interactions/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_proteo/interactions/">
   <meta property="og:title" content="Protein Interactions | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction Protein-RNA Interaction Prediction Pocket Detection Drug-target Interaction Prediction Protein-protein Interaction Prediction Protein-ligand Docking Protein-protein Docking  FRET Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions. Mass-spectrometry and protein chips have revolutionized the field of proteomics and the study of protein interactions to a wider scale, which require specific tools for their analyses.">
+  <meta property="og:description" content="Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction  LigParGen | Protein-ligand docking : Protein interaction analysis DBSI | DNA Binding Site Identifier  Protein-RNA Interaction Prediction  HADDOCK | High Ambiguity Driven protein-protein DOCKing Global Score | Protein-RNA interactions  Drug-target Interaction Prediction  Open Targets | Drug-target interaction prediction : Protein interaction analysis PiHelper | Drug-target interaction prediction : Protein interaction analysis  Protein-protein Interaction Prediction  mentha | Protein-protein interaction prediction : Protein interaction analysis compPASS | comparative proteomic analysis software suite  Protein-ligand Docking  UCSF Chimera  Protein-protein Docking  PIPER | Protein-protein docking : Protein interaction analysis HADDOCK | High Ambiguity Driven protein-protein DOCKing   Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    8 min read
   </span>
   
 
@@ -525,15 +525,36 @@
 <ul>
 <li><a href="#protein-interactions-analysis">Protein Interactions Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-protein-dna-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-DNA Interaction Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-protein-rna-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-RNA Interaction Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-pocket-detection-font"><font color=#CD5555 face="黑体">Pocket Detection</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-drug-target-interaction-prediction-font"><font color=#CD5555 face="黑体">Drug-target Interaction Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-protein-protein-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-protein Interaction Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-protein-ligand-docking-font"><font color=#CD5555 face="黑体">Protein-ligand Docking</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-protein-protein-docking-font"><font color=#CD5555 face="黑体">Protein-protein Docking</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-protein-dna-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-DNA Interaction Prediction</font></a>
+<ul>
+<li><a href="#ligpargen-protein-ligand-docking-protein-interaction-analysis">LigParGen | Protein-ligand docking : Protein interaction analysis</a></li>
+<li><a href="#dbsi-dna-binding-site-identifier">DBSI | DNA Binding Site Identifier</a></li>
 </ul></li>
-<li><a href="#fret">FRET</a></li>
+<li><a href="#font-color-cd5555-face-黑体-protein-rna-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-RNA Interaction Prediction</font></a>
+<ul>
+<li><a href="#haddock-high-ambiguity-driven-protein-protein-docking">HADDOCK | High Ambiguity Driven protein-protein DOCKing</a></li>
+<li><a href="#global-score-protein-rna-interactions">Global Score | Protein-RNA interactions</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-drug-target-interaction-prediction-font"><font color=#CD5555 face="黑体">Drug-target Interaction Prediction</font></a>
+<ul>
+<li><a href="#open-targets-drug-target-interaction-prediction-protein-interaction-analysis">Open Targets | Drug-target interaction prediction : Protein interaction analysis</a></li>
+<li><a href="#pihelper-drug-target-interaction-prediction-protein-interaction-analysis">PiHelper | Drug-target interaction prediction : Protein interaction analysis</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-protein-protein-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-protein Interaction Prediction</font></a>
+<ul>
+<li><a href="#mentha-protein-protein-interaction-prediction-protein-interaction-analysis">mentha | Protein-protein interaction prediction : Protein interaction analysis</a></li>
+<li><a href="#comppass-comparative-proteomic-analysis-software-suite">compPASS | comparative proteomic analysis software suite</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-protein-ligand-docking-font"><font color=#CD5555 face="黑体">Protein-ligand Docking</font></a>
+<ul>
+<li><a href="#ucsf-chimera">UCSF Chimera</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-protein-protein-docking-font"><font color=#CD5555 face="黑体">Protein-protein Docking</font></a>
+<ul>
+<li><a href="#piper-protein-protein-docking-protein-interaction-analysis">PIPER | Protein-protein docking : Protein interaction analysis</a></li>
+<li><a href="#haddock-high-ambiguity-driven-protein-protein-docking-1">HADDOCK | High Ambiguity Driven protein-protein DOCKing</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-proteomics-category">Find more tools: <a href="https://omictools.com/proteomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -543,23 +564,247 @@
 
 <p><p align="justify"><strong>Proteins interact</strong> with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions. Mass-spectrometry and protein chips have revolutionized the field of proteomics and the study of protein interactions to a wider scale, which require specific tools for their analyses. The study of protein interactions has implications for drug discovery and design.</p>
 
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-protein-dna-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-DNA Interaction Prediction</font></h2>
+
+<p>Protein-DNA complexes play vital roles in many cellular processes by the interactions of amino acids with DNA. Several computational methods have been developed for predicting the interacting residues in DNA-binding proteins using sequence and/or structural information.</p>
+
+<hr />
+
+<h3 id="ligpargen-protein-ligand-docking-protein-interaction-analysis">LigParGen | Protein-ligand docking : Protein interaction analysis</h3>
+
+<p><p align="justify">Provides an intuitive interface for generating OPLS-AA/1.14*CM1A(-LBCC) force field (FF) parameters for organic ligands. LigParGen is a web server which generates ligand parameters for common simulation software packages such as NAMD, GROMACS, OpenMM, BOSS and MCPRO. The software allows the users to obtain high quality parameters for molecular mechanics (MM) simulations without extensive knowledge about MM force fields or quantum mechanics (QM) methods.</p>
+
+<p><a href="http://zarbi.chem.yale.edu/ligpargen/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nucleic Acids Res) <a href="https://doi.org/10.1093/nar/gkx312" target="_blank">LigParGen web server: an automatic OPLS-AA parameter generator for organic ligands.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Chemistry, Yale University, New Haven, CT, USA</p>
+
+<hr />
+
+<h3 id="dbsi-dna-binding-site-identifier">DBSI | DNA Binding Site Identifier</h3>
+
+<p><p align="justify">A powerful structure-based SVM model for the prediction and visualization of DNA binding sites on protein structures. DBSI is a machine learning approach to classify surface residues as binders or non-binders of DNA. DBSI employs sequence- and structure-based features encompassing a range of physical, chemical, geometric and evolutionary properties of the protein surface. DBSI also implements microenvironment features that allow for small-scale structural perturbation and the role of non-local cooperative effects. DBSI has been shown to be a top-performing model to predict DNA binding sites on the surface of a protein or peptide and shows promise in predicting RNA binding sites.</p>
+
+<p><a href="https://mitchell-lab.biochem.wisc.edu/DBSI_Server/index.php" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2016 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27259543" target="_blank">DBSI server: DNA binding site identifier.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biochemistry, University of Wisconsin-Madison, Madison, WI, USA; School of Life Sciences, Anhui University, Hefei, Anhui Province, China</p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-protein-rna-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-RNA Interaction Prediction</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-pocket-detection-font"><font color=#CD5555 face="黑体">Pocket Detection</font></h2>
+<p><p align="justify">Interactions between proteins and RNA play essential roles for life. For example, protein-RNA interactions mediate RNA metabolic processes such as splicing, polyadenylation, messenger RNA stability, localization and translation. Furthermore, many of these RNA-binding proteins are involved in human diseases.</p>
+
+<hr />
+
+<h3 id="haddock-high-ambiguity-driven-protein-protein-docking">HADDOCK | High Ambiguity Driven protein-protein DOCKing</h3>
+
+<p><p align="justify">An information-driven flexible docking approach for the modeling of biomolecular complexes. HADDOCK distinguishes itself from ab-initio docking methods in the fact that it encodes information from identified or predicted protein interfaces in ambiguous interaction restraints (AIRs) to drive the docking process. HADDOCK can deal with a large class of modeling problems including protein-protein, protein-nucleic acids and protein-ligand complexes.</p>
+
+<p><a href="http://haddock.science.uu.nl/services/HADDOCK2.2/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 Nat Protoc) <a href="https://www.nature.com/articles/s41596-018-0017-6" target="_blank">Defining distance restraints in HADDOCK.</a></p></li>
+
+<li><p>(2016 J Mol Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26410586" target="_blank">The HADDOCK2.2 Web Server: User-Friendly Integrative Modeling of Biomolecular Complexes.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Bijvoet Center for Biomolecular Research, Science Faculty, Utrecht University, Utrecht, Netherlands</p>
+
+<hr />
+
+<h3 id="global-score-protein-rna-interactions">Global Score | Protein-RNA interactions</h3>
+
+<p><p align="justify">Predicts protein interactions with transcripts &gt; 1000nt. Global Score is an algorithm that integrates the information coming from protein and RNA fragments into an overall binding propensity value. It was applied to all RBP-RNA pairs studied by eCLIP, and the number of predicted interactions significantly increases with the read counts, while pairs that are predicted to not interact show the opposite trend. It was also used to predict physical interactions between Xist and RNA-binding proteins and identified 5 interactions with Spen, Hnrnpk, Hrnnpu/Saf-A, Lbr and Ptbp1.</p>
+
+<p><a href="http://service.tartaglialab.com/update_submission/103005/aa8e78df20" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2016 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28032625" target="_blank">Quantitative predictions of protein interactions with long noncoding RNAs.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain; Universitat Pompeu Fabra (UPF), Barcelona, Spain</p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-drug-target-interaction-prediction-font"><font color=#CD5555 face="黑体">Drug-target Interaction Prediction</font></h2>
 
+<p><p align="justify">Identification of drug-target interactions is an important process in drug discovery. Although high-throughput screening and other biological assays are becoming available, experimental methods for drug-target interaction identification remain to be extremely costly, time-consuming and challenging even nowadays. Therefore, various computational models have been developed to predict potential drug-target associations on a large scale.</p>
+
+<hr />
+
+<h3 id="open-targets-drug-target-interaction-prediction-protein-interaction-analysis">Open Targets | Drug-target interaction prediction : Protein interaction analysis</h3>
+
+<p><p align="justify">A data integration and visualization platform that provides evidence about the association of known and potential drug targets with diseases. Open Targets platform is designed to support identification and prioritization of biological targets for follow-up. Each drug target is linked to a disease using integrated genome-wide data from a broad range of data sources. The platform provides either a target-centric workflow to identify diseases that may be associated with a specific target, or a disease-centric workflow to identify targets that may be associated with a specific disease. Users can easily transition between these target- and disease-centric workflows. Open Targets platform provides free data access through your web browser or through an API (Application Programming Interface).</p>
+
+<p><a href="https://www.targetvalidation.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899665" target="_blank">Open Targets: a platform for therapeutic target identification and validation.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Open Targets, Wellcome Genome Campus, Hinxton, Cambridge, UK; GSK, Medicines Research Center, Gunnels Wood Road, Stevenage, UK; Biogen, Cambridge, MA, USA</p>
+
+<hr />
+
+<h3 id="pihelper-drug-target-interaction-prediction-protein-interaction-analysis">PiHelper | Drug-target interaction prediction : Protein interaction analysis</h3>
+
+<p><p align="justify">A drug- and antibody-target information aggregator and provider service.</p>
+
+<p><a href="https://bitbucket.org/armish/pihelper" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2013 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23766416" target="_blank">PiHelper: an open source framework for drug-target and antibody-target data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computational Biology Center, Memorial Sloan-Kettering Cancer Center, NY, USA</p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-protein-protein-interaction-prediction-font"><font color=#CD5555 face="黑体">Protein-protein Interaction Prediction</font></h2>
+
+<p><p align="justify">Systems biology research is like solving a puzzle: the goal is to figure out how the various parts interact and work together. The interactome of an organism is then analogous to the puzzle’s key: it describes the network of all the protein–protein interactions (PPIs). As such, identifying all the PPIs for an organism is of great value. Despite the use of high-throughput techniques in discovering PPIs, however, the coverage of experimentally determined PPI data remains poor. Such low coverage is partly because the set of possible PPIs to be verified is so large that any exhaustive experimental verification will take a long time, even with high-throughput techniques.</p>
+
+<hr />
+
+<h3 id="mentha-protein-protein-interaction-prediction-protein-interaction-analysis">mentha | Protein-protein interaction prediction : Protein interaction analysis</h3>
+
+<p><p align="justify">Provides protein-protein interaction (PPI) data for many species, including human. mentha allows users to assemble and analyze collections of proteins and networks of interest. It focuses on experimentally demonstrated physical interactions, in order to avoid the confusion between physical and genetic interactions and between experimental and inferred interactions. The database’s information come from manually curated protein-protein interaction databases.</p>
+
+<p><a href="http://mentha.uniroma2.it/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2013 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23900247" target="_blank">mentha: a resource for browsing integrated protein-interaction networks</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biology, University of Rome Tor Vergata, Rome, Italy; Fondazione Santa Lucia Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS), Rome, Italy</p>
+
+<hr />
+
+<h3 id="comppass-comparative-proteomic-analysis-software-suite">compPASS | comparative proteomic analysis software suite</h3>
+
+<p><p align="justify">Allows to analyze proteomic data. The compPASS method gives confidence measurements to interactions from parallel non-reciprocal proteomic datasets in using unbiased metrics. This tool is applicable to proteomic investigations ranging from focused studies on a small number of selected proteins to the analysis of entire protein families or biological regulatory networks.</p>
+
+<p><a href="https://github.com/dnusinow/cRomppass" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2009 Cell) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19615732" target="_blank">Defining the human deubiquitinating enzyme interaction landscape.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Pathology, Harvard Medical School, Boston, MA, USA; Department of Cell Biology, Harvard Medical School, Boston, MA, USA</p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-protein-ligand-docking-font"><font color=#CD5555 face="黑体">Protein-ligand Docking</font></h2>
 
+<p>Protein-ligand docking is a key computational method in the design of starting points for the drug discovery process.</p>
+
+<hr />
+
+<h3 id="ucsf-chimera">UCSF Chimera</h3>
+
+<p><p align="justify">Permits to interactively visualize and analyse molecular structures and related data, including density maps, supramolecular assemblies, sequence alignments, docking results, trajectories, and conformational ensembles. UCSF Chimera allows users to incorporate new features. It contains some extensions which permits to visualize large-scale molecular assemblies such as viral coats, and allows researchers to share a Chimera session interactively despite being at separate locales. Other extensions can be used for extend the tool capabilities.</p>
+
+<p><a href="http://www.cgl.ucsf.edu/chimera/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2004 J Comput Chem) <a href="https://www.ncbi.nlm.nih.gov/pubmed/15264254" target="_blank">UCSF Chimera&ndash;a visualization system for exploratory research and analysis.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computer Graphics Laboratory, Department of Pharmaceutical Chemistry, University of California, San Francisco, CA, USA</p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-protein-protein-docking-font"><font color=#CD5555 face="黑体">Protein-protein Docking</font></h2>
 
-<h1 id="fret">FRET</h1>
+<p><p align="justify">Protein-protein interactions lie at the heart of most cellular processes. Protein-protein docking is important for understanding disease mechanisms and for drug discovery.</p>
+
+<hr />
+
+<h3 id="piper-protein-protein-docking-protein-interaction-analysis">PIPER | Protein-protein docking : Protein interaction analysis</h3>
+
+<p><p align="justify">Generates accurate structures of protein-protein complexes. PIPER is a Fast Fourier Transform (FFT)-based protein docking program, extended to be used with pairwise interaction potentials and based on docking code from the Vajda lab at Boston University. The software allows to improve results docking an antigen to an antibody or docking to form a dimer or trimer.</p>
+
+<p><a href="https://www.schrodinger.com/piper" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2006 Proteins) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16933295" target="_blank">PIPER: an FFT-based protein docking program with pairwise potentials.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biomedical Engineering, Boston University, Boston, MA, USA; Program in Bioinformatics, Boston University, Boston, MA, USA</p>
+
+<hr />
+
+<h3 id="haddock-high-ambiguity-driven-protein-protein-docking-1">HADDOCK | High Ambiguity Driven protein-protein DOCKing</h3>
+
+<p><p align="justify">An information-driven flexible docking approach for the modeling of biomolecular complexes. HADDOCK distinguishes itself from ab-initio docking methods in the fact that it encodes information from identified or predicted protein interfaces in ambiguous interaction restraints (AIRs) to drive the docking process. HADDOCK can deal with a large class of modeling problems including protein-protein, protein-nucleic acids and protein-ligand complexes.</p>
+
+<p><a href="http://haddock.science.uu.nl/services/HADDOCK2.2/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 Nat Protoc) <a href="https://www.nature.com/articles/s41596-018-0017-6" target="_blank">Defining distance restraints in HADDOCK.</a></p></li>
+
+<li><p>(2010 Nat Protoc) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20431534" target="_blank">The HADDOCK web server for data-driven biomolecular docking.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Bijvoet Center for Biomolecular Research, Science Faculty, Utrecht University, Utrecht, Netherlands</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-proteomics-category">Find more tools: <a href="https://omictools.com/proteomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -588,11 +833,11 @@
       <h3>Related</h3>
       <ul>
         
+        <li><a href="/too2/new_proteo/membrane/">Membrane Protein</a></li>
+        
         <li><a href="/too2/new_proteo/pro_seq/">Protein Sequence/Expression</a></li>
         
         <li><a href="/too2/new_proteo/structure/">Prediction of Protein Structure</a></li>
-        
-        <li><a href="/too2/new_proteo/membrane/">Membrane Protein</a></li>
         
         <li><a href="/too2/new_proteo/immune/">Immune System</a></li>
         

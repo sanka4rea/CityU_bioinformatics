@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction Structure-based B-cell Epitope Prediction Antibody Structure Prediction MHC Class I Epitope Prediction MHC Class II Epitope Prediction  Flow Cytometry  Cell Population Identification Data Repositories Utilities  Mass Cytometry Peptide Array Analysis Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems. Prediction of B- and T-cell epitopes has long been the focus of immunoinformatics, given the potential translational implications, and many tools have been developed.">
+  <meta name="description" content="Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction  ABCpred BepiPred  Structure-based B-cell Epitope Prediction  LYRA  MHC Class I Epitope Prediction  ProPred1 GradDock  MHC Class II Epitope Prediction  HLAMatchmaker ProPred   Flow Cytometry  Cell Population Identification  FCS Express FlowJo   Mass Cytometry  SPADE (Spanning tree Progression of Density normalized Events viSNE | Data visualization : Flow cytometry  Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_proteo/immune/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_proteo/immune/">
   <meta property="og:title" content="Immune System | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction Structure-based B-cell Epitope Prediction Antibody Structure Prediction MHC Class I Epitope Prediction MHC Class II Epitope Prediction  Flow Cytometry  Cell Population Identification Data Repositories Utilities  Mass Cytometry Peptide Array Analysis Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems. Prediction of B- and T-cell epitopes has long been the focus of immunoinformatics, given the potential translational implications, and many tools have been developed.">
+  <meta property="og:description" content="Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction  ABCpred BepiPred  Structure-based B-cell Epitope Prediction  LYRA  MHC Class I Epitope Prediction  ProPred1 GradDock  MHC Class II Epitope Prediction  HLAMatchmaker ProPred   Flow Cytometry  Cell Population Identification  FCS Express FlowJo   Mass Cytometry  SPADE (Spanning tree Progression of Density normalized Events viSNE | Data visualization : Flow cytometry  Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    9 min read
   </span>
   
 
@@ -525,20 +525,39 @@
 <ul>
 <li><a href="#immune-system-analysis">Immune System Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-sequence-based-b-cell-epitope-prediction-font"><font color=#CD5555 face="黑体">Sequence-based B-cell Epitope Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-structure-based-b-cell-epitope-prediction-font"><font color=#CD5555 face="黑体">Structure-based B-cell Epitope Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-antibody-structure-prediction-font"><font color=#CD5555 face="黑体">Antibody Structure Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-mhc-class-i-epitope-prediction-font"><font color=#CD5555 face="黑体">MHC Class I Epitope Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-mhc-class-ii-epitope-prediction-font"><font color=#CD5555 face="黑体">MHC Class II Epitope Prediction</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-sequence-based-b-cell-epitope-prediction-font"><font color=#CD5555 face="黑体">Sequence-based B-cell Epitope Prediction</font></a>
+<ul>
+<li><a href="#abcpred">ABCpred</a></li>
+<li><a href="#bepipred">BepiPred</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-structure-based-b-cell-epitope-prediction-font"><font color=#CD5555 face="黑体">Structure-based B-cell Epitope Prediction</font></a>
+<ul>
+<li><a href="#lyra">LYRA</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-mhc-class-i-epitope-prediction-font"><font color=#CD5555 face="黑体">MHC Class I Epitope Prediction</font></a>
+<ul>
+<li><a href="#propred1">ProPred1</a></li>
+<li><a href="#graddock">GradDock</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-mhc-class-ii-epitope-prediction-font"><font color=#CD5555 face="黑体">MHC Class II Epitope Prediction</font></a>
+<ul>
+<li><a href="#hlamatchmaker">HLAMatchmaker</a></li>
+<li><a href="#propred">ProPred</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#flow-cytometry">Flow Cytometry</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-cell-population-identification-font"><font color=#CD5555 face="黑体">Cell Population Identification</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-data-repositories-font"><font color=#CD5555 face="黑体">Data Repositories</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-utilities-font"><font color=#CD5555 face="黑体">Utilities</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-cell-population-identification-font"><font color=#CD5555 face="黑体">Cell Population Identification</font></a>
+<ul>
+<li><a href="#fcs-express">FCS Express</a></li>
+<li><a href="#flowjo">FlowJo</a></li>
 </ul></li>
-<li><a href="#mass-cytometry">Mass Cytometry</a></li>
-<li><a href="#peptide-array-analysis">Peptide Array Analysis</a></li>
+</ul></li>
+<li><a href="#mass-cytometry">Mass Cytometry</a>
+<ul>
+<li><a href="#spade-spanning-tree-progression-of-density-normalized-events">SPADE (Spanning tree Progression of Density normalized Events</a></li>
+<li><a href="#visne-data-visualization-flow-cytometry">viSNE | Data visualization : Flow cytometry</a></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-proteomics-category">Find more tools: <a href="https://omictools.com/proteomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -550,29 +569,249 @@
 
 <h2 id="font-color-cd5555-face-黑体-sequence-based-b-cell-epitope-prediction-font"><font color=#CD5555 face="黑体">Sequence-based B-cell Epitope Prediction</font></h2>
 
+<p><p align="justify">For over 30 years, computational methods have been developed for facilitating epitope recognition (El-Manzalawy and Honavar, 2010). In the past, the majority of the in silico methods were focused on linear epitopes. Most of these approaches are sequence-based and use amino acid-based propensity scales, such as hydrophilicity, solvent accessibility, secondary structure and flexibility; a score derived from the propensity scales is assigned to each residue, and the whole sequence is examined for high-scoring window fragments, which are then predicted as epitopes (Hopp and Woods, 1981; Parker et al., 1986; Pellequer et al., 1991; Emini et al., 1985; Karplus and Schulz, 1985; Kolaskar and Tongaonkar, 1990; Welling et al., 1985).</p>
+
+<hr />
+
+<h3 id="abcpred">ABCpred</h3>
+
+<p><p align="justify">Predicts B cell epitope(s) in an antigen sequence, using artificial neural network. ABCpred is able to predict epitopes with 65.93% accuracy using recurrent neural network.</p>
+
+<p><a href="http://crdd.osdd.net/raghava/abcpred/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2006 Proteins) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16894596" target="_blank">Prediction of continuous B-cell epitopes in an antigen using recurrent neural network</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Microbial Technology, Chandigarh, India</p>
+
+<hr />
+
+<h3 id="bepipred">BepiPred</h3>
+
+<p><p align="justify">Predicts the location of linear B-cell epitopes using a combination of a hidden Markov model (HMM) and a propensity scale method. BepiPred is a web server constructed from a large set of structurally defined B cell epitopes. The interface can aid researchers with limited computational knowledge to use and understand the results to their full extent. Additionally, the advanced option allows more experienced researchers to further interpret the output based on additionally predicted structural features.</p>
+
+<p><a href="http://www.cbs.dtu.dk/services/BepiPred/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28472356" target="_blank">BepiPred-2.0: improving sequence-based B-cell epitope prediction using conformational epitopes.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Bio and Health Informatics, Technical University of Denmark, Kgs, Lyngby, Denmark; La Jolla, Institute for Allergy and Immunology, La Jolla, CA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-structure-based-b-cell-epitope-prediction-font"><font color=#CD5555 face="黑体">Structure-based B-cell Epitope Prediction</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-antibody-structure-prediction-font"><font color=#CD5555 face="黑体">Antibody Structure Prediction</font></h2>
+<p><p align="justify">In recent years, computational identification of immunogenic regions/segments in a given protein antigen has provided increasing assistance in guiding the experimental validation. Since the majority of the epitope area was dominated by discontinuous amino acids in the surface of protein antigens (Haste Andersen et al., 2006), a lot of efforts have been devoted into computing spatial/conformational epitopes based on protein structures. These methods can be roughly divided into two tracks, one of which proposing useful parameters to discriminate epitope residues from common surface ones, while the other focusing on various classification algorithm to improve the performance.</p>
+
+<hr />
+
+<h3 id="lyra">LYRA</h3>
+
+<p><p align="justify">Implements a complete and automated method for building of B- and T-cell receptor structural models starting from their amino acid sequence alone. LYRA is based on the canonical structure method and can produce, easily and within minutes, extremely reliable models of lymphocyte receptors. It is freely available and easy to use for non-specialists. Upon submission, LYRA automatically generates alignments using ad hoc profiles, predicts the structural class of each hypervariable loop, selects the best templates in an automatic fashion, and provides within minutes a complete 3D model that can be downloaded or inspected online. Experienced users can manually select or exclude template structures according to case specific information.</p>
+
+<p><a href="http://www.cbs.dtu.dk/services/LYRA/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26007650" target="_blank">LYRA, a webserver for lymphocyte receptor structural modeling.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Center for Biological Sequence Analysis, Technical University of Denmark, Kgs Lyngby, Denmark</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-mhc-class-i-epitope-prediction-font"><font color=#CD5555 face="黑体">MHC Class I Epitope Prediction</font></h2>
 
+<p><p align="justify">A key role in cell-mediated immunity is dedicated to the major histocompatibility complex (MHC) molecules that bind peptides for presentation on the cell surface. Several in silico methods capable of predicting peptide binding to MHC class I have been developed. The accuracy of these methods depends on the data available characterizing the binding specificity of the MHC molecules.</p>
+
+<hr />
+
+<h3 id="propred1">ProPred1</h3>
+
+<p><p align="justify">An on-line service for identifying the MHC Class-I binding regions in antigens. It implements matrices for 47 MHC Class-I alleles, proteasomal and immunoproteasomal models. The main aim of ProPred1 is to help users in identifying the promiscuous regions.</p>
+
+<p><a href="http://crdd.osdd.net/raghava/propred1/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2003 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12761064" target="_blank">ProPred1: prediction of promiscuous MHC Class-I binding sites.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Microbial Technology, Chandigarh, India</p>
+
+<hr />
+
+<h3 id="graddock">GradDock</h3>
+
+<p><p align="justify">Decouples global and local conformational searches and generates diverse native-like peptide conformations for peptide binding to major histocompatibility complex class I (pMHC-I). GradDock uses a ranking function specific for pMHC-I which was reconstructed from the Rosetta scoring terms. It provides three steps: (1) the generation of peptide candidates from the sequence; (2) the insertion of peptides into the MHC-I molecule; and (3) the ranking of the peptides. It can create native-like peptides with a certain degree of diversity, which is sufficient for describing the pMHC-I space.</p>
+
+<p><a href="http://crdd.osdd.net/raghava/propred1/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Bioinformatics) <a href="https://academic.oup.com/bioinformatics/article-abstract/34/3/469/4160677?redirectedFrom=fulltext" target="_blank">GradDock: Rapid Simulation and Tailored Ranking Functions for Peptide-MHC Class I Docking.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biological Sciences, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Republic of Korea</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-mhc-class-ii-epitope-prediction-font"><font color=#CD5555 face="黑体">MHC Class II Epitope Prediction</font></h2>
+
+<p><p align="justify">CD4+ T-cell epitopes play a crucial role in eliciting vigorous protective immune responses during peptide (epitope)-based vaccination. The prediction of these epitopes focuses on the peptide binding process by MHC class II proteins. The ability to account for MHC class II polymorphism is critical for epitope-based vaccine design tools, as different allelic variants can have different peptide repertoires. In addition, the specificity of CD4+ T-cells is often directed to a very limited set of immunodominant peptides in pathogen proteins. The ability to predict what epitopes are most likely to dominate an immune response remains a challenge.</p>
+
+<hr />
+
+<h3 id="hlamatchmaker">HLAMatchmaker</h3>
+
+<p><p align="justify">Determines human leukocyte antigen (HLA) matching at epitope level in alloantibody responses. HLAMatchmaker utilizes an algorithm where each HLA antigen is considered as a string of amino acid configurations in antibody-accessible positions. This program can be used as a quantitative tool to define the degree of a mismatch such as mismatched eplets of triplets.</p>
+
+<p><a href="http://www.epitopes.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 Tissue Antigens) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21410655" target="_blank">Antibody-reactive epitope determination with HLAMatchmaker and its clinical applications.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Division of Transplantation Pathology, Thomas E. Starzl Transplantation Institute, University of Pittsburgh Medical Center, Pittsburgh, PA, USA</p>
+
+<hr />
+
+<h3 id="propred">ProPred</h3>
+
+<p><p align="justify">Analyses sequence data to predict MHC class II binding regions in antigenic protein sequences. Propred (generates text or graphic outputs, presents the binding score calculated from matrix in tabular format, selects an appropriate threshold for locating promiscuous binders using a threshold profile and performs analysis on any sub-sequence including the computation of the binding strength of all peptide frames.</p>
+
+<p><a href="http://osddlinux.osdd.net/raghava/propred/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2001 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/11751237" target="_blank">ProPred: prediction of HLA-DR binding sites.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Bioinformatics Centre, Institute of Microbial Technology, Sector 39A, Chandigarth, India</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="flow-cytometry">Flow Cytometry</h1>
 
 <p><p align="justify"><strong>Flow cytometry</strong> is a technology widely used in clinical practice and in research, particularly in the field of immunology. It is capable of interrogating a wide variety of markers on many different cell types on a single-cell basis, using fluorophore-conjugated antibodies. Although molecular as well as genomic studies have advanced the understanding of immunological processes and autoimmune diseases, the components of the human immune system and their functions have yet to be comprehensively described. Without such a reference “catalog” of the immune system, it is ultimately difficult to interpret the pathogenic significance of genetic, molecular, or phenotypic variants observed in diseases.</p>
 
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-cell-population-identification-font"><font color=#CD5555 face="黑体">Cell Population Identification</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-data-repositories-font"><font color=#CD5555 face="黑体">Data Repositories</font></h2>
+<p><p align="justify">Traditionally, the majority of flow cytometry experiments have been analyzed visually, either by serial manual inspection of one or two dimensions at a time (a process termed “gating”, with boundaries or “gates” defining cell populations of interest). However, these visual approaches are labor intensive and highly subjective, and they neglect information present in the data that are not visible to the human eye, thus representing a major obstacle to the automation and reproducibility of research.</p>
 
-<h2 id="font-color-cd5555-face-黑体-utilities-font"><font color=#CD5555 face="黑体">Utilities</font></h2>
+<hr />
+
+<h3 id="fcs-express">FCS Express</h3>
+
+<p><p align="justify">Enables flow and image cytometry data analysis. FCS Express is able to analyze flow cytometry data, with flow cytometry tools, plots, and gates. The software allows export to Powerpoint, pdf, Excel, Word, and Microsoft office.</p>
+
+<p><a href="https://www.denovosoftware.com/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Forum</strong>:</p>
+
+<p><a href="https://www.denovosoftware.com/site/forums.shtml" target="_blank">Forum</a></p>
+
+<hr />
+
+<h3 id="flowjo">FlowJo</h3>
+
+<p><p align="justify">A flow cytometry data analysis software.. FlowJo contains a list of loaded samples (experimental data), statistics, gates, and other analyses, as well as tabular and graphical layouts. FlowJo provides features and tools for the creation of histogram and other plot overlays, cell cycle analysis, calcium flux analysis, proliferation analysis, quantitation, cluster identification and backgating display.</p>
+
+<p><a href="https://www.flowjo.com/solutions/flowjo" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>CITATIONS</strong>:</p>
+
+<ul>
+<li>(2017) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5607261/" target="_blank">Circulating Mycobacterium tuberculosis DosR latency antigen-specific, polyfunctional, regulatory IL10+ Th17 CD4 T-cells differentiate latent from active tuberculosis</a></li>
+</ul>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="mass-cytometry">Mass Cytometry</h1>
 
-<h1 id="peptide-array-analysis">Peptide Array Analysis</h1>
+<p><p align="justify">Mass cytometry addresses the analytical challenges of polychromatic flow cytometry by using metal atoms as tags rather than fluorophores and atomic mass spectrometry as the detector rather than photon optics.</p>
+
+<hr />
+
+<h2 id="spade-spanning-tree-progression-of-density-normalized-events">SPADE (Spanning tree Progression of Density normalized Events</h2>
+
+<p>)</p>
+
+<p><p align="justify">Facilitates the analysis of cellular heterogeneity, the identification of cell types, and comparison of functional markers in response to perturbations, based on a versatile method. SPADE helps to organize high-dimensional cytometry data in an unsupervised manner, and to investigate natural and pathogenic cellular heterogeneity for biological insight. The SPADE algorithm consists of four components: (i) density-dependent downsampling, (ii) clustering, (iii) linking clusters with a minimum spanning tree, and (iv) upsampling to restore all cells in the final result. This modularized process allows more efficient sub-algorithms to replace the current components. In this sense, SPADE can be viewed as a framework for cytometric data analysis and visualization that has the capacity to be evolved and adapted.</p>
+
+<p><a href="https://github.com/nolanlab/spade" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2011 Nat Biotechnol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21964415" target="_blank">Extracting a cellular hierarchy from high-dimensional cytometry data with SPADE.</a></p></li>
+
+<li><p>(2011 Science) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21551058" target="_blank">Single-cell mass cytometry of differential immune and drug responses across a human hematopoietic continuum.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Radiology, Stanford University, Stanford, CA, USA</p>
+
+<hr />
+
+<h2 id="visne-data-visualization-flow-cytometry">viSNE | Data visualization : Flow cytometry</h2>
+
+<p><p align="justify">A tool that allows one to map high-dimensional cytometry data onto two dimensions, yet conserve the high-dimensional structure of the data.</p>
+
+<p><a href="https://www.denovosoftware.com/site/manual/visne.htm" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2013 Nat Biotechnol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23685480" target="_blank">viSNE enables visualization of high dimensional single-cell data and reveals phenotypic heterogeneity of leukemia.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biological Sciences, Columbia Initiative for Systems Biology, Columbia University, New York, NY, USA</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-proteomics-category">Find more tools: <a href="https://omictools.com/proteomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -601,13 +840,13 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_proteo/interactions/">Protein Interactions</a></li>
+        <li><a href="/too2/new_proteo/structure/">Prediction of Protein Structure</a></li>
         
         <li><a href="/too2/new_proteo/membrane/">Membrane Protein</a></li>
         
         <li><a href="/too2/new_proteo/pro_seq/">Protein Sequence/Expression</a></li>
         
-        <li><a href="/too2/new_proteo/structure/">Prediction of Protein Structure</a></li>
+        <li><a href="/too2/new_proteo/interactions/">Protein Interactions</a></li>
         
       </ul>
     </div>

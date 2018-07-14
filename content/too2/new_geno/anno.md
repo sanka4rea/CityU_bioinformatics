@@ -42,6 +42,8 @@ math = false
 
 <p align="justify">**Genome annotation** is a key process for identifying the coding and non-coding regions of a genome, gene locations and functions. Analysis of DNA sequence with genome annotation software tools allow finding and mapping genes, exons-introns, regulatory elements, repeats and mutations. Genome databases are essential to retrieve information on gene name, protein product and DNA sequence functions.
 
+---
+
 ## <font color=#CD5555 face="黑体">Gene Ontology Annotation</font>
 
 ### BLASTX
@@ -57,11 +59,15 @@ math = false
 
 <p align="justify">The details about **process** and **algorithm** coule be found [here](https://en.wikipedia.org/wiki/BLAST) and [official website](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 
+---
+
 **NCBI BLAST**:
 
 <p align="justify">BLAST stands for Basic Local Alignment Search Tool.The emphasis of this tool is to find regions of sequence similarity, which will yield functional and evolutionary clues about the structure and function of your sequence.
 
 This tool can be used in the following contexts:Protein, Nucleotide, Vectors. 
+
+---
 
 **PSI-BLAST**:
 
@@ -81,6 +87,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 *citation:* [Sequence Similarity Searching](https://www.ebi.ac.uk/Tools/sss/)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+---
 
 ### Blast2GO
 
@@ -103,6 +111,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">GO Semantic Similarity Analysis</font>
 
 ### G-SESAME | Gene Semantic Similarity Analysis and Measurement Tools
@@ -119,6 +129,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 * (Wang et al., 2007) [A new method to measure the semantic similarity of GO terms](https://www.ncbi.nlm.nih.gov/pubmed/17344234). Bioinformatics. <br>PMID: 17344234
 
 **Institutions(s)**: School of Computing, Clemson University, Clemson, SC, USA
+
+---
 
 ### clusterProfiler | GO semantic similarity analysis : Genome annotation
 
@@ -137,6 +149,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 **Institutions(s)**: State Key Laboratory of Emerging Infectious Diseases and Centre of Influenza Research, School of Public Health, The University of Hong Kong, Hong Kong, China
 
+---
+
 ### GOToolBox | GO semantic similarity analysis : DNA sequence analysis
 
 <p align="justify">Provides a series of programs allowing the functional investigation of groups of genes, based on the Gene Ontology resource. GOToolBox allows 1) the identification of statistically relevant over- or under-represented terms in a gene dataset, 2) the clustering of functionally related genes within a set and 3) the retrieval of genes sharing annotations with a query gene. The user can also constrain the GO annotations to a slim hierarchy or to a given level of the ontology, in order to facilitate the interpretation of the results.
@@ -148,6 +162,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 * (Martin et al., 2004) [GOToolBox: functional analysis of gene datasets based on Gene Ontology](https://www.ncbi.nlm.nih.gov/pubmed/15575967).  Genome Biol. 
 
 **Institutions(s)**: Laboratoire de Génétique et Physiologie du Développement, IBDM, CNRS/INSERM/Université de la Méditerranée, Parc Scientifique de Luminy, Marseille, France
+
+---
 
 ### SML-Toolkit | Semantic Measures Library Toolkit
 
@@ -166,6 +182,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">Promoter Predication</font>
 
 ### FirstEF | First Exon Finder
@@ -183,6 +201,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 **Institutions(s)**: Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, NY, USA
 
+---
+
 ### CpGpromoter
 
 <p align="justify">A program for a large-scale human promoter mapping using CpG islands. CpGpromoter is based on results of discriminant analysis between the promoter-associated CpG islands and non-associated ones. It enables an efficient mapping of human promoters with 2Kb resolution, if there is a CpG island inside an interval (-500...+1,500) around a transcription start site.
@@ -195,6 +215,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 
 **Institutions(s)**: Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA
+
+---
 
 ### PROmiRNA
 
@@ -211,6 +233,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">Annotation Workflows</font>
 
 ### RAST | Rapid Annotation using Subsystem Technology
@@ -224,6 +248,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 * (Overbeek et al., 2014) [The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST)](https://www.ncbi.nlm.nih.gov/pubmed/24293654).  Nucleic Acids Res. 
 * (Aziz et al., 2008) [The RAST Server: rapid annotations using subsystems technology](https://www.ncbi.nlm.nih.gov/pubmed/18261238).  BMC Genomics. 
 
+---
+
 ### Prokka | Annotation workflows
 
 <p align="justify">A command line software tool to fully annotate a draft bacterial genome in about 10 min on a typical desktop computer. It produces standards-compliant output files for further analysis or viewing in genome browsers. Prokka uses parallel processing to decrease running time on multicore computers. The most time-consuming steps are BLAST+ and hmmscan, which both support multiple CPUs natively. However, Prokka is more efficient if it runs multiple single CPU threads on subsets of the data, which it achieves using GNU parallel.
@@ -236,6 +262,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 
 
 **Institutions(s)**: Victorian Bioinformatics Consortium, Monash University, Clayton; Life Sciences Computation Centre, Victorian Life Sciences Computation Initiative, Carlton, Australia
+
+---
 
 ### BlastKOALA
 
@@ -251,6 +279,8 @@ National Center for Biotechnology Information, National Library of Medicine, Nat
 **Institutions(s)**: Institute for Chemical Research, Kyoto University, Uji, Kyoto, Japan; Healthcare Solutions Department, Fujitsu Kyushu Systems Ltd, Hakata-ku, Fukuoka, Japan; Institute for Chemical Research, Kyoto University, Uji, Kyoto, Japan
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+---
 
 # Find more tools: [**OMICTOOLS**](https://omictools.com/genomics2-category)
 

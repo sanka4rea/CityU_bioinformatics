@@ -17,8 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Membrane Protein Analysis  Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein  FRAP Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling. Their configuration, folding, or activity depend on several biochemical factors that can be predicted by specific software.
-Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein FRAP Top">
+  <meta name="description" content="Table of Contents  Membrane Protein Analysis  Membrane Simulation  CHARMM-GUI Membrane Builder | Membrane simulation : Membrane protein analysis  Transmembrane Beta-barrel Prediction  PROFtmb | Transmembrane beta-barrel prediction : Membrane protein analysis PRED-TMBB | Transmembrane beta-barrel prediction : Membrane protein analysis  Transmembrane Helix Prediction  CCTOP | Consensus Constrained TOPology prediction SignalP   FRAP    easy-FRAP | FRAP : Laser scanning microscopy PyFRAP | Python Fluorescence Recovery After Photobleaching   Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_proteo/membrane/">
@@ -77,8 +76,7 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_proteo/membrane/">
   <meta property="og:title" content="Membrane Protein | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Membrane Protein Analysis  Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein  FRAP Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling. Their configuration, folding, or activity depend on several biochemical factors that can be predicted by specific software.
-Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein FRAP Top">
+  <meta property="og:description" content="Table of Contents  Membrane Protein Analysis  Membrane Simulation  CHARMM-GUI Membrane Builder | Membrane simulation : Membrane protein analysis  Transmembrane Beta-barrel Prediction  PROFtmb | Transmembrane beta-barrel prediction : Membrane protein analysis PRED-TMBB | Transmembrane beta-barrel prediction : Membrane protein analysis  Transmembrane Helix Prediction  CCTOP | Consensus Constrained TOPology prediction SignalP   FRAP    easy-FRAP | FRAP : Laser scanning microscopy PyFRAP | Python Fluorescence Recovery After Photobleaching   Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -457,7 +455,7 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    6 min read
   </span>
   
 
@@ -527,13 +525,29 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
 <ul>
 <li><a href="#membrane-protein-analysis">Membrane Protein Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-membrane-protein-protein-docking-font"><font color=#CD5555 face="黑体">Membrane Protein-protein Docking</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-membrane-simulation-font"><font color=#CD5555 face="黑体">Membrane Simulation</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-transmembrane-beta-barrel-prediction-font"><font color=#CD5555 face="黑体">Transmembrane Beta-barrel Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-transmembrane-helix-prediction-font"><font color=#CD5555 face="黑体">Transmembrane Helix Prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-function-membrane-protein-font"><font color=#CD5555 face="黑体">Function Membrane Protein</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-membrane-simulation-font"><font color=#CD5555 face="黑体">Membrane Simulation</font></a>
+<ul>
+<li><a href="#charmm-gui-membrane-builder-membrane-simulation-membrane-protein-analysis">CHARMM-GUI Membrane Builder | Membrane simulation : Membrane protein analysis</a></li>
 </ul></li>
-<li><a href="#frap">FRAP</a></li>
+<li><a href="#font-color-cd5555-face-黑体-transmembrane-beta-barrel-prediction-font"><font color=#CD5555 face="黑体">Transmembrane Beta-barrel Prediction</font></a>
+<ul>
+<li><a href="#proftmb-transmembrane-beta-barrel-prediction-membrane-protein-analysis">PROFtmb | Transmembrane beta-barrel prediction : Membrane protein analysis</a></li>
+<li><a href="#pred-tmbb-transmembrane-beta-barrel-prediction-membrane-protein-analysis">PRED-TMBB | Transmembrane beta-barrel prediction : Membrane protein analysis</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-transmembrane-helix-prediction-font"><font color=#CD5555 face="黑体">Transmembrane Helix Prediction</font></a>
+<ul>
+<li><a href="#cctop-consensus-constrained-topology-prediction">CCTOP | Consensus Constrained TOPology prediction</a></li>
+<li><a href="#signalp">SignalP</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#frap">FRAP</a>
+<ul>
+<li>
+<ul>
+<li><a href="#easy-frap-frap-laser-scanning-microscopy">easy-FRAP | FRAP : Laser scanning microscopy</a></li>
+<li><a href="#pyfrap-python-fluorescence-recovery-after-photobleaching">PyFRAP | Python Fluorescence Recovery After Photobleaching</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-proteomics-category">Find more tools: <a href="https://omictools.com/proteomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -543,19 +557,159 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
 
 <p><p align="justify"><strong>Membrane and transmembrane proteins</strong> are key component of cell signaling. Their configuration, folding, or activity depend on several biochemical factors that can be predicted by specific software.</p>
 
-<h2 id="font-color-cd5555-face-黑体-membrane-protein-protein-docking-font"><font color=#CD5555 face="黑体">Membrane Protein-protein Docking</font></h2>
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-membrane-simulation-font"><font color=#CD5555 face="黑体">Membrane Simulation</font></h2>
 
+<p><p align="justify">Molecular dynamics (MD) simulations have had a profound impact on studies of membrane proteins during past two decades, but the accuracy of MD simulations of membranes is limited by the quality of membrane models and the applied force fields. Membrane models used in MD simulations mostly contain one kind of lipid molecule. This is far from reality, for biological membranes always contain more than one kind of lipid molecule. Moreover, the lipid composition and their distribution are functionally important. As a result, there is a necessity to prepare more realistic lipid membranes containing different types of lipids at physiological concentrations.</p>
+
+<hr />
+
+<h3 id="charmm-gui-membrane-builder-membrane-simulation-membrane-protein-analysis">CHARMM-GUI Membrane Builder | Membrane simulation : Membrane protein analysis</h3>
+
+<p><p align="justify">Helps user to generate a series of CHARMM inputs necessary to build a protein/membrane complex for molecular dynamics simulations. CHARMM-GUI Membrane Builder helps a wide range of scientists who simulate complex lipid membranes, both with and without peptides and proteins. It assists user in production of ligand force field (FF) parameter, structure, and other necessary files for various ligand-containing biomolecular simulations.</p>
+
+<p><a href="http://www.charmm-gui.org/?doc=input/membrane" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 J Comput Chem) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28497616" target="_blank">CHARMM-GUI ligand reader and modeler for CHARMM force field generation of small molecules.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p><p align="justify">Department of Biological Sciences and Bioengineering Program, Lehigh University, Bethlehem, PA, USA; Leadership Computing Facility, Argonne National Laboratory, Argonne, IL, USA</p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-transmembrane-beta-barrel-prediction-font"><font color=#CD5555 face="黑体">Transmembrane Beta-barrel Prediction</font></h2>
+
+<p><p align="justify">β-Barrel membrane proteins are found in the outer membrane of gram-negative bacteria, mitochondria, and chloroplasts. They are important for pore formation, membrane anchoring, and enzyme activity. These proteins are also often responsible for bacterial virulence.</p>
+
+<hr />
+
+<h3 id="proftmb-transmembrane-beta-barrel-prediction-membrane-protein-analysis">PROFtmb | Transmembrane beta-barrel prediction : Membrane protein analysis</h3>
+
+<p><p align="justify">Predicts transmembrane beta-barrel (TMB) proteins in Gram-negative bacteria. PROFtmb was tested on a representative set of known TMB and non-TMB proteins. It detects 50% of TMBs at 80% accuracy (z-score&gt;=10) and 70% of TMBs at 35% accuracy (z-score &gt;= 6). The tool uses a Hidden Markov Model (HMM) whose parameters are trained on a set of labelled sequence profiles, and which accepts sequence profiles as input for prediction.</p>
+
+<p><a href="https://open.predictprotein.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2006 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16844988" target="_blank">PROFtmb: a web server for predicting bacterial transmembrane beta barrel proteins.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p><p align="justify">This work was supported by grant R01-LM07329-01 from the National Library of Medicine.</p>
+
+<hr />
+
+<h3 id="pred-tmbb-transmembrane-beta-barrel-prediction-membrane-protein-analysis">PRED-TMBB | Transmembrane beta-barrel prediction : Membrane protein analysis</h3>
+
+<p><p align="justify">A web server which is capable of predicting the transmembrane strands and the topology of beta-barrel outer membrane proteins of Gram-negative bacteria. The method is based on a Hidden Markov Model, trained according to the Conditional Maximum Likelihood criterion.</p>
+
+<p><a href="http://bioinformatics.biol.uoa.gr/PRED-TMBB/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2004 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/15215419" target="_blank">PRED-TMBB: a web server for predicting the topology of beta-barrel outer membrane proteins.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p><p align="justify">Department of Cell Biology and Biophysics, Faculty of Biology, University of Athens, Panepistimiopolis, Athens, Greece</p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-transmembrane-helix-prediction-font"><font color=#CD5555 face="黑体">Transmembrane Helix Prediction</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-function-membrane-protein-font"><font color=#CD5555 face="黑体">Function Membrane Protein</font></h2>
+<p><p align="justify">In eukaryotes, all known membrane proteins in the plasma membrane consist of alpha helical transmembrane &trade; bundles connected by loops. Accurate computational prediction of transmembrane helical segments is important for modeling membrane protein 3D structure and function.</p>
+
+<hr />
+
+<h3 id="cctop-consensus-constrained-topology-prediction">CCTOP | Consensus Constrained TOPology prediction</h3>
+
+<p><p align="justify">A web-based application providing transmembrane topology prediction. In addition to utilizing 10 different state-of-the-art topology prediction methods, the CCTOP server incorporates topology information from existing experimental and computational sources available in the PDBTM, TOPDB and TOPDOM databases using the probabilistic framework of hidden Markov model. The server provides the option to precede the topology prediction with signal peptide prediction and transmembrane-globular protein discrimination. Given the amino acid sequence of a putative α-helical transmembrane protein, CCTOP predicts its topology i.e. localization of membrane spanning regions and orientation of segments between them. The prediction results and the collected experimental information are visualized on the CCTOP home page and can be downloaded in XML format.</p>
+
+<p><a href="http://cctop.enzim.ttk.mta.hu/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25943549" target="_blank">CCTOP: a Consensus Constrained TOPology prediction web server.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p><p align="justify">‘Momentum’ Membrane Protein Bioinformatics Research Group, Institute of Enzymology, RCNS, HAS, Budapest, Hungary</p>
+
+<hr />
+
+<h3 id="signalp">SignalP</h3>
+
+<p><p align="justify">Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms: Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes. SignalP is a neural network–based method which can discriminate signal peptides from transmembrane regions. The software incorporates a prediction of cleavage sites and a signal peptide/non-signal peptide prediction based on a combination of several artificial neural networks.</p>
+
+<p><a href="http://www.cbs.dtu.dk/services/SignalP/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21959131" target="_blank">SignalP 4.0: discriminating signal peptides from transmembrane regions.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p><p align="justify">Center for Biological Sequence Analysis, Department of Systems Biology, Technical University of Denmark, Lyngby, Denmark</p>
+
+<hr />
 
 <h1 id="frap">FRAP</h1>
 
+<p><p align="justify">Fluorescence recovery after photobleaching (FRAP) is now widely used to investigate binding interactions in live cells. Although various idealized solutions have been identified for the reaction-diffusion equations that govern FRAP, there has been no comprehensive analysisor systematic approach to serve as a guide for extracting binding information from an arbitrary FRAP curve.</p>
+
+<hr />
+
+<h3 id="easy-frap-frap-laser-scanning-microscopy">easy-FRAP | FRAP : Laser scanning microscopy</h3>
+
+<p><p align="justify">Provides assistance for the qualitative and quantitative analysis of fluorescence recovery after photobleaching (FRAP) data. easy-FRAP allows data visualization, normalization of the raw recovery curves and curve fitting. This software can also exploit large data sets of raw data under different experimental conditions, exclude low quality data and perform batch analysis. All of this tasks can be run simultaneously.</p>
+
+<p><a href="http://ccl.med.upatras.gr/index.php?id=easyfrap/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2018 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29901776" target="_blank">EasyFRAP-web: a web-based tool for the analysis of fluorescence recovery after photobleaching data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Laboratory of Biology School of Medicine, University of Patras, Patras, Greece; Laboratory of Physiology, School of Medicine, University of Patras, Patras, Greece</p>
+
+<hr />
+
+<h3 id="pyfrap-python-fluorescence-recovery-after-photobleaching">PyFRAP | Python Fluorescence Recovery After Photobleaching</h3>
+
+<p><p align="justify">Fits numerical simulations of three-dimensional models to fluorescence recovery after photobleaching (FRAP)/inverse FRAP (iFRAP) data and accounts for bleaching/photoconversion inhomogeneities. PyFRAP is able to apply post-bleach image as initial condition, and numerically simulates the FRAP experiment in realistic two-dimensional or three-dimensional experiment geometries. Moreover, it can determine the diffusion coefficients of fluorescent molecules ranging from 3 to 500 kDa in both artificial and biological contexts.</p>
+
+<p><a href="https://mueller-lab.github.io/PyFRAP/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2018 Nat Commun) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29679054" target="_blank">Quantitative diffusion measurements using the open-source software PyFRAP.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Friedrich Miescher Laboratory of the Max Planck Society, Tübingen, Germany; Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA</p>
+
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-proteomics-category">Find more tools: <a href="https://omictools.com/proteomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -584,13 +738,13 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_proteo/pro_seq/">Protein Sequence/Expression</a></li>
-        
         <li><a href="/too2/new_proteo/interactions/">Protein Interactions</a></li>
         
-        <li><a href="/too2/new_proteo/structure/">Prediction of Protein Structure</a></li>
+        <li><a href="/too2/new_proteo/pro_seq/">Protein Sequence/Expression</a></li>
         
         <li><a href="/too2/new_proteo/immune/">Immune System</a></li>
+        
+        <li><a href="/too2/new_proteo/structure/">Prediction of Protein Structure</a></li>
         
       </ul>
     </div>

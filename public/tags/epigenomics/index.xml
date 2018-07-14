@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>DNA-Protein Interactions</title>
-      <link>/too2/new_epi/dna_pro/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/too2/new_epi/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
-    </item>
-    
-    <item>
       <title>Nucleosome Positioning</title>
       <link>/too2/new_epi/position/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>

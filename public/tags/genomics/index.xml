@@ -23,11 +23,20 @@
     
     <item>
       <title>DNA-Protein Interactions</title>
+      <link>/too2/new_epi/dna_pro/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_epi/dna_pro/</guid>
+      <description>Table of Contents  HT-SELEX Analysis    AptaTools SelexGLM   DNase-seq Analysis    HOMER DFilter   ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
+    </item>
+    
+    <item>
+      <title>DNA-Protein Interactions</title>
       <link>/too2/new_geno/dna_pro/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
+      <description>Table of Contents  HT-SELEX Analysis  AptaTools SelexGLM  DNase-seq Analysis  HOMER DFilter  ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
     </item>
     
     <item>
@@ -54,7 +63,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/phylogenetic/</guid>
-      <description>Table of Contents  Popilation Genetic Analysis Phylogenetic inference Phylogenetic Network Construction Discrete Character Evolution Tumor Progression Tree Visualization Find more tools: OMIVTOOLS   
+      <description>Table of Contents  Phylogenetic inference  MEGA ADAPTML  Phylogenetic Network Construction  CLC bio SPRDist  Discrete Character Evolution  CAFE DupliPHY  Tumor Progression  CT-CBN TRONCO  Tree Visualization  Dendroscope TreeKO  Find more tools: OMIVTOOLS   
 In biology, phylogenetics is the study of the evolutionary history and relationships among individuals or groups of organisms (e.g. species, or populations). These relationships are discovered through phylogenetic inference methods that evaluate observed heritable traits, such as DNA sequences or morphology under a model of evolution of these traits.</description>
     </item>
     

@@ -42,6 +42,8 @@ math = false
 
 <p align="justify">DNA molecules exist in many different conformations, including A-DNA, B-DNA, or Z-DNA forms, which depend on the nucleotide sequence, hydratation level, presence of metal ions, etc. **Structure analysis** software tools help predict and model nucleic acid structure and conformation variations according to specific parameters.
 
+---
+
 ## <font color=#CD5555 face="黑体">Shape prediction</font>
 
 ### do_x3dna
@@ -65,6 +67,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ### 3DNA
 
 <p align="justify">A comprehensive software package for the analysis, reconstruction and visualization of three-dimensional nucleic acid structures. **3DNA** can be applied to parallel and antiparallel double helices, single-stranded forms, multi-stranded helices and complex tertiary folding motifs found in both DNA and RNA structures. The rebuilding module of 3DNA can be used to generate sequence-dependent atomic structures of nucleic acids, with or without the sugar–phosphate backbone. These structures provide a useful starting point for molecular mechanics and molecular dynamics calculations.
@@ -81,6 +85,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 
 **Institutions(s)**: Department of Chemistry and Chemical Biology, Wright-Rieman Laboratories, The State University of New Jersey, Piscataway, NJ, USA
 
+---
+
 ### DINAMelt
 
 <p align="justify">Provides a platform for allowing the simulation single-stranded nucleic acids melt in a solution. DINAMelt is a web application that calculates features such as ultraviolet (UV) absorbance, or concentrations of various dimer as a function of temperature. The interface allows users to set the temperature range, the nucleic acid type; the initial concentration as well as the salt conditions.
@@ -92,6 +98,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 * (Markham and Zuker, 2005) [DINAMelt web server for nucleic acid melting prediction](https://www.ncbi.nlm.nih.gov/pubmed/15980540).  Nucleic Acids Res. 
 
 **Institutions(s)**: Department of Computer Science, Rensselaer Polytechnic Institute, Troy, NY, USA; Department of Mathematical Sciences, Rensselaer Polytechnic Institute, Troy, NY, USA
+
+---
 
 ### DNAshape
 
@@ -109,6 +117,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">R-loop forming sequence prediction</font>
 
 ### QmRLFS-finder
@@ -124,6 +134,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 **Institutions(s)**: Department of Genome and Gene Expression Data Analysis, Bioinformatics Institute, Agency for Science, Technology and Research (A*STAR), Singapore
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+---
 
 ## <font color=#CD5555 face="黑体">DNA Structure Database</font>
 
@@ -143,6 +155,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
+---
+
 ## <font color=#CD5555 face="黑体">Small-angle Scattering</font>
 
 ### AXES
@@ -159,6 +173,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 
 **Institution(s)**: Laboratory of Chemical Physics, National Institute of Diabetes and DigestiVe and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA
 
+---
+
 ### FoXS
 
 <p align="justify">A rapid method for computing a SAXS profile of a given structure and for matching of the computed and experimental profiles. FoXS also provides an optimization of the hydration layer density as well as the excluded volume of the protein, to maximize the fit of the computed profile to the experimental profile. Additional optimization is achieved by adjusting the ‘background’ of the experimental profile for wider scattering angles.
@@ -172,6 +188,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 
 
 **Institutions(s)**: Department of Bioengineering and Therapeutic Sciences, Department of Pharmaceutical Chemistry, and California Institute for Quantitative Biosciences (QB3), University of California at San Francisco, CA, USA
+
+---
 
 ### AquaSAXS
 
@@ -187,6 +205,8 @@ Department of Theoretical and Computational Biophysics, Max Planck Institute for
 **Institutions(s)**: Institut Pasteur, Unit of Structural Dynamics of Macromolecules, CNRS, URA 2185, Paris, France
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+---
 
 # Find more tools: [**OMICTOOLS**](https://omictools.com/genomics2-category)
 

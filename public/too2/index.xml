@@ -63,7 +63,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_trans/transcription/</guid>
-      <description>Table of Contents  Transcription analysis  Prognostic Biomarker Identification Region Discrimination Gene co-expression prediction Gene regulatory network inference Gene set enrichment analysis Over-representation analysisi  RNA-seq analysis  Read count Known transcript quantification Gene fusion detection Prognostic biomarker identification Differential expression Alternative splicing events identification  CAGE Analysis  TSS detection De novo motif discovery  Gene expression array analysis  Differential expression detection Time course Meta-analysis  Metatranscriptomic sequencing analysis  Prediction-base Taxonomic Homology-Based Taxonomic  Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.</description>
+      <description>Table of Contents  Transcription analysis  Prognostic Biomarker Identification  KM plotter cBioPortal  Region Discrimination  CPC CNCI  Gene co-expression prediction  GeneMANIA WGCNA  Gene regulatory network inference  NIR GRAM  Gene set enrichment analysis  GSEA DAVID   RNA-seq analysis  Gene fusion detection  Segemehl Subread  Alternative splicing events identification  Cufflinks   Gene expression array analysis  Prognostic biomarker identification  KM plotter cBioPortal  Differential expression  DESeq agriGO   Metatranscriptomic sequencing analysis  Prediction-base Taxonomic  MetaBAT  Homology-Based Taxonomic  MEGAN | MEtaGenome ANalyzer   Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics.</description>
     </item>
     
     <item>
@@ -118,7 +118,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/structure/</guid>
-      <description>Table of Contents  Primary structure    ProtParam COILS   Secondary structure    PredictProtein PSIPRED   tertiary structure    Phyre Swiss-PdbViewer   Find more tools: OMICTOOLS   Primary structure Protein primary structure is the linear sequence of amino acids in a peptide or protein. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal &amp;copy; end.</description>
+      <description>Table of Contents  Primary structure  ProtParam COILS  Secondary structure  PredictProtein PSIPRED  tertiary structure  Phyre Swiss-PdbViewer  Find more tools: OMICTOOLS   Primary structure Protein primary structure is the linear sequence of amino acids in a peptide or protein. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal &amp;copy; end. Protein biosynthesis is most commonly performed by ribosomes in cells.</description>
     </item>
     
     <item>
@@ -128,15 +128,6 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       
       <guid>/too2/new_pheno/neuroinformatics/</guid>
       <description>Table of Contents  Biological Steps  Realistic Neuronal Network Modelling Compartment Neuron modelling  File Manipulation  Model Files Conversion Model Files Visualization Model Building  Database Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes. In the same way that processing of information happens at multiple physical scales in the nervous system, software applications have been created which specialize in modelling different aspects of neurons and networks.</description>
-    </item>
-    
-    <item>
-      <title>DNA-Protein Interactions</title>
-      <link>/too2/new_epi/dna_pro/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/too2/new_epi/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly Peak calling Differential peak calling De novo motif discovery  Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA. Sequence-specific DNA-binding proteins generally interact with the major groove of B-DNA, because it exposes more functional groups that identify a base pair.</description>
     </item>
     
     <item>
@@ -163,7 +154,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/immune/</guid>
-      <description>Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction Structure-based B-cell Epitope Prediction Antibody Structure Prediction MHC Class I Epitope Prediction MHC Class II Epitope Prediction  Flow Cytometry  Cell Population Identification Data Repositories Utilities  Mass Cytometry Peptide Array Analysis Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems. Prediction of B- and T-cell epitopes has long been the focus of immunoinformatics, given the potential translational implications, and many tools have been developed.</description>
+      <description>Table of Contents  Immune System Analysis  Sequence-based B-cell Epitope Prediction  ABCpred BepiPred  Structure-based B-cell Epitope Prediction  LYRA  MHC Class I Epitope Prediction  ProPred1 GradDock  MHC Class II Epitope Prediction  HLAMatchmaker ProPred   Flow Cytometry  Cell Population Identification  FCS Express FlowJo   Mass Cytometry  SPADE (Spanning tree Progression of Density normalized Events viSNE | Data visualization : Flow cytometry  Find more tools: OMICTOOLS   Immune System Analysis Immunoinformatics involves the application of computational methods to immunological problems.</description>
     </item>
     
     <item>
@@ -208,7 +199,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/interactions/</guid>
-      <description>Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction Protein-RNA Interaction Prediction Pocket Detection Drug-target Interaction Prediction Protein-protein Interaction Prediction Protein-ligand Docking Protein-protein Docking  FRET Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions. Mass-spectrometry and protein chips have revolutionized the field of proteomics and the study of protein interactions to a wider scale, which require specific tools for their analyses.</description>
+      <description>Table of Contents  Protein Interactions Analysis  Protein-DNA Interaction Prediction  LigParGen | Protein-ligand docking : Protein interaction analysis DBSI | DNA Binding Site Identifier  Protein-RNA Interaction Prediction  HADDOCK | High Ambiguity Driven protein-protein DOCKing Global Score | Protein-RNA interactions  Drug-target Interaction Prediction  Open Targets | Drug-target interaction prediction : Protein interaction analysis PiHelper | Drug-target interaction prediction : Protein interaction analysis  Protein-protein Interaction Prediction  mentha | Protein-protein interaction prediction : Protein interaction analysis compPASS | comparative proteomic analysis software suite  Protein-ligand Docking  UCSF Chimera  Protein-protein Docking  PIPER | Protein-protein docking : Protein interaction analysis HADDOCK | High Ambiguity Driven protein-protein DOCKing   Find more tools: OMICTOOLS   Protein Interactions Analysis Proteins interact with nucleic acids, other proteins, ligands, metal ions, to exert their biological functions.</description>
     </item>
     
     <item>
@@ -231,11 +222,20 @@ Lipidomics Databases Development of databases and the related bioinformatics too
     
     <item>
       <title>DNA-Protein Interactions</title>
+      <link>/too2/new_epi/dna_pro/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/too2/new_epi/dna_pro/</guid>
+      <description>Table of Contents  HT-SELEX Analysis    AptaTools SelexGLM   DNase-seq Analysis    HOMER DFilter   ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
+    </item>
+    
+    <item>
+      <title>DNA-Protein Interactions</title>
       <link>/too2/new_geno/dna_pro/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/dna_pro/</guid>
-      <description>Table of Contents  HT-SELEX Analysis DNase-seq Analysis ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
+      <description>Table of Contents  HT-SELEX Analysis  AptaTools SelexGLM  DNase-seq Analysis  HOMER DFilter  ChIP-seq Analysis  De novo assembly  denovochipseq  Peak calling  HOMER MACS SICER  Differential peak calling  DiffBind GenoGAM MAnorm  De novo motif discovery  HOMER Weeder kmerHMM   Find more tools: OMICTOOLS   DNA-binding proteins are proteins that have DNA-binding domains and thus have a specific or general affinity for single- or double-stranded DNA.</description>
     </item>
     
     <item>
@@ -244,8 +244,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_proteo/membrane/</guid>
-      <description>Table of Contents  Membrane Protein Analysis  Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein  FRAP Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling. Their configuration, folding, or activity depend on several biochemical factors that can be predicted by specific software.
-Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel Prediction Transmembrane Helix Prediction Function Membrane Protein FRAP Top</description>
+      <description>Table of Contents  Membrane Protein Analysis  Membrane Simulation  CHARMM-GUI Membrane Builder | Membrane simulation : Membrane protein analysis  Transmembrane Beta-barrel Prediction  PROFtmb | Transmembrane beta-barrel prediction : Membrane protein analysis PRED-TMBB | Transmembrane beta-barrel prediction : Membrane protein analysis  Transmembrane Helix Prediction  CCTOP | Consensus Constrained TOPology prediction SignalP   FRAP    easy-FRAP | FRAP : Laser scanning microscopy PyFRAP | Python Fluorescence Recovery After Photobleaching   Find more tools: OMICTOOLS   Membrane Protein Analysis Membrane and transmembrane proteins are key component of cell signaling.</description>
     </item>
     
     <item>
@@ -263,7 +262,7 @@ Membrane Protein-protein Docking Membrane Simulation Transmembrane Beta-barrel P
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_geno/phylogenetic/</guid>
-      <description>Table of Contents  Popilation Genetic Analysis Phylogenetic inference Phylogenetic Network Construction Discrete Character Evolution Tumor Progression Tree Visualization Find more tools: OMIVTOOLS   
+      <description>Table of Contents  Phylogenetic inference  MEGA ADAPTML  Phylogenetic Network Construction  CLC bio SPRDist  Discrete Character Evolution  CAFE DupliPHY  Tumor Progression  CT-CBN TRONCO  Tree Visualization  Dendroscope TreeKO  Find more tools: OMIVTOOLS   
 In biology, phylogenetics is the study of the evolutionary history and relationships among individuals or groups of organisms (e.g. species, or populations). These relationships are discovered through phylogenetic inference methods that evaluate observed heritable traits, such as DNA sequences or morphology under a model of evolution of these traits.</description>
     </item>
     

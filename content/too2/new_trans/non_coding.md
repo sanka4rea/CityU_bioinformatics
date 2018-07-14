@@ -42,6 +42,8 @@ math = false
 
 <p align="justify">**Noncoding RNAs** (ncRNAs) accomplish a remarkable variety of biological functions. They regulate gene expression at the levels of transcription, RNA processing, and translation. They protect genomes from foreign nucleic acids. They can guide DNA synthesis or genome rearrangement. For ribozymes and riboswitches, the RNA structure itself provides the biological function, but most ncRNAs operate as RNA-protein complexes, including ribosomes, snRNPs, snoRNPs, telomerase, microRNAs, and long ncRNAs. [Source](http://dx.doi.org/10.1016/j.cell.2014.03.008)
 
+---
+
 ## <font color=#CD5555 face="黑体">miRNA Target Prediction</font>
 
 ### TargetScan
@@ -427,6 +429,8 @@ Center for Bioinformatics Tuebingen (ZBIT), University of Tuebingen, Tübingen, 
 Epidemiology, Atherothrombosis and Imaging Department Centro Nacional de Investigaciones Cardiovasculares Carlos III (CNIC), Melchor Fernández Almagro, Madrid, Spain
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
+
+---
 
 # Find more tools: [**OMICTOOLS**](https://omictools.com/transcriptomics-category)
 
