@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Biological Steps  Realistic Neuronal Network Modelling Compartment Neuron modelling  File Manipulation  Model Files Conversion Model Files Visualization Model Building  Database Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes. In the same way that processing of information happens at multiple physical scales in the nervous system, software applications have been created which specialize in modelling different aspects of neurons and networks.">
+  <meta name="description" content="Table of Contents  Biological Steps  Realistic Neuronal Network Modelling  The Virtual Brain Brian  Compartment Neuron modelling  NEURON neuroConstruct   File Manipulation  Model Files Conversion  SBML2LaTeX Sbmlharvester  Model Files Visualization  SBMLToolbox SBMLEditor  Model Building  NeuroManager PyNN   Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_pheno/neuroinformatics/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_pheno/neuroinformatics/">
   <meta property="og:title" content="Computational Neuroinformatics | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Biological Steps  Realistic Neuronal Network Modelling Compartment Neuron modelling  File Manipulation  Model Files Conversion Model Files Visualization Model Building  Database Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes. In the same way that processing of information happens at multiple physical scales in the nervous system, software applications have been created which specialize in modelling different aspects of neurons and networks.">
+  <meta property="og:description" content="Table of Contents  Biological Steps  Realistic Neuronal Network Modelling  The Virtual Brain Brian  Compartment Neuron modelling  NEURON neuroConstruct   File Manipulation  Model Files Conversion  SBML2LaTeX Sbmlharvester  Model Files Visualization  SBMLToolbox SBMLEditor  Model Building  NeuroManager PyNN   Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    7 min read
   </span>
   
 
@@ -525,16 +525,35 @@
 <ul>
 <li><a href="#biological-steps">Biological Steps</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-realistic-neuronal-network-modelling-font"><font color=#CD5555 face="黑体">Realistic Neuronal Network Modelling</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-compartment-neuron-modelling-font"><font color=#CD5555 face="黑体">Compartment Neuron modelling</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-realistic-neuronal-network-modelling-font"><font color=#CD5555 face="黑体">Realistic Neuronal Network Modelling</font></a>
+<ul>
+<li><a href="#the-virtual-brain">The Virtual Brain</a></li>
+<li><a href="#brian">Brian</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-compartment-neuron-modelling-font"><font color=#CD5555 face="黑体">Compartment Neuron modelling</font></a>
+<ul>
+<li><a href="#neuron">NEURON</a></li>
+<li><a href="#neuroconstruct">neuroConstruct</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#file-manipulation">File Manipulation</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-model-files-conversion-font"><font color=#CD5555 face="黑体">Model Files Conversion</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-model-files-visualization-font"><font color=#CD5555 face="黑体">Model Files Visualization</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-model-building-font"><font color=#CD5555 face="黑体">Model Building</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-model-files-conversion-font"><font color=#CD5555 face="黑体">Model Files Conversion</font></a>
+<ul>
+<li><a href="#sbml2latex">SBML2LaTeX</a></li>
+<li><a href="#sbmlharvester">Sbmlharvester</a></li>
 </ul></li>
-<li><a href="#database">Database</a></li>
+<li><a href="#font-color-cd5555-face-黑体-model-files-visualization-font"><font color=#CD5555 face="黑体">Model Files Visualization</font></a>
+<ul>
+<li><a href="#sbmltoolbox">SBMLToolbox</a></li>
+<li><a href="#sbmleditor">SBMLEditor</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-model-building-font"><font color=#CD5555 face="黑体">Model Building</font></a>
+<ul>
+<li><a href="#neuromanager">NeuroManager</a></li>
+<li><a href="#pynn">PyNN</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -542,23 +561,232 @@
 
 <p><p align="justify"><strong>Modelling in computational neuroscience</strong> is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes. In the same way that processing of information happens at multiple physical scales in the nervous system, software applications have been created which specialize in modelling different aspects of neurons and networks. <a href="https://doi.org/10.1007/978-1-4614-7320-6_93-1" target="_blank">Source</a></p>
 
+<hr />
+
 <h1 id="biological-steps">Biological Steps</h1>
 
 <h2 id="font-color-cd5555-face-黑体-realistic-neuronal-network-modelling-font"><font color=#CD5555 face="黑体">Realistic Neuronal Network Modelling</font></h2>
 
+<p><p align="justify">Realistic modeling is a new advanced methodology for investigating brain functions. Realistic modeling is based on a detailed biophysical description of neurons and synapses, which can be integrated into microcircuits.</p>
+
+<hr />
+
+<h3 id="the-virtual-brain">The Virtual Brain</h3>
+
+<p><p align="justify">Simulates the dynamics of large-scale brain networks with biologically realistic connectivity. The Virtual Brain uses tractographic data (DTI/DSI) to generate connectivity matrices and build cortical and subcortical brain networks. The connectivity matrix defines the connection strengths and time delays via signal transmission between all network nodes. Various neural mass models are available in the repertoire of The Virtual Brain and define the dynamics of a network node. Together, the neural mass models at the network nodes and the connectivity matrix define the Virtual Brain. The Virtual Brain simulates and generates the time courses of various forms of neural activity including Local Field Potentials (LFP) and firing rate, as well as brain imaging data such as EEG, MEG and BOLD activations as observed in fMRI.</p>
+
+<p><a href="https://thevirtualbrain.org/tvb/zwei" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2015 Trends Cogn Sci) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26412099" target="_blank">The Rediscovery of Slowness: Exploring the Timing of Cognition.</a></p></li>
+
+<li><p>(2015 Nat Rev Neurosci) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26081790" target="_blank">
+Rethinking segregation and integration: contributions of whole-brain modelling.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institut de Neurosciences des Systèmes, Aix Marseille Université, Marseille, France;</p>
+
+<p>Department of Neurology, BrainModes Group, Charité University of Medicine, Berlin, Germany;</p>
+
+<hr />
+
+<h3 id="brian">Brian</h3>
+
+<p><p align="justify">Provides a simulator for spiking neural networks. Brian can be used to create a network of neurons and synapses connected with a network of astrocytes. This method permits user to focus mainly on the details of their models than on their implementation. Neuron models are defined by writing differential equations in standard mathematical notation, or facilitating scientific communication. This tool is useful for teaching computational neuroscience and for neuroscientific modelling at the systems level.</p>
+
+<p><a href="http://briansimulator.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 BioRxiv) <a href="https://www.biorxiv.org/content/early/2017/10/05/198366" target="_blank">Modeling neuron-glia interactions with the Brian 2 simulator.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Sorbonne Universites, UPMC Univ Paris 06, INSERM, CNRS, Institut de la Vision, Paris, France</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-compartment-neuron-modelling-font"><font color=#CD5555 face="黑体">Compartment Neuron modelling</font></h2>
+
+<p><p align="justify">The electrical properties of single neurons can be acurately modeled using multicompartmental modeling. Such models are biologically motivated and have a close correspondence with the underlying biophysical properties of neurons and their ion channels. These multicompartment models are also important as building blocks for detailed network models.</p>
+
+<hr />
+
+<h3 id="neuron">NEURON</h3>
+
+<p><p align="justify">Provides a simulation environment for modeling individual neurons and networks of neurons. NEURON provides tools for conveniently building, managing, and using models in a way that is numerically sound and computationally efficient. It is particularly well-suited to problems that are closely linked to experimental data, especially those that involve cells with complex anatomical and biophysical properties. NEURON is designed to let the users deal directly with familiar neuroscience concepts. Consequently, they can think in terms of the biophysical properties of membrane and cytoplasm, the branched architecture of neurons, and the effects of synaptic communication between cells.</p>
+
+<p><a href="https://neuron.yale.edu/neuron/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2016 Comput Intell Neurosci) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27413363" target="_blank">Optimizing NEURON Simulation Environment Using Remote Memory Access with Recursive Doubling on Distributed Memory Systems.</a></p></li>
+
+<li><p>(2009 Front Neuroinform) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19198661" target="_blank">NEURON and Python.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computer Science, Yale University New Haven, CT, USA</p>
+
+<hr />
+
+<h3 id="neuroconstruct">neuroConstruct</h3>
+
+<p><p align="justify">Facilitates the creation, visualization, and analysis of networks of multicompartmental neurons in 3D space. neuroConstruct provides a graphical user interface (GUI) which allows model generation and modification without programming. Models within neuroConstruct are based on new simulator-independent NeuroML standards, allowing automatic generation of code for NEURON or GENESIS simulators. neuroConstruct was tested by reproducing published models and its simulator independence verified by comparing the same model on two simulators. neuroConstruct can be used for teaching network function in health and disease. The 3D models generated will allow simulations of increased biological realism, enabling more direct comparisons with results from new experimental methods for measuring neural activity in 3D at high spatial and temporal resolution.</p>
+
+<p><a href="http://www.neuroconstruct.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2007 Neuron) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17442244" target="_blank">neuroConstruct: a tool for modeling networks of neurons in 3D space.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Physiology, University College London, Gower Street, London, UK</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="file-manipulation">File Manipulation</h1>
 
 <h2 id="font-color-cd5555-face-黑体-model-files-conversion-font"><font color=#CD5555 face="黑体">Model Files Conversion</font></h2>
 
+<h3 id="sbml2latex">SBML2LaTeX</h3>
+
+<p><p align="justify">Facilitates the complicated and cumbersome model development process by providing a simple method to translate such models to human-readable reports. SBML2LaTeX is a Java-based stand-alone program to fill this gap. A convenient web service also allows users to directly convert SBML to various formats, including DVI, LATEX and PDF, and provides many settings for customization. It covers all constructs defined in the latest specification of SBML (Level 2 Version 4) and is able to typeset complex kinetic formulas.</p>
+
+<p><a href="http://www.cogsys.cs.uni-tuebingen.de/software/SBML2LaTeX/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2009 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19307240" target="_blank">SBML2L(A)T(E)X: conversion of SBML files into human-readable reports.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Center for Bioinformatics Tübingen (ZBIT), University of Tübingen, Tübingen, Germany;</p>
+
+<p>Beckman Institute BNMC, California Institute of Technology, Pasadena, CA, USA</p>
+
+<hr />
+
+<h3 id="sbmlharvester">Sbmlharvester</h3>
+
+<p><p align="justify">Converts Systems Biology Markup Language (SBML) models into OWL. Sbmlharvester allows to check SBML model structure and complex by querying across biomedicals ontologies and models. The software couples levels of granularity, validates models and provides a way to establish a basic qualitative layer for expressing the semantics of biosimulation models.</p>
+
+<p><a href="https://code.google.com/archive/p/sbmlharvester/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 BMC Syst Biol) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3170340/" target="_blank">Integrating systems biology models and biomedical ontologies.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Genetics, University of Cambridge, Downing Street, Cambridge, UK;</p>
+
+<p>Department of Biology, Carleton University, Ottawa, ON, Canada</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-model-files-visualization-font"><font color=#CD5555 face="黑体">Model Files Visualization</font></h2>
+
+<h3 id="sbmltoolbox">SBMLToolbox</h3>
+
+<p><p align="justify">A toolbox that facilitates importing and exporting models represented in the Systems Biology Markup Language (SBML) in and out of the MATLAB environment and provides functionality that enables an experienced user of either SBML or MATLAB to combine the computing power of MATLAB with the portability and exchangeability of an SBML model. SBMLToolbox supports all levels and versions of SBML.</p>
+
+<p><a href="http://sbml.org/Downloads" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2006 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16574696" target="_blank">SBMLToolbox: an SBML toolbox for MATLAB users.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Science and Technology Research Institute, University of Hertfordshire Hatfield, UK</p>
+
+<hr />
+
+<h3 id="sbmleditor">SBMLEditor</h3>
+
+<p><p align="justify">Simplifies creation and edition of correct SBML files. SBMLEditor is an editor of SBML files allowing user to create and remove all the necessary bits and pieces of SBML in a controlled way. This tool can be useful for scientists who need to read an SBML model generated by another tool.</p>
+
+<p><a href="https://www.ebi.ac.uk/compneur-srv/SBMLeditor.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2007 BMC Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17341299" target="_blank">SBMLeditor: effective creation of models in the Systems Biology Markup language (SBML).</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, UK</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-model-building-font"><font color=#CD5555 face="黑体">Model Building</font></h2>
 
-<h1 id="database">Database</h1>
+<h3 id="neuromanager">NeuroManager</h3>
+
+<p><p align="justify">Automates the workflow of simulation job submissions when using heterogeneous computational resources, simulators, and simulation tasks. NeuroManager is an object-oriented simulation management software engine for computational neuroscience. This method (i) provides flexibility to adapt a variety of neuroscience simulators, (ii) simplifies the use of heterogeneous computational resources, from desktops to super computer clusters, and (iii) improves tracking of simulation evolution.</p>
+
+<p><a href="https://github.com/SantamariaLab/NeuroManager" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Neuroinformatics) <a href="https://doi.org/10.1007/s12021-017-9337-x" target="_blank">Integrating the Allen Brain Institute Cell Types Database into Automated Neuroscience Workflow.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biomedical Engineering, The University of Texas at San Antonio, San Antonio, TX, USA;</p>
+
+<p>Department of Biology, The University of Texas at San Antonio, San Antonio, TX, USA</p>
+
+<hr />
+
+<h3 id="pynn">PyNN</h3>
+
+<p><p align="justify">Proposes a simulator-independent language for building neuronal network models. PyNN makes it possible to write a simulation script once, using the Python programming language, and run it without modification on any supported simulator (currently NEURON, NEST, PCSIM, Brian and the Heidelberg VLSI neuromorphic hardware). PyNN increases the productivity of neuronal network modelling by providing high-level abstraction, by promoting code sharing and reuse, and by providing a foundation for simulator-agnostic analysis, visualization and data-management tools. PyNN increases the reliability of modelling studies by making it much easier to check results on multiple simulators.</p>
+
+<p><a href="http://neuralensemble.org/PyNN/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2009 Front Neuroinform) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19194529" target="_blank">PyNN: A Common Interface for Neuronal Network Simulators.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Unité de Neurosciences Intégratives et Computationelles, CNRS Gif sur Yvette, France</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -587,13 +815,13 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_pheno/neurophysiology/">Neorophysiology</a></li>
+        <li><a href="/too2/new_pheno/brain/">Brain Connectomics</a></li>
         
         <li><a href="/too2/new_pheno/bioimaging/">Bioimaging</a></li>
         
         <li><a href="/too2/new_pheno/medicalimage/">Medical Imaging</a></li>
         
-        <li><a href="/too2/new_pheno/brain/">Brain Connectomics</a></li>
+        <li><a href="/too2/new_pheno/neurophysiology/">Neorophysiology</a></li>
         
       </ul>
     </div>

@@ -18,7 +18,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_pheno/bioimaging/</guid>
-      <description>Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management Education PheWAS  Image Preprocessing  Image Acquisition Image Enhancement Image Deconvolution  Image processing  Image Simulation Image Segmentation Image Registration  Laser Scanning Microscopy  FISH Colocalization Analysis 3D Image Analysis  Conventional Fluorescence microscopy  High-throughput Screening Cell Phenotyping Mitochondrial Network Analysis  Super-resolution Imaging  Morphometric Analysis Single Molecule Detection and Localization FLIM data Analysis FRET Data Analysis  Cryo-EM  Neuron Tracing Single Particle Analysis  Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.</description>
+      <description>Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management  OMERO | OME Remote Objects SCIFIO | SCientific Image Format Input and Output  PheWAS  PheWAS | Phenome-wide association study SPAtest   Laser Scanning Microscopy  FISH  ImageJ GoIFISH  Colocalization Analysis  BioImageXD ViBE-Z | Virtual Brain Explorer for Zebrafish  3D Image Analysis  u-track UltraTracer   Conventional Fluorescence microscopy  High-throughput Screening  histoCAT | HIStology TOpography Cytometry Analysis Toolbox CellProfiler  Cell Phenotyping  PhenoRipper histoCAT | HIStology TOpography Cytometry Analysis Toolbox   Super-resolution Imaging  Morphometric Analysis  MIB | Microscopy Image Browser BioImageXD  Single Molecule Detection and Localization  rapidSTORM ViSP   Cryo-EM  Neuron Tracing  UltraTracer webKnossos  Single Particle Analysis  EMAN  National Center for Macromolecular Imaging, The Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, One Baylor Plaza, Houston, TX, USA  EMRinger   Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_pheno/brain/</guid>
-      <description>Table of Contents  Connectivity Analysis  Functional Brain Connectivity Structural Brain Connectivity  Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  Diffusion Magnetic Resonance Imaging Analysis  Tractography  Neuron Tracing Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed. A central paradigm in modern neuroscience is that anatomical and functional connections between brain regions are organized in a way such that information processing is near optimal.</description>
+      <description>Table of Contents  Connectivity Analysis  Functional Brain Connectivity  BCT | Brain Connectivity Toolbox WholeBrain  Structural Brain Connectivity  BNRR WholeBrain   Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  ANTs | Advanced Normalization Tools Surfing | 3D image surfacing   Diffusion Magnetic Resonance Imaging Analysis  Tractography  SlicerDMRI Dipy | Diffusion Imaging in Python   Neuron Tracing  NeurphologyJ | Neuron tracing : Bioimaging analysis Vaa3D | 3D Visualization-Assisted Analysis  Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_pheno/neuroinformatics/</guid>
-      <description>Table of Contents  Biological Steps  Realistic Neuronal Network Modelling Compartment Neuron modelling  File Manipulation  Model Files Conversion Model Files Visualization Model Building  Database Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes. In the same way that processing of information happens at multiple physical scales in the nervous system, software applications have been created which specialize in modelling different aspects of neurons and networks.</description>
+      <description>Table of Contents  Biological Steps  Realistic Neuronal Network Modelling  The Virtual Brain Brian  Compartment Neuron modelling  NEURON neuroConstruct   File Manipulation  Model Files Conversion  SBML2LaTeX Sbmlharvester  Model Files Visualization  SBMLToolbox SBMLEditor  Model Building  NeuroManager PyNN   Find more tools: OMICTOOLS   Modelling in computational neuroscience is becoming a crucial tool for understanding how experimentally observed properties of neural systems emerge from lower-level biophysical processes.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_pheno/medicalimage/</guid>
-      <description>Table of Contents  Medical Phrnotype Analysis  Clinical Risk Prediction Personal Health Record Analysis Clinical Simulation  Magnetic Resonance Imaging (MRI)  Image modelization DICOM files management  Computerized Tomography Scan Imaging (CT)  Phantom Imaging Image Format Management  Nuclear Medicine Imaging  3D Image Reconstruction Kinetic Analysis  Ultrasonic Imaging  Image Acquisition Image Visualization  Find more tools: OMICTOOLS   Medical Phrnotype Analysis Macroscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at macroscopic scale.</description>
+      <description>Table of Contents  Medical Phrnotype Analysis  Clinical Risk Prediction  RICORDO | Researching Interoperability using Core Reference Datasets  Department of Genetics, University of Cambridge, Cambridge, UK  comoRbidity  Clinical Simulation  LMG | Lumbar Model Generator PIPER Child HBM   Magnetic Resonance Imaging (MRI)  DICOM files management  DicomBrowser | DICOM files management : Magnetic resonance imaging MIPAV | Medical Image Processing Analysis and Visualization   Computerized Tomography Scan Imaging (CT)  Phantom Imaging  CTSim | Computed Tomography Simulator  Image Format Management  NiBabel   Nuclear Medicine Imaging  3D Image Reconstruction  STIR | Software for Tomographic Image Reconstruction NiftyPET  Kinetic Analysis  QModeling | Kinetic analysis : Nuclear medicine imaging   Find more tools: OMICTOOLS   Medical Phrnotype Analysis Macroscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at macroscopic scale.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_pheno/neurophysiology/</guid>
-      <description>Table of Contents  Neurophysiology Analysis Clinical Eletrophysiology  Data Acquisition Spike Sorting Image Data Analysis Data Management and Annotation  Patch-clamp Find more tools: OMICTOOLS   Neurophysiology Analysis Clinical Eletrophysiology Electrophysiology, the &amp;lsquo;gold standard&amp;rsquo; for investigating neuronal signalling, is being challenged by a new generation of optical probes. Together with new forms of microscopy, these probes allow us to measure and control neuronal signals with spatial resolution and genetic specificity that already greatly surpass those of electrophysiology.</description>
+      <description>Table of Contents  Neurophysiology Analysis  PyNWB VERTEX | Virtual Electrode Recording Tool for EXtracellular potentials  Clinical Eletrophysiology  Spike Sorting  NEV2lkit Spyke Viewer  Image Data Analysis  MNE-Python EEGLAB  Data Management and Annotation  NDManager   Patch-clamp  RTXI | Real-Time eXperiment Interface NeuroMatic  Find more tools: OMICTOOLS   Neurophysiology Analysis The techniques used in experimental neurophysiology have grown in complexity with the development of new technology.</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Connectivity Analysis  Functional Brain Connectivity Structural Brain Connectivity  Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  Diffusion Magnetic Resonance Imaging Analysis  Tractography  Neuron Tracing Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed. A central paradigm in modern neuroscience is that anatomical and functional connections between brain regions are organized in a way such that information processing is near optimal.">
+  <meta name="description" content="Table of Contents  Connectivity Analysis  Functional Brain Connectivity  BCT | Brain Connectivity Toolbox WholeBrain  Structural Brain Connectivity  BNRR WholeBrain   Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  ANTs | Advanced Normalization Tools Surfing | 3D image surfacing   Diffusion Magnetic Resonance Imaging Analysis  Tractography  SlicerDMRI Dipy | Diffusion Imaging in Python   Neuron Tracing  NeurphologyJ | Neuron tracing : Bioimaging analysis Vaa3D | 3D Visualization-Assisted Analysis  Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_pheno/brain/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_pheno/brain/">
   <meta property="og:title" content="Brain Connectomics | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Connectivity Analysis  Functional Brain Connectivity Structural Brain Connectivity  Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  Diffusion Magnetic Resonance Imaging Analysis  Tractography  Neuron Tracing Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed. A central paradigm in modern neuroscience is that anatomical and functional connections between brain regions are organized in a way such that information processing is near optimal.">
+  <meta property="og:description" content="Table of Contents  Connectivity Analysis  Functional Brain Connectivity  BCT | Brain Connectivity Toolbox WholeBrain  Structural Brain Connectivity  BNRR WholeBrain   Functional Magnetic Resonance Imaging (fMRI)  3D Image Surfacing  ANTs | Advanced Normalization Tools Surfing | 3D image surfacing   Diffusion Magnetic Resonance Imaging Analysis  Tractography  SlicerDMRI Dipy | Diffusion Imaging in Python   Neuron Tracing  NeurphologyJ | Neuron tracing : Bioimaging analysis Vaa3D | 3D Visualization-Assisted Analysis  Find more tools: OMICTOOLS   Connectivity Analysis The functional organization of the brain is characterized by segregation and integration of information being processed.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    8 min read
   </span>
   
 
@@ -525,18 +525,38 @@
 <ul>
 <li><a href="#connectivity-analysis">Connectivity Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-functional-brain-connectivity-font"><font color=#CD5555 face="黑体">Functional Brain Connectivity</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-structural-brain-connectivity-font"><font color=#CD5555 face="黑体">Structural Brain Connectivity</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-functional-brain-connectivity-font"><font color=#CD5555 face="黑体">Functional Brain Connectivity</font></a>
+<ul>
+<li><a href="#bct-brain-connectivity-toolbox">BCT | Brain Connectivity Toolbox</a></li>
+<li><a href="#wholebrain">WholeBrain</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-structural-brain-connectivity-font"><font color=#CD5555 face="黑体">Structural Brain Connectivity</font></a>
+<ul>
+<li><a href="#bnrr">BNRR</a></li>
+<li><a href="#wholebrain-1">WholeBrain</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#functional-magnetic-resonance-imaging-fmri">Functional Magnetic Resonance Imaging (fMRI)</a>
 <ul>
-<li><a href="#3d-image-surfacing">3D Image Surfacing</a></li>
+<li><a href="#3d-image-surfacing">3D Image Surfacing</a>
+<ul>
+<li><a href="#ants-advanced-normalization-tools">ANTs | Advanced Normalization Tools</a></li>
+<li><a href="#surfing-3d-image-surfacing">Surfing | 3D image surfacing</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#diffusion-magnetic-resonance-imaging-analysis">Diffusion Magnetic Resonance Imaging Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-tractography-font"><font color=#CD5555 face="黑体">Tractography</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-tractography-font"><font color=#CD5555 face="黑体">Tractography</font></a>
+<ul>
+<li><a href="#slicerdmri">SlicerDMRI</a></li>
+<li><a href="#dipy-diffusion-imaging-in-python">Dipy | Diffusion Imaging in Python</a></li>
 </ul></li>
-<li><a href="#neuron-tracing">Neuron Tracing</a></li>
+</ul></li>
+<li><a href="#neuron-tracing">Neuron Tracing</a>
+<ul>
+<li><a href="#neurphologyj-neuron-tracing-bioimaging-analysis">NeurphologyJ | Neuron tracing : Bioimaging analysis</a></li>
+<li><a href="#vaa3d-3d-visualization-assisted-analysis">Vaa3D | 3D Visualization-Assisted Analysis</a></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -548,7 +568,99 @@
 
 <h2 id="font-color-cd5555-face-黑体-functional-brain-connectivity-font"><font color=#CD5555 face="黑体">Functional Brain Connectivity</font></h2>
 
+<p><p align="justify">Functional connectivity (FC) which is defined as the temporal dependency of neuronal activation patterns of anatomically separated brain regions. It reflects statistical dependencies between distinct and distant regions of information processing neuronal populations. Hence, it is basically a statistical concept which relies on such statistical measures as correlation, covariance, spectral coherence, or phase locking. Statistical dependencies are highly time dependent and fluctuate on multiple time scales ranging form milliseconds to seconds.</p>
+
+<hr />
+
+<h3 id="bct-brain-connectivity-toolbox">BCT | Brain Connectivity Toolbox</h3>
+
+<p><p align="justify">A Matlab toolbox for analysis of complex brain networks. The toolbox contains network analysis functions and complex brain network datasets. These measures are increasingly used to characterize structural and functional brain connectivity datasets.</p>
+
+<p><a href="https://sites.google.com/site/bctnet/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2010 Neuroimage) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19819337" target="_blank">Complex network measures of brain connectivity: uses and interpretations.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Black Dog Institute and School of Psychiatry, University of New South Wales, Sydney, Australia;</p>
+
+<p>Mental Health Research Division, Queensland Institute of Medical Research, Brisbane, Australia</p>
+
+<hr />
+
+<h3 id="wholebrain">WholeBrain</h3>
+
+<p><p align="justify">Allows users to analyze, visualize, annotate and share whole-brain data at cellular resolution. WholeBrain supplies a method to generate brain maps containing data from neuron function, neuron identity, and connectivity. It quantifies and spatially maps multidimensional data from whole-brain experiments. It also compares results across experiments in a single standardized anatomical reference atlas.</p>
+
+<p><a href="https://github.com/tractatus/wholebrain" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nat Neurosci) <a href="https://doi.org/10.1038/s41593-017-0027-7" target="_blank">An interactive framework for whole-brain maps at cellular resolution.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Neuroscience, Karolinska Institutet, Stockholm, Sweden;</p>
+
+<p>Department of Neuroscience, Scripps Research Institute, Jupiter, FL, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-structural-brain-connectivity-font"><font color=#CD5555 face="黑体">Structural Brain Connectivity</font></h2>
+
+<p><p align="justify">Anatomical connectivity (AC), also called structural connectivity, which forms the connectome through synaptic contacts between neighboring neurons or fiber tracks connecting neuron pools in spatially distant brain regions. The whole set of such fiber tracks in the brain is called white matter. On short time scales (sec, min), anatomical connections are quite persistent and stable, while for longer time spans substantial plasticity may be observed.</p>
+
+<hr />
+
+<h3 id="bnrr">BNRR</h3>
+
+<p><p align="justify">Infers flexibly changes in a network-valued random variable with a continuous trait. BNRR is a network–response regression model, which considers the brain network as an object-type response variable having conditional expectation changing flexibly. This method can be easily adapted to incorporate directed networks via two subsets of latent coordinates—for each brain region—modeling outgoing and incoming edges, respectively.</p>
+
+<p><a href="https://github.com/wangronglu/BNRR" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Bioinformatics) <a href="https://academic.oup.com/bioinformatics/article/33/12/1859/2971437" target="_blank">Bayesian network–response regression.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Statistical Science, Duke University, Durham, NC, USA;</p>
+
+<p>Department of Statistical Sciences, University of Padova, Padova, Italy</p>
+
+<hr />
+
+<h3 id="wholebrain-1">WholeBrain</h3>
+
+<p><p align="justify">Allows users to analyze, visualize, annotate and share whole-brain data at cellular resolution. WholeBrain supplies a method to generate brain maps containing data from neuron function, neuron identity, and connectivity. It quantifies and spatially maps multidimensional data from whole-brain experiments. It also compares results across experiments in a single standardized anatomical reference atlas.</p>
+
+<p><a href="https://github.com/tractatus/wholebrain" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nat Neurosci) <a href="https://doi.org/10.1038/s41593-017-0027-7" target="_blank">An interactive framework for whole-brain maps at cellular resolution.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Neuroscience, Karolinska Institutet, Stockholm, Sweden;</p>
+
+<p>Department of Neuroscience, Scripps Research Institute, Jupiter, FL, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="functional-magnetic-resonance-imaging-fmri">Functional Magnetic Resonance Imaging (fMRI)</h1>
 
@@ -558,13 +670,147 @@
 
 <h2 id="3d-image-surfacing">3D Image Surfacing</h2>
 
+<p><p align="justify">The recent advent of increasingly affordable and powerful 3D scanning devices capable of capturing high resolution range data about real-world objects and environments has fueled research into effective 3D surface reconstruction techniques for rendering the raw point cloud data produced by many of these devices into a form that would make it usable in a variety of application domains.</p>
+
+<hr />
+
+<h3 id="ants-advanced-normalization-tools">ANTs | Advanced Normalization Tools</h3>
+
+<p><p align="justify">Computes high-dimensional mappings to capture the statistics of brain structure and function. ANTs allows users to organize, visualize and statistically explore large biomedical image sets. It integrates imaging modalities and related information in space and time, and works across species or organ systems with minimal customization. ANTs depends on the Insight ToolKit (ITK), a widely used medical image processing library to which ANTs developers contribute. ANTs can be used paired with ANTsR, an emerging tool supporting standardized multimodality image analysis. ANTs is popularly considered a state-of-the-art medical image registration and segmentation toolkit.</p>
+
+<p><a href="http://stnava.github.io/ANTs/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 Neuroimage) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20851191" target="_blank">A reproducible evaluation of ANTs similarity metric performance in brain image registration.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Penn Image Computing and Science Laboratory, University of Pennsylvania, Philadelphia, PA, USA</p>
+
+<hr />
+
+<h3 id="surfing-3d-image-surfacing">Surfing | 3D image surfacing</h3>
+
+<p><p align="justify">Guides voxel selection for information mapping by using a cortical surface reconstruction. Surfing uses only voxels that are classified as grey matter based on an anatomical scan. It uses a surface-based geodesic distance metric to define neighbourhoods of voxels, and does not select voxels across a sulcus. The software employs a distance metric that takes into account the folded nature of the cortical sheet.</p>
+
+<p><a href="https://github.com/nno/surfing" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 Neuroimage) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20621701" target="_blank">A comparison of volume-based and surface-based multi-voxel pattern analysis.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>School of Psychology, Bangor University, UK; Institute of Cognitive Neuroscience, University College London, UK</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h1 id="diffusion-magnetic-resonance-imaging-analysis">Diffusion Magnetic Resonance Imaging Analysis</h1>
+
+<p><p align="justify">The relationship between brain structure and function has been one of the centers of research in neuroimaging for decades. In recent years, diffusion tensor imaging (DTI) and functional magnetic resonance imaging (fMRI) techniques have been widely available and popular in cognitive and clinical neurosciences for examining the brain&rsquo;s white matter (WM) micro-structures and gray matter (GM) functions, respectively.</p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-tractography-font"><font color=#CD5555 face="黑体">Tractography</font></h2>
 
-<h1 id="neuron-tracing">Neuron Tracing</h1>
+<p><p align="justify">Tractography (or fiber tracking) consists of three-dimensional modeling of the preferential movement of water molecules in the form of fiber tracks from the tensor field information. This technique allows a new approach for the microarchitectural analysis of anisotropic structures such as nerves, white matter, and muscles. Many disorders have been studied including cervical myelopathy, carpal tunnel syndrome, nerve root compression, and nerve tumors.</p>
+
+<hr />
+
+<h3 id="slicerdmri">SlicerDMRI</h3>
+
+<p><p align="justify">Allows diffusion of imaging research in a clinical oncology setting and provides tools for end-to-end diffusion image analysis as well as interoperation with clinical imaging systems. SlicerDMRI is a suite of open-source software tools for diffusion magnetic resonance imaging (dMRI) research. The software is built upon and integrated with 3D Slicer, an NIH-supported open-source platform for medical image computing. SlicerDMRI is used for both neuroscience research and cancer imaging research.</p>
+
+<p><a href="http://dmri.slicer.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(Cancer Res) <a href="http://cancerres.aacrjournals.org/content/77/21/e101" target="_blank">SlicerDMRI: Open Source Diffusion MRI Software for Brain Cancer Research.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Brigham &amp; Women&rsquo;s Hospital and Harvard Medical School, Boston, MA, USA;</p>
+
+<p>Isomics, Inc., Cambridge, MA, USA</p>
+
+<hr />
+
+<h3 id="dipy-diffusion-imaging-in-python">Dipy | Diffusion Imaging in Python</h3>
+
+<p><p align="justify">Allows to study diffusion Magnetic Resonance Imaging (MRI) data. Dipy is a program allowing users to share their code and experiments. One of its objectives is to provide transparent implementations for all the different steps of the dMRI analysis with a uniform programming interface. It implements two interfaces for probabilistic Markov fiber tracking: (1) it allows the user to provide the distribution evaluated on a discrete set of possible tracking directions, and (2) it accommodates tracking methods where the fiber orientation distribution function (fODF) cannot be easily computed.</p>
+
+<p><a href="http://nipy.org/dipy/cite.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 Front Neuroinform) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24600385" target="_blank">Dipy, a library for the analysis of diffusion MRI data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Wolfson College, University of Cambridge, Cambridge, UK;</p>
+
+<p>Medical Research Council Cognition and Brain Sciences Unit, Cambridge, UK</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+<h1 id="neuron-tracing">Neuron Tracing</h1>
+
+<p><p align="justify">The reconstruction of neuron morphology allows to investigate how the brain works, which is one of the foremost challenges in neuroscience. This process aims at extracting the neuronal structures from microscopic imaging data. The great advances in microscopic technologies have made a huge amount of data available at the micro-, or even lower, resolution where manual inspection is time consuming, prone to error and utterly impractical. This has motivated the development of methods to automatically trace the neuronal structures, a task also known as neuron tracing.</p>
+
+<hr />
+
+<h2 id="neurphologyj-neuron-tracing-bioimaging-analysis">NeurphologyJ | Neuron tracing : Bioimaging analysis</h2>
+
+<p><p align="justify">A quantification method capable of automatically quantifying neuronal morphologies such as soma number and size, neurite length, and neurite branching complexity (which is highly related to the numbers of attachment points and ending points). NeurphologyJ is implemented as a plugin to ImageJ, an open-source Java-based image processing and analysis platform.</p>
+
+<p><a href="http://life.nctu.edu.tw/~ehwang/neurphologyJ.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 BMC Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21651810" target="_blank">NeurphologyJ: an automatic neuronal morphology quantification method and its application in pharmacological discovery.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Bioinformatics and Systems Biology, National Chiao Tung University, Hsinchu, Taiwan</p>
+
+<hr />
+
+<h2 id="vaa3d-3d-visualization-assisted-analysis">Vaa3D | 3D Visualization-Assisted Analysis</h2>
+
+<p><p align="justify">Allows users to visualize 3D/4D/5D image and to analyze system for bioimages and surface objects. Vaa3D consists of a container of modules for 3D image analysis (cell segmentation, neuron tracing, brain registration, annotation, quantitative measurement and statistics) and data management. Moreover, this platform can be used for developing 3D image analysis algorithms for high-throughput processing.</p>
+
+<p><a href="http://home.penglab.com/proj/vaa3d/home/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 BioRxiv) <a href="https://doi.org/10.1101/254318" target="_blank">DeepNeuron: An Open Deep Learning Toolbox for Neuron Tracing.</a></p></li>
+
+<li><p>(2018 BioRxiv) <a href="https://www.biorxiv.org/content/early/2018/01/26/254425" target="_blank">Exploring morphological motifs for a single neuron based on multiple 3D reconstructions.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Allen Institute for Brain Science, Seattle, WA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -593,13 +839,13 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_pheno/bioimaging/">Bioimaging</a></li>
+        <li><a href="/too2/new_pheno/neurophysiology/">Neorophysiology</a></li>
         
         <li><a href="/too2/new_pheno/medicalimage/">Medical Imaging</a></li>
         
-        <li><a href="/too2/new_pheno/neurophysiology/">Neorophysiology</a></li>
-        
         <li><a href="/too2/new_pheno/neuroinformatics/">Computational Neuroinformatics</a></li>
+        
+        <li><a href="/too2/new_pheno/bioimaging/">Bioimaging</a></li>
         
       </ul>
     </div>

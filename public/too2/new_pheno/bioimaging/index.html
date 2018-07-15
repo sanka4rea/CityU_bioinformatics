@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management Education PheWAS  Image Preprocessing  Image Acquisition Image Enhancement Image Deconvolution  Image processing  Image Simulation Image Segmentation Image Registration  Laser Scanning Microscopy  FISH Colocalization Analysis 3D Image Analysis  Conventional Fluorescence microscopy  High-throughput Screening Cell Phenotyping Mitochondrial Network Analysis  Super-resolution Imaging  Morphometric Analysis Single Molecule Detection and Localization FLIM data Analysis FRET Data Analysis  Cryo-EM  Neuron Tracing Single Particle Analysis  Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.">
+  <meta name="description" content="Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management  OMERO | OME Remote Objects SCIFIO | SCientific Image Format Input and Output  PheWAS  PheWAS | Phenome-wide association study SPAtest   Laser Scanning Microscopy  FISH  ImageJ GoIFISH  Colocalization Analysis  BioImageXD ViBE-Z | Virtual Brain Explorer for Zebrafish  3D Image Analysis  u-track UltraTracer   Conventional Fluorescence microscopy  High-throughput Screening  histoCAT | HIStology TOpography Cytometry Analysis Toolbox CellProfiler  Cell Phenotyping  PhenoRipper histoCAT | HIStology TOpography Cytometry Analysis Toolbox   Super-resolution Imaging  Morphometric Analysis  MIB | Microscopy Image Browser BioImageXD  Single Molecule Detection and Localization  rapidSTORM ViSP   Cryo-EM  Neuron Tracing  UltraTracer webKnossos  Single Particle Analysis  EMAN  National Center for Macromolecular Imaging, The Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, One Baylor Plaza, Houston, TX, USA  EMRinger   Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_pheno/bioimaging/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_pheno/bioimaging/">
   <meta property="og:title" content="Bioimaging | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management Education PheWAS  Image Preprocessing  Image Acquisition Image Enhancement Image Deconvolution  Image processing  Image Simulation Image Segmentation Image Registration  Laser Scanning Microscopy  FISH Colocalization Analysis 3D Image Analysis  Conventional Fluorescence microscopy  High-throughput Screening Cell Phenotyping Mitochondrial Network Analysis  Super-resolution Imaging  Morphometric Analysis Single Molecule Detection and Localization FLIM data Analysis FRET Data Analysis  Cryo-EM  Neuron Tracing Single Particle Analysis  Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.">
+  <meta property="og:description" content="Table of Contents  Microscopic Phenotype Analysis  Microscopic Image Formats Management  OMERO | OME Remote Objects SCIFIO | SCientific Image Format Input and Output  PheWAS  PheWAS | Phenome-wide association study SPAtest   Laser Scanning Microscopy  FISH  ImageJ GoIFISH  Colocalization Analysis  BioImageXD ViBE-Z | Virtual Brain Explorer for Zebrafish  3D Image Analysis  u-track UltraTracer   Conventional Fluorescence microscopy  High-throughput Screening  histoCAT | HIStology TOpography Cytometry Analysis Toolbox CellProfiler  Cell Phenotyping  PhenoRipper histoCAT | HIStology TOpography Cytometry Analysis Toolbox   Super-resolution Imaging  Morphometric Analysis  MIB | Microscopy Image Browser BioImageXD  Single Molecule Detection and Localization  rapidSTORM ViSP   Cryo-EM  Neuron Tracing  UltraTracer webKnossos  Single Particle Analysis  EMAN  National Center for Macromolecular Imaging, The Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, One Baylor Plaza, Houston, TX, USA  EMRinger   Find more tools: OMICTOOLS   Microscopic Phenotype Analysis Microscopic phenotype analysis deals with all tools usefull for describing, identifying or classifying phenotypes at microscopic scale.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    15 min read
   </span>
   
 
@@ -525,45 +525,76 @@
 <ul>
 <li><a href="#microscopic-phenotype-analysis">Microscopic Phenotype Analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-microscopic-image-formats-management-font"><font color=#CD5555 face="黑体">Microscopic Image Formats Management</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-education-font"><font color=#CD5555 face="黑体">Education</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-phewas-font"><font color=#CD5555 face="黑体">PheWAS</font></a></li>
-</ul></li>
-<li><a href="#image-preprocessing">Image Preprocessing</a>
+<li><a href="#font-color-cd5555-face-黑体-microscopic-image-formats-management-font"><font color=#CD5555 face="黑体">Microscopic Image Formats Management</font></a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-image-acquisition-font"><font color=#CD5555 face="黑体">Image Acquisition</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-image-enhancement-font"><font color=#CD5555 face="黑体">Image Enhancement</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-image-deconvolution-font"><font color=#CD5555 face="黑体">Image Deconvolution</font></a></li>
+<li><a href="#omero-ome-remote-objects">OMERO | OME Remote Objects</a></li>
+<li><a href="#scifio-scientific-image-format-input-and-output">SCIFIO | SCientific Image Format Input and Output</a></li>
 </ul></li>
-<li><a href="#image-processing">Image processing</a>
+<li><a href="#font-color-cd5555-face-黑体-phewas-font"><font color=#CD5555 face="黑体">PheWAS</font></a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-image-simulation-font"><font color=#CD5555 face="黑体">Image Simulation</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-image-segmentation-font"><font color=#CD5555 face="黑体">Image Segmentation</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-image-registration-font"><font color=#CD5555 face="黑体">Image Registration</font></a></li>
+<li><a href="#phewas-phenome-wide-association-study">PheWAS | Phenome-wide association study</a></li>
+<li><a href="#spatest">SPAtest</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#laser-scanning-microscopy">Laser Scanning Microscopy</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-fish-font"><font color=#CD5555 face="黑体">FISH</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-colocalization-analysis-font"><font color=#CD5555 face="黑体">Colocalization Analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-3d-image-analysis-font"><font color=#CD5555 face="黑体">3D Image Analysis</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-fish-font"><font color=#CD5555 face="黑体">FISH</font></a>
+<ul>
+<li><a href="#imagej">ImageJ</a></li>
+<li><a href="#goifish">GoIFISH</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-colocalization-analysis-font"><font color=#CD5555 face="黑体">Colocalization Analysis</font></a>
+<ul>
+<li><a href="#bioimagexd">BioImageXD</a></li>
+<li><a href="#vibe-z-virtual-brain-explorer-for-zebrafish">ViBE-Z | Virtual Brain Explorer for Zebrafish</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-3d-image-analysis-font"><font color=#CD5555 face="黑体">3D Image Analysis</font></a>
+<ul>
+<li><a href="#u-track">u-track</a></li>
+<li><a href="#ultratracer">UltraTracer</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#conventional-fluorescence-microscopy">Conventional Fluorescence microscopy</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-high-throughput-screening-font"><font color=#CD5555 face="黑体">High-throughput Screening</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-cell-phenotyping-font"><font color=#CD5555 face="黑体">Cell Phenotyping</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-mitochondrial-network-analysis-font"><font color=#CD5555 face="黑体">Mitochondrial Network Analysis</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-high-throughput-screening-font"><font color=#CD5555 face="黑体">High-throughput Screening</font></a>
+<ul>
+<li><a href="#histocat-histology-topography-cytometry-analysis-toolbox">histoCAT | HIStology TOpography Cytometry Analysis Toolbox</a></li>
+<li><a href="#cellprofiler">CellProfiler</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-cell-phenotyping-font"><font color=#CD5555 face="黑体">Cell Phenotyping</font></a>
+<ul>
+<li><a href="#phenoripper">PhenoRipper</a></li>
+<li><a href="#histocat-histology-topography-cytometry-analysis-toolbox-1">histoCAT | HIStology TOpography Cytometry Analysis Toolbox</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#super-resolution-imaging">Super-resolution Imaging</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-morphometric-analysis-font"><font color=#CD5555 face="黑体">Morphometric Analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-single-molecule-detection-and-localization-font"><font color=#CD5555 face="黑体">Single Molecule Detection and Localization</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-flim-data-analysis-font"><font color=#CD5555 face="黑体">FLIM data Analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-fret-data-analysis-font"><font color=#CD5555 face="黑体">FRET Data Analysis</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-morphometric-analysis-font"><font color=#CD5555 face="黑体">Morphometric Analysis</font></a>
+<ul>
+<li><a href="#mib-microscopy-image-browser">MIB | Microscopy Image Browser</a></li>
+<li><a href="#bioimagexd-1">BioImageXD</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-single-molecule-detection-and-localization-font"><font color=#CD5555 face="黑体">Single Molecule Detection and Localization</font></a>
+<ul>
+<li><a href="#rapidstorm">rapidSTORM</a></li>
+<li><a href="#visp">ViSP</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#cryo-em">Cryo-EM</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-neuron-tracing-font"><font color=#CD5555 face="黑体">Neuron Tracing</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-single-particle-analysis-font"><font color=#CD5555 face="黑体">Single Particle Analysis</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-neuron-tracing-font"><font color=#CD5555 face="黑体">Neuron Tracing</font></a>
+<ul>
+<li><a href="#ultratracer-1">UltraTracer</a></li>
+<li><a href="#webknossos">webKnossos</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-single-particle-analysis-font"><font color=#CD5555 face="黑体">Single Particle Analysis</font></a>
+<ul>
+<li><a href="#eman">EMAN</a></li>
+</ul></li>
+<li><a href="#national-center-for-macromolecular-imaging-the-verna-and-marrs-mclean-department-of-biochemistry-and-molecular-biology-baylor-college-of-medicine-one-baylor-plaza-houston-tx-usa">National Center for Macromolecular Imaging, The Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, One Baylor Plaza, Houston, TX, USA</a>
+<ul>
+<li><a href="#emringer">EMRinger</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
@@ -576,53 +607,425 @@
 
 <h2 id="font-color-cd5555-face-黑体-microscopic-image-formats-management-font"><font color=#CD5555 face="黑体">Microscopic Image Formats Management</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-education-font"><font color=#CD5555 face="黑体">Education</font></h2>
+<p><p align="justify">Microscopy image formats management tools are used to convert image files into desired formats, add metadata, facilitate open-exchange, and more.</p>
+
+<hr />
+
+<h3 id="omero-ome-remote-objects">OMERO | OME Remote Objects</h3>
+
+<p><p align="justify">A software platform that enables access to and use of a wide range of biological data. OMERO uses a server-based middleware application to provide a unified interface for images, matrices and tables. OMERO&rsquo;s design and flexibility have enabled its use for light-microscopy, high-content-screening, electron-microscopy and even non-image-genotype data.</p>
+
+<p><a href="http://www.openmicroscopy.org/omero/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2012 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22373911" target="_blank">OMERO: flexible, model-driven data management for experimental biology.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Wellcome Trust Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee, Scotland, UK</p>
+
+<hr />
+
+<h3 id="scifio-scientific-image-format-input-and-output">SCIFIO | SCientific Image Format Input and Output</h3>
+
+<p><p align="justify">A library software to create extensible framework for the reading, writing, and translation of images. SCIFIO was designed to provide the architecture that will equally facilitate: i) the conversion of additional formats into supported open-exchange formats such as OME-TIFF and ii) the integration of additional scientific open-exchange formats. The extensible design of SCIFIO facilitates community contribution, the establishment of domain-specific metadata standards, and integration into a unified system capable of adapting to the demands of scientific imaging analysis.</p>
+
+<p><a href="http://scif.io/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2016 BMC Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27927161" target="_blank">SCIFIO: an extensible framework to support scientific image formats.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, WI, USA;</p>
+
+<p>Morgridge Institute for Research, Madison, WI, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-phewas-font"><font color=#CD5555 face="黑体">PheWAS</font></h2>
 
-<h1 id="image-preprocessing">Image Preprocessing</h1>
+<p><p align="justify">The genome-wide association study (GWAS) is a powerful approach for studying the genetic complexities of human disease. Unfortunately, GWASs often fail to identify clinically significant associations and describing function can be a challenge. GWAS is a phenotype-to-genotype approach. It is now possible to conduct a converse genotype-to-phenotype approach using extensive electronic medical records to define a phenome. This approach associates a single genetic variant with many phenotypes across the phenome and is called a phenome-wide association study (PheWAS).</p>
 
-<h2 id="font-color-cd5555-face-黑体-image-acquisition-font"><font color=#CD5555 face="黑体">Image Acquisition</font></h2>
+<hr />
 
-<h2 id="font-color-cd5555-face-黑体-image-enhancement-font"><font color=#CD5555 face="黑体">Image Enhancement</font></h2>
+<h3 id="phewas-phenome-wide-association-study">PheWAS | Phenome-wide association study</h3>
 
-<h2 id="font-color-cd5555-face-黑体-image-deconvolution-font"><font color=#CD5555 face="黑体">Image Deconvolution</font></h2>
+<p><p align="justify">Tests associations between a genetic variant or clinical factor of interest and a compendium of clinical outcomes or phenotypes. PheWAS finds disease-gene associations using ICD9 billing codes. It can serve to construct hypotheses around a variety of exposures. This tool implements a propensity score (PS) method for PS matching or PS adjustment. It employs a penalized maximum likelihood (PML) in logistic regression that can reduce bias in the parameter estimates.</p>
 
-<h1 id="image-processing">Image processing</h1>
+<p><a href="https://github.com/PheWAS/PheWAS" target="_blank"><strong>Official Website</strong></a></p>
 
-<h2 id="font-color-cd5555-face-黑体-image-simulation-font"><font color=#CD5555 face="黑体">Image Simulation</font></h2>
+<p><strong>Publications</strong>:</p>
 
-<h2 id="font-color-cd5555-face-黑体-image-segmentation-font"><font color=#CD5555 face="黑体">Image Segmentation</font></h2>
+<ul>
+<li><p>(2018 Bioinformatics) <a href="https://doi.org/10.1093/bioinformatics/bty306" target="_blank">Evaluating statistical approaches to leverage large clinical datasets for uncovering therapeutic and adverse medication effects.</a></p></li>
 
-<h2 id="font-color-cd5555-face-黑体-image-registration-font"><font color=#CD5555 face="黑体">Image Registration</font></h2>
+<li><p>(2014 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24733291" target="_blank">R PheWAS: data analysis and plotting tools for phenome-wide association studies in the R environment.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biostatistics, Vanderbilt University Medical Center, Nashville, TN, USA;</p>
+
+<p>Department of Biomedical Informatics, Vanderbilt University Medical Center, Nashville, TN, USA</p>
+
+<hr />
+
+<h3 id="spatest">SPAtest</h3>
+
+<p><p align="justify">Performs a score test for a single variant based on saddlepoint approximation single variant test in genetic associations. SPAtest is an R package implements in the fastspa package that can accurate calculate p-values even for extremely unbalanced case-control outcomes. It provides a scalable solution for this large-scale problem and contribute to finding genetic component of complex traits.</p>
+
+<p><a href="https://cran.r-project.org/web/packages/SPAtest/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Am J Hum Genet) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28602423" target="_blank">A Fast and Accurate Algorithm to Test for Binary Phenotypes and Its Application to PheWAS.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biostatistics, University of Michigan, Ann Arbor, MI, USA;</p>
+
+<p>Center for Statistical Genetics, University of Michigan, Ann Arbor, MI, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="laser-scanning-microscopy">Laser Scanning Microscopy</h1>
 
+<p><p align="justify">Confocal microscopy is an established light microscopical technique for imaging fluorescently labeled specimens with significant three-dimensional structure. Applications of confocal microscopy in the biomedical sciences include the imaging of the spatial distribution of macromolecules in either fixed or living cells, the automated collection of 3D data, the imaging of multiple labeled specimens and the measurement of physiological events in living cells. The laser scanning confocal microscope continues to be chosen for most routine work although a number of instruments have been developed for more specific applications.</p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-fish-font"><font color=#CD5555 face="黑体">FISH</font></h2>
+
+<p><p align="justify">Fluorescence in situ hybridization (FISH) is used to study the organization and the positioning of specific DNA sequences within the cell nucleus. Analyzing the data from FISH images is a tedious process that invokes an element of subjectivity.</p>
+
+<hr />
+
+<h3 id="imagej">ImageJ</h3>
+
+<p><p align="justify">Provides easy installation on arbitrary platforms and a simple user interface. ImageJ is a platform for biological image analysis and an open source Java image processing program inspired by NIH Image. The ImageJ community can communicate through an interdisciplinary forum where knowledge is disseminated and questions that might appear difficult to experts in one scientific field may be easily answered by an expert in another field.</p>
+
+<p><a href="https://imagej.net/Welcome" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 BMC Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29187165" target="_blank">ImageJ2: ImageJ for the next generation of scientific image data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Laboratory for Optical and Computational Instrumentation, University of Wisconsin at Madison, Madison, WI, USA;</p>
+
+<p>Morgridge Institute for Research, Madison, WI, USA</p>
+
+<hr />
+
+<h3 id="goifish">GoIFISH</h3>
+
+<p><p align="justify">A widely applicable, user-friendly system tailored for the objective and semi-automated visualization, detection and quantification of genomic alterations and protein expression obtained from fluorescence in situ analysis. In a sample set of HER2-positive breast cancers GoIFISH is highly robust in visual analysis and its accuracy compares favorably to other leading image analysis methods.</p>
+
+<p><a href="https://sourceforge.net/projects/goifish/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 Genome Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25168174" target="_blank">GoIFISH: a system for the quantification of single cell heterogeneity from IFISH images.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>University of Cambridge, Cancer Research UK Cambridge Institute, Robinson Way, Cambridge, UK;</p>
+
+<p>Department of Genetics, Institute for Cancer Research, Oslo, Norway;</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-colocalization-analysis-font"><font color=#CD5555 face="黑体">Colocalization Analysis</font></h2>
 
+<p><p align="justify">The measurement of colocalization requires images of two fluorophores that are aligned, with no cross talk, and that the intensities remain within the response range of the microscope. Quantitation depends upon differentiating between the presence and absence of fluorescence, and measurements should be made within biologically relevant regions of interest. Co-occurrence can be measured simply by area or with the M1 and M2 coefficients, and should be compared to random distributions.</p>
+
+<hr />
+
+<h3 id="bioimagexd">BioImageXD</h3>
+
+<p><p align="justify">Analyzes, processes and visualizes multi-dimensional microscopy images. BioImageXD puts open-source computer science tools for three-dimensional visualization and analysis into the hands of all researchers, through a user-friendly graphical interface tuned to the needs of biologists. BioImageXD has no restrictive licenses or undisclosed algorithms and enables publication of precise, reproducible and modifiable workflows. It allows simple construction of processing pipelines and should enable biologists to perform challenging analyses of complex processes.</p>
+
+<p><a href="http://www.bioimagexd.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2012 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22743773" target="_blank">BioImageXD: an open, general-purpose and high-throughput image-processing platform.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biochemistry and Food Chemistry, University of Turku, Turku, Finland</p>
+
+<hr />
+
+<h3 id="vibe-z-virtual-brain-explorer-for-zebrafish">ViBE-Z | Virtual Brain Explorer for Zebrafish</h3>
+
+<p><p align="justify">An imaging and image analysis framework for virtual colocalization studies in larval zebrafish brains. ViBE-Z contains a database with precisely aligned gene expression patterns, an anatomical atlas, and a software. ViBE-Z software creates high-quality data sets through fusion of multiple confocal stacks, it aligns 3D gene or protein expression patterns of different zebrafish larvae of a given developmental stage to a common reference, and it stores the aligned patterns in the ViBE-Z database. Together with the anatomical segmentation (ViBE-Z atlas), this database allows users to explore the colocalization of all contained patterns in their anatomical context.</p>
+
+<p><a href="http://vibez.informatik.uni-freiburg.de/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2012 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22706672" target="_blank">ViBE-Z: a framework for 3D virtual colocalization analysis in zebrafish larval brains.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computer Science Department, Albert-Ludwigs-University Freiburg, Freiburg, Germany;</p>
+
+<p>BIOSS Centre for Biological Signalling Studies, Freiburg, Germany</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-3d-image-analysis-font"><font color=#CD5555 face="黑体">3D Image Analysis</font></h2>
+
+<p><p align="justify">Find and compare the best bioinformatics software tools for analyzing 3D laser scanning microscopy images. Tools are ranked by the biomedical research community.</p>
+
+<hr />
+
+<h3 id="u-track">u-track</h3>
+
+<p><p align="justify">A multiple-particle tracking Matlab software that is designed to (1) track dense particle fields, (2) close gaps in particle trajectories resulting from detection failure, and (3) capture particle merging and splitting events resulting from occlusion or genuine aggregation and dissociation events. Its core is based on formulating correspondence problems as linear assignment problems and searching for a globally optimal solution.</p>
+
+<p><a href="https://www.utsouthwestern.edu/labs/danuser/software/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2008 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/18641657" target="_blank">Robust single-particle tracking in live-cell time-lapse sequences.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Cell Biology, The Scripps Research Institute, La Jolla, CA, USA</p>
+
+<hr />
+
+<h3 id="ultratracer">UltraTracer</h3>
+
+<p><p align="justify">Designed to extend any base neuron-tracing algorithm to be able to trace virtually unlimited data volumes. UltraTracer was applied to neuron-tracing algorithms with different design principles and tested on challenging human and mouse neuron datasets that have hundreds of billions of voxels. Results indicate that UltraTracer is scalable, accurate, and about 3 to 6 times more efficient compared to other state-of-the-art approaches.</p>
+
+<p><a href="https://github.com/Vaa3D/vaa3d_tools/tree/master/released_plugins/v3d_plugins/ultratracer" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28362437" target="_blank">Automatic tracing of ultra-volumes of neuronal images</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Allen Institute for Brain Science, Seattle, WA, USA;</p>
+
+<p>Erasmus University Medical Center Rotterdam, Rotterdam, Netherlands;</p>
+
+<p>Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="conventional-fluorescence-microscopy">Conventional Fluorescence microscopy</h1>
 
+<p><p align="justify">The wide-field fluorescence microscope is a modification of the compound optical microscope, arranged to admit light of a selected wavelength to fluorescently labeled specimens and to image them through the emitted radiation. Since fluorescence emission has a lifetime in the nanosecond scale, continuous excitation is needed to collect an image having fluorescence as contrast mechanism. In a classical wide-field optical fluorescence microscope, the light source of a fluorescent microscope is a gas-vapor arc lamp, using either a discrete (Mercury) or a continuous (Xenon) light-emission spectrum.</p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-high-throughput-screening-font"><font color=#CD5555 face="黑体">High-throughput Screening</font></h2>
+
+<p>Millions of cells are present in thousands of images created in high-throughput screening (HTS). Biologists could classify each of these cells into a phenotype by visual inspection. But in the presence of millions of cells this visual classification task becomes infeasible. Biologists train classification models on a few thousand visually classified example cells and iteratively improve the training data by visual inspection of the important misclassified phenotypes.</p>
+
+<hr />
+
+<h3 id="histocat-histology-topography-cytometry-analysis-toolbox">histoCAT | HIStology TOpography Cytometry Analysis Toolbox</h3>
+
+<p><p align="justify">Uses a computational multiplexed image cytometry analysis toolbox to enable the interactive, quantitative, and comprehensive exploration of phenotypes of individual cells, cell-to-cell interactions, microenvironments, and morphological structures within intact tissues. miCAT will be useful in all areas of tissue-based research.</p>
+
+<p><a href="https://github.com/BodenmillerGroup/histoCAT" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28783155" target="_blank">histoCAT: analysis of cell phenotypes and interactions in multiplex image cytometry data.</a></li>
+</ul>
+
+<hr />
+
+<h3 id="cellprofiler">CellProfiler</h3>
+
+<p><p align="justify">A free, open-source system designed for flexible, high-throughput cell image analysis. CellProfiler can address a variety of biological questions quantitatively, including standard assays (for example, cell count, size, per-cell protein levels) and complex morphological assays (for example, cell/organelle shape or subcellular patterns of DNA or protein staining).</p>
+
+<p><a href="http://cellprofiler.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2006 Genome Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17076895" target="_blank">CellProfiler: image analysis software for identifying and quantifying cell phenotypes.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Whitehead Institute for Biomedical Research, Cambridge, MA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-cell-phenotyping-font"><font color=#CD5555 face="黑体">Cell Phenotyping</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-mitochondrial-network-analysis-font"><font color=#CD5555 face="黑体">Mitochondrial Network Analysis</font></h2>
+<p><p align="justify">Find and compare the best bioinformatics software tools for phenotying cells using conventional fluorescence microscopy images. Tools are ranked by the biomedical research community.</p>
+
+<hr />
+
+<h3 id="phenoripper">PhenoRipper</h3>
+
+<p><p align="justify">Allows user to explore high-content microscopy images. PhenoRipper assists users in comparison of images and based on similarity of image phenotypes. It uses cluster analysis to identify superblock types, representing the most common block type co-occurrence patterns. It profiles each image by the frequency of occurrence of superblock types.</p>
+
+<p><a href="http://awlab.ucsf.edu/Web_Site/PhenoRipper/default.htm" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2012 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22743764" target="_blank">PhenoRipper: software for rapidly profiling microscopy images.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Green Center for Systems Biology, University of Texas Southwestern Medical Center, Dallas, TX, USA;</p>
+
+<p>Department of Pharmacology, University of Texas Southwestern Medical Center, Dallas, TX, USA</p>
+
+<hr />
+
+<h3 id="histocat-histology-topography-cytometry-analysis-toolbox-1">histoCAT | HIStology TOpography Cytometry Analysis Toolbox</h3>
+
+<p><p align="justify">Uses a computational multiplexed image cytometry analysis toolbox to enable the interactive, quantitative, and comprehensive exploration of phenotypes of individual cells, cell-to-cell interactions, microenvironments, and morphological structures within intact tissues. miCAT will be useful in all areas of tissue-based research.</p>
+
+<p><a href="https://github.com/BodenmillerGroup/histoCAT" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28783155" target="_blank">histoCAT: analysis of cell phenotypes and interactions in multiplex image cytometry data.</a></li>
+</ul>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="super-resolution-imaging">Super-resolution Imaging</h1>
 
 <p><p align="justify">In recent years, <strong>super-resolution</strong> optical imaging techniques have been developed to overcome the diffraction limit in fluorescence microscopy. Among these techniques, methods based on stochastic switching and localization of individual molecules, such as stochastic optical reconstruction microscopy (STORM) (<a href="https://www.ncbi.nlm.nih.gov/pubmed/16896339" target="_blank">Rust et al. 2006</a>) and (fluorescent) photoactivated localization microscopy ((F)PALM), achieve sub-diffraction-limit resolutions by sequentially imaging and localizing fluorescent emitters in the sample. <a href="https://www.ncbi.nlm.nih.gov/pubmed/25431749" target="_blank">Source</a></p>
 
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-morphometric-analysis-font"><font color=#CD5555 face="黑体">Morphometric Analysis</font></h2>
+
+<p><p align="justify">Find and compare the best bioinformatics software tools for analysing sample morphology on super-resolution microscopy images. Tools are ranked by the biomedical research community.</p>
+
+<hr />
+
+<h3 id="mib-microscopy-image-browser">MIB | Microscopy Image Browser</h3>
+
+<p><p align="justify">Serves for effective segmentation of multidimensional datasets. MIB can recognize several number of imaging formats and offers a variety of image processing tools. It also simplifies utilization and quantification of acquired data. It permits users to segment large datasets, to realize 3D visualization, and to quantify images and models. Its parameters enable users to insert plugin s to customize the program for specific needs.</p>
+
+<p><a href="http://mib.helsinki.fi/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2016 PLoS Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26727152" target="_blank">Microscopy Image Browser: A Platform for Segmentation and Analysis of Multidimensional Datasets.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Electron Microscopy Unit, Institute of Biotechnology, University of Helsinki, Helsinki, Finland</p>
+
+<hr />
+
+<h3 id="bioimagexd-1">BioImageXD</h3>
+
+<p><p align="justify">Analyzes, processes and visualizes multi-dimensional microscopy images. BioImageXD puts open-source computer science tools for three-dimensional visualization and analysis into the hands of all researchers, through a user-friendly graphical interface tuned to the needs of biologists. BioImageXD has no restrictive licenses or undisclosed algorithms and enables publication of precise, reproducible and modifiable workflows. It allows simple construction of processing pipelines and should enable biologists to perform challenging analyses of complex processes.</p>
+
+<p><a href="http://www.bioimagexd.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2012 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22743773" target="_blank">BioImageXD: an open, general-purpose and high-throughput image-processing platform.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Biochemistry and Food Chemistry, University of Turku, Turku, Finland</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-single-molecule-detection-and-localization-font"><font color=#CD5555 face="黑体">Single Molecule Detection and Localization</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-flim-data-analysis-font"><font color=#CD5555 face="黑体">FLIM data Analysis</font></h2>
+<p><p align="justify">The quality of super-resolution images obtained by single-molecule localization microscopy (SMLM) depends largely on the software used to detect and accurately localize point sources.</p>
 
-<h2 id="font-color-cd5555-face-黑体-fret-data-analysis-font"><font color=#CD5555 face="黑体">FRET Data Analysis</font></h2>
+<hr />
+
+<h3 id="rapidstorm">rapidSTORM</h3>
+
+<p><p align="justify">A localization microscopy evaluation program. rapidSTORM is designed to find and precisely localize fluorophores in super-resolvable movies such as those generated by the PALM or dSTORM techniques.</p>
+
+<p><a href="https://github.com/stevewolter/rapidSTORM" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2012 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23132113" target="_blank">rapidSTORM: accurate, fast open-source software for localization microscopy.</a></li>
+</ul>
+
+<p><strong>Issues</strong>:</p>
+
+<p><a href="https://github.com/stevewolter/rapidSTORM/issues" target="_blank">https://github.com/stevewolter/rapidSTORM/issues</a></p>
+
+<hr />
+
+<h3 id="visp">ViSP</h3>
+
+<p><p align="justify">An interactive, freely available, cross-platform 3D localization representation tool. ViSP advances the interpretation of 3D single-particle super-resolution data (and the features are also compatible with 2D data sets). With an ever-growing number of 3D microscopy techniques and applications available, the features that ViSP offers are of critical importance in the greater microscopy research community.</p>
+
+<p><a href="https://science.institut-curie.org/research/multiscale-physics-biology-chemistry/umr168-physical-chemistry/team-dahan/softwares/visp-software-2/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2013 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/23900246" target="_blank">ViSP: representing single-particle localizations in three dimensions.</a></li>
+</ul>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="cryo-em">Cryo-EM</h1>
 
@@ -630,9 +1033,97 @@
 
 <h2 id="font-color-cd5555-face-黑体-neuron-tracing-font"><font color=#CD5555 face="黑体">Neuron Tracing</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-single-particle-analysis-font"><font color=#CD5555 face="黑体">Single Particle Analysis</font></h2>
+<p>Find and compare the best bioinformatics software tools for tracing neurons on cryo-Electron microscopy images. Tools are ranked by the biomedical research community.</p>
+
+<hr />
+
+<h3 id="ultratracer-1">UltraTracer</h3>
+
+<p><p align="justify">Designed to extend any base neuron-tracing algorithm to be able to trace virtually unlimited data volumes. UltraTracer was applied to neuron-tracing algorithms with different design principles and tested on challenging human and mouse neuron datasets that have hundreds of billions of voxels. Results indicate that UltraTracer is scalable, accurate, and about 3 to 6 times more efficient compared to other state-of-the-art approaches.</p>
+
+<p><a href="https://github.com/Vaa3D/vaa3d_tools/tree/master/released_plugins/v3d_plugins/ultratracer" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28362437" target="_blank">Automatic tracing of ultra-volumes of neuronal images</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Allen Institute for Brain Science, Seattle, WA, USA;</p>
+
+<p>Erasmus University Medical Center Rotterdam, Rotterdam, Netherlands</p>
+
+<hr />
+
+<h3 id="webknossos">webKnossos</h3>
+
+<p><p align="justify">Allows 3D image data annotation in various 3D image analysis settings in connectomics and other fields. webKnossos is an in-browser annotation tool. The software accelerates human 3D data interaction for electron microscopic (EM)-based connectomics in browser by about 4- to 13-fold, which likely saturates human interaction speed with 3D EM data of nervous tissue using flight mode.</p>
+
+<p><a href="https://webknossos.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28604722" target="_blank">webKnossos: efficient online 3D data annotation for connectomics.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Connectomics, Max Planck Institute for Brain Research, Frankfurt, Germany;</p>
+
+<p>Scalable minds UG (haftungsbeschränkt) &amp; Co. KG, Potsdam, Germany</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+<h2 id="font-color-cd5555-face-黑体-single-particle-analysis-font"><font color=#CD5555 face="黑体">Single Particle Analysis</font></h2>
+
+<p><p align="justify">Single particle electron microscopy is a versatile technique for the structural analysis of protein complexes in near-native conditions. While tremendous progress has been made during the past few decades in techniques for specimen preparation, imaging, and image analysis, the field is still in development.</p>
+
+<hr />
+
+<h3 id="eman">EMAN</h3>
+
+<p><p align="justify">Reconstructs single particle from electron cryo-microscopy (cryoEM) images. EMAN is capable of processing large data sets and focuses on processing data from transmission electron microscopes. The application is mainly dedicated to single particle rebuilding but includes more than 40 functionalities allowing users to perform helical reconstruction or single particle tomography as well as interacting with external software such as Frealign or Relion.</p>
+
+<p><a href="http://blake.bcm.tmc.edu/EMAN2/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2016 Methods Enzymol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27572727" target="_blank">Single-Particle Refinement and Variability Analysis in EMAN2.1.</a></p></li>
+
+<li><p>(1999 J Struct Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/10600563" target="_blank">EMAN: semiautomated software for high-resolution single-particle reconstructions.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<h2 id="national-center-for-macromolecular-imaging-the-verna-and-marrs-mclean-department-of-biochemistry-and-molecular-biology-baylor-college-of-medicine-one-baylor-plaza-houston-tx-usa">National Center for Macromolecular Imaging, The Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, One Baylor Plaza, Houston, TX, USA</h2>
+
+<h3 id="emringer">EMRinger</h3>
+
+<p><p align="justify">A tool that assesses the precise fitting of an atomic model into the map during refinement and shows how radiation damage alters scattering from negatively charged amino acids. EMRinger is useful for monitoring progress in resolving and modeling high-resolution features in cryo-EM.</p>
+
+<p><a href="https://github.com/fraser-lab/EMRinger" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26280328" target="_blank">EMRinger: side chain-directed model and map validation for 3D cryo-electron microscopy.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA;</p>
+
+<p>Graduate Group in Biophysics, University of California, San Francisco, San Francisco, CA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -663,11 +1154,11 @@
         
         <li><a href="/too2/new_pheno/neurophysiology/">Neorophysiology</a></li>
         
-        <li><a href="/too2/new_pheno/neuroinformatics/">Computational Neuroinformatics</a></li>
+        <li><a href="/too2/new_pheno/brain/">Brain Connectomics</a></li>
         
         <li><a href="/too2/new_pheno/medicalimage/">Medical Imaging</a></li>
         
-        <li><a href="/too2/new_pheno/brain/">Brain Connectomics</a></li>
+        <li><a href="/too2/new_pheno/neuroinformatics/">Computational Neuroinformatics</a></li>
         
       </ul>
     </div>

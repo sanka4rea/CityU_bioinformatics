@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Biological Steps  Constraint based methods Metabolic pathway prediction Strain design Thermodynamics  Network Analysis  Genome-scale Metabolic Reconstruction  13C-fluxomics Find more tools: OMICTOOLS   Growing concerns over limited fossil resources and associated environmental problems are motivating the development of sustainable processes for the production of chemicals, fuels and materials from renewable resources. Metabolic engineering is a key enabling technology for transforming microorganisms into efficient cell factories for these compounds.">
+  <meta name="description" content="Table of Contents  Biological Steps  Constraint based methods  fastcore COBRA Toolbox | COnstraints Based Reconstruction and Analysis  Metabolic pathway prediction  EC-BLAST RetroPath  Strain design  Biopathway Predictor cRegMCSs | constrained regulatory MCSs  Thermodynamics  SSTMap | Solvation Structure and Thermodynamic Mapping von Bertalanffy   13C-fluxomics  COBRA Toolbox | COnstraints Based Reconstruction and Analysis C13 | 13C-fluxomics : Metabolomics  Find more tools: OMICTOOLS   Growing concerns over limited fossil resources and associated environmental problems are motivating the development of sustainable processes for the production of chemicals, fuels and materials from renewable resources.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_meta/engineer/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_meta/engineer/">
   <meta property="og:title" content="Metabolic Engineering | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Biological Steps  Constraint based methods Metabolic pathway prediction Strain design Thermodynamics  Network Analysis  Genome-scale Metabolic Reconstruction  13C-fluxomics Find more tools: OMICTOOLS   Growing concerns over limited fossil resources and associated environmental problems are motivating the development of sustainable processes for the production of chemicals, fuels and materials from renewable resources. Metabolic engineering is a key enabling technology for transforming microorganisms into efficient cell factories for these compounds.">
+  <meta property="og:description" content="Table of Contents  Biological Steps  Constraint based methods  fastcore COBRA Toolbox | COnstraints Based Reconstruction and Analysis  Metabolic pathway prediction  EC-BLAST RetroPath  Strain design  Biopathway Predictor cRegMCSs | constrained regulatory MCSs  Thermodynamics  SSTMap | Solvation Structure and Thermodynamic Mapping von Bertalanffy   13C-fluxomics  COBRA Toolbox | COnstraints Based Reconstruction and Analysis C13 | 13C-fluxomics : Metabolomics  Find more tools: OMICTOOLS   Growing concerns over limited fossil resources and associated environmental problems are motivating the development of sustainable processes for the production of chemicals, fuels and materials from renewable resources.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    7 min read
   </span>
   
 
@@ -525,16 +525,32 @@
 <ul>
 <li><a href="#biological-steps">Biological Steps</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-constraint-based-methods-font"><font color=#CD5555 face="黑体">Constraint based methods</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-metabolic-pathway-prediction-font"><font color=#CD5555 face="黑体">Metabolic pathway prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-strain-design-font"><font color=#CD5555 face="黑体">Strain design</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-thermodynamics-font"><font color=#CD5555 face="黑体">Thermodynamics</font></a></li>
-</ul></li>
-<li><a href="#network-analysis">Network Analysis</a>
+<li><a href="#font-color-cd5555-face-黑体-constraint-based-methods-font"><font color=#CD5555 face="黑体">Constraint based methods</font></a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-genome-scale-metabolic-reconstruction-font"><font color=#CD5555 face="黑体">Genome-scale Metabolic Reconstruction</font></a></li>
+<li><a href="#fastcore">fastcore</a></li>
+<li><a href="#cobra-toolbox-constraints-based-reconstruction-and-analysis">COBRA Toolbox | COnstraints Based Reconstruction and Analysis</a></li>
 </ul></li>
-<li><a href="#13c-fluxomics">13C-fluxomics</a></li>
+<li><a href="#font-color-cd5555-face-黑体-metabolic-pathway-prediction-font"><font color=#CD5555 face="黑体">Metabolic pathway prediction</font></a>
+<ul>
+<li><a href="#ec-blast">EC-BLAST</a></li>
+<li><a href="#retropath">RetroPath</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-strain-design-font"><font color=#CD5555 face="黑体">Strain design</font></a>
+<ul>
+<li><a href="#biopathway-predictor">Biopathway Predictor</a></li>
+<li><a href="#cregmcss-constrained-regulatory-mcss">cRegMCSs | constrained regulatory MCSs</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-thermodynamics-font"><font color=#CD5555 face="黑体">Thermodynamics</font></a>
+<ul>
+<li><a href="#sstmap-solvation-structure-and-thermodynamic-mapping">SSTMap | Solvation Structure and Thermodynamic Mapping</a></li>
+<li><a href="#von-bertalanffy">von Bertalanffy</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#13c-fluxomics">13C-fluxomics</a>
+<ul>
+<li><a href="#cobra-toolbox-constraints-based-reconstruction-and-analysis-1">COBRA Toolbox | COnstraints Based Reconstruction and Analysis</a></li>
+<li><a href="#c13-13c-fluxomics-metabolomics">C13 | 13C-fluxomics : Metabolomics</a></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-metabolomics-category">Find more tools: <a href="https://omictools.com/metabolomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -542,23 +558,245 @@
 
 <p><p align="justify">Growing concerns over limited fossil resources and associated environmental problems are motivating the development of sustainable processes for the production of chemicals, fuels and materials from renewable resources. Metabolic engineering is a key enabling technology for transforming microorganisms into efficient cell factories for these compounds.</p>
 
+<hr />
+
 <h1 id="biological-steps">Biological Steps</h1>
 
 <h2 id="font-color-cd5555-face-黑体-constraint-based-methods-font"><font color=#CD5555 face="黑体">Constraint based methods</font></h2>
 
+<p><p align="justify">Flux balance analysis (FBA) is a widely used computational method for characterizing and engineering intrinsic cellular metabolism. The increasing number of its successful applications and growing popularity are possibly attributable to the availability of specific software tools for FBA. Each tool has its unique features and limitations with respect to operational environment, user-interface and supported analysis algorithms.</p>
+
+<hr />
+
+<h3 id="fastcore">fastcore</h3>
+
+<p><p align="justify">A generic algorithm for reconstructing context-specific metabolic network models from global genome-wide metabolic network models such as Recon X. fastcore takes as input a core set of reactions that are known to be active in the context of interest (e.g., cell or tissue), and it searches for a flux consistent subnetwork of the global network that contains all reactions from the core set and a minimal set of additional reactions.</p>
+
+<p><a href="http://wwwen.uni.lu/recherche/fstc/life_sciences_research_unit/research_areas/systems_biology/software" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 PLoS Comput Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24453953" target="_blank">Fast reconstruction of compact context-specific metabolic network models.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Luxembourg Centre for Systems Biomedicine, University of Luxembourg, Luxembourg City, Luxembourg;</p>
+
+<p>Life Sciences Research Unit, University of Luxembourg, Luxembourg City, Luxembourg</p>
+
+<hr />
+
+<h3 id="cobra-toolbox-constraints-based-reconstruction-and-analysis">COBRA Toolbox | COnstraints Based Reconstruction and Analysis</h3>
+
+<p><p align="justify">Offers a framework for prediction of cellular behavior. COBRA Toolbox gathers numerous algorithms intending to be applied to any biochemical system with prior mechanistic information, including those with incomplete one. The application proposes more than 30 functions divided into five sections: (i) analysis, that includes features for coupling or deletion; (ii) data integration; (iii) design; (iv) reconstruction and (v) base that includes solvers and utilities.</p>
+
+<p><a href="https://opencobra.github.io/cobratoolbox/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 BioRxiv) <a href="https://www.biorxiv.org/content/early/2018/05/10/318485" target="_blank">The Microbiome Modeling Toolbox: from microbial interactions to personalized microbial communities.</a></p></li>
+
+<li><p>(2017 ArXiv) <a href="https://arxiv.org/abs/1710.04038v2" target="_blank">Creation and analysis of biochemical constraint-based models: the COBRA Toolbox v3.0.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Luxembourg Centre for Systems Biomedicine, University of Luxembourg, Campus Belval, Esch-sur-Alzette, Luxembourg</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-metabolic-pathway-prediction-font"><font color=#CD5555 face="黑体">Metabolic pathway prediction</font></h2>
+
+<p><p align="justify">Construction of synthetic metabolic pathways promises sustainable production of diverse chemicals and materials. In order to design synthetic metabolic pathways of high value, computational methods are needed to expand present knowledge by mining comprehensive chemical and enzymatic information databases.</p>
+
+<hr />
+
+<h3 id="ec-blast">EC-BLAST</h3>
+
+<p><p align="justify">Allows users to compare enzyme reactions. EC-BLAST comprises a set of algorithms to handle reactions automatically. The software allows rapid comparisons between reactions at bond change level, reaction center level and reaction structure similarity level.</p>
+
+<p><a href="https://www.ebi.ac.uk/thornton-srv/software/rbl/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 Nat Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24412978" target="_blank">EC-BLAST: a tool to automatically search and compare enzyme reactions.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, UK ;</p>
+
+<p>European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, UK</p>
+
+<hr />
+
+<h3 id="retropath">RetroPath</h3>
+
+<p><p align="justify">Allows retrosynthetic design of metabolic pathways. RetroPath is a webserver that integrates several techniques. RetroPath workflow is a versatile reaction network tool, built to be modular enough to answer most metabolic engineering needs. The software was developed to answer the need for a tool to predict reaction networks.</p>
+
+<p><a href="http://www.jfaulon.com/category/retropath/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2017 BioRxiv) <a href="https://www.biorxiv.org/content/early/2017/06/29/141721" target="_blank">RetroPath2.0: A retrosynthesis workflow for metabolic engineers.</a></p></li>
+
+<li><p>(2014 Biotechnol J) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25224453" target="_blank">Validation of RetroPath, a computer-aided design tool for metabolic pathway engineering.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>CNRS-UMR8030 / Laboratoire iSSB, Université Paris-Saclay, Evry, France; CEA, DRF, IG, Genoscope, Evry, France</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-strain-design-font"><font color=#CD5555 face="黑体">Strain design</font></h2>
 
+<p>Computational strain design protocols aim at the system-wide identification of intervention strategies for the enhanced production of biochemicals in microorganisms. Existing approaches relying solely on stoichiometry and rudimentary constraint-based regulation overlook the effects of metabolite concentrations and substrate-level enzyme regulation while identifying metabolic interventions.</p>
+
+<hr />
+
+<h3 id="biopathway-predictor">Biopathway Predictor</h3>
+
+<p><p align="justify">A computational tool implemented in Genomatica&rsquo;s SimPheny platform for enumerating and evaluating networks of enzyme-catalyzed reactions, with the goal of identifying novel pathways for producing a chemical of interest. Reactions in a BioPathway network are generated by a defined set of reaction rules that operate repeatedly on a specified starting material and its derivatives.</p>
+
+<p><a href="https://www.genomatica.com/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 Nat Chem Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21602812" target="_blank">Metabolic engineering of Escherichia coli for direct production of 1,4-butanediol.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Genomatica, Inc, San Diego, CA, USA</p>
+
+<hr />
+
+<h3 id="cregmcss-constrained-regulatory-mcss">cRegMCSs | constrained regulatory MCSs</h3>
+
+<p><p align="justify">Generalizes the minimal cut sets (MCS)-based framework to constrained regulatory MCSs. cRegMCSs has been integrated as a new functionality in the CellNetAnalyzer package, a MATLAB toolbox for biological network analysis. In comparison to constrained MCSs (cMCSs) involving only reaction deletions, it can lead to (i) a lower number of required modifications and (ii) an increased number of possible intervention strategies. The approach was applied to (i) to a small illustrative network and (ii) to a genome-scale metabolic model of E.coli.</p>
+
+<p><a href="http://www2.mpi-magdeburg.mpg.de/projects/cna/etcdownloads.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25913205" target="_blank">Genome-scale strain designs based on regulatory minimal cut sets.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Chemical Engineering and Applied Chemistry, University of Toronto, Toronto, ON, Canada;</p>
+
+<p>Institute of Biomaterials and Biomedical Engineering, Toronto, ON, Canada</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-thermodynamics-font"><font color=#CD5555 face="黑体">Thermodynamics</font></h2>
 
-<h1 id="network-analysis">Network Analysis</h1>
+<p><p align="justify">The laws of thermodynamics describe a direct, quantitative relationship between metabolite concentrations and reaction directionality. Despite great efforts, thermodynamic data suffer from limited coverage, scattered accessibility and non-standard annotations.</p>
 
-<h2 id="font-color-cd5555-face-黑体-genome-scale-metabolic-reconstruction-font"><font color=#CD5555 face="黑体">Genome-scale Metabolic Reconstruction</font></h2>
+<hr />
+
+<h3 id="sstmap-solvation-structure-and-thermodynamic-mapping">SSTMap | Solvation Structure and Thermodynamic Mapping</h3>
+
+<p><p align="justify">Maps out measures of water structure and thermodynamics on solute surfaces. SSTMap is a computational tool that combines thermodynamic analysis with structural analysis, which can aid in understanding and evaluating the displacement of active-site water molecules. The software provides access to individual functions, such as identification of hydration site clusters, calculation of voxel occupancies, energy, entropy, and hydrogen bonding calculations.</p>
+
+<p><a href="https://github.com/KurtzmanLab/SSTMap" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 J Chem Theory Comput) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29161510" target="_blank">Solvation Structure and Thermodynamic Mapping (SSTMap): An open-source, flexible package for the analysis of water in molecular dynamics trajectories.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Physics, City College of New York, The City University of New York, New York, NY, USA;</p>
+
+<p>Department of Chemistry, Lehman College, The City University of New York, NY, USA</p>
+
+<hr />
+
+<h3 id="von-bertalanffy">von Bertalanffy</h3>
+
+<p><p align="justify">An algorithmic pipeline for quantitative assignment of reaction directionality in multi-compartmental genome scale models based on an application of the second law of thermodynamics to each reaction. Given experimental or computationally estimated standard metabolite species Gibbs energy and metabolite concentrations, the algorithms bounds reaction Gibbs energy, which is transformed to in vivo pH, temperature, ionic strength and electrical potential. This cross-platform MATLAB extension to the COnstraint-Based Reconstruction and Analysis (COBRA) toolbox is computationally efficient, extensively documented and open source.</p>
+
+<p><a href="https://opencobra.github.io/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2011 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21115436" target="_blank">von Bertalanffy 1.0: a COBRA toolbox extension to thermodynamically constrain metabolic models.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Science Institute, University of Iceland, Reykjavik, Iceland</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="13c-fluxomics">13C-fluxomics</h1>
 
+<p><p align="justify">13C-fluxomics is a new area that involves experimentally quantifying the rates of metabolic reactions within the central carbon metabolism through 13C metabolic fluxomics. This method enables the resolution of paralleled and reversible reactions</p>
+
+<hr />
+
+<h2 id="cobra-toolbox-constraints-based-reconstruction-and-analysis-1">COBRA Toolbox | COnstraints Based Reconstruction and Analysis</h2>
+
+<p><p align="justify">Offers a framework for prediction of cellular behavior. COBRA Toolbox gathers numerous algorithms intending to be applied to any biochemical system with prior mechanistic information, including those with incomplete one. The application proposes more than 30 functions divided into five sections: (i) analysis, that includes features for coupling or deletion; (ii) data integration; (iii) design; (iv) reconstruction and (v) base that includes solvers and utilities.</p>
+
+<p><a href="https://opencobra.github.io/cobratoolbox/stable/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 BioRxiv) <a href="https://www.biorxiv.org/content/early/2018/05/10/318485" target="_blank">The Microbiome Modeling Toolbox: from microbial interactions to personalized microbial communities.</a></p></li>
+
+<li><p>(2017 ArXiv) <a href="https://arxiv.org/abs/1710.04038v2" target="_blank">Creation and analysis of biochemical constraint-based models: the COBRA Toolbox v3.0.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Luxembourg Centre for Systems Biomedicine, University of Luxembourg, Campus Belval, Esch-sur-Alzette, Luxembourg;</p>
+
+<p>Division of Analytical Biosciences, Leiden Academic Centre for Drug Research, Faculty of Science, University of Leiden, Leiden, The Netherlands</p>
+
+<hr />
+
+<h2 id="c13-13c-fluxomics-metabolomics">C13 | 13C-fluxomics : Metabolomics</h2>
+
+<p><p align="justify">A tool for quantification of in vivo metabolic fluxes, from carbon labelling experiments. The underlying approach is metabolic flux analysis based on stationary carbon isotope labelling experiments, using fractional enrichment data.</p>
+
+<p><a href="http://biomet-toolbox.org/index.php?page=downtools-c13" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24792167" target="_blank">BioMet Toolbox 2.0: genome-wide analysis of metabolism and omics data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Chemical and Biological Engineering, Chalmers University of Technology, Göteborg, Sweden</p>
+
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-metabolomics-category">Find more tools: <a href="https://omictools.com/metabolomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -587,9 +825,9 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_meta/profiles/">Metabolic Profiles</a></li>
-        
         <li><a href="/too2/new_meta/drug/">Drug Discovery</a></li>
+        
+        <li><a href="/too2/new_meta/profiles/">Metabolic Profiles</a></li>
         
         <li><a href="/too2/new_meta/lipidomics/">Lipidomics</a></li>
         

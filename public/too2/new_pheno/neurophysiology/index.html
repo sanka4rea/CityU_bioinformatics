@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Neurophysiology Analysis Clinical Eletrophysiology  Data Acquisition Spike Sorting Image Data Analysis Data Management and Annotation  Patch-clamp Find more tools: OMICTOOLS   Neurophysiology Analysis Clinical Eletrophysiology Electrophysiology, the &lsquo;gold standard&rsquo; for investigating neuronal signalling, is being challenged by a new generation of optical probes. Together with new forms of microscopy, these probes allow us to measure and control neuronal signals with spatial resolution and genetic specificity that already greatly surpass those of electrophysiology.">
+  <meta name="description" content="Table of Contents  Neurophysiology Analysis  PyNWB VERTEX | Virtual Electrode Recording Tool for EXtracellular potentials  Clinical Eletrophysiology  Spike Sorting  NEV2lkit Spyke Viewer  Image Data Analysis  MNE-Python EEGLAB  Data Management and Annotation  NDManager   Patch-clamp  RTXI | Real-Time eXperiment Interface NeuroMatic  Find more tools: OMICTOOLS   Neurophysiology Analysis The techniques used in experimental neurophysiology have grown in complexity with the development of new technology.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_pheno/neurophysiology/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_pheno/neurophysiology/">
   <meta property="og:title" content="Neorophysiology | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Neurophysiology Analysis Clinical Eletrophysiology  Data Acquisition Spike Sorting Image Data Analysis Data Management and Annotation  Patch-clamp Find more tools: OMICTOOLS   Neurophysiology Analysis Clinical Eletrophysiology Electrophysiology, the &lsquo;gold standard&rsquo; for investigating neuronal signalling, is being challenged by a new generation of optical probes. Together with new forms of microscopy, these probes allow us to measure and control neuronal signals with spatial resolution and genetic specificity that already greatly surpass those of electrophysiology.">
+  <meta property="og:description" content="Table of Contents  Neurophysiology Analysis  PyNWB VERTEX | Virtual Electrode Recording Tool for EXtracellular potentials  Clinical Eletrophysiology  Spike Sorting  NEV2lkit Spyke Viewer  Image Data Analysis  MNE-Python EEGLAB  Data Management and Annotation  NDManager   Patch-clamp  RTXI | Real-Time eXperiment Interface NeuroMatic  Find more tools: OMICTOOLS   Neurophysiology Analysis The techniques used in experimental neurophysiology have grown in complexity with the development of new technology.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    7 min read
   </span>
   
 
@@ -523,15 +523,33 @@
 <h2>Table of Contents</h2>
 <nav id="TableOfContents">
 <ul>
-<li><a href="#neurophysiology-analysis">Neurophysiology Analysis</a></li>
+<li><a href="#neurophysiology-analysis">Neurophysiology Analysis</a>
+<ul>
+<li><a href="#pynwb">PyNWB</a></li>
+<li><a href="#vertex-virtual-electrode-recording-tool-for-extracellular-potentials">VERTEX | Virtual Electrode Recording Tool for EXtracellular potentials</a></li>
+</ul></li>
 <li><a href="#clinical-eletrophysiology">Clinical Eletrophysiology</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-data-acquisition-font"><font color=#CD5555 face="黑体">Data Acquisition</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-spike-sorting-font"><font color=#CD5555 face="黑体">Spike Sorting</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-image-data-analysis-font"><font color=#CD5555 face="黑体">Image Data Analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-data-management-and-annotation-font"><font color=#CD5555 face="黑体">Data Management and Annotation</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-spike-sorting-font"><font color=#CD5555 face="黑体">Spike Sorting</font></a>
+<ul>
+<li><a href="#nev2lkit">NEV2lkit</a></li>
+<li><a href="#spyke-viewer">Spyke Viewer</a></li>
 </ul></li>
-<li><a href="#patch-clamp">Patch-clamp</a></li>
+<li><a href="#font-color-cd5555-face-黑体-image-data-analysis-font"><font color=#CD5555 face="黑体">Image Data Analysis</font></a>
+<ul>
+<li><a href="#mne-python">MNE-Python</a></li>
+<li><a href="#eeglab">EEGLAB</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-data-management-and-annotation-font"><font color=#CD5555 face="黑体">Data Management and Annotation</font></a>
+<ul>
+<li><a href="#ndmanager">NDManager</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#patch-clamp">Patch-clamp</a>
+<ul>
+<li><a href="#rtxi-real-time-experiment-interface">RTXI | Real-Time eXperiment Interface</a></li>
+<li><a href="#neuromatic">NeuroMatic</a></li>
+</ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
 </nav>
@@ -539,23 +557,217 @@
 
 <h1 id="neurophysiology-analysis">Neurophysiology Analysis</h1>
 
+<p><p align="justify">The techniques used in experimental neurophysiology have grown in complexity with the development of new technology. In particular, neuroscientists often combine traditional electrophysiological recordings with multiple types of imaging, photostimulation, and behavioral interactions. These new techniques allow the collection of data with greater resolution, precision, and throughput than ever before. At the same time, they pose new challenges in their technical complexity. Increasingly, experimenters rely on computer automation to orchestrate these experiments and analyze the resulting data. Thus, software is a key component in integrating new technologies into experimental neurophysiology.</p>
+
+<hr />
+
+<h2 id="pynwb">PyNWB</h2>
+
+<p><p align="justify">Offers a platform for optimizing the handling of data stored in Neurodata Without Borders (NWB) format. PyNWB is a software providing an API allowing users to read and create NWB formatted HDF5 files. The application was developed in support to the NWB project with the aim of spreading a standardized data format for cellular-based neurophysiology information.</p>
+
+<p><a href="https://github.com/NeurodataWithoutBorders/pynwb" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 Neuron) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26590340" target="_blank">Neurodata Without Borders: Creating a Common Data Format for Neurophysiology.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Redwood Center for Theoretical Neuroscience &amp; Helen Wills Neuroscience Institute, University of California, Berkeley, CA, USA;</p>
+
+<p>Allen Institute for Brain Science, Seattle, WA, USA</p>
+
+<hr />
+
+<h2 id="vertex-virtual-electrode-recording-tool-for-extracellular-potentials">VERTEX | Virtual Electrode Recording Tool for EXtracellular potentials</h2>
+
+<p><p align="justify">Aims to simulate extracellular potential recordings in spiking neural network (SNN) models, and Local field potentials (LFPs) in large neuronal populations. VERTEX computes extracellular potentials in a model given the position of the neurons relative to the virtual electrodes. It calculates extracellular potentials by summing the membrane currents of each compartment, weighted by distance from the electrode tips.</p>
+
+<p><a href="http://vertexsimulator.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 Brain Struct Funct) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24863422" target="_blank">Virtual Electrode Recording Tool for EXtracellular potentials (VERTEX): comparing multi-electrode recordings from simulated and biological mammalian cortical tissue.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>School of Computing Science, Newcastle University, Claremont Tower, Newcastle, UK;</p>
+
+<p>Institute of Ageing and Health, Newcastle University, Newcastle, UK</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h1 id="clinical-eletrophysiology">Clinical Eletrophysiology</h1>
 
 <p><p align="justify"><strong>Electrophysiology</strong>, the &lsquo;gold standard&rsquo; for investigating neuronal signalling, is being challenged by a new generation of optical probes. Together with new forms of microscopy, these probes allow us to measure and control neuronal signals with spatial resolution and genetic specificity that already greatly surpass those of electrophysiology. We predict that the photon will progressively replace the electron for probing neuronal function, particularly for targeted stimulation and silencing of neuronal populations. Although electrophysiological characterization of channels, cells and neural circuits will remain necessary, new combinations of electrophysiology and imaging should lead to transformational discoveries in neuroscience. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19829373" target="_blank">Source</a></p>
 
 <p>Image preprocessing, processing, simulation could be found in <a href="/too2/new_pheno/bioimaging/" target="_blank">Bioimaging</a></p>
 
-<h2 id="font-color-cd5555-face-黑体-data-acquisition-font"><font color=#CD5555 face="黑体">Data Acquisition</font></h2>
-
 <h2 id="font-color-cd5555-face-黑体-spike-sorting-font"><font color=#CD5555 face="黑体">Spike Sorting</font></h2>
+
+<p><p align="justify">the development of spike sorting algorithms has always been a key issue in the analysis of electrophysiological recordings. Ever since the beginning of extracellular recordings, several efforts have been made to develop such techniques . In general, the number of simultaneously recorded neurons has grown exponentially since the 1950s, doubling every 7 years, and currently allowing electrical observation of hundreds of neurons at sub-millisecond timescales</p>
+
+<hr />
+
+<h3 id="nev2lkit">NEV2lkit</h3>
+
+<p><p align="justify">A preprocessor for the analysis of intra- or extracellular neuronal recordings. NEV2lkit’s main objective is to supply a friendly user interface that links the experimental data to a basic set of routines for analysis, visualization and classification of spikes in a consistent framework. It performs fast unit sorting in single or multiple experiments and allows the extraction of spikes from over large time intervals in continuously recorded data streams.</p>
+
+<p><a href="https://sourceforge.net/projects/nev2lkit/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 Int J Neural Syst) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24694167" target="_blank">NEV2lkit: a new open source tool for handling neuronal event files from multi-electrode recordings.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Bioengineering, Universidad Miguel Hernández, Alicante, Spain; CIBER BBN, Instituto de Salud Carlos III, Madrid, Spain</p>
+
+<hr />
+
+<h3 id="spyke-viewer">Spyke Viewer</h3>
+
+<p><p align="justify">Analyzes, browses and analyzes data from electrophysiology experiments or neural simulations. Spyke Viewer is built on an object model for electrophysiology data: the Neo library. This software furnishes a central graphic user interface from which independently developed analysis can be executed. It provides a flexible plugin architecture that permits creation of new plugins to allow extensibility.</p>
+
+<p><a href="http://spyke-viewer.readthedocs.io/en/latest/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2013 Front Neuroinform) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24273510" target="_blank">Spyke Viewer: a flexible and extensible platform for electrophysiological data analysis.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Software Engineering and Theoretical Computer Science, Neural Information Processing Group, TU Berlin, Berlin, Germany;</p>
+
+<p>Bernstein Center for Computational Neuroscience, Berlin, Germany</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-image-data-analysis-font"><font color=#CD5555 face="黑体">Image Data Analysis</font></h2>
 
+<h3 id="mne-python">MNE-Python</h3>
+
+<p><p align="justify">Assists in visualizing results of processing steps and final outputs. MNE-Python is a scripting-based package with many visualization capabilities. It covers multiple methods of data preprocessing, source localization, statistical analysis, and estimation of functional connectivity between distributed brain regions. It offers some unique capabilities, in a coherent package facilitating the combination of standard and advanced techniques in a single environment.</p>
+
+<p><a href="http://martinos.org/mne/stable/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 BioRxiv) <a href="https://www.biorxiv.org/content/early/2017/12/28/240044" target="_blank">MEG/EEG group study with MNE: recommendations, quality assessments and best practices.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Télécom ParisTech, Université Paris-Saclay, France;</p>
+
+<p>University of Washington, Institute for Learning and Brain Sciences, Seattle WA, USA</p>
+
+<hr />
+
+<h3 id="eeglab">EEGLAB</h3>
+
+<p><p align="justify">Processes continuous and event-related EEG (electro-encephalography) and MEG (magneto-encephalography). EEGLAB also processes other electrophysiological data incorporating independent component analysis (ICA), time/frequency analysis, artifact rejection, event-related statistics, and several useful modes of visualization of the averaged and single-trial data. EEGLAB provides an interactive graphic user interface (GUI) allowing users to flexibly and interactively process their high-density EEG and other dynamic brain data using ICA and/or time/frequency analysis, as well as standard averaging methods.</p>
+
+<p><a href="https://sccn.ucsd.edu/eeglab/index.php" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2004 J Neurosci Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/15102499" target="_blank">EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Swartz Center for Computational Neuroscience, Institute for Neural Computation, University of California San Diego, La Jolla, CA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-data-management-and-annotation-font"><font color=#CD5555 face="黑体">Data Management and Annotation</font></h2>
+
+<p><p align="justify">Find and compare the best bioinformatics software tools for navigating, sharing and collaboratively annotating image data sets of biological specimens obtained by electrophysiological devices. Tools are ranked by the biomedical research community.</p>
+
+<hr />
+
+<h3 id="ndmanager">NDManager</h3>
+
+<p><p align="justify">Uses as a simple graphical application designed to help neurophysiologists manage their experimental recording parameters (e.g., number of channels and sampling rate of the acquisition system) and process their data (data filtering, spike extraction, PCA, etc.). NDManager is a part of the Neurosuite, a package designed to help neurophysiologists process and view recorded data in an efficient and user-friendly manner.</p>
+
+<p><a href="http://neurosuite.sourceforge.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2006 J Neurosci Methods) <a href="https://www.ncbi.nlm.nih.gov/pubmed/16580733" target="_blank">Klusters, NeuroScope, NDManager: a free software suite for neurophysiological data processing and visualization.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Center for Molecular and Behavioral Neuroscience, Rutgers, The State University of New Jersey, Newark, NJ, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="patch-clamp">Patch-clamp</h1>
 
+<p><p align="justify">The patch clamp technique permits high-resolution recording of the ionic currents flowing through a cell&rsquo;s plasma membrane. In different configurations, this technique has allowed experimenters to record and manipulate the currents that flow either through single ion channels or those that flow across the whole plasma membrane.</p>
+
+<hr />
+
+<h2 id="rtxi-real-time-experiment-interface">RTXI | Real-Time eXperiment Interface</h2>
+
+<p><p align="justify">Achieves hard real-time data acquisition and closed-loop control in biological experiments. RTXI is based on a Real-Time Operating System (RTOS) that modifies the operating system&rsquo;s native kernel architecture. It allows users to move developed and tested modules, algorithms, and entire closed-loop protocols from one computer to another without significant overhead. The tool is compatible with a wide range of experimentation hardware.</p>
+
+<p><a href="http://rtxi.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 PLoS Comput Biol) <a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005430" target="_blank">Hard real-time closed-loop electrophysiology with the Real-Time eXperiment Interface (RTXI).</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Bioengineering Graduate Program, Georgia Institute of Technology, Atlanta, GA, USA;</p>
+
+<p>Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, GA, USA</p>
+
+<hr />
+
+<h2 id="neuromatic">NeuroMatic</h2>
+
+<p><p align="justify">Offers an assortment of tools allowing users to perform data analysis, data acquisition and simulation of electrophysiological data. NeuroMatic provides an extensible toolkit that have to be run through the Igor platform software. It provides a wide range of functionalities including triggered stimulation, spike detection, simulations of stochastic synaptic transmission as well as voltage and current clamp.</p>
+
+<p><a href="http://www.neuromatic.thinkrandom.com/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2018 Front Neuroinform) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29670519" target="_blank">NeuroMatic: An Integrated Open-Source Software Toolkit for Acquisition, Analysis and Simulation of Electrophysiological Data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Neuroscience, Physiology and Pharmacology, University College London, London, UK</p>
+
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-phenomics-category">Find more tools: <a href="https://omictools.com/phenomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -584,13 +796,13 @@
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/too2/new_pheno/bioimaging/">Bioimaging</a></li>
-        
-        <li><a href="/too2/new_pheno/brain/">Brain Connectomics</a></li>
+        <li><a href="/too2/new_pheno/neuroinformatics/">Computational Neuroinformatics</a></li>
         
         <li><a href="/too2/new_pheno/medicalimage/">Medical Imaging</a></li>
         
-        <li><a href="/too2/new_pheno/neuroinformatics/">Computational Neuroinformatics</a></li>
+        <li><a href="/too2/new_pheno/brain/">Brain Connectomics</a></li>
+        
+        <li><a href="/too2/new_pheno/bioimaging/">Bioimaging</a></li>
         
       </ul>
     </div>
