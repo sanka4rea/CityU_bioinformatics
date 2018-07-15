@@ -41,6 +41,8 @@ math = false
 
 <p align="justify">Protein primary structure is the linear sequence of amino acids in a peptide or protein. By convention, the primary structure of a protein is reported starting from the amino-terminal (N) end to the carboxyl-terminal (C) end. Protein biosynthesis is most commonly performed by ribosomes in cells. Peptides can also be synthesized in the laboratory.[citation needed] Protein primary structures can be directly sequenced, or inferred from DNA sequences.
 
+---
+
 ## ProtParam
 
 <p align="justify">ProtParam (References / Documentation) is a tool which allows the computation of various physical and chemical parameters for a given protein stored in Swiss-Prot or TrEMBL or for a user entered protein sequence. The computed parameters include the molecular weight, theoretical pI, amino acid composition, atomic composition, extinction coefficient, estimated half-life, instability index, aliphatic index and grand average of hydropathicity (GRAVY) (Disclaimer).
@@ -80,6 +82,8 @@ math = false
 # Secondary structure
 
 <p align="justify">The secondary structure is the pattern of hydrogen bonds in a biopolymer. These determine the general three-dimensional form of local segments of the biopolymers, but does not describe the global structure of specific atomic positions in three-dimensional space, which are considered to be tertiary structure. Secondary structure is formally defined by the hydrogen bonds of the biopolymer, as observed in an atomic-resolution structure. In proteins, the secondary structure is defined by patterns of hydrogen bonds between backbone amine and carboxyl groups (sidechain–mainchain and sidechain–sidechain hydrogen bonds are irrelevant), where the DSSP definition of a hydrogen bond is used. In nucleic acids, the secondary structure is defined by the hydrogen bonding between the nitrogenous bases.
+
+---
 
 ## PredictProtein
 

@@ -148,7 +148,7 @@ math = false
 
 ---
 
-### easy-FRAP | FRAP : Laser scanning microscopy
+## easy-FRAP | FRAP : Laser scanning microscopy
 
 <p align="justify">Provides assistance for the qualitative and quantitative analysis of fluorescence recovery after photobleaching (FRAP) data. easy-FRAP allows data visualization, normalization of the raw recovery curves and curve fitting. This software can also exploit large data sets of raw data under different experimental conditions, exclude low quality data and perform batch analysis. All of this tasks can be run simultaneously.
 
@@ -164,7 +164,7 @@ Laboratory of Biology School of Medicine, University of Patras, Patras, Greece; 
 
 ---
 
-### PyFRAP | Python Fluorescence Recovery After Photobleaching
+## PyFRAP | Python Fluorescence Recovery After Photobleaching
 
 <p align="justify">Fits numerical simulations of three-dimensional models to fluorescence recovery after photobleaching (FRAP)/inverse FRAP (iFRAP) data and accounts for bleaching/photoconversion inhomogeneities. PyFRAP is able to apply post-bleach image as initial condition, and numerically simulates the FRAP experiment in realistic two-dimensional or three-dimensional experiment geometries. Moreover, it can determine the diffusion coefficients of fluorescent molecules ranging from 3 to 500 kDa in both artificial and biological contexts.
 

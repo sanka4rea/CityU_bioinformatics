@@ -18,7 +18,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_meta/drug/</guid>
-      <description>Table of Contents  Drug Discovery  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors  Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.</description>
+      <description>Table of Contents  Drug Discovery  Drug-drug interaction prediction  DDI-CPI | Drug-Drug Interaction via Chemical-Protein Interactome Hierarchical RNNs model-based DDI extraction  Ligand-based Virtual Screening  FTrees | Feature Trees Frog | FRee On line druG conformation generation  Drug Repositioning  DRRS | Drug repositioning recommendation system MANTRA | Mode of Action by NeTwoRk Analysis  Chemical Toxicity  ChemDes | Chemical toxicity : Drug design  Molecular editors  Bioclipse | Molecule editors : Drug design MCCE | Multi-Conformation Continuum Electrostatics   Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_meta/lipidomics/</guid>
-      <description>Table of Contents  Transcription analysis Lipidomics Databases MS-based untargeted lipidomics MS-based targeted lipidomics Find more tools: OMICTOOLS   Transcription analysis Transcript abundance is in many ways an extraordinary phenotype, with special attributes that confer particular importance on an understanding of its genetics. The primary transformative potential of genome-wide gene expression genetics is the sheer number of traits — thousands — that can be assayed simultaneously.
-Lipidomics Databases Development of databases and the related bioinformatics tools has become an essential part of the omics studies.</description>
+      <description>Table of Contents  Lipidomics Databases  LIPID MAPS | LIPID Metabolites And Pathways Strategy LipidBlast | Lipidomic spectral libraries : Lipidomics databases  MS-based untargeted lipidomics  LipidMatch | Lipid identification : MS-based untargeted lipidomics Quantinetix | Image signal quantification : Mass spectrometry  MS-based targeted lipidomics  MRMPROBS | Multiple Reaction Monitoring-based PROBabilistic System MRM-DIFF | Multiple Reaction Monitoring-based DIFFerential  Find more tools: OMICTOOLS   Lipidomics or profiling specific classes of lipids biomarkers also provides a unique opportunity to identify diseases other than cancer.</description>
     </item>
     
     <item>
@@ -46,7 +45,7 @@ Lipidomics Databases Development of databases and the related bioinformatics too
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/too2/new_meta/profiles/</guid>
-      <description>Table of Contents  Metabolic profiles analysis  Metabolic Network analysis mGWAS Metabolite enrichment analysis  MS-based untargeted Metabolomics  Metabolic Network analysis mGWAS Metabolite enrichment analysis  NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections Spectral deconvolution Chemometric analysis Metabolite identification  Find more tools: OMICTOOLS   Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.</description>
+      <description>Table of Contents  Metabolic profiles analysis  Metabolic Network analysis  BLASTX PiMP | Polyomics integrated Metabolomics Pipeline  Metabolite enrichment analysis  MetScape | Data integration : Mass spectrometry analysis FELLA | Metabolite enrichment analysis   MS-based untargeted Metabolomics  mGWAS  MWASTools | mGWAS RegScan   NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections  NMRPipe NMRPro  Spectral deconvolution  NMRPipe BATMAN | Bayesian AuTomated Metabolite Analyser for NMR data  Chemometric analysis  MetaboAnalyst speaq | spectrum alignment and quantitation  Metabolite identification  W4M | Workflow4Metabolomics MetaboAnalyst   Find more tools: OMICTOOLS   Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Metabolic profiles analysis  Metabolic Network analysis mGWAS Metabolite enrichment analysis  MS-based untargeted Metabolomics  Metabolic Network analysis mGWAS Metabolite enrichment analysis  NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections Spectral deconvolution Chemometric analysis Metabolite identification  Find more tools: OMICTOOLS   Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.">
+  <meta name="description" content="Table of Contents  Metabolic profiles analysis  Metabolic Network analysis  BLASTX PiMP | Polyomics integrated Metabolomics Pipeline  Metabolite enrichment analysis  MetScape | Data integration : Mass spectrometry analysis FELLA | Metabolite enrichment analysis   MS-based untargeted Metabolomics  mGWAS  MWASTools | mGWAS RegScan   NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections  NMRPipe NMRPro  Spectral deconvolution  NMRPipe BATMAN | Bayesian AuTomated Metabolite Analyser for NMR data  Chemometric analysis  MetaboAnalyst speaq | spectrum alignment and quantitation  Metabolite identification  W4M | Workflow4Metabolomics MetaboAnalyst   Find more tools: OMICTOOLS   Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_meta/profiles/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_meta/profiles/">
   <meta property="og:title" content="Metabolic Profiles | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Metabolic profiles analysis  Metabolic Network analysis mGWAS Metabolite enrichment analysis  MS-based untargeted Metabolomics  Metabolic Network analysis mGWAS Metabolite enrichment analysis  NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections Spectral deconvolution Chemometric analysis Metabolite identification  Find more tools: OMICTOOLS   Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.">
+  <meta property="og:description" content="Table of Contents  Metabolic profiles analysis  Metabolic Network analysis  BLASTX PiMP | Polyomics integrated Metabolomics Pipeline  Metabolite enrichment analysis  MetScape | Data integration : Mass spectrometry analysis FELLA | Metabolite enrichment analysis   MS-based untargeted Metabolomics  mGWAS  MWASTools | mGWAS RegScan   NMR-based Metabolomics/MS-based targeted metabolomics  Spectral corrections  NMRPipe NMRPro  Spectral deconvolution  NMRPipe BATMAN | Bayesian AuTomated Metabolite Analyser for NMR data  Chemometric analysis  MetaboAnalyst speaq | spectrum alignment and quantitation  Metabolite identification  W4M | Workflow4Metabolomics MetaboAnalyst   Find more tools: OMICTOOLS   Metabolic profiles analysis The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    10 min read
   </span>
   
 
@@ -525,22 +525,47 @@
 <ul>
 <li><a href="#metabolic-profiles-analysis">Metabolic profiles analysis</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-metabolic-network-analysis-font"><font color=#CD5555 face="黑体">Metabolic Network analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-mgwas-font"><font color=#CD5555 face="黑体">mGWAS</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-metabolite-enrichment-analysis-font"><font color=#CD5555 face="黑体">Metabolite enrichment analysis</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-metabolic-network-analysis-font"><font color=#CD5555 face="黑体">Metabolic Network analysis</font></a>
+<ul>
+<li><a href="#blastx">BLASTX</a></li>
+<li><a href="#pimp-polyomics-integrated-metabolomics-pipeline">PiMP | Polyomics integrated Metabolomics Pipeline</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-metabolite-enrichment-analysis-font"><font color=#CD5555 face="黑体">Metabolite enrichment analysis</font></a>
+<ul>
+<li><a href="#metscape-data-integration-mass-spectrometry-analysis">MetScape | Data integration : Mass spectrometry analysis</a></li>
+<li><a href="#fella-metabolite-enrichment-analysis">FELLA | Metabolite enrichment analysis</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#ms-based-untargeted-metabolomics">MS-based untargeted Metabolomics</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-metabolic-network-analysis-font-1"><font color=#CD5555 face="黑体">Metabolic Network analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-mgwas-font-1"><font color=#CD5555 face="黑体">mGWAS</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-metabolite-enrichment-analysis-font-1"><font color=#CD5555 face="黑体">Metabolite enrichment analysis</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-mgwas-font"><font color=#CD5555 face="黑体">mGWAS</font></a>
+<ul>
+<li><a href="#mwastools-mgwas">MWASTools | mGWAS</a></li>
+<li><a href="#regscan">RegScan</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#nmr-based-metabolomics-ms-based-targeted-metabolomics">NMR-based Metabolomics/MS-based targeted metabolomics</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-spectral-corrections-font"><font color=#CD5555 face="黑体">Spectral corrections</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-spectral-deconvolution-font"><font color=#CD5555 face="黑体">Spectral deconvolution</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-chemometric-analysis-font"><font color=#CD5555 face="黑体">Chemometric analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-metabolite-identification-font"><font color=#CD5555 face="黑体">Metabolite identification</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-spectral-corrections-font"><font color=#CD5555 face="黑体">Spectral corrections</font></a>
+<ul>
+<li><a href="#nmrpipe">NMRPipe</a></li>
+<li><a href="#nmrpro">NMRPro</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-spectral-deconvolution-font"><font color=#CD5555 face="黑体">Spectral deconvolution</font></a>
+<ul>
+<li><a href="#nmrpipe-1">NMRPipe</a></li>
+<li><a href="#batman-bayesian-automated-metabolite-analyser-for-nmr-data">BATMAN | Bayesian AuTomated Metabolite Analyser for NMR data</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-chemometric-analysis-font"><font color=#CD5555 face="黑体">Chemometric analysis</font></a>
+<ul>
+<li><a href="#metaboanalyst">MetaboAnalyst</a></li>
+<li><a href="#speaq-spectrum-alignment-and-quantitation">speaq | spectrum alignment and quantitation</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-metabolite-identification-font"><font color=#CD5555 face="黑体">Metabolite identification</font></a>
+<ul>
+<li><a href="#w4m-workflow4metabolomics">W4M | Workflow4Metabolomics</a></li>
+<li><a href="#metaboanalyst-1">MetaboAnalyst</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-metabolomics-category">Find more tools: <a href="https://omictools.com/metabolomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
@@ -551,21 +576,142 @@
 
 <p><p align="justify">The further development of spectroscopic and spectrometric tools for high throughput analyses of selected biochemical pathways is crucial to the acquisition of metabolome data sets of sufficient quality for metabonomics and metabolomics. Whilst metabolic fingerprinting or metabonomics assumes it is not necessary to determine levels of all individual metabolites for classification or response readouts, metabolic profiling or metabolomics absolutely requires the identification and quantification of as broad a class of metabolites as possible.</p>
 
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-metabolic-network-analysis-font"><font color=#CD5555 face="黑体">Metabolic Network analysis</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-mgwas-font"><font color=#CD5555 face="黑体">mGWAS</font></h2>
+<h3 id="blastx">BLASTX</h3>
+
+<p><p align="justify"><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank"><strong>The Basic Local Alignment Search Tool</strong> (BLAST)</a> finds regions of   local similarity between sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance of matches. BLAST can be used to infer functional and evolutionary relationships between sequences as well as help identify members of gene families.A BLAST search enables a researcher to compare a query sequence with a library or database of sequences, and identify library sequences that resemble the query sequence above a certain threshold.</p>
+
+<p><p align="justify">Different types of BLASTs are available according to the query sequences. For example, following the discovery of a previously unknown gene in the mouse, a scientist will typically perform a BLAST search of the human genome to see if humans carry a similar gene; BLAST will identify sequences in the human genome that resemble the mouse gene based on similarity of sequence. The BLAST algorithm and program were designed by <code>Stephen Altschul</code>, <code>Warren Gish</code>, <code>Webb Miller</code>, <code>Eugene Myers</code>, and <code>David J. Lipman</code> at the <a href="https://en.wikipedia.org/wiki/National_Institutes_of_Health" target="_blank">National Institutes of Health</a> and was published in the <a href="https://en.wikipedia.org/wiki/Journal_of_Molecular_Biology" target="_blank">Journal of Molecular Biology</a> in 1990 and cited over 50,000 times.</p>
+
+<p><img src="/img/tools/Blast.png" width= 800 height= 500 alt="blast" align="center">
+<strong>Input</strong>: Input sequences (in <a href="https://en.wikipedia.org/wiki/FASTA_format" target="_blank">FASTA</a> or Genbank format) and weight matrix.</p>
+
+<p><strong>Output</strong>: BLAST output can be delivered in a variety of formats. These formats include HTML, plain text, and XML formatting.</p>
+
+<p><p align="justify">The details about <strong>process</strong> and <strong>algorithm</strong> coule be found <a href="https://en.wikipedia.org/wiki/BLAST" target="_blank">here</a> and <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank">official website</a></p>
+
+<hr />
+
+<h3 id="pimp-polyomics-integrated-metabolomics-pipeline">PiMP | Polyomics integrated Metabolomics Pipeline</h3>
+
+<p><p align="justify">Allows users to analyze and visualize liquid chromatography – mass spectrometry (LC-MS) data. PiMP is a comprehensive and integrated web enabled pipeline that consists of five tasks: (1) project administration, (2) data upload, (3) quality control, (4) analysis parameters and (5) data interpretation. Users can define the experimental design, specify metadata and share the project with collaborators with a chosen level of permission. It aims at automatization and standardization of metabolomics analysis.</p>
+
+<p><a href="http://polyomics.mvls.gla.ac.uk/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28961954" target="_blank">PiMP my metabolome: An integrated, web-based tool for LC-MS metabolomics data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Glasgow Polyomics, University of Glasgow, Glasgow, Scotland;</p>
+
+<p>School of Computing Science, University of Glasgow, Glasgow, Scotland</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-metabolite-enrichment-analysis-font"><font color=#CD5555 face="黑体">Metabolite enrichment analysis</font></h2>
+
+<p>While many tools exist for performing enrichment analysis of transcriptomic and proteomic data in order to interpret them in biological terms, almost no equivalent tools exist for metabolomic data.</p>
+
+<hr />
+
+<h3 id="metscape-data-integration-mass-spectrometry-analysis">MetScape | Data integration : Mass spectrometry analysis</h3>
+
+<p><p align="justify">Provides a bioinformatics framework for the visualization and interpretation of metabolomic and expression profiling data in the context of human metabolism. MetScape allows users to build and analyze networks of genes and compounds, identify enriched pathways from expression profiling data, and visualize changes in metabolite data. MetScape uses an internal relational database that integrates data from KEGG and EHMN.</p>
+
+<p><a href="http://metscape.ncibi.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2012 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22135418" target="_blank">Metscape 2 bioinformatics tool for the analysis and visualization of metabolomics and gene expression data.</a></p></li>
+
+<li><p>(2010 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20139469" target="_blank">Metscape: a Cytoscape plug-in for visualizing and interpreting metabolomic data in the context of human metabolic networks.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>National Center for Integrative Biomedical Informatics, University of Michigan, Ann Arbor, MI, USA</p>
+
+<hr />
+
+<h3 id="fella-metabolite-enrichment-analysis">FELLA | Metabolite enrichment analysis</h3>
+
+<p><p align="justify">Enables enrichment of metabolomics data using KEGG reactions, enzymes, modules and pathways. FELLA is a metabolomics data enrichment tool that combines pathway enrichment with the flexibility of sub-network analysis. The method builds sub-pathway representations of the biology at several molecular levels, derived through a null diffusive process on a curated graph object built from the KEGG database.</p>
+
+<p><a href="https://bioconductor.org/packages/devel/bioc/html/FELLA.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 PLoS One) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29211807" target="_blank">Null diffusion-based enrichment for metabolomics data.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Departament d&rsquo;Enginyeria de Sistemes, Automàtica i Informàtica Industrial, Universitat Politècnica de Catalunya, Barcelona, Spain</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="ms-based-untargeted-metabolomics">MS-based untargeted Metabolomics</h1>
 
 <p><p align="justify">Metabolomics is an emerging field of study in post-genomics, which aims at comprehensive analysis of small organic molecules in biological systems (Patti et al., 2012). Techniques of mass spectrometry coupled to liquid chromatography (LC–MS) stand out as dominant methods in metabolomic experiments (Dettmer et al., 2007).</p>
 
-<h2 id="font-color-cd5555-face-黑体-metabolic-network-analysis-font-1"><font color=#CD5555 face="黑体">Metabolic Network analysis</font></h2>
+<hr />
 
-<h2 id="font-color-cd5555-face-黑体-mgwas-font-1"><font color=#CD5555 face="黑体">mGWAS</font></h2>
+<h2 id="font-color-cd5555-face-黑体-mgwas-font"><font color=#CD5555 face="黑体">mGWAS</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-metabolite-enrichment-analysis-font-1"><font color=#CD5555 face="黑体">Metabolite enrichment analysis</font></h2>
+<p>Genome-wide association scans with high-throughput metabolic profiling provide unprecedented insights into how genetic variation influences metabolism and complex disease.</p>
+
+<h3 id="mwastools-mgwas">MWASTools | mGWAS</h3>
+
+<p><p align="justify">Allows users to visualize the results from metabolome-wide association studies (MWAS) analysis. MWASTools performs essential quality control (QC) analyses via Principal Component Analysis (PCA) and by computing the coefficients of variation (CV) of individual metabolic features. It is composed of four functional parts: (1) QC analysis; (2) MWAS analysis; (3) visualization of MWAS results; and (4) metabolite assignment using correlation analysis.</p>
+
+<p><a href="https://bioconductor.org/packages/release/bioc/html/MWASTools.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Bioinformatics) <a href="https://doi.org/10.1093/bioinformatics/btx477" target="_blank">MWASTools: an R/Bioconductor package for metabolome-wide association studies.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computational and Systems Medicine, Department of Surgery and Cancer, Imperial College London, UK;</p>
+
+<p>Division of Myocardial Function, National Heart and Lung Institute, Imperial College London, UK</p>
+
+<hr />
+
+<h3 id="regscan">RegScan</h3>
+
+<p><p align="justify">A command line tool for performing fast association analysis between allele frequencies and continuous traits. RegScan uses linear regression to estimate marker effects on continuous traits.</p>
+
+<p><a href="https://www.geenivaramu.ee/en/tools/regscan" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 Brief Bioinform) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24008273" target="_blank">RegScan: a GWAS tool for quick estimation of allele effects on continuous traits and their combinations.</a></li>
+</ul>
+
+<p><strong>MAINTAINER</strong>:</p>
+
+<p>Toomas Haller <a href="mailto:toomas.haller@ut.ee" target="_blank">toomas.haller@ut.ee</a></p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="nmr-based-metabolomics-ms-based-targeted-metabolomics">NMR-based Metabolomics/MS-based targeted metabolomics</h1>
 
@@ -575,15 +721,193 @@
 
 <h2 id="font-color-cd5555-face-黑体-spectral-corrections-font"><font color=#CD5555 face="黑体">Spectral corrections</font></h2>
 
+<p>The spectra processing step is crucial in metabolomics approaches, especially for proton NMR metabolomics profiling. During this step, noise reduction, baseline correction, peak alignment and reduction of the 1D (1)H-NMR spectral data are required in order to allow biological information to be highlighted through further statistical analyses. Above all, data reduction (binning or bucketing) strongly impacts subsequent statistical data analysis and potential biomarker discovery.</p>
+
+<hr />
+
+<h3 id="nmrpipe">NMRPipe</h3>
+
+<p><p align="justify">An extensive software system for processing, analyzing, and exploiting NMR spectroscopic data.</p>
+
+<p><a href="https://spin.niddk.nih.gov/NMRPipe/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(1995 J Biomol NMR) <a href="https://www.ncbi.nlm.nih.gov/pubmed/8520220" target="_blank">NMRPipe: a multidimensional spectral processing system based on UNIX pipes.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</p>
+
+<hr />
+
+<h3 id="nmrpro">NMRPro</h3>
+
+<p><p align="justify">An extensible web component that can be easily integrated in current web applications and databases, providing NMR processing and visualization functionalities. NMRPro is highly extensible to include new functionalities according to the needs of each application. It integrates server-side processing with client-side interactive visualization through three parts: a python package to efficiently process large NMR datasets on the server-side, a Django App managing server-client interaction, and SpecdrawJS for client-side interactive visualization.</p>
+
+<p><a href="https://github.com/phnmnl/container-nmrpro" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2016 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27153725" target="_blank">NMRPro: an integrated web component for interactive processing and visualization of NMR spectra.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Bioinformatics Center, Institute for Chemical Research, Kyoto University, Kyoto, Japan</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-spectral-deconvolution-font"><font color=#CD5555 face="黑体">Spectral deconvolution</font></h2>
+
+<p>NMR spectroscopy has been an important tool for metabolomics although severe overlap of signals has limited the number of compounds, which can be unambiguously identified and quantified. Therefore, deconvolution of NMR spectra is one of the greatest challenges for NMR-based metabolomics.</p>
+
+<hr />
+
+<h3 id="nmrpipe-1">NMRPipe</h3>
+
+<p><p align="justify">An extensive software system for processing, analyzing, and exploiting NMR spectroscopic data.</p>
+
+<p><a href="https://spin.niddk.nih.gov/NMRPipe/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(1995 J Biomol NMR) <a href="https://www.ncbi.nlm.nih.gov/pubmed/8520220" target="_blank">NMRPipe: a multidimensional spectral processing system based on UNIX pipes.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</p>
+
+<hr />
+
+<h3 id="batman-bayesian-automated-metabolite-analyser-for-nmr-data">BATMAN | Bayesian AuTomated Metabolite Analyser for NMR data</h3>
+
+<p><p align="justify">An R package for estimating metabolite concentrations from Nuclear Magnetic Resonance spectral data using a specialised MCMC algorithm. BATMAN deconvolutes peaks from 1-dimensional NMR spectra, automatically assigns them to specific metabolites from a target list and obtains concentration estimates. The Bayesian model incorporates information on characteristic peak patterns of metabolites and is able to account for shifts in the position of peaks commonly seen in NMR spectra of biological samples. It applies a Markov Chain Monte Carlo (MCMC) algorithm to sample from a joint posterior distribution of the model parameters and obtains concentration estimates with reduced error compared with conventional numerical integration and comparable to manual deconvolution by experienced spectroscopists.</p>
+
+<p><a href="http://batman.r-forge.r-project.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2014 Nat Protoc) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24853927" target="_blank">Bayesian deconvolution and quantification of metabolites in complex 1D NMR spectra using BATMAN.</a></p></li>
+
+<li><p>(2012 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22635605" target="_blank">BATMAN&ndash;an R package for the automated quantification of metabolites from nuclear magnetic resonance spectra using a Bayesian model.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Computational and Systems Medicine, Department of Surgery and Cancer, Imperial College London, London, UK;</p>
+
+<p>Department of Statistical Science, University College London, London, UK</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-chemometric-analysis-font"><font color=#CD5555 face="黑体">Chemometric analysis</font></h2>
 
-<h2 id="font-color-cd5555-face-黑体-metabolite-identification-font"><font color=#CD5555 face="黑体">Metabolite identification</font></h2>
+<p>Chemometric analysis programs for MS-based metabolomic analysis.</p>
 
-<p>#MS-based targeted metabolomics</p>
+<h3 id="metaboanalyst">MetaboAnalyst</h3>
+
+<p><p align="justify">Provides a user-friendly, web-based analytical pipeline for high-throughput metabolomics studies. In particular, MetaboAnalyst aims to offer a variety of commonly used procedures for metabolomic data processing, normalization, multivariate statistical analysis, as well as data annotation. The current implementation focuses on exploratory statistical analysis, functional interpretation, and advanced statistics for translational metabolomics studies.</p>
+
+<p><a href="http://www.metaboanalyst.ca/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29762782" target="_blank">MetaboAnalyst 4.0: towards more transparent and integrative metabolomics analysis.</a></p></li>
+
+<li><p>(2011 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21712247" target="_blank">MetATT: a web-based metabolomics tool for analyzing time-series and two-factor datasets.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Parasitology, and Department of Animal Science, McGill University, Ste Ann de Bellevue, Canada;</p>
+
+<p>Department of Microbiology and Immunology, McGill University, Montreal, Canada</p>
+
+<hr />
+
+<h3 id="speaq-spectrum-alignment-and-quantitation">speaq | spectrum alignment and quantitation</h3>
+
+<p><p align="justify">Allows Nuclear Magnetic Resonance (NMR) spectroscopy data analysis. Speaq enables raw spectra alignment and quantitation but also an analysis based on features whereby the spectra are converted to peaks which are then grouped and turned into features. The underlying core paradigm is to efficiently summarize spectra with little user interaction, high speed and most importantly little loss of information whilst greatly reducing the dimensions of the data. The package can be combined with existing tools to improve performance.</p>
+
+<p><a href="https://cran.r-project.org/web/packages/speaq/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 PLoS Comput Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29494588" target="_blank">speaq 2.0: A complete workflow for high-throughput 1D NMR spectra processing and quantification.</a></p></li>
+
+<li><p>(2011 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22014236" target="_blank">An integrated workflow for robust alignment and simplified quantitative analysis of NMR spectrometry data.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Advanced Database Research and Modelling (ADReM), Department of Mathematics and Computer Science, University of Antwerp, Antwerp, Belgium</p>
 
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
+<h2 id="font-color-cd5555-face-黑体-metabolite-identification-font"><font color=#CD5555 face="黑体">Metabolite identification</font></h2>
+
+<p>Identification and quantification programs for NMR-based metabolomic analysis.</p>
+
+<h3 id="w4m-workflow4metabolomics">W4M | Workflow4Metabolomics</h3>
+
+<p><p align="justify">Permits comprehensive metabolomics data pre-processing, statistical analysis and interpretation. W4M includes computational modules for data normalization, multivariate analysis and annotation. It can create interactive web-based documents showing the results of the analyses, and users can share them with collaborators directly on the platform. This tool enables multi-omics analyses in a global systems-biology approach.</p>
+
+<p><a href="http://workflow4metabolomics.org/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Int J Biochem Cell Biol) <a href="https://www.ncbi.nlm.nih.gov/pubmed/28710041" target="_blank">Create, run, share, publish, and reference your LC-MS, FIA-MS, GC-MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>INRA, UMR 1019, PFEM, Saint Genes Champanelle, France;</p>
+
+<p>CNRS, UPMC, FR2424, ABiMS, Station Biologique, Roscoff, France; INRA, UMR 1331, PF MetaToul-AXIOM, Toxalim, Toulouse, France</p>
+
+<hr />
+
+<h3 id="metaboanalyst-1">MetaboAnalyst</h3>
+
+<p><p align="justify">Provides a user-friendly, web-based analytical pipeline for high-throughput metabolomics studies. In particular, MetaboAnalyst aims to offer a variety of commonly used procedures for metabolomic data processing, normalization, multivariate statistical analysis, as well as data annotation. The current implementation focuses on exploratory statistical analysis, functional interpretation, and advanced statistics for translational metabolomics studies.</p>
+
+<p><a href="http://www.metaboanalyst.ca/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2018 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/29762782" target="_blank">MetaboAnalyst 4.0: towards more transparent and integrative metabolomics analysis.</a></p></li>
+
+<li><p>(2011 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/21712247" target="_blank">MetATT: a web-based metabolomics tool for analyzing time-series and two-factor datasets.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Institute of Parasitology, and Department of Animal Science, McGill University, Ste Ann de Bellevue, Canada;</p>
+
+<p>Department of Microbiology and Immunology, McGill University, Montreal, Canada</p>
+
+<hr />
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-metabolomics-category">Find more tools: <a href="https://omictools.com/metabolomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 

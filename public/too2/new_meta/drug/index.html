@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Table of Contents  Drug Discovery  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors  Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.">
+  <meta name="description" content="Table of Contents  Drug Discovery  Drug-drug interaction prediction  DDI-CPI | Drug-Drug Interaction via Chemical-Protein Interactome Hierarchical RNNs model-based DDI extraction  Ligand-based Virtual Screening  FTrees | Feature Trees Frog | FRee On line druG conformation generation  Drug Repositioning  DRRS | Drug repositioning recommendation system MANTRA | Mode of Action by NeTwoRk Analysis  Chemical Toxicity  ChemDes | Chemical toxicity : Drug design  Molecular editors  Bioclipse | Molecule editors : Drug design MCCE | Multi-Conformation Continuum Electrostatics   Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered.">
 
   
   <link rel="alternate" hreflang="en-us" href="/too2/new_meta/drug/">
@@ -76,7 +76,7 @@
   <meta property="og:site_name" content="CityU-Bioinformatics">
   <meta property="og:url" content="/too2/new_meta/drug/">
   <meta property="og:title" content="Drug Discovery | CityU-Bioinformatics">
-  <meta property="og:description" content="Table of Contents  Drug Discovery  Chemical Enrichment Analysis Drug-drug interaction prediction Ligand-based Virtual Screening Drug Repositioning Chemical Toxicity Molecular editors  Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered. Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic small molecules, natural products or extracts were screened in intact cells or whole organisms to identify substances that have a desirable therapeutic effect in a process known as classical pharmacology.">
+  <meta property="og:description" content="Table of Contents  Drug Discovery  Drug-drug interaction prediction  DDI-CPI | Drug-Drug Interaction via Chemical-Protein Interactome Hierarchical RNNs model-based DDI extraction  Ligand-based Virtual Screening  FTrees | Feature Trees Frog | FRee On line druG conformation generation  Drug Repositioning  DRRS | Drug repositioning recommendation system MANTRA | Mode of Action by NeTwoRk Analysis  Chemical Toxicity  ChemDes | Chemical toxicity : Drug design  Molecular editors  Bioclipse | Molecule editors : Drug design MCCE | Multi-Conformation Continuum Electrostatics   Find more tools: OMICTOOLS   Drug Discovery In the fields of medicine, biotechnology and pharmacology, drug discovery is the process by which new candidate medications are discovered.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -455,7 +455,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    7 min read
   </span>
   
 
@@ -525,12 +525,30 @@
 <ul>
 <li><a href="#drug-discovery">Drug Discovery</a>
 <ul>
-<li><a href="#font-color-cd5555-face-黑体-chemical-enrichment-analysis-font"><font color=#CD5555 face="黑体">Chemical Enrichment Analysis</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-drug-drug-interaction-prediction-font"><font color=#CD5555 face="黑体">Drug-drug interaction prediction</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-ligand-based-virtual-screening-font"><font color=#CD5555 face="黑体">Ligand-based Virtual Screening</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-drug-repositioning-font"><font color=#CD5555 face="黑体">Drug Repositioning</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-chemical-toxicity-font"><font color=#CD5555 face="黑体">Chemical Toxicity</font></a></li>
-<li><a href="#font-color-cd5555-face-黑体-molecular-editors-font"><font color=#CD5555 face="黑体">Molecular editors</font></a></li>
+<li><a href="#font-color-cd5555-face-黑体-drug-drug-interaction-prediction-font"><font color=#CD5555 face="黑体">Drug-drug interaction prediction</font></a>
+<ul>
+<li><a href="#ddi-cpi-drug-drug-interaction-via-chemical-protein-interactome">DDI-CPI | Drug-Drug Interaction via Chemical-Protein Interactome</a></li>
+<li><a href="#hierarchical-rnns-model-based-ddi-extraction">Hierarchical RNNs model-based DDI extraction</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-ligand-based-virtual-screening-font"><font color=#CD5555 face="黑体">Ligand-based Virtual Screening</font></a>
+<ul>
+<li><a href="#ftrees-feature-trees">FTrees | Feature Trees</a></li>
+<li><a href="#frog-free-on-line-drug-conformation-generation">Frog | FRee On line druG conformation generation</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-drug-repositioning-font"><font color=#CD5555 face="黑体">Drug Repositioning</font></a>
+<ul>
+<li><a href="#drrs-drug-repositioning-recommendation-system">DRRS | Drug repositioning recommendation system</a></li>
+<li><a href="#mantra-mode-of-action-by-network-analysis">MANTRA | Mode of Action by NeTwoRk Analysis</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-chemical-toxicity-font"><font color=#CD5555 face="黑体">Chemical Toxicity</font></a>
+<ul>
+<li><a href="#chemdes-chemical-toxicity-drug-design">ChemDes | Chemical toxicity : Drug design</a></li>
+</ul></li>
+<li><a href="#font-color-cd5555-face-黑体-molecular-editors-font"><font color=#CD5555 face="黑体">Molecular editors</font></a>
+<ul>
+<li><a href="#bioclipse-molecule-editors-drug-design">Bioclipse | Molecule editors : Drug design</a></li>
+<li><a href="#mcce-multi-conformation-continuum-electrostatics">MCCE | Multi-Conformation Continuum Electrostatics</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#find-more-tools-omictools-https-omictools-com-metabolomics-category">Find more tools: <a href="https://omictools.com/metabolomics-category" target="_blank"><strong>OMICTOOLS</strong></a></a></li>
 </ul>
@@ -543,19 +561,229 @@
 
 <p><p align="justify">The goal of <strong>drug discovery</strong> is to identify, optimize and clinically validate those compounds that bind and modulate the function of a target protein implicated in a disease state. A drug molecule must possess certain geometry and physicochemical properties in order to have a sufficiently high binding affinity toward a given macromolecular target. As a result, the number of bioactive compounds is very small compared to a vast collection of candidate compounds. <a href="https://www.ncbi.nlm.nih.gov/pubmed/27420300" target="_blank">Source</a></p>
 
-<h2 id="font-color-cd5555-face-黑体-chemical-enrichment-analysis-font"><font color=#CD5555 face="黑体">Chemical Enrichment Analysis</font></h2>
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-drug-drug-interaction-prediction-font"><font color=#CD5555 face="黑体">Drug-drug interaction prediction</font></h2>
 
+<p>Drug-drug interactions (DDIs) are a major cause of adverse drug effects and a public health concern, as they increase hospital care expenses and reduce patients&rsquo; quality of life. DDI detection is, therefore, an important objective in patient safety, one whose pursuit affects drug development and pharmacovigilance.</p>
+
+<hr />
+
+<h3 id="ddi-cpi-drug-drug-interaction-via-chemical-protein-interactome">DDI-CPI | Drug-Drug Interaction via Chemical-Protein Interactome</h3>
+
+<p><p align="justify">A server Predicting Drug-Drug Interaction via Chemical-Protein Interactome.</p>
+
+<p><a href="https://cpi.bio-x.cn/ddi/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2014 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24875476" target="_blank">DDI-CPI, a server that predicts drug-drug interactions through implementing the chemical-protein interactome.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Bio-X Institutes, Shanghai Jiao Tong University, Shanghai, China;</p>
+
+<p>University of Arkansas at Little Rock/University of Arkansas for Medical Sciences, Little Rock, AR, USA;</p>
+
+<p>Healthcare Analytics Research Group, IBM TJ Watson Research Center, Yorktown Heights, NY, USA</p>
+
+<hr />
+
+<h3 id="hierarchical-rnns-model-based-ddi-extraction">Hierarchical RNNs model-based DDI extraction</h3>
+
+<p><p align="justify">Allows extraction of drug-drug interactions (DDI). Hierarchical RNNs model-based DDI extraction aims to identify and organize the drug-drug interaction in biomedical texts, which has been the state-of-the-art methods for DDI extraction task. It can effectively integrate the sequence and shortest dependency path (SDP) for DDI extraction.</p>
+
+<p><a href="https://github.com/zhangyijia1979/hierarchical-RNNs-model-for-DDI-extraction" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2017 Bioinformatics) <a href="https://academic.oup.com/bioinformatics/article/34/5/828/4565590" target="_blank">Drug-drug Interaction Extraction via Hierarchical RNNs on Sequence and Shortest Dependency Paths.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>College of Computer Science and Technology, Dalian University of Technology, Dalian, China;</p>
+
+<p>Stanford Center for Biomedical Informatics Research, Stanford University, CA, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-ligand-based-virtual-screening-font"><font color=#CD5555 face="黑体">Ligand-based Virtual Screening</font></h2>
+
+<h3 id="ftrees-feature-trees">FTrees | Feature Trees</h3>
+
+<p><p align="justify">Handles and searches large virtual combinatorial libraries. FTrees performs similarity searches in the generated Fragment Space. It stores the physicochemical properties of the substructure represented by a node in a property profile for that node. This tool is able to select that topology-preserving mapping belonging to the best matching overlay of two molecules both represented by their corresponding Feature Trees.</p>
+
+<p><a href="https://www.biosolveit.de/FTrees/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2011 J Am Chem Soc) <a href="https://pubs.acs.org/doi/abs/10.1021/ja208498e" target="_blank">Software Review of FTrees and FTrees-FS in Pipeline Pilot.</a></p></li>
+
+<li><p>(2009 J Chem Inf Model) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19434829" target="_blank">Searching Fragment Spaces with feature trees.</a></p></li>
+</ul>
+
+<p><strong>Maintainer(s)</strong>:</p>
+
+<p>FTrees Team <a href="mailto:support@biosolveit.de" target="_blank">support@biosolveit.de</a></p>
+
+<hr />
+
+<h3 id="frog-free-on-line-drug-conformation-generation">Frog | FRee On line druG conformation generation</h3>
+
+<p><p align="justify">Builds small 3D compounds. Frog can construct single or ensembles of low to medium energy 3D conformations starting from a 1D/2D or 3D given structure. It clarifies compound stereochemistry including chiral sites with a user-defined maximum number of generated conformers. This tool is useful for in silico studies, such as ligand-based or structure-based virtual screening; or lead compounds optimization.</p>
+
+<p><a href="http://bioserv.rpbs.univ-paris-diderot.fr/services/Frog2/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2010 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20444874" target="_blank">Frog2: Efficient 3D conformation ensemble generator for small compounds.</a></p></li>
+
+<li><p>(2007 Nucleic Acids Res) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17485475" target="_blank">Frog: a FRee Online druG 3D conformation generator.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>MTi, INSERM UMR-S973, Universite Paris Diderot - Paris 7, Paris, France; RPBS, Universite Paris Diderot - Paris 7, Paris, France</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-drug-repositioning-font"><font color=#CD5555 face="黑体">Drug Repositioning</font></h2>
 
+<p><p align="justify">Drug repositioning has been regarded as one of the most promising strategies for translational medicine. Common efforts to find new uses for existing drugs depend on text mining, chemical genetics and network analysis. In the April 2012 issue, <a href="https://www.ncbi.nlm.nih.gov/pubmed/22491277" target="_blank">Sanseau et al.</a> proposed the use of genome-wide association studies (GWAS) for drug repositioning.</p>
+
+<hr />
+
+<h3 id="drrs-drug-repositioning-recommendation-system">DRRS | Drug repositioning recommendation system</h3>
+
+<p><p align="justify">Identifies novel disease indications for given drugs. DRRS is a drug repositioning recommendation system approach that addresses the problem of drug repositioning, using low-rank matrix appropriation and randomized algorithm. The software can also be used for drugs without previously known disease associations and is able to handle large datasets.</p>
+
+<p><a href="http://bioinformatics.csu.edu.cn/resources/softs/DrugRepositioning/DRRS/index.html" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2018 Bioinformatics) <a href="https://academic.oup.com/bioinformatics/article-abstract/34/11/1904/4820334?redirectedFrom=fulltext" target="_blank">Computational Drug Repositioning using Low-Rank Matrix Approximation and Randomized Algorithms.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>School of Information Science and Engineering, Central South University, ChangSha, China;</p>
+
+<p>Department of Computer Science, Old Dominion University, Norfolk, VA, USA</p>
+
+<hr />
+
+<h3 id="mantra-mode-of-action-by-network-analysis">MANTRA | Mode of Action by NeTwoRk Analysis</h3>
+
+<p><p align="justify">Allows to analyze the Mode of Action (MoA) of novel drugs and to identify known and approved candidates for “drug repositioning”. MANTRA is a computational tool based on network theory and non-parametric statistics on gene expression data, which offers three “workspaces”: Analysis, Network and Search. Users can visually explore the Drug Network that provides, for each of the drugs, information about biochemical interactions, therapeutic indications, known MoA, pharmacology and targeted proteins.</p>
+
+<p><a href="http://mantra.tigem.it/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2014 Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24558125" target="_blank">Mantra 2.0: an online collaborative resource for drug mode of action and repurposing by network analysis.</a></p></li>
+
+<li><p>(2010 Proc Natl Acad Sci U S A) <a href="https://www.ncbi.nlm.nih.gov/pubmed/20679242" target="_blank">Discovery of drug mode of action and drug repositioning from transcriptional responses.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Telethon Foundation (TGM11SB1), the Italian Ministry of Health (GR-2009-1596824), the EU Project Nanosol (FP7/2007-2013 309329) and the Italian Ministry of Research (PON A3-00311).</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
+
 <h2 id="font-color-cd5555-face-黑体-chemical-toxicity-font"><font color=#CD5555 face="黑体">Chemical Toxicity</font></h2>
+
+<p>Determining the toxicity of chemicals is necessary to identify their harmful effects on humans, animals, plants, or the environment. It is also one of the main steps in drug design.</p>
+
+<hr />
+
+<h3 id="chemdes-chemical-toxicity-drug-design">ChemDes | Chemical toxicity : Drug design</h3>
+
+<p><p align="justify">An integrated web-based platform for molecular descriptor and fingerprint computation. ChemDes provides more than 3,679 molecular descriptors that are divided into 61 logical blocks. In addition, it provides 59 types of molecular fingerprint systems for drug molecules, including topological fingerprints, electro-topological state fingerprints, MACCS keys, FP4 keys, atom pairs fingerprints, topological torsion fingerprints and Morgan/circular fingerprints.</p>
+
+<p><a href="http://www.scbdd.com/chemdes/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li>(2015 J Cheminform) <a href="https://www.ncbi.nlm.nih.gov/pubmed/26664458" target="_blank">ChemDes: an integrated web-based platform for molecular descriptor and fingerprint computation.</a></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>School of Pharmaceutical Sciences, Central South University, Changsha, China;</p>
+
+<p>Department of Biostatistics, School of Public Health, University of Texas Health Science Center at Houston, Houston, USA</p>
+
+<p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h2 id="font-color-cd5555-face-黑体-molecular-editors-font"><font color=#CD5555 face="黑体">Molecular editors</font></h2>
 
+<p>A molecule editor, i.e. a program facilitating graphical input and interactive editing of molecules, is an indispensable part of every cheminformatics or molecular processing system.</p>
+
+<hr />
+
+<h3 id="bioclipse-molecule-editors-drug-design">Bioclipse | Molecule editors : Drug design</h3>
+
+<p><p align="justify">Provides 2D-editing, 3D-visualization, file format conversion, calculation of chemical properties, &hellip; Bioclipse delivers a stable, scalable integration platform for developers and an intuitive workbench for end users. The tool includes a rewritten editor for chemical structures, a table for multiple molecules that supports gigabyte-sized files, as well as a graphical editor for sequences and alignments. It provides advanced functionality in fields such as cheminformatics, bioinformatics, semantic web, spectrum analysis, drug discovery, safety assessment, and general chemistry education.</p>
+
+<p><a href="http://www.bioclipse.net/" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2009 BMC Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19958528" target="_blank">Bioclipse 2: a scriptable integration platform for the life sciences.</a></p></li>
+
+<li><p>(2007 BMC Bioinformatics) <a href="https://www.ncbi.nlm.nih.gov/pubmed/17316423" target="_blank">Bioclipse: an open source workbench for chemo- and bioinformatics.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Pharmaceutical Biosciences, Uppsala University, Uppsala, Sweden;</p>
+
+<p>Wellcome Trust Genome Campus, European Bioinformatics Institute, Hinxton, UK;</p>
+
+<p>Max von Pettenkofer-Institut, Ludwig-Maximilians-Universität, Munich, Germany</p>
+
+<hr />
+
+<h3 id="mcce-multi-conformation-continuum-electrostatics">MCCE | Multi-Conformation Continuum Electrostatics</h3>
+
+<p><p align="justify">Combines continuum electrostatics (CE) and molecular mechanics force fields to calculate the equilibrium distribution of ionization states and atomic positions. MCCE is a biophysics simulation program that adds side chain and ligand conformational degrees of freedom to a CE analysis of pKas and Ems. The software allows side chain conformation sampling within pH titrations.</p>
+
+<p><a href="https://sites.google.com/site/mccewiki/home" target="_blank"><strong>Official Website</strong></a></p>
+
+<p><strong>Publications</strong>:</p>
+
+<ul>
+<li><p>(2009 J Comput Chem) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19274707" target="_blank">MCCE2: improving protein pKa calculations with extensive side chain rotamer sampling.</a></p></li>
+
+<li><p>(2002 Biophys J) <a href="https://www.ncbi.nlm.nih.gov/pubmed/12324397" target="_blank">Combining conformational flexibility and continuum electrostatics for calculating pK(a)s in proteins.</a></p></li>
+</ul>
+
+<p><strong>Institutions(s)</strong>:</p>
+
+<p>Department of Physics, City College of New York, New York, NY, USA</p>
+
 <p><a href="#top"><i class="fa fa-hand-o-up fa-1x "></i>Top</a></p>
+
+<hr />
 
 <h1 id="find-more-tools-omictools-https-omictools-com-metabolomics-category">Find more tools: <a href="https://omictools.com/metabolomics-category" target="_blank"><strong>OMICTOOLS</strong></a></h1>
 
@@ -586,9 +814,9 @@
         
         <li><a href="/too2/new_meta/lipidomics/">Lipidomics</a></li>
         
-        <li><a href="/too2/new_meta/engineer/">Metabolic Engineering</a></li>
-        
         <li><a href="/too2/new_meta/profiles/">Metabolic Profiles</a></li>
+        
+        <li><a href="/too2/new_meta/engineer/">Metabolic Engineering</a></li>
         
       </ul>
     </div>
