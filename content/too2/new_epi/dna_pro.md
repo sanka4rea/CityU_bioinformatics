@@ -14,7 +14,7 @@ image_preview = "tools/geno/dna_pro.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["genomics"]
+tags = ["epigenomics"]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "https://cityu-bioinformatics.netlify.com/tools/seq_new/sequence alignment/"
