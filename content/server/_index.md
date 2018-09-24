@@ -12,10 +12,10 @@ caption = ""
 +++
 ---
 {{% alert note %}}
-[**Rstudio server:**](http://144.214.26.67:8787/auth-sign-in)
+[**Rstudio server:**](http://144.214.26.35:8887/auth-sign-in)
 {{% /alert %}}
 <img src="/img/server/rstudioserver.png" alt="server" align="center">
-<p align="justify">Click [**here**](http://144.214.26.36:8887/auth-sign-in) to access the Rstudio server in the Wang Lab. 
+<p align="justify">Click [**here**](http://144.214.26.35:8887/auth-sign-in) to access the Rstudio server in the Wang Lab. 
 
 Please contact **xin.wang@cityu.edu.hk** if you need an account.
 
@@ -27,4 +27,12 @@ Please contact **xin.wang@cityu.edu.hk** if you need an account.
 <p align="justify">Click [**here**](http://144.214.26.35:8080/) to access the Galaxy server in the Wang Lab. 
 
 Please contact **xin.wang@cityu.edu.hk** if you need an account.
+
+---
+{{% alert note %}}
+[**UCSC Genome Browser:**](http://144.214.26.35:8038/)
+{{% /alert %}}
+<img src="/img/server/ucsc.png"  height=600 width=600 alt="ucsc" align="center">
+<p align="justify">Click [**here**](http://144.214.26.35:8038/) to access the UCSC Genome Browser in the Wang Lab. 
+
 
