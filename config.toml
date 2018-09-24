@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "avatar1.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   
-  email =  "linqi4rea@gmail.com"
+  email =  "linqi23-c@my.cityu.edu.hk"
   address = "Lin Qi of Dr.Xin Wang's Lab. <br>Room 315, Block 2, To Yuen Building, City University of Hong Kong, Hong Kong"
   office_hours = "10:00 to 17:00 on workdays"
   
