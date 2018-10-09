@@ -32,7 +32,7 @@ math = true
 
 +++
 ---
-<img src="/img/tutorial/8110/uc1.png" width=700 alt="clinvar" align="center">
+<img src="/img/tutorial/8110/uc1.png" width=600 alt="clinvar" align="center">
 
 <span id="top"></span>
 
@@ -66,7 +66,7 @@ math = true
 * up-regulation of respiratory burst activity
 * **Link to various of chronic inflammatory disease**
 
-<img src="/img/tutorial/8110/uc5.png" width=900 alt="clinvar" align="center">
+<img src="/img/tutorial/8110/uc5.png" width=700 alt="clinvar" align="center">
 
 Citation: http://pharmacy.ucsd.edu/labs/handel/research/
 
@@ -78,7 +78,7 @@ Citation: http://pharmacy.ucsd.edu/labs/handel/research/
 * Heparin-Sepharose affinity chromatography 
 * Mass spectrometry
 
-<img src="/img/tutorial/8110/uc6.png" width=900 alt="clinvar" align="center">
+<img src="/img/tutorial/8110/uc6.png" width=700 alt="clinvar" align="center">
 
 ### Choosing bioinformatic tools
 

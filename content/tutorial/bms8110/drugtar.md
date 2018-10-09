@@ -88,15 +88,9 @@ In this study, we use lipidomics approach to specifically investigate lipids pro
 
 <img src="/img/tutorial/8110/dg8.png" alt="clinvar" align="center">
 
-**Figure.7 The target prediction of Kaempferol and Quercetin on lipids profiles**
-
 * Flavonoids: PIK3CA, PIK3CB, PIK3C3
 * Phosphatidylinositol: 3-kinase, PLD2
 * Phospholipase D:PLAG3, PLA2G4D, PLA2G3 and PLA2G12A, Phospholipase A(2)
-
-<img src="/img/tutorial/8110/dg9.png" alt="clinvar" align="center">
-
-**Figure.8 The target prediction of phenolic acids components on lipids profile**
 
 * Phenolic acids:PIK3CA, PIK3C2A, PIK3CG, PIK3CB, PIK3C3                         
 * Phosphatidylinositol 3-kinase, Phosphatidylinositol-4,5-bisphosphate3-kinase, PLD2
@@ -106,7 +100,6 @@ In this study, we use lipidomics approach to specifically investigate lipids pro
 * Triacylglycerol lipase, LIPA     
 * Carboxylesterase, LIPA                                                              
 
-<img src="/img/tutorial/8110/dg10.png" alt="clinvar" align="center">
 
 <br>
 **Case study** could be found in **the student work** below.

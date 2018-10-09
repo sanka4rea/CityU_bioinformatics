@@ -41,56 +41,56 @@ math = true
 
 <p align="justify">Statistics show that each year about 870,000 new cases are diagnosed in the United States and about 50 percent of those diagnosed will die within five years (Mozaffarian et al. 2015).
 
-<img src="/img/tutorial/8110/zebra2.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra2.png" width=800 alt="clinvar" align="center">
 
 <p align="justify">Heart transplant is restricted for the short of donated hearts.
 
 <p align="justify">There still many technical and biological obstacles that restrict successful application of stem and progenitor cells approachs. Cardiac stem and progenitor cells are extremely rare populations and their qualities are declined with age.
 
-<img src="/img/tutorial/8110/zebra3.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra3.png" width=800 alt="clinvar" align="center">
 
 On the other hand, the adult zebrafish possess a highly efficient capacity in heart regeneration after ventricular resection or cryoinjury. Zebrafish have been a powerful low vertebrate model for studying heart regeneration.
 
-<img src="/img/tutorial/8110/zebra4.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra4.png" width=800 alt="clinvar" align="center">
 
 ### RNA-seq Data Analysis
 
 <p align="justify">Classification of raw reads. Total of 9 samples were sequenced, average raw reads number is 13,026,869; besides the adapter and low quality reads, average 12,290,892 (94.35%) clean reads were generated.
 
-<img src="/img/tutorial/8110/zebra5.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra5.png" width=800 alt="clinvar" align="center">
 
 FPKM values mainly distribute from 1e-01 to 1e+03, and RNA-seq data fit a Negative Binomial distribution.
 
-<img src="/img/tutorial/8110/zebra6.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra6.png" width=800 alt="clinvar" align="center">
 
-<img src="/img/tutorial/8110/zebra7.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra7.png" width=800 alt="clinvar" align="center">
 
 <p align="justify">Differential genes expression showed 110 up-regulated genes and 24 downregulated genes at 4dpc, and 39 up-regulated genes and 25 down-regulated genes at 7dpc.
 
-<img src="/img/tutorial/8110/zebra8.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra8.png" width=800 alt="clinvar" align="center">
 
-<img src="/img/tutorial/8110/zebra9.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra9.png" width=800 alt="clinvar" align="center">
 
 <p align="justify">Many critical signaling pathways are activated for cell survival, proliferation, growth, migration and angiogenesis. They regulate the zebrafish heart regeneration after cryoinjury.
 
-<img src="/img/tutorial/8110/zebra10.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra10.png" width=800 alt="clinvar" align="center">
 
 ### Hypothesis
 
 PI3K-AKT signaling pathway mediates the expression of autophagy.
 
-<img src="/img/tutorial/8110/zebra11.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra11.png" width=800 alt="clinvar" align="center">
 
 <p align="justify">**Cellular Senescence:** is a program triggered by stresses that prevent abnormal cells from further proliferation.
 
 <p align="justify">**Senescence-Associated Secretory Phenotype (SASP):** in addition to their wellstudied growth arrest, senescent cells display extensive changes in gene expression, including the expression and secretion of many proinflammatory cytokines, chemokines, growth factors, and proteases.
 
-<img src="/img/tutorial/8110/zebra12.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra12.png" width=800 alt="clinvar" align="center">
 
 <p align="justify">The GATA4 pathway functions independently of the p53 and p16 pathways and is regulated by the DDR kinases ATM and ATR.
 
 
-<img src="/img/tutorial/8110/zebra13.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra13.png" width=800 alt="clinvar" align="center">
 
 <p align="justify">Hypothesis: Autophagy may play an essential role in zebrafish heart regeneration and regulate the expression of GATA4 for myocardial regeneration.
 
@@ -102,7 +102,7 @@ To determine whether autophagy regulates the expression of GATA4 for myocardial 
 
 Use transgenic lines zebrafish embryos to detect their cardiac Research Design and Methods morphogenesis and determine the interaction of autophagy with GATA4 in vivo.
 
-<img src="/img/tutorial/8110/zebra14.png" alt="clinvar" align="center">
+<img src="/img/tutorial/8110/zebra14.png" width=800 alt="clinvar" align="center">
 
 <br>
 **Case study** could be found in **the student work** below.
