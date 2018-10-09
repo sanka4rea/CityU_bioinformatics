@@ -32,9 +32,6 @@ filter_default = 0
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 
-[[filter]]
-  name = "Getting started with R"
-  tag = ".start"
   
 [[filter]]
   name = "BMS4001_part1"
@@ -43,14 +40,19 @@ filter_default = 0
 [[filter]]
   name = "BMS4001_part2"
   tag = ".bms4001_p2"
-
-[[filter]]
-  name = "Online Courses"
-  tag = ".courses"
   
 [[filter]]
-  name = "Other Resources"
-  tag = ".resources"
+  name = "BMS8110_part1"
+  tag = ".bms8110_p1"
+  
+[[filter]]
+  name = "BMS8110_part2"
+  tag = ".bms8110_p2"
 
+[[filter]]
+  name = "Online Resources"
+  tag = ".resources"
+  
+  
 +++
 

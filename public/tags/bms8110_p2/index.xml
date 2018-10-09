@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bms8110_p2 on CityU-Bioinformatics</title>
+    <link>/tags/bms8110_p2/</link>
+    <description>Recent content in Bms8110_p2 on CityU-Bioinformatics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bms8110_p2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analysis of TEAD4 ChIP-Seq data and identification of TEAD4 targets in MDA-MB-231 cells</title>
+      <link>/tutorial/bms8110/tead4/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms8110/tead4/</guid>
+      <description>This tutorial includes TEAD4 ChIP-Seq experiment and analysis, Visualization of ChIP peaks, Motif analysis.
+TEAD4 ChIP-Seq experiment and analysis  Negative control: IgG (2 replicates) Transcription factor: TEAD4 (2 replicates) Cell line: Breast cancer line (MDA-MB-231 GEO Dataset: GSE66081  Visualization of ChIP peaks Motif analysis Experiment validation- Enrichment on known binding site TEAD4 is enriched in promoter regions Potential role of TEAD4 in MAPK signaling pathway  MAPK signaling pathway transmit grown promoting signals Abnormalities in MAPK signaling pathway play a critical role in the development and progression of cancer  Potential role of TEAD4 in mediating Ras expression</description>
+    </item>
+    
+    <item>
+      <title>Genome-wide analysis of gene expression profiles and pathways associated with chemoresistant ovarian cancer cells</title>
+      <link>/tutorial/bms8110/ov/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms8110/ov/</guid>
+      <description>Background  Ovarian cancer is a gynecological malignancy with the highest mortality rate. Patients lack specific symptoms in the early stage, patients present with Stage III or IV at initial diagnoses. Patients are often given cytoreductive surgery supplemented with platinum- and paclitaxel-based chemotherapy as standard frontline treatment. Prolonged treatment with chemotherapy often gives rise to multidrug resistance mechanisms including increase in detoxification, suppression of apoptotic signaling and stimulation of proliferation.</description>
+    </item>
+    
+    <item>
+      <title>Identification of Down-Regulated Cytochrome P450 2A6 as Disease Status Indicator in Hepatocellular Carcinoma.</title>
+      <link>/tutorial/bms8110/450/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms8110/450/</guid>
+      <description>Microarray Profile Datasets Screening Keywords in GEO: ((HCC) OR (liver cancer) OR (hepatoma) OR (liver carcinoma) OR (hepatocellular carcinoma)) AND microarray.
+Inclusion cretiria: 1. equal number of non-cancerous liver tissue and HCC samples; 2. pathologically confirmed 3. ethical approval + written informed consents 4. the number of samples for each histological group should be &amp;gt; 8 5. discovery and validation sets should not have overlaps
+Discovery set (GSE84402): 28 in total = 14 HCC + 14 non-cancerous liver</description>
+    </item>
+    
+    <item>
+      <title>Studies on the Cellular and Molecular Mechanisms of Autophagy in Zebrafish Heart Regeneration</title>
+      <link>/tutorial/bms8110/zebraf/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms8110/zebraf/</guid>
+      <description>Background In humans, myocardial infarction (MI) causes irreversible cell loss and scarring and is a major source of morbidity and mortality.
+Statistics show that each year about 870,000 new cases are diagnosed in the United States and about 50 percent of those diagnosed will die within five years (Mozaffarian et al. 2015).
+Heart transplant is restricted for the short of donated hearts.
+There still many technical and biological obstacles that restrict successful application of stem and progenitor cells approachs.</description>
+    </item>
+    
+    <item>
+      <title>The application of bioinformatics tools in metabolomics-based drug targets discovery</title>
+      <link>/tutorial/bms8110/drugtar/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/bms8110/drugtar/</guid>
+      <description>Introduction Phytochemistry study of CP leaves
+ -Flavonoids
+ -Phenolic acids
+ -Triterpenoids
+ -Carbohydrates
+ -Polysaccharides
+  Terminology &amp;amp; Objective Metabolomics/Lipidomics
+The metabolome represents the collection of all metabolites in a biological cell, tissue, organ or organism, which are the end products of cellular processes. The metabolomics is the study of their small-molecule metabolite profiles. In this study, we use lipidomics approach to specifically investigate lipids profiles under CP treatment.</description>
+    </item>
+    
+  </channel>
+</rss>
