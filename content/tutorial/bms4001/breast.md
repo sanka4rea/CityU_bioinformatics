@@ -36,6 +36,15 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by: 
+
+* CHENG Chun Yi 
+* IP Wai Yi 
+* PONG Yin Chung Charles 
+* SO Wai Yin 
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=11fySlMDvq_jx9wAAGfBNmFoNu4kgsvHF)
+
 <p align="justify">The [**Breast Cancer Risk Assessment Tool**](https://www.cancer.gov/bcrisktool/) is an interactive tool designed by scientists at the National Cancer Institute (NCI) and the National Surgical Adjuvant Breast and Bowel Project (NSABP) to estimate a woman's risk of developing invasive breast cancer. 
 
 Breast cancer: malignant tumor cells originates from the breast that attacks the nearby healthy tissue, and it can spread outside to the other tissue.
@@ -66,16 +75,7 @@ However, breast cancer can be treated easily if diagnosed in an early stage, it 
 2. <p align="justify">The tool cannot accurately predict the risk of another breast cancer for women who have a medical history of breast cancer.
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS4001 2018 Semester B Student Work
-
-* CHENG Chun Yi 
-* IP Wai Yi 
-* PONG Yin Chung Charles 
-* SO Wai Yin 
-
-[**Download**](https://drive.google.com/open?id=11fySlMDvq_jx9wAAGfBNmFoNu4kgsvHF)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

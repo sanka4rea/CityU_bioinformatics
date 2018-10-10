@@ -36,6 +36,15 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Cheung Lung Chun, Joe 
+* Tsoi Ka Wai, Raymond
+* Hu Yashi, Karen 
+* Kwok Kam Chak, George 
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1YtkDn75SwnFex1Qq48qNN60oGTnZahTj)
+
 <p align="justify">[**Gene Expression Omnibus**](https://www.ncbi.nlm.nih.gov/clinvar/) (GEO) is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles. 
 
 The three main goals of GEO are to:
@@ -77,16 +86,7 @@ GEO data can be retrieved and analyzed in several ways:
 4. <p align="justify">**Data (GDS)**<br>sample data collection assembled by GEO staff.
 
 <br>
-**Case study**  could be found in **the student work** below.
 
-### BMS4001 2018 Semester B Student Work
-
-* Cheung Lung Chun, Joe 
-* Tsoi Ka Wai, Raymond
-* Hu Yashi, Karen 
-* Kwok Kam Chak, George 
-
-[**Download**](https://drive.google.com/open?id=1YtkDn75SwnFex1Qq48qNN60oGTnZahTj)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

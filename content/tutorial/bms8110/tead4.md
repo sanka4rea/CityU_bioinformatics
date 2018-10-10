@@ -36,6 +36,12 @@ math = true
 
 <span id="top"></span>
 
+### Student Project done by:
+
+Kang, Evangeline Tze Zhen (54540570)
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/16MUFPZ6kGJ0C7eXZ2jrmYUXLA7KNhfX_/view?usp=sharing)
+
 <p align="justify"> This tutorial includes TEAD4 ChIP-Seq experiment and analysis, Visualization of ChIP peaks, Motif analysis.
 
 ### TEAD4 ChIP-Seq experiment and analysis 
@@ -83,14 +89,7 @@ Potential role of TEAD4 in mediating Ras expression
 4. Zanconato, F. et al. Genome-wide association between YAP / TAZ / TEAD and AP-1 at enhancers drives oncogenic growth. 17, (2015).
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-Kang, Evangeline Tze Zhen (54540570)
-
-
-[**Download**](https://drive.google.com/file/d/16MUFPZ6kGJ0C7eXZ2jrmYUXLA7KNhfX_/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

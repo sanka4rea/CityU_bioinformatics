@@ -36,6 +36,15 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Lau Ching Man, Karen   
+* Au Ming Wai, Astrid        
+* Kwan Yuk Tip	        
+* Chan Man Chung             
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1XcY_4At2wcsauVJMmsgIuhdtJdjZdGDf)
+
 <p align="justify">The [**Internet**](https://www.investintech.com/content/historyinternet/) is a worldwide system of interconnected computer networks that use the TCP/IP set of network protocols to reach billions of users. The Internet began as a U.S Department of Defense network to link scientists and university professors around the world.. 
 
 <p align="justify">A network of networks, today, the Internet serves as a global data communications system that links millions of private, public, academic and business networks via an international telecommunications backbone that consists of various electronic and optical networking technologies.
@@ -102,14 +111,6 @@ The great and detailed **introduction** could be found in **references** and/or 
 * [THE INVENTION OF THE INTERNET](http://www.history.com/topics/inventions/invention-of-the-internet)
 
 <br>
-### BMS4001 2018 Semester B Student Work
-
-* Lau Ching Man, Karen   
-* Au Ming Wai, Astrid        
-* Kwan Yuk Tip	        
-* Chan Man Chung             
-
-[**Download**](https://drive.google.com/open?id=1XcY_4At2wcsauVJMmsgIuhdtJdjZdGDf)
 
 [*Image citation*](https://hipertextual.com/archivo/2014/10/internet-cosas/)
 

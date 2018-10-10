@@ -33,6 +33,12 @@ math = true
 +++
 ---
 
+### Student Project done by:
+
+PENG Boya (54877602)
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/1qf8Q-Kj-gQv3YR4GX0Nc00eNCM5CbbSM/view?usp=sharing)
+
 ### Background
 
 * Ovarian cancer is a gynecological malignancy with the highest mortality rate.
@@ -100,14 +106,7 @@ IGF-BP3 and relevant IGF/Ras/MAPK or IGF/PI3K/AKT pathway induce chemoresistance
 <img src="/img/tutorial/8110/ov11.png" alt="clinvar" align="center">
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-PENG Boya (54877602)
-
-
-[**Download**](https://drive.google.com/file/d/1qf8Q-Kj-gQv3YR4GX0Nc00eNCM5CbbSM/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

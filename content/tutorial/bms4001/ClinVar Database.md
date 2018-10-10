@@ -36,6 +36,15 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Hau Sarah S R
+* Hui Wing Yan 
+* Tsang Wui Kan 
+* Cody Au Yeung Hoi Ying 
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1FrhuJQfZXBSh_ZmNf995you1b_9b9wKX)
+
 <p align="justify">[**ClinVar**](https://www.ncbi.nlm.nih.gov/clinvar/) is a freely accessible, public archive of reports of the relationships among human variations and phenotypes, with supporting evidence. 
 
 * Provides reports of the relationship among human variations and phenotypes, with supporting evidence
@@ -61,16 +70,7 @@ math = false
 3. <p align="justify">**Integration into testers’ workflow:**<br>Clinical laboratories integrate information from ClinVar into their workflow → Use the information to identify clinical significance of already documented variants.
 
 <br>
-**How to use** could be found [here](https://www.ncbi.nlm.nih.gov/clinvar/docs/help/) or **the student work** below.
-
-### BMS4001 2018 Semester B Student Work
-
-* Hau Sarah S R
-* Hui Wing Yan 
-* Tsang Wui Kan 
-* Cody Au Yeung Hoi Ying 
-
-[**Download**](https://drive.google.com/open?id=1FrhuJQfZXBSh_ZmNf995you1b_9b9wKX)
+**How to use** could be found [here](https://www.ncbi.nlm.nih.gov/clinvar/docs/help/) or **the student project** 
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

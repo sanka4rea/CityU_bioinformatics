@@ -36,6 +36,12 @@ math = true
 
 <span id="top"></span>
 
+### Student Project done by:
+
+Liu Liangzhe, Fiona (54465134)
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/1J-Ynv5J6nwTgNmOo2fSl-I6oowv0_b5_/view?usp=sharing)
+
 ## Ulcerative Colitis
 
 * One type of inflammatory bowel disease (IBD)
@@ -93,14 +99,7 @@ Citation: http://pharmacy.ucsd.edu/labs/handel/research/
 <img src="/img/tutorial/8110/uc9.png" width=900 alt="clinvar" align="center">
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-Liu Liangzhe, Fiona (54465134)
-
-
-[**Download**](https://drive.google.com/file/d/1J-Ynv5J6nwTgNmOo2fSl-I6oowv0_b5_/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

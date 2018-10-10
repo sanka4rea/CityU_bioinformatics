@@ -36,6 +36,16 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Tang Hoi Man,Simon
+* Cheung Tsz Chung,Derek
+* Yau Ka Kit,Danny
+* Chan Ching Yuen
+
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=17n-eEDP8ASEjFuWzplS2RHBlCP9c2LPZ)
+
 <p align="justify">The history of [**Computer**](http://www.computerhistory.org/timeline/computers/). This part will briefly introduce the history of computer. 
 
 ### What is computer?
@@ -96,15 +106,7 @@ The great and detailed **introduction** could be found in **references** and/or 
 
 * [Zimmermann, K. A. (2017, September 06). History of Computers: A Brief Timeline. Retrieved January 29, 2018](https://www.livescience.com/20718-computer-history.html) 
 
-### BMS4001 2018 Semester B Student Work
 
-* Tang Hoi Man,Simon
-* Cheung Tsz Chung,Derek
-* Yau Ka Kit,Danny
-* Chan Ching Yuen
-
-
-[**Download**](https://drive.google.com/open?id=17n-eEDP8ASEjFuWzplS2RHBlCP9c2LPZ)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

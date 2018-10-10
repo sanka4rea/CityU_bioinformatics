@@ -36,6 +36,16 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Chan Ching Yuen
+* Yau Ka Kit, Danny
+* Cheung Tsz Chung, Derek
+* Tang Hoi Man, Simon
+ 
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1Hddn8ts8WU_KRGvjqlOa2f1xVroDSCzp)
+
 <p align="justify">The [**PICO**](https://pubmedhh.nlm.nih.gov/nlmd/pico/piconew.php) is a technique used in evidence based practice to frame and answer a clinical or health care related question. The PICO framework is also used to develop literature search strategies. The PICO acronym stands for
 
 * P – patient, problem or population
@@ -98,17 +108,7 @@ math = false
 * Example: Pain relief
 
 <br>
-**How to use** and **Case Study** could be found in **the student work** below.
-
-### BMS4001 2018 Semester B Student Work
-
-* Chan Ching Yuen
-* Yau Ka Kit, Danny
-* Cheung Tsz Chung, Derek
-* Tang Hoi Man, Simon
- 
-
-[**Download**](https://drive.google.com/open?id=1Hddn8ts8WU_KRGvjqlOa2f1xVroDSCzp)
+**How to use** and **Case Study** could be found in **the student project**.
 
 [*Image Citation*](http://libguides.ul.ie/c.php?g=328865&p=2208907)
 

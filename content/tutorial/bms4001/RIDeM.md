@@ -36,6 +36,15 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Lau Ching Man              
+* Au Ming Wai, Astrid               
+* Kwan Yuk Tip                       
+* Chan Man Chung          
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1OMw8wx2Hs5ZHVpLGEI32eZE8VbqHjjY9)
+
 <p align="justify">[**RIDeM**](https://ceb.nlm.nih.gov/ridem/) is one of the LHNCBC Clinical Decision Support projects. The long-term goal of the Repository for Informed Decision Making is to provide access to key facts needed to support clinical decision making. The facts are extracted from biomedical literature and clinical text sources. The development of the Repository is guided by the Evidence Based Medicine (EBM) principles for finding and appraising information. 
 
 * One of the LHNCBC Clinical Decision Support projects
@@ -69,16 +78,8 @@ math = false
 <img src="/img/tutorial/4001/ridem.jpg" alt="clinvar" align="center">
 
 <br>
-**How to use** could be found [here](https://www.ncbi.nlm.nih.gov/clinvar/docs/help/) or **the student work** below.
+**How to use** could be found [here](https://www.ncbi.nlm.nih.gov/clinvar/docs/help/) or **the student project**.
 
-### BMS4001 2018 Semester B Student Work
-
-* Lau Ching Man              
-* Au Ming Wai, Astrid               
-* Kwan Yuk Tip                       
-* Chan Man Chung          
-
-[**Download**](https://drive.google.com/open?id=1OMw8wx2Hs5ZHVpLGEI32eZE8VbqHjjY9)
 
 [*Image Citation*](https://ceb.nlm.nih.gov/projects/repository-for-informed-decision-making-ridem/)
 

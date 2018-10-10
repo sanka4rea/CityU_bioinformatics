@@ -34,6 +34,12 @@ math = true
 ---
 <img src="/img/tutorial/8110/escc1.png" width=300 alt="clinvar" align="center">
 
+### Student Project done by:
+
+LI Ying (54952422)
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/17kYfQYNKRZ_NPGJ9UMNs2axvxzaMO9Gl/view?usp=sharing)
+
 <span id="top"></span>
 
 ##  Esophageal carcinoma
@@ -155,14 +161,7 @@ All samples showed available qualities of sequencing.
 * After reviewing researches of ESCC, we found it is still insufficient for clinical diagnose application of HPV, so further specific research are needed for this pathway.
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-LI Ying (54952422)
-
-
-[**Download**](https://drive.google.com/file/d/17kYfQYNKRZ_NPGJ9UMNs2axvxzaMO9Gl/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

@@ -18,11 +18,13 @@ caption = ""
 
 The **Course Syllabus** could be downloaded [*here*](https://drive.google.com/file/d/1mpn_AAbbgXlB44IK9wuh_erTX-skWol9/view?usp=sharing).
 
+The final project **topics** and **assessment rubrics** could be downloaded [*here*](https://drive.google.com/file/d/13yWp2_1de9dVDAr5Pm7rsB5MRSKkvA-x/view?usp=sharing)
+
 The **course Schedule** could be downloaded [*here*](https://drive.google.com/file/d/1wcT77fgfemZOdIeSTMIVhXhRHj0Lkrxs/view?usp=sharing).
 
 ---
 {{% alert note %}}
-**Project Topics:**
+**Student Projects:**
 {{% /alert %}}
 
 

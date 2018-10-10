@@ -33,6 +33,12 @@ math = true
 +++
 ---
 
+### Student Project done by:
+
+Lixiang ZHAI
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/1-yUMtnAFEl2Y696ACYmJIJZXGCwEUrVr/view?usp=sharing)
+
 ### Introduction
 
 **Phytochemistry study of CP leaves**
@@ -102,13 +108,6 @@ In this study, we use lipidomics approach to specifically investigate lipids pro
 
 
 <br>
-**Case study** could be found in **the student work** below.
-
-### BMS8110 2017 Semester B Student Work
-
-Lixiang ZHAI
-
-[**Download**](https://drive.google.com/file/d/1-yUMtnAFEl2Y696ACYmJIJZXGCwEUrVr/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

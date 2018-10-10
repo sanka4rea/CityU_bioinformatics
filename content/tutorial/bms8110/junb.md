@@ -35,6 +35,12 @@ math = true
 
 <span id="top"></span>
 
+### Student Project done by:
+
+HUANG Hao (54893350)
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/1RoJ9JOslU_CKqCjUbgLyu86vCYJy9Gys/view?usp=sharing)
+
 <p align="justify"> In breast cancer, SMAD has rare mutation and weak capability of DNA binding, usually interact with other co-factors or transcription factors to bind to DNA.
 
 ## Background
@@ -125,14 +131,7 @@ More genes were activated after 16 hours TGFβ treatment and related to cancer i
    (3) 16 hours treatment 
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-HUANG Hao (54893350)
-
-
-[**Download**](https://drive.google.com/file/d/1RoJ9JOslU_CKqCjUbgLyu86vCYJy9Gys/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

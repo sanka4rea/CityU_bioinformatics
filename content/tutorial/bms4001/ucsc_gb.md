@@ -33,7 +33,17 @@ math = false
 +++
 ---
 <img src="/img/tutorial/4001/ucsc_gb.png" width="400" height="200" alt="clinvar" align="center">
+
 <span id="top"></span>
+
+### Student Project done by:
+
+* Chui Pui Man, Pui       
+* Lee Kam Yan, Kam        
+* Wong Yin Chung, Alex      
+* Yu Man Yee, Mandy                    
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1WlkLbgGoF5WB0Rf2LE5nsOaft8JkvpxL)
 
 <p align="justify">[ **UCSC Genome Browser** ](https://genome.ucsc.edu/index.html) is a web-based tool that provides a fast, easy way to display a specific region of a genome assembly, along with dozens of aligned annotation tracks. 
 
@@ -66,16 +76,7 @@ To measure  length of genome: count no. of base pair
 <p align="justify">Normally, redundant regions will be deleted with assist of layering sequencing information over a physical map to combine scaffold information. However, this make gaps, appear and  making sequence longer than typical base pair assembly. Redundant regions: haplotypes & pseudoautosomal regions
 
 <br>
-**Tools** and **case study** could be found [here](https://genome.ucsc.edu/) or **the student work** below.
-
-### BMS4001 2018 Semester B Student Work
-
-* Chui Pui Man, Pui       
-* Lee Kam Yan, Kam        
-* Wong Yin Chung, Alex      
-* Yu Man Yee, Mandy                    
-
-[**Download**](https://drive.google.com/open?id=1WlkLbgGoF5WB0Rf2LE5nsOaft8JkvpxL)
+**Tools** and **case study** could be found [here](https://genome.ucsc.edu/) or **the student project**.
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

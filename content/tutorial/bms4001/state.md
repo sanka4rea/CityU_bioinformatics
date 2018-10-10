@@ -36,6 +36,15 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Au Yeung Hoi Ying, Cody 
+* Hau Sarah S R 
+* Hui Wing Yan, Renee 
+* Tsang Wui Kan, Ken 
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1x-eEcWzN1avwYyMz8c4dhDwkhQ4Hcb81)
+
 <p align="justify">[**State Tobacco Activities Tracking and Evaluation (STATE) System**](https://www.cdc.gov/statesystem/index.html) is an electronic data warehouse/interactive application. 
 
 * Contains up-tp-date and historical state-level data
@@ -90,16 +99,8 @@ math = false
 
 
 <br>
-**How to use** and **Case Study** could be found in **the student work** below.
+**How to use** and **Case Study** could be found in **the student project**.
 
-### BMS4001 2018 Semester B Student Work
-
-* Au Yeung Hoi Ying, Cody 
-* Hau Sarah S R 
-* Hui Wing Yan, Renee 
-* Tsang Wui Kan, Ken 
-
-[**Download**](https://drive.google.com/open?id=1x-eEcWzN1avwYyMz8c4dhDwkhQ4Hcb81)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

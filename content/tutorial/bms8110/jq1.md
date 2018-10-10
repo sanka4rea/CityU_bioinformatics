@@ -35,6 +35,12 @@ math = true
 
 <span id="top"></span>
 
+### Student Project done by:
+
+Abhimanyu Thakur (54163550)
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/1tB_3FNcdmKiP2wDXtuWdrRhTgYMJJxu1/view?usp=sharing)
+
 ## Acute Lymphoblastic Leukemia
 
 * Neoplastic disease which results from a mutation in a single lymphoid progenitor cell at one of several discrete stages of development
@@ -120,13 +126,7 @@ Genes from RNA-seq data and their functions based on literature search:
 
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-Abhimanyu Thakur (54163550)
-
-[**Download**](https://drive.google.com/file/d/1tB_3FNcdmKiP2wDXtuWdrRhTgYMJJxu1/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

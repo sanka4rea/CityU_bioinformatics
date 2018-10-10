@@ -34,6 +34,15 @@ math = false
 ---
 <span id="top"></span>
 
+### Student Project done by:
+
+* LAI Ching Wun
+* LAM Chun Kuen
+* LEUNG Wai Ching
+* THOMPSON Secily Aniela Marie
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1f_UoX_-dv2m2gEPaPuT4q1fmAFMlUmsF)
+
 <p align="justify">[**NIH Disaster Research Response**](https://dr2.nlm.nih.gov/search) (DR2) is the national framework for research on the medical and public health aspects of disasters and public health emergencies. 
 
 * Public health informatics database created by the National Institute of Environmental Health Sciences and the National Library of Medicine.
@@ -77,14 +86,7 @@ After proving the utility of this program, DR2 aims to:
 
 
 <br>
-### BMS4001 2018 Semester B Student Work
 
-* LAI Ching Wun
-* LAM Chun Kuen
-* LEUNG Wai Ching
-* THOMPSON Secily Aniela Marie
-
-[**Download**](https://drive.google.com/open?id=1f_UoX_-dv2m2gEPaPuT4q1fmAFMlUmsF)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

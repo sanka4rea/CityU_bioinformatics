@@ -35,6 +35,12 @@ math = true
 
 <span id="top"></span>
 
+### Student Project done by:
+
+XIE Fangjing (54102636)
+
+The slides can be downloaded here[**Download**](https://drive.google.com/file/d/1khXP_J8og70SYqzhfkUpkJ2k5K97ddSi/view?usp=sharing)
+
 ### Background
 
 <p align="justify">In humans, myocardial infarction (MI) causes irreversible cell loss and scarring and is a major source of morbidity and mortality.
@@ -105,13 +111,7 @@ Use transgenic lines zebrafish embryos to detect their cardiac Research Design a
 <img src="/img/tutorial/8110/zebra14.png" width=800 alt="clinvar" align="center">
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-XIE Fangjing (54102636)
-
-[**Download**](https://drive.google.com/file/d/1khXP_J8og70SYqzhfkUpkJ2k5K97ddSi/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

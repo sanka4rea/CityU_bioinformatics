@@ -20,7 +20,7 @@ The **course arrangement** could be downloaded [*here*](https://drive.google.com
 
 ---
 {{% alert note %}}
-**Project Topics:**
+**Student Projects:**
 {{% /alert %}}
 
 

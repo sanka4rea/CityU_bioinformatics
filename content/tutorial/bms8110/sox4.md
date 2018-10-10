@@ -35,6 +35,12 @@ math = true
 
 <span id="top"></span>
 
+### Student Project done by:
+
+HU, Jianyang (54863843)
+
+The slides can be downloaded [**here**](https://drive.google.com/file/d/1dn4iuvO7vvrCouqqt6DZ9TceVGqagqIu/view?usp=sharing)
+
 ### Overview of ChIP-Seq analysis
  
 <p align="justify">For ChIP-Seq, single-end (50bp) FASTQ reads were mapped to mouse genome mm10 (GRCm38, Dec/2011). Peaks 2,207 narrow peak regions and 2207 summits.
@@ -81,14 +87,7 @@ Step 5. further to investigate whether the effect of step 4 is through the SOX4-
 <img src="/img/tutorial/8110/sox6.png" width=900 alt="clinvar" align="center">
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS8110 2017 Semester B Student Work
-
-HU, Jianyang (54863843)
-
-
-[**Download**](https://drive.google.com/file/d/1dn4iuvO7vvrCouqqt6DZ9TceVGqagqIu/view?usp=sharing)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

@@ -36,6 +36,16 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* Fu Wing Shing 
+* Ko Ka Yam 
+* Lam Ho Hon John Kelly 
+* Lau Angie 
+* Luu Si Xin 
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1H6eVprAYtZJa-A41z0Q_sKHQKxA6HtMF)
+
 <p align="justify">The [**Colorectal Cancer Risk Assessment Tool**](https://www.cancer.gov/colorectalcancerrisk/Default.aspx) was designed for use by doctors and other health providers with their patients. If you are not a health provider, take these results to your doctor or other health provider to discuss your personal risk of colorectal cancer. (Colorectal cancer is another way to say colon and rectal cancer). 
 
 This tool can estimate the risk of colorectal cancer for men and women who are:
@@ -69,17 +79,7 @@ This tool cannot accurately estimate risk of colorectal cancer for people who ha
 * Cannot estimate risk for the following problems:<br>Ulcerative colitis – inflammation. <br>Crohn disease – inflammation. <br>Familial adenomatous polyposis (FAP) – genetic. <br>Hereditary Nonpolyposis Colorectal Cancer (HNPCC), aka Lynch Syndrome – genetic.
 
 <br>
-**Case study** could be found in **the student work** below.
 
-### BMS4001 2018 Semester B Student Work
-
-* Fu Wing Shing 
-* Ko Ka Yam 
-* Lam Ho Hon John Kelly 
-* Lau Angie 
-* Luu Si Xin 
-
-[**Download**](https://drive.google.com/open?id=1H6eVprAYtZJa-A41z0Q_sKHQKxA6HtMF)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

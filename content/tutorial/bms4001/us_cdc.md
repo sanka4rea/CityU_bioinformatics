@@ -36,6 +36,15 @@ math = false
 
 <span id="top"></span>
 
+### Student Project done by:
+
+* LAI Ching Wun 
+* LAM Chun Kuen 
+* LEUNG Wai Ching 
+* Secily Thompson 
+
+Their slides can be downloaded [**here**](https://drive.google.com/open?id=1Xai6K4nvdRQNIiJmk7fL_id3hcPCvs-K)
+
 <p align="justify">[**US CDC FluView Interactive**](https://www.cdc.gov/flu/weekly/fluviewinteractive.htm). The CDC FluView report provides weekly influenza surveillance information in the United States. These applications were developed to enhance the weekly FluView report by better facilitating communication about influenza with the public health community, clinicians, scientists, and the general public. This series of dynamic visualizations allow any Internet user to access influenza information collected by CDC’s monitoring systems. 
 
 ### Background
@@ -82,16 +91,8 @@ math = false
 * Raising awareness of flu protection in the public health community
 
 <br>
-**How to use** and **Case Study** could be found in **the student work** below.
+**How to use** and **Case Study** could be found in **the student project**.
 
-### BMS4001 2018 Semester B Student Work
-
-* LAI Ching Wun 
-* LAM Chun Kuen 
-* LEUNG Wai Ching 
-* Secily Thompson 
-
-[**Download**](https://drive.google.com/open?id=1Xai6K4nvdRQNIiJmk7fL_id3hcPCvs-K)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
