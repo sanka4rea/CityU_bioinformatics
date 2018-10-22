@@ -27,7 +27,7 @@ weight = 3
   
 +++
 
-Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data. :rocket:
+Bioinformatics is an interdisciplinary field that develops methods and software tools for better understanding biological data. :rocket:
 <br>
 <small></small>
 <br><br>

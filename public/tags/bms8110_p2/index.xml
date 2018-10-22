@@ -18,7 +18,9 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/tead4/</guid>
-      <description>This tutorial includes TEAD4 ChIP-Seq experiment and analysis, Visualization of ChIP peaks, Motif analysis.
+      <description>Student Project done by: Kang, Evangeline Tze Zhen (54540570)
+The slides can be downloaded here
+This tutorial includes TEAD4 ChIP-Seq experiment and analysis, Visualization of ChIP peaks, Motif analysis.
 TEAD4 ChIP-Seq experiment and analysis  Negative control: IgG (2 replicates) Transcription factor: TEAD4 (2 replicates) Cell line: Breast cancer line (MDA-MB-231 GEO Dataset: GSE66081  Visualization of ChIP peaks Motif analysis Experiment validation- Enrichment on known binding site TEAD4 is enriched in promoter regions Potential role of TEAD4 in MAPK signaling pathway  MAPK signaling pathway transmit grown promoting signals Abnormalities in MAPK signaling pathway play a critical role in the development and progression of cancer  Potential role of TEAD4 in mediating Ras expression</description>
     </item>
     
@@ -28,7 +30,9 @@ TEAD4 ChIP-Seq experiment and analysis  Negative control: IgG (2 replicates) Tra
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/ov/</guid>
-      <description>Background  Ovarian cancer is a gynecological malignancy with the highest mortality rate. Patients lack specific symptoms in the early stage, patients present with Stage III or IV at initial diagnoses. Patients are often given cytoreductive surgery supplemented with platinum- and paclitaxel-based chemotherapy as standard frontline treatment. Prolonged treatment with chemotherapy often gives rise to multidrug resistance mechanisms including increase in detoxification, suppression of apoptotic signaling and stimulation of proliferation.</description>
+      <description>Student Project done by: PENG Boya (54877602)
+The slides can be downloaded here
+Background  Ovarian cancer is a gynecological malignancy with the highest mortality rate. Patients lack specific symptoms in the early stage, patients present with Stage III or IV at initial diagnoses. Patients are often given cytoreductive surgery supplemented with platinum- and paclitaxel-based chemotherapy as standard frontline treatment. Prolonged treatment with chemotherapy often gives rise to multidrug resistance mechanisms including increase in detoxification, suppression of apoptotic signaling and stimulation of proliferation.</description>
     </item>
     
     <item>
@@ -37,9 +41,10 @@ TEAD4 ChIP-Seq experiment and analysis  Negative control: IgG (2 replicates) Tra
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/450/</guid>
-      <description>Microarray Profile Datasets Screening Keywords in GEO: ((HCC) OR (liver cancer) OR (hepatoma) OR (liver carcinoma) OR (hepatocellular carcinoma)) AND microarray.
-Inclusion cretiria: 1. equal number of non-cancerous liver tissue and HCC samples; 2. pathologically confirmed 3. ethical approval + written informed consents 4. the number of samples for each histological group should be &amp;gt; 8 5. discovery and validation sets should not have overlaps
-Discovery set (GSE84402): 28 in total = 14 HCC + 14 non-cancerous liver</description>
+      <description>Student Project done by: Xin ZHANG (54915715)
+The slides can be downloaded here
+Microarray Profile Datasets Screening Keywords in GEO: ((HCC) OR (liver cancer) OR (hepatoma) OR (liver carcinoma) OR (hepatocellular carcinoma)) AND microarray.
+Inclusion cretiria: 1. equal number of non-cancerous liver tissue and HCC samples; 2. pathologically confirmed 3. ethical approval + written informed consents 4. the number of samples for each histological group should be &amp;gt; 8 5.</description>
     </item>
     
     <item>
@@ -48,10 +53,11 @@ Discovery set (GSE84402): 28 in total = 14 HCC + 14 non-cancerous liver</descrip
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/zebraf/</guid>
-      <description>Background In humans, myocardial infarction (MI) causes irreversible cell loss and scarring and is a major source of morbidity and mortality.
+      <description>Student Project done by: XIE Fangjing (54102636)
+The slides can be downloaded hereDownload
+Background In humans, myocardial infarction (MI) causes irreversible cell loss and scarring and is a major source of morbidity and mortality.
 Statistics show that each year about 870,000 new cases are diagnosed in the United States and about 50 percent of those diagnosed will die within five years (Mozaffarian et al. 2015).
-Heart transplant is restricted for the short of donated hearts.
-There still many technical and biological obstacles that restrict successful application of stem and progenitor cells approachs.</description>
+Heart transplant is restricted for the short of donated hearts.</description>
     </item>
     
     <item>
@@ -60,7 +66,9 @@ There still many technical and biological obstacles that restrict successful app
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/drugtar/</guid>
-      <description>Introduction Phytochemistry study of CP leaves
+      <description>Student Project done by: Lixiang ZHAI
+The slides can be downloaded here
+Introduction Phytochemistry study of CP leaves
  -Flavonoids
  -Phenolic acids
  -Triterpenoids

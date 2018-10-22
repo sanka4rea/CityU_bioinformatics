@@ -250,22 +250,17 @@ defaultContentLanguageInSubdir = false
   url = "#bioinformatics"
   weight = 1
   
-#submenu
+
 [[menu.main]]
-  name = "Programming"
-  url = "/program"
+  name = "R Programming"
+  url = "/program/R"
   weight = 1.5
-  identifier = "Programming"
-  
-[[menu.main]]
-  weight = 1
-  name   = "R Language"
-  url    = "/program/R"
-  parent = "Programming" 
+
+
   
 #submenu
 [[menu.main]]
-  name = "Tutorials"
+  name = "Course Tutorials"
   url = "/tutorial/"
   weight = 2
   identifier = "Tutorials"
@@ -284,7 +279,7 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   weight = 3
-  name   = "Other Resources"
+  name   = "Online Resources"
   url    = "/tutorial/resources/"
   parent = "Tutorials"  
 

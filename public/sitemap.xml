@@ -545,6 +545,15 @@
     
     <url>
     
+      <loc>/tutorial/res_new/sources/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/base2/newprotein/pir/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
@@ -609,15 +618,6 @@
     <url>
     
       <loc>/database/pro_str_new/scop2/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tutorial/res_new/sources/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -1814,6 +1814,15 @@
     
     <url>
     
+      <loc>/tutorial/resources/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/database/other/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -1824,15 +1833,6 @@
     <url>
     
       <loc>/base2/special/</loc>
-      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tutorial/resources/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     

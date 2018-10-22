@@ -18,7 +18,10 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/escc/</guid>
-      <description>Esophageal carcinoma Esophageal carcinoma arising from the esophagus—the food pipe that runs between the throat and the stomach.
+      <description>Student Project done by: LI Ying (54952422)
+The slides can be downloaded here
+
+Esophageal carcinoma Esophageal carcinoma arising from the esophagus—the food pipe that runs between the throat and the stomach.
 Characteristics:  Common cancer: esophageal cancer was the eighth-most common cancer. Most common in China: half of all cancer cases occurring in China. Low survival rates: Five-year survival rates are around 13% to 18%.  The two main sub-types of the esophageal carcinoma:  Esophageal squamous-cell carcinoma (ESCC) Esophageal adenocarcinoma (EAC)  Sample collection  Microarray Data</description>
     </item>
     
@@ -28,8 +31,9 @@ Characteristics:  Common cancer: esophageal cancer was the eighth-most common ca
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/jq1/</guid>
-      <description>Acute Lymphoblastic Leukemia  Neoplastic disease which results from a mutation in a single lymphoid progenitor cell at one of several discrete stages of development B Cell or T Cell Most common childhood acute leukemia, ~80% Incidence in adults ~20% Bimodal distribution of occurrence: Peak at age 2-5 &amp;amp; Second augmented incidence after age 50  Pathogenesis Acquired Genetic Change in Chromosome
- Change in number, i.e., ploidy Change in structure Translocations (most common) Inversions Deletions Point mutations Amplifications Changes in cell differentiation, proliferation, and survival  Significance of JQ1 treatment  JQ1 is a thienotriazolodiazepine and a prevailing inhibitor of the BET group of bromodomain proteins which incorporate BRD2, BRD3, BRD4, and the testis-particular protein BRDT in vertebrates.</description>
+      <description>Student Project done by: Abhimanyu Thakur (54163550)
+The slides can be downloaded here
+Acute Lymphoblastic Leukemia  Neoplastic disease which results from a mutation in a single lymphoid progenitor cell at one of several discrete stages of development B Cell or T Cell Most common childhood acute leukemia, ~80% Incidence in adults ~20% Bimodal distribution of occurrence: Peak at age 2-5 &amp;amp; Second augmented incidence after age 50  Pathogenesis Acquired Genetic Change in Chromosome</description>
     </item>
     
     <item>
@@ -38,8 +42,10 @@ Characteristics:  Common cancer: esophageal cancer was the eighth-most common ca
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/junb/</guid>
-      <description>In breast cancer, SMAD has rare mutation and weak capability of DNA binding, usually interact with other co-factors or transcription factors to bind to DNA.
-Background  In breast cancer, SMAD has rare mutation and weak capability of DNA binding, usually interact with other co-factors or transcription factors to bind to DNA. Transforming growth factor-β (TGFβ) plays dual role during tumor progression——tumor suppressor or tumor promoter. Identification of key signaling molecules or pathway related the switch TGFβ/SMAD signaling from tumor suppression to tumor promotion is important for the development of therapies for TGFβ associated signaling pathway.</description>
+      <description>Student Project done by: HUANG Hao (54893350)
+The slides can be downloaded here
+In breast cancer, SMAD has rare mutation and weak capability of DNA binding, usually interact with other co-factors or transcription factors to bind to DNA.
+Background  In breast cancer, SMAD has rare mutation and weak capability of DNA binding, usually interact with other co-factors or transcription factors to bind to DNA. Transforming growth factor-β (TGFβ) plays dual role during tumor progression——tumor suppressor or tumor promoter.</description>
     </item>
     
     <item>
@@ -48,7 +54,9 @@ Background  In breast cancer, SMAD has rare mutation and weak capability of DNA 
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/rnomic/</guid>
-      <description>Ulcerative Colitis  One type of inflammatory bowel disease (IBD) Bloody stools, mucous discharge, lower abdominal pain Chronic, lifelong condition Treated with chemotherapy, steroid and immunosuppression Associate with pathogenic bacteria infection  RNA seq data from published paper Differential expression analysis using DEseq2 Gene Sets Enrichment using Msic_c5 Collection Chemokine and CXCR  A family of chemotactic cytokines Cell response to infection induce chemotaxis leukocyte activation granule exocytosis up-regulation of respiratory burst activity Link to various of chronic inflammatory disease  Citation: http://pharmacy.</description>
+      <description>Student Project done by: Liu Liangzhe, Fiona (54465134)
+The slides can be downloaded here
+Ulcerative Colitis  One type of inflammatory bowel disease (IBD) Bloody stools, mucous discharge, lower abdominal pain Chronic, lifelong condition Treated with chemotherapy, steroid and immunosuppression Associate with pathogenic bacteria infection  RNA seq data from published paper Differential expression analysis using DEseq2 Gene Sets Enrichment using Msic_c5 Collection Chemokine and CXCR  A family of chemotactic cytokines Cell response to infection induce chemotaxis leukocyte activation granule exocytosis up-regulation of respiratory burst activity Link to various of chronic inflammatory disease  Citation: http://pharmacy.</description>
     </item>
     
     <item>
@@ -57,7 +65,9 @@ Background  In breast cancer, SMAD has rare mutation and weak capability of DNA 
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/bms8110/sox4/</guid>
-      <description>Overview of ChIP-Seq analysis For ChIP-Seq, single-end (50bp) FASTQ reads were mapped to mouse genome mm10 (GRCm38, Dec/2011). Peaks 2,207 narrow peak regions and 2207 summits.
+      <description>Student Project done by: HU, Jianyang (54863843)
+The slides can be downloaded here
+Overview of ChIP-Seq analysis For ChIP-Seq, single-end (50bp) FASTQ reads were mapped to mouse genome mm10 (GRCm38, Dec/2011). Peaks 2,207 narrow peak regions and 2207 summits.
 Motif discovery and Distribution of Sox4 binding sites by CEAS analysis Sox4 Target gene’s associated peaks prediction by BETA-minus analysis 1940 lines were identified using BETA-minus analysis in Galaxy/Cristrome. Among these 1940 lines and 1004 of them are located within promoter region (1000 bp upstream of TSS).</description>
     </item>
     

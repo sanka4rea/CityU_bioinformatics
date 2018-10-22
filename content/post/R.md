@@ -108,7 +108,9 @@ As far as getting started with R by reading stuff, there is of course this book.
 * Major technical publishers like Springer, Chapman & Hall/CRC have entire series of books dedicated to using R in various applications. For example, Springer has a series of books called Use R!.
 * A longer list of books can be found on the [CRAN web site](https://www.r-project.org/doc/bib/R-books.html).
 
-**Citation**： [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) Author: Roger D. Peng
+**References**： [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) 
+
+Author: Roger D. Peng
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

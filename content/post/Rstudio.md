@@ -30,7 +30,7 @@ The interface of Rstudio: **Rstudio on Windows 10**
 
 ![IDE](/img/R/feature.png)
 
-**Citation**： [Official Website](https://www.rstudio.com/)
+**References**： [Official Website](https://www.rstudio.com/)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

@@ -3,7 +3,7 @@
 date = "2018-04-11"
 
 # Project title.
-title = "Sources"
+title = "Other Resources"
 
 weight = 20
 # Project summary to display on homepage. 
