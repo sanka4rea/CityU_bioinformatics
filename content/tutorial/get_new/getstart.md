@@ -14,7 +14,7 @@ image_preview = "tutorial/start.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["resources"]
+tags = [" "]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "https://cityu-bioinformatics.netlify.com/tutorial/getstart/"

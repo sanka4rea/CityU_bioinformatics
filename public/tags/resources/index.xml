@@ -13,17 +13,6 @@
     
     
     <item>
-      <title>Getting started with R</title>
-      <link>/tutorial/get_new/getstart/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tutorial/get_new/getstart/</guid>
-      <description>Installation The first thing you need to do to get started with R is to install it on your computer. R works on pretty much every platform available, including the widely available Windows, Mac OS X, and Linux systems. If you want to watch a step-by-step tutorial on how to install R for Mac or Windows, you can watch these videos:
- Installing R on Windows
- Installing R on the Mac</description>
-    </item>
-    
-    <item>
       <title>Online Courses</title>
       <link>/tutorial/cou_new/online-courses/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
