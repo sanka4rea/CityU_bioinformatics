@@ -253,13 +253,18 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "R Programming"
   url = "/program/R"
-  weight = 1.5
+  weight = 2
 
+[[menu.main]]
+  name = "Online Resources"
+  url = "/tutorial/resources/"
+  weight = 3
+  
 #submenu
 [[menu.main]]
   name = "Course Tutorials"
   url = "/tutorial/"
-  weight = 2.5
+  weight = 4
   identifier = "Tutorials"
   
 [[menu.main]]
@@ -275,19 +280,12 @@ defaultContentLanguageInSubdir = false
   parent = "Tutorials"  
   
 
-[[menu.main]]
-  name = "Online Resources"
-  url = "/tutorial/resources/"
-  weight = 2
-
-  
- 
 
 #submenu
 [[menu.main]]
   name = "Databases"
   url = "/base2/"
-  weight = 3
+  weight = 5
   identifier = "Database"
   
 [[menu.main]]
@@ -336,7 +334,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Tools"
   url = "too2/"
-  weight = 4
+  weight = 6
   identifier="Tools"
   
 [[menu.main]]
@@ -380,7 +378,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Journals"
   url = "/Journal/"
-  weight = 5
+  weight = 7
   identifier = "Journals"
 #submenu
 [[menu.main]]
@@ -405,13 +403,13 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Servers"
   url = "/server/"
-  weight = 6
+  weight = 8
   
   
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 9
 
 
 
