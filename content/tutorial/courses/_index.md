@@ -75,7 +75,7 @@ caption = ""
 * <p align="justify">[Mathematics for Machine Learning: Multivariate Calculus](https://www.coursera.org/learn/multivariate-calculus-machine-learning): This course offers a brief introduction to the multivariate calculus required to build many common machine learning techniques.
 * <p align="justify">[Bayesian Methods for Machine Learning](https://www.coursera.org/learn/bayesian-methods-in-machine-learning): Bayesian methods are used in lots of fields: from game development to drug discovery. They give superpowers to many machine learning algorithms: handling missing data, extracting  much more information from small datasets. 
 
-[Preview Image Citation](http://transims-opensource.net/need-know-starting-online-course)
+[Image Citation](http://transims-opensource.net/need-know-starting-online-course)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 

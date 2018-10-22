@@ -89,7 +89,7 @@ Quantitative scientists sometimes talk about their interest in studying some asp
 
 More detailed information can be found [**here**](https://www.bioinformatics.org/wiki/Getting_involved)
 
-[Preview Image Citation](http://www.gettingsmart.com/2012/09/50-top-sources-of-free-elearning-courses/)
+[Image Citation](http://www.gettingsmart.com/2012/09/50-top-sources-of-free-elearning-courses/)
 
 [<i class="fa fa-hand-o-up fa-1x "></i>Top](#top)
 
