@@ -54,7 +54,7 @@ math = false
 # Recommended books
 <p align="justify">It's notoriously difficult to find any books on bioinformatics itself that cater well for all of those coming from computing, from mathematics and from biology backgrounds. The few textbooks available in the field tend to be eyewateringly expensive as well. Suggested reading has been divided into books of general interest, those best suited to people coming from a computational/mathematical background and books for biologists interested in bioinformatics.
 
-The Details can be found in these Recommended books [**Recommended books**](https://www.bioinformatics.org/wiki/Recommended_books)
+The Details can be found in these [**Recommended books**](https://www.bioinformatics.org/wiki/Recommended_books)
 
 # Blogs/website
 * [STHDA](http://www.sthda.com/english/): Statistical tools for high-throughput data analysis.
