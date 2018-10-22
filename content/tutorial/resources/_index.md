@@ -17,7 +17,7 @@ caption = ""
 [**Online Courses:**]({{< ref "tutorial/cou_new/online courses.md" >}})
 {{% /alert %}}
 <img src="/img/tutorial/online.jpg" width=500 alt="galaxy" align="center">
-<p align="justify">This part will introduce two main online learning platforms which contains courses of R to help you go further on <u>R programming/data science/machine learning</u>.
+<p align="justify">This section will introduce online courses about R programming, data science and machine learning.
 
 ---
 
@@ -25,7 +25,7 @@ caption = ""
 [**Other Resources:**]({{< ref "tutorial/res_new/sources.md" >}})
 {{% /alert %}}
 <img src="/img/tutorial/sources.jpg" alt="ucsc" align="center">
-<p align="justify">This part will introduce some open sources website which contains <u>tutorials, softwares, tools</u> of bioinformatics field to help you get a great understanding of it and make effectively use of related softwares/tools.
+<p align="justify">This section will introduce other resources such as tutorials, software, and online tools in the Bioinformatics field.
 
 ---
 

@@ -7,7 +7,7 @@ title = "Online Courses"
 
 weight = 15
 # Project summary to display on homepage. 
-summary = "This part will introduce two main online learning platforms which contains courses of R to help you go further on R programming/data science/machine learning."
+summary = "This section will introduce online courses about R programming, data science and machine learning."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tutorial/online.jpg"

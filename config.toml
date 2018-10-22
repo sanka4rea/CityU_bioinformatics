@@ -277,11 +277,14 @@ defaultContentLanguageInSubdir = false
   url    = "/tutorial/bms8110/"
   parent = "Tutorials"  
   
+
 [[menu.main]]
-  weight = 3
-  name   = "Online Resources"
-  url    = "/tutorial/resources/"
-  parent = "Tutorials"  
+  name = "Online Resources"
+  url = "/tutorial/resources/"
+  weight = 2.5
+
+  
+ 
 
 #submenu
 [[menu.main]]
