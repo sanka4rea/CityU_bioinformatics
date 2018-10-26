@@ -11,19 +11,13 @@ caption = ""
 
 +++
 -----
-
-Tools will be introduced from the following aspects.
-
-Please click the titles for details.
-
------
 {{% alert note %}}
 [**Multidisciplinary:**]({{< ref "journal/all4online/comprehensive.md">}})
 {{% /alert %}}
 
 <p align="justify">This is a list of journals that may publish articles related to bioinformatics and computational biology. 
 
-Includes:
+Include:
 
 * Aerican Journal of Human Genetics (AJHG)
 * Cancer Cell
@@ -39,7 +33,7 @@ Includes:
 
 <p align="justify">This is a list of **journals** focusing on bioinformatics and/or computational biology.
 
-Includes:
+Include:
 
 * Algorithms for Molecular Biology
 * Bioinformatics
@@ -54,7 +48,7 @@ Includes:
 {{% /alert %}}
 <p align="justify">This is a list of popular **conferences** focusing on bioinformatics and/or computational biology.
 
-Includes:
+Include:
 
 * Research in Computational Molecular Biology (RECOMB)
 * Asia Pacific Bioinformatics Conference (APBC)

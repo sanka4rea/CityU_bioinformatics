@@ -269,7 +269,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   weight = 2
-  name   = "Biological Tools"
+  name   = "Software"
   url    = "/trm4/"
   parent = "Resources1" 
   

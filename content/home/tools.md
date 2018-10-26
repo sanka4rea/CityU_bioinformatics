@@ -7,7 +7,7 @@ active = true
 date = "2018-04-11"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Tools"
+title = "Software"
 subtitle = "Here we provide some popular tools for various kinds of fields."
 
 # Order that this section will appear in.

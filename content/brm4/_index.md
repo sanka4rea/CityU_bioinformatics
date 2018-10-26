@@ -33,7 +33,7 @@ Includes:
 [**RNA Databases:**]({{< ref "base2/all4online/rna.md">}})
 {{% /alert %}}
 <img src="/img/database/RNA_chemical_structure.jpg" width= "350" height="350" alt="pathway" align="center">
-Includes: 
+Include: 
 
 * Rfam
 * MiRBase
@@ -51,7 +51,7 @@ Includes:
 [**Phenotype Databases:**]({{< ref "base2/all4online/pheno.md">}})
 {{% /alert %}}
 <img src="/img/database/Phenotype.jpg" width= "400" height="300" alt="pathway" align="center">
-Includes: 
+Include: 
 
 * Genome RNAi
 * Pathogen-Host Interaction database (PHI-base)
@@ -69,7 +69,7 @@ Includes:
 [**Other Databases:**]({{< ref "base2/all4online/special.md">}})
 {{% /alert %}}
 
-Includes: 
+Include: 
 
 * Mathematical Model Databases
 * Exosomal Databases

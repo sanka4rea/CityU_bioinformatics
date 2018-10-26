@@ -1,5 +1,5 @@
 +++
-title = "Tools"
+title = "Software"
 date = 2018-04-12
 math = false
 highlight = false
@@ -13,11 +13,10 @@ caption = ""
 
 -----
 
-Tools will be introduced from the following aspects.
+Various bioinformatic software tools have been developed to analyse different types of -omic data. Check each specific field for details.
 
-Please click the titles for details.
+----
 
------
 {{% alert note %}}
 [**Genomics:**]({{< ref "too2/all4online/genomics.md">}})
 {{% /alert %}}
