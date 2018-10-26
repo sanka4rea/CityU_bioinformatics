@@ -103,6 +103,15 @@
     </item>
     
     <item>
+      <title>Databases</title>
+      <link>/tags/databases/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dna</title>
       <link>/tags/dna/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -153,6 +162,15 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Journals</title>
+      <link>/tags/journals/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/journals/</guid>
       <description></description>
     </item>
     
@@ -306,6 +324,15 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/t1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/tags/tools/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tools/</guid>
       <description></description>
     </item>
     

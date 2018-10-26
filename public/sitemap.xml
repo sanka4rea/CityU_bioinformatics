@@ -1418,7 +1418,43 @@
     
     <url>
     
+      <loc>/journal/all4online/specific/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tutorial/bms4001/colorectal/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/journal/all4online/conferences/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/all4online/dna/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/all4online/epigenomics/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -1436,7 +1472,106 @@
     
     <url>
     
+      <loc>/base2/all4online/genome/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/all4online/genomics/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/all4online/metabolomics/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/journal/all4online/comprehensive/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/journal/comprehensive/nature-medicine/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/all4online/special/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/all4online/pathway/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/all4online/phenomics/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/all4online/pheno/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/all4online/protein/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/all4online/proteomics/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/base2/all4online/rna/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -1455,6 +1590,15 @@
     <url>
     
       <loc>/tutorial/bms8110/drugtar/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/too2/all4online/transcriptomics/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -1634,6 +1778,15 @@
     
     <url>
     
+      <loc>/trm4/</loc>
+      <lastmod>2018-04-12T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tutorial/bms4001/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
@@ -1680,6 +1833,15 @@
     <url>
     
       <loc>/base2/dna/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/brm4/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -1752,6 +1914,15 @@
     <url>
     
       <loc>/journal/</loc>
+      <lastmod>2018-04-11T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/jrm4/</loc>
       <lastmod>2018-04-11T00:00:00+08:00</lastmod>
     </url>
     
@@ -2132,6 +2303,16 @@
     
     <url>
     
+      <loc>/tags/databases/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/dna/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -2183,6 +2364,16 @@
     <url>
     
       <loc>/tags/genomics/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/journals/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -2391,6 +2582,16 @@
     <url>
     
       <loc>/too2/</loc>
+      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/tools/</loc>
       <lastmod>2018-04-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

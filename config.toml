@@ -259,6 +259,37 @@ defaultContentLanguageInSubdir = false
   name = "Online Resources"
   url = "/tutorial/resources/"
   weight = 3
+  identifier = "Resources1"
+
+[[menu.main]]
+  weight = 1
+  name   = "Databases"
+  url    = "/brm4/"
+  parent = "Resources1"  
+
+[[menu.main]]
+  weight = 2
+  name   = "Biological Tools"
+  url    = "/trm4/"
+  parent = "Resources1" 
+  
+[[menu.main]]
+  weight = 3
+  name   = "Journals"
+  url    = "/jrm4/"
+  parent = "Resources1" 
+  
+[[menu.main]]
+  weight = 4
+  name   = "Online Courses"
+  url    = "/tutorial/resources/"
+  parent = "Resources1" 
+  
+[[menu.main]]
+  weight = 5
+  name   = "Other Resources"
+  url    = "/tutorial/resources/"
+  parent = "Resources1" 
   
 #submenu
 [[menu.main]]
@@ -279,126 +310,6 @@ defaultContentLanguageInSubdir = false
   url    = "/tutorial/bms8110/"
   parent = "Tutorials"  
   
-
-
-#submenu
-[[menu.main]]
-  name = "Databases"
-  url = "/base2/"
-  weight = 5
-  identifier = "Database"
-  
-[[menu.main]]
-  weight = 1
-  name   = "DNA Databases"
-  url    = "/base2/dna"
-  parent = "Database"
-
-[[menu.main]]
-  weight = 2
-  name   = "Genome Databases"
-  url    = "/base2/express"
-  parent = "Database"
-  
- [[menu.main]]
-  weight = 3
-  name   = "RNA Databses"
-  url    = "/base2/rna"
-  parent = "Database"
-
-[[menu.main]]
-  weight = 4
-  name   = "Protein Databases"
-  url    = "/base2/protein"
-  parent = "Database" 
-  
-[[menu.main]]
-  weight = 5
-  name   = "Phenotype Databases"
-  url    = "/base2/pheno"
-  parent = "Database" 
-  
-[[menu.main]]
-  weight = 6
-  name   = "Pathway Databases"
-  url    = "/base2/pathway"
-  parent = "Database" 
-  
-[[menu.main]]
-  weight = 7
-  name   = "Other Databases"
-  url    = "/base2/special"
-  parent = "Database" 
-#
-##submenu
-[[menu.main]]
-  name = "Tools"
-  url = "too2/"
-  weight = 6
-  identifier="Tools"
-  
-[[menu.main]]
-  weight = 1
-  name   = "Genomics"
-  url    = "/too2/genomics"
-  parent = "Tools"
-  
-[[menu.main]]
-  weight = 2
-  name   = "Epigenomics"
-  url    = "/too2/epigenomics"
-  parent = "Tools"
-
-[[menu.main]]
-  weight = 3
-  name   = "Transcriptomics"
-  url    = "/too2/transcriptomics"
-  parent = "Tools"
-  
-[[menu.main]]
-  weight = 4
-  name   = "Proteomics"
-  url    = "/too2/proteomics"
-  parent = "Tools"
-  
-[[menu.main]]
-  weight = 5
-  name   = "Metabolomics"
-  url    = "/too2/metabolomics"
-  parent = "Tools"
-  
-[[menu.main]]
-  weight = 6
-  name   = "Phenomics"
-  url    = "/too2/phenomics"
-  parent = "Tools"
-  
-###
-
-[[menu.main]]
-  name = "Journals"
-  url = "/Journal/"
-  weight = 7
-  identifier = "Journals"
-#submenu
-[[menu.main]]
-  weight = 1
-  name   = "Multidisciplinary"
-  url    = "/journal/comprehensive"
-  parent = "Journals"
-
-[[menu.main]]
-  weight = 2
-  name   = "Bioinformatics Specific"
-  url    = "/journal/specific"
-  parent = "Journals"
-  
- [[menu.main]]
-  weight = 3
-  name   = "Conferences"
-  url    = "/journal/conferences"
-  parent = "Journals"
-#
 
 [[menu.main]]
   name = "Servers"

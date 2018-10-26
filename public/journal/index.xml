@@ -21,5 +21,39 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Bioinformatics Specific Journals</title>
+      <link>/journal/all4online/specific/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/all4online/specific/</guid>
+      <description>This is a list of journals focusing on bioinformatics and/or computational biology (in alphabetical order).
+Journals:
+ 
+ Algorithms for Molecular Biology Algorithms for Molecular Biology publishes articles on novel algorithms for biological sequence and structure analysis, phylogeny reconstruction, and combinatorial algorithms and machine learning.    Bioinformatics Bioinformatics is the leading journal in its field, Bioinformatics publishes the highest quality scientific papers and review articles of interest to academic and industrial researchers.</description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>/journal/all4online/conferences/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/all4online/conferences/</guid>
+      <description>This is a list of popular conferences focusing on bioinformatics and/or computational biology (in alphabetical order).
+Conferences:
+ 
+ Research in Computational Molecular Biology (RECOMB) Research in Computational Molecular Biology (RECOMB) is an annual academic conference on the subjects of bioinformatics and computational biology.    Asia Pacific Bioinformatics Conference (APBC) Asia Pacific Bioinformatics Conference (APBC) series is an annual international forum for exploring research, development and novel applications in the field of Bioinformatics.</description>
+    </item>
+    
+    <item>
+      <title>Multidisciplinary Journals</title>
+      <link>/journal/all4online/comprehensive/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/journal/all4online/comprehensive/</guid>
+      <description>Here is a list of journals that may publish articles related to bioinformatics and computational biology (in alphabetical order).
+ Aerican Journal of Human Genetics (AJHG) The American Journal of Human Genetics include the application of genetics in medicine and public policy, as well as the related areas of molecular and cell biology.   Cancer Cell Cancer Cell is a peer-reviewed scientific journal published by Cell Press. It covers all aspects of cancer research at the cellular-level.</description>
+    </item>
+    
   </channel>
 </rss>

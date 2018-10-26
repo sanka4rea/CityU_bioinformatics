@@ -364,12 +364,89 @@
     </item>
     
     <item>
+      <title>DNA Databases</title>
+      <link>/base2/all4online/dna/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/all4online/dna/</guid>
+      <description>Primary Databases International Nucleotide Sequence Database (INSD) consists of the following databases.
+DDBJ DNA Data Bank of Japan (DDBJ) provides sharing and analysis services for data from life science researches and advances science.
+EMBL European Bioinformatics Institute (EMBL) is a molecular biology research institution supported by 22 member states, four prospect and two associate member states.
+GenBank National Center for Biotechnology Information (GenBank) is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences.</description>
+    </item>
+    
+    <item>
       <title>ExoCarta</title>
       <link>/base2/newspeci/exocarta/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/base2/newspeci/exocarta/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Genome Databases</title>
+      <link>/base2/all4online/genome/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/all4online/genome/</guid>
+      <description>These databases collect genome sequences, annotate and analyze them, and provide public access. Some add curation of experimental literature to improve computed annotations. These databases may hold many species genomes, or a single model organism genome.
+Bioinformatic Harvester The Bioinformatic Harvester was a bioinformatic meta search engine created by the European Molecular Biology Laboratory and subsequently hosted and further developed by KIT Karlsruhe Institute of Technology and subsequently hosted and further developed by KIT ) for genes and protein-associated information.</description>
+    </item>
+    
+    <item>
+      <title>Other Databases</title>
+      <link>/base2/all4online/special/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/all4online/special/</guid>
+      <description>Database: (only listed in alphabetical order)
+ CMVD China Microbiology and Virology Database (CMVD) is a comprehensive database index.
+DBD Transcription factor prediction database (DBD) is a database of predicted transcription factors in completely sequenced genomes.
+GPCRdb GPCRdb contains data, diagrams and web tools for G protein-coupled receptors (GPCRs).
+SWISS-2dpage SWISS-2DPAGE is an annotated two-dimensional polyacrylamide gel electrophoresis (2-D PAGE) and SDS-PAGE database.
+Mathematical Model Databases Biomodels Database BioModels is a free and open-source repository for storing, exchanging and retrieving quantitative models of biological interest created in 2006.</description>
+    </item>
+    
+    <item>
+      <title>Pathway Databases</title>
+      <link>/base2/all4online/pathway/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/all4online/pathway/</guid>
+      <description>Signal Transduction Pathway Databases Signal transduction is the process by which a chemical or physical signal is transmitted through a cell as a series of molecular events, most commonly protein phosphorylation catalyzed by protein kinases, which ultimately results in a cellular response.
+Database:
+ Pathway Interaction Database (PID) The Pathway Interaction Database (PID) is a free biomedical database of human cellular signaling pathways. The database contains information about the molecular interactions and reactions that take place in cells, with a particular focus on processes that might be relevant to cancer research and treatment.</description>
+    </item>
+    
+    <item>
+      <title>Phenotype Databases</title>
+      <link>/base2/all4online/pheno/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/all4online/pheno/</guid>
+      <description>Genome RNAi GenomeRNAi is a database containing phenotypes from RNA interference (RNAi) screens in Drosophila and Homo sapiens.
+Pathogen-Host Interaction database (PHI-base) The Pathogen-Host Interaction database (PHI-base) contains expertly curated molecular and biological information on genes proven to affect the outcome of pathogen-host interactions.
+Rat Genome Database (RGD) The Rat Genome Database (RGD) is the premiere location for rat genomics, genetics, physiology and functional data, as well as data for comparative genomics between rat, human and mouse.</description>
+    </item>
+    
+    <item>
+      <title>Protein Databases</title>
+      <link>/base2/all4online/protein/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/all4online/protein/</guid>
+      <description>Protein Sequence Databases  A protein sequence database refers to a database that uses computer functions to analyze biological information. Computer algorithms are used to compare DNA and protein sequences to detect evolutionary relationships among structures, functions, and sequences. The sequences of various genomes produce a large amount of DNA sequence data and biological information, and have been applied to study the function of genes to predict previously unknown gene functions.</description>
+    </item>
+    
+    <item>
+      <title>RNA Databases</title>
+      <link>/base2/all4online/rna/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/base2/all4online/rna/</guid>
+      <description>Rfam Rfam is a database containing information about non-coding RNA (ncRNA) families and other structured RNA elements. It is an annotated, open access database originally developed at the Wellcome Trust Sanger Institute in collaboration with Janelia Farm, and currently hosted at the European Bioinformatics Institute. Rfam is designed to be similar to the Pfam database for annotating protein families.
+MiRBase In bioinformatics, miRBase is a biological database that acts as an archive of microRNA sequences and annotations.</description>
     </item>
     
     <item>

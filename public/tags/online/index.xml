@@ -13,13 +13,15 @@
     
     
     <item>
-      <title>Online Courses</title>
-      <link>/tutorial/courses/online-courses/</link>
+      <title>DNA Databases</title>
+      <link>/base2/all4online/dna/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/courses/online-courses/</guid>
-      <description>Table of Contents    Online Courses edx online courses  R Programming courses: Data Science related courses: Mechine Learning courses:  Coursera online courses  R Programming courses: Data Science related courses: Mechine Learning courses:     Preview Image Citation
-Online Courses There are many great online learning platforms that provide various elementary and advanced courses of R/Data science/R-packages. Most of those courses is free, but you can also choose some charged courses for specific needs or pay for a verified certificate of the courses.</description>
+      <guid>/base2/all4online/dna/</guid>
+      <description>Primary Databases International Nucleotide Sequence Database (INSD) consists of the following databases.
+DDBJ DNA Data Bank of Japan (DDBJ) provides sharing and analysis services for data from life science researches and advances science.
+EMBL European Bioinformatics Institute (EMBL) is a molecular biology research institution supported by 22 member states, four prospect and two associate member states.
+GenBank National Center for Biotechnology Information (GenBank) is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences.</description>
     </item>
     
   </channel>
