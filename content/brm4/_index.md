@@ -15,7 +15,7 @@ caption = ""
 [**DNA Databases:**]({{< ref "base2/all4online/dna.md">}})
 {{% /alert %}}
 <img src="/img/database/dna.jpg" width= "500" height="250" alt="pathway" align="center">
-Includes: 
+Include: 
 
 * Primary Databases
 * Secondary Databases
