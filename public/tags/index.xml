@@ -22,56 +22,11 @@
     </item>
     
     <item>
-      <title>Bio</title>
-      <link>/tags/bio/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/tags/bio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Bioinformatics_Specific</title>
       <link>/tags/bioinformatics_specific/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/bioinformatics_specific/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bms4001_p1</title>
-      <link>/tags/bms4001_p1/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bms4001_p1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bms4001_p2</title>
-      <link>/tags/bms4001_p2/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bms4001_p2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bms8110_p1</title>
-      <link>/tags/bms8110_p1/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bms8110_p1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bms8110_p2</title>
-      <link>/tags/bms8110_p2/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bms8110_p2/</guid>
       <description></description>
     </item>
     
@@ -112,173 +67,11 @@
     </item>
     
     <item>
-      <title>Dna</title>
-      <link>/tags/dna/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/dna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epigenomics</title>
-      <link>/tags/epigenomics/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/epigenomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fold</title>
-      <link>/tags/fold/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/fold/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gene_related</title>
-      <link>/tags/gene_related/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gene_related/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Genome</title>
-      <link>/tags/genome/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/genome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Genomics</title>
-      <link>/tags/genomics/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/genomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Journals</title>
       <link>/tags/journals/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/journals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metabolomics</title>
-      <link>/tags/metabolomics/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/metabolomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Molecular_evolution</title>
-      <link>/tags/molecular_evolution/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/molecular_evolution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nucleic</title>
-      <link>/tags/nucleic/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/nucleic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Other</title>
-      <link>/tags/other/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/other/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pathway</title>
-      <link>/tags/pathway/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/pathway/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Phenomics</title>
-      <link>/tags/phenomics/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/phenomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Phenotype</title>
-      <link>/tags/phenotype/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/phenotype/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proseq</title>
-      <link>/tags/proseq/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/proseq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prostr</title>
-      <link>/tags/prostr/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/prostr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protein</title>
-      <link>/tags/protein/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/protein/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protein_related</title>
-      <link>/tags/protein_related/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/protein_related/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proteomics</title>
-      <link>/tags/proteomics/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/proteomics/</guid>
       <description></description>
     </item>
     
@@ -292,42 +85,6 @@
     </item>
     
     <item>
-      <title>Resources</title>
-      <link>/tags/resources/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/resources/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rna</title>
-      <link>/tags/rna/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sequence_related</title>
-      <link>/tags/sequence_related/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/sequence_related/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>T1</title>
-      <link>/tags/t1/</link>
-      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/t1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tools</title>
       <link>/tags/tools/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -337,7 +94,232 @@
     </item>
     
     <item>
-      <title>Transcriptomics</title>
+      <title>bio</title>
+      <link>/tags/bio/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bms4001_p1</title>
+      <link>/tags/bms4001_p1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bms4001_p1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bms4001_p2</title>
+      <link>/tags/bms4001_p2/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bms4001_p2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dna</title>
+      <link>/tags/dna/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epigenomics</title>
+      <link>/tags/epigenomics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/epigenomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fold</title>
+      <link>/tags/fold/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gene_related</title>
+      <link>/tags/gene_related/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gene_related/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>genome</title>
+      <link>/tags/genome/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/genome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>genomics</title>
+      <link>/tags/genomics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/genomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metabolomics</title>
+      <link>/tags/metabolomics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/metabolomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>molecular_evolution</title>
+      <link>/tags/molecular_evolution/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/molecular_evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nucleic</title>
+      <link>/tags/nucleic/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nucleic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>other</title>
+      <link>/tags/other/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/other/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pathway</title>
+      <link>/tags/pathway/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pathway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phenomics</title>
+      <link>/tags/phenomics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/phenomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phenotype</title>
+      <link>/tags/phenotype/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/phenotype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proseq</title>
+      <link>/tags/proseq/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/proseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prostr</title>
+      <link>/tags/prostr/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/prostr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protein</title>
+      <link>/tags/protein/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/protein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protein_related</title>
+      <link>/tags/protein_related/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/protein_related/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proteomics</title>
+      <link>/tags/proteomics/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/proteomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resources</title>
+      <link>/tags/resources/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rna</title>
+      <link>/tags/rna/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sequence_related</title>
+      <link>/tags/sequence_related/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sequence_related/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>t1</title>
+      <link>/tags/t1/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/t1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transcriptomics</title>
       <link>/tags/transcriptomics/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
