@@ -16,12 +16,6 @@ caption = ""
 
 <p align="justify">The students will be trained to acquire various techniques and programming skills for computational and statistical analysis. It also aims to teach students important skills about how to communicate and collaborate in their future research projects. The assessment consists of presentation, programming and report writing. The students are expected to expand their knowledge and skills by intensive literature reading and practice within and after class.
 
-The **Course Syllabus** could be downloaded [*here*](https://drive.google.com/file/d/1mpn_AAbbgXlB44IK9wuh_erTX-skWol9/view?usp=sharing).
-
-The final project **topics** and **assessment rubrics** could be downloaded [*here*](https://drive.google.com/file/d/13yWp2_1de9dVDAr5Pm7rsB5MRSKkvA-x/view?usp=sharing)
-
-The **course Schedule** could be downloaded [*here*](https://drive.google.com/file/d/1wcT77fgfemZOdIeSTMIVhXhRHj0Lkrxs/view?usp=sharing).
-
 ---
 {{% alert note %}}
 **Student Projects:**
