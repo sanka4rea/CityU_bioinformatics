@@ -18,9 +18,11 @@
 3. [Some words](#Some-words)
 
 ## Framework
-1. Introduction to Bioinformatics
+**1. Introduction to Bioinformatics** <br>
    <img src="/Figures/1.png" alt="drawing" width="350"/>
-2. How to learn R programming
+
+**2. How to learn R programming**<br>
+
 3. 
    
 
@@ -67,7 +69,7 @@
 
 ## Some words
 
-The website were built at 2018.02-03 based on blogdown+hugo+netlify+github to help Dr. X to finish the report of a teaching grant. It's my first website. I got no much knowledges about the bioinformatics at that time and the website covers as much as I could think of. So, it takes me ages to collect the information, to write/sort out all the materials. The learning of website building, selecting and modification of website theme, as well as the learning of markdown + html language is fun. However the endless of ctrl+c/ctrl+v/writing is boring. Several people thought it just simple writing and were curious why it took me so much time, and most importantly, it is not a part of science or research. For the front question, I could only say 'you could have a try' and 'you can you up'. For the last one, I am just a student at that time and you know why. 
+The website were built at 2018.02-03 based on blogdown+hugo+netlify+github to help Dr. X to finish the report of a teaching grant. It's my first website. I got no much knowledges about the bioinformatics at that time and the website covers as much as I could think of. So, it takes me ages to collect the information, to write/sort out all the materials. The learning of website building, selecting and modification of website theme, as well as the learning of markdown + html language is fun. However the endless of ctrl+c/ctrl+v/writing is boring. Several people thought it just simple writing and were curious why it took me so much time, and most importantly, it is not a part of science or research. For the front question, I could only say 'you could have a try' and 'you can you up'. For the last one, I'm also looked for the meaning of doing this in the second half. Final I knew that was because I am just a student at that time and you know why. 
 
 Special thanks to Mr. Zhenxing, who spent own time to help me to sort out some parts of the resources.
 
