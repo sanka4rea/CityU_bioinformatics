@@ -22,8 +22,16 @@
    <img src="/Figures/1.png" alt="drawing" width="350"/>
 
 **2. How to learn R programming**<br>
+- R: Programming Language
+- Getting started with R
+- Welcome to Rstudio
 
-3. 
+**3. Resources:Databases**<br>   
+- [RNA](content/base2/all4online/rna.md)
+- DNA
+- Genome
+- Protein
+
    
 
 
