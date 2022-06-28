@@ -18,25 +18,90 @@
 3. [Some words](#Some-words)
 
 ## Framework
-**1. Introduction to Bioinformatics** <br>
+### 1. Introduction to Bioinformatics 
    <img src="/Figures/1.png" alt="drawing" width="350"/>
 
-**2. How to learn R programming**<br>
-- R: Programming Language
-- Getting started with R
-- Welcome to Rstudio
+### 2. How to learn R programming
+- [R: Programming Language](https://cityu-bioinformatics.netlify.app/post/r/)
+- [Getting started with R](https://cityu-bioinformatics.netlify.app/tutorial/get_new/getstart/)
+- [Welcome to Rstudio](https://cityu-bioinformatics.netlify.app/post/rstudio/)
 
-**3. Resources:Databases**<br>   
-- [RNA](content/base2/all4online/rna.md)
-- DNA
-- Genome
-- Protein
+### 3. Resources:Databases  
+- [RNA](https://cityu-bioinformatics.netlify.app/base2/all4online/rna/)
+- [DNA](https://cityu-bioinformatics.netlify.app/brm4/)
+  - Primary Databases
+  - Secondary Databases
+- [Genome](https://cityu-bioinformatics.netlify.app/brm4/)
+- [Protein](https://cityu-bioinformatics.netlify.app/base2/all4online/protein/)
+  - Protein Sequence Databases
+  - Protein structure Databases
+- [Phenotype](https://cityu-bioinformatics.netlify.app/base2/all4online/pheno/)
+- [Pathway](https://cityu-bioinformatics.netlify.app/base2/all4online/pathway/)
+  - Signal Transduction Pathway Databases
+  - Metabolic Pathway Databases
+- [Others](https://cityu-bioinformatics.netlify.app/base2/all4online/special/)
+  - Mathematical Model Databases
+  - Exosomal Databases
+  - Taxonomic Databases
+  - Radiologic Databases
 
-   
+### 4. Resources:Software  
+- [Genomics](https://cityu-bioinformatics.netlify.app/trm4/)
+  - Genome Annotation
+  - DNA Structure
+  - Genome Editing
+  - Population Genomics
+  - DNA-Protein Interactions
+  - Phylogenetic Data Analysis
+- [Epigenomics](https://cityu-bioinformatics.netlify.app/trm4/)
+  - DNA Modifications
+  - Nucleosome Positioning
+  - DNA-Protein Interactions
+- [Transcriptomics](https://cityu-bioinformatics.netlify.app/trm4/)
+  - RNA Transcription
+  - Low-level RNA detection
+  - RNA Modifications
+  - RNA-Protein interactions
+  - Non-Coding RNA
+- [Proteomics](https://cityu-bioinformatics.netlify.app/too2/all4online/proteomics/)
+  - Protein Sequence/Expression
+  - Protein Structure
+  - Immune System
+  - Protein Interactions
+  - Membrane Protein
+- [Metabolomics](https://cityu-bioinformatics.netlify.app/too2/all4online/metabolomics/)
+  - Metabolic Profiles
+  - Lipidomics
+  - Drug Discovery
+  - Metabolic Engineering
+- [Phenomics](https://cityu-bioinformatics.netlify.app/too2/all4online/phenomics/)
+  - Bioimaging
+  - Medical Image
+  - Computational Neuroinformatics
+  - Neorophysiology
+  - Brain Connectomics
 
+### 5. Resources:Journals
+- [Multidisciplinary](https://cityu-bioinformatics.netlify.app/jrm4/)
+- [Bioinformatics Specific](https://cityu-bioinformatics.netlify.app/jrm4/)
+- [Conferences](https://cityu-bioinformatics.netlify.app/jrm4/)
 
+### 6. Online resources
+- [Online Courses](https://cityu-bioinformatics.netlify.app/tutorial/resources/)
+- [Online Resources](https://cityu-bioinformatics.netlify.app/tutorial/resources/)
 
-## References
+### 7. Toturials
+- [BMS4001:Medical Informatics and Laboratory Management](https://cityu-bioinformatics.netlify.app/tutorial/bms4001/)
+- [BMS8110:Genomics and Bioinformatics](https://cityu-bioinformatics.netlify.app/tutorial/bms8110/)
+
+### 8. Online Servers of our lab
+Which I built on our lab linux server.(No longer available due to completion of the funding)
+All the servers were built on Docker, which could be found at [docker hub](https://hub.docker.com/).
+- Rstudio server
+- Galaxy
+- UCSC Genome Browser
+
+## References of materials
 ### Build website
 [1. 用 R 语言的 blogdown+hugo+netlify+github 建博客](https://cosx.org/2018/01/build-blog-with-blogdown-hugo-netlify-github/)<br>
 [2. How to make a website with R blogdown, Hugo, and GitHub](https://jdeines.github.io/post/r-blogdown-hugo-and-github-website/)<br>
@@ -77,7 +142,7 @@
 
 ## Some words
 
-The website were built at 2018.02-03 based on blogdown+hugo+netlify+github to help Dr. X to finish the report of a teaching grant. It's my first website. I got no much knowledges about the bioinformatics at that time and the website covers as much as I could think of. So, it takes me ages to collect the information, to write/sort out all the materials. The learning of website building, selecting and modification of website theme, as well as the learning of markdown + html language is fun. However the endless of ctrl+c/ctrl+v/writing is boring. Several people thought it just simple writing and were curious why it took me so much time, and most importantly, it is not a part of science or research. For the front question, I could only say 'you could have a try' and 'you can you up'. For the last one, I'm also looked for the meaning of doing this in the second half. Final I knew that was because I am just a student at that time and you know why. 
+The website were built at 2018.02-03 based on blogdown+hugo+netlify+github to help Dr. X to finish the report of a teaching grant. It's my first website. I got no much knowledges about the bioinformatics at that time and the website covers as much as I could think of. So, it takes me ages to collect the information, to write/sort out all the materials. The learning of website building, selecting and modification of website theme, as well as the learning of markdown + html language is fun. However the endless of ctrl+c/ctrl+v/writing is boring. Several people thought it just simple writing and were curious why it took me so much time, and most importantly, it is not a part of science or research. For the front question, I could only say 'check the scope of the website, and you could have a try' and 'No can no bb'. For the last one, I'm also looked for the meaning of doing this in the second half. Final I knew that I am not just a student but also a worker at that time. 
 
 Special thanks to Mr. Zhenxing, who spent own time to help me to sort out some parts of the resources.
 
